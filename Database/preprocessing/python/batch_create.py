@@ -4,12 +4,14 @@ import os
 
 DEVELOPER_PROMPT = """
 You are a data analyst extracting information from an email history.
-This data is used to generate a FAQ for the website of the course program.
-Provide clear Question and Answer pairs as JSON.
+This data is used to generate FAQs and answers for a chatbot, for the website of the course program.
+Keep the answers as authenticate as possible as there should be no to very less information loss.
 The questions and answers should be based solely on the email content and not contain any personal information.
-If there is no question or answer, please reply with an emppty json object.
+Anything containing personal information should be removed in such a way that the context of the message is not lost.
+Provide clear Question and Answer pairs as JSON.
+If there is no question or answer, please reply with an empty json object.
 There should be between 0 and 5 questions and answers in the json, prefer the minimum that covers the email content.
-Each question should be followed by a sinlge answer.
+Each question should be followed by a single answer.
 This is an example of how the json should look like:
 [
     {
