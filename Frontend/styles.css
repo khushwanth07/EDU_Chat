@@ -66,62 +66,73 @@ body {
 
 /* Hero Section */
 .hero {
-    background-color: var(--tum-blue);
-    padding: 8rem 0 4rem;
-    min-height: 40vh;
+    background: linear-gradient(90deg, #072140 0%, #3070B3 100%);
+    padding: 3rem 0; /* Removed horizontal padding from here */
+    min-height: 30vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: center; /* Added to center the container */
 }
 
 .hero-container {
-    max-width: 1200px;
+    width: 100%;
+    max-width: 1200px; /* Added max-width to match FAQ width */
     margin: 0 auto;
-    padding: 0 2rem;
-    text-align: center;
+    text-align: left;
+    padding: 0 2rem; /* Added padding here instead */
 }
 
 .hero h1 {
     color: var(--tum-white);
     font-size: 2.5rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
 }
 
-/* Search Container */
 .search-container {
-    max-width: 600px;
-    margin: 0 auto;
+    width: 100%;
 }
 
 .search-wrapper {
     position: relative;
-    background: var(--tum-white);
-    border-radius: 2rem;
-    padding: 0.5rem;
     display: flex;
     align-items: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.search-icon {
-    color: var(--tum-light-blue);
-    margin: 0 1rem;
+    background: transparent;
+    border: 2px solid var(--tum-white);
+    border-radius: 2rem;
+    padding: 0.75rem 1.5rem;
 }
 
 .search-input {
-    flex: 1;
+    width: 100%;
     border: none;
-    padding: 0.8rem;
-    font-size: 1rem;
     outline: none;
     background: transparent;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    color: var(--tum-white);
+    ::placeholder {
+        color: rgba(255, 255, 255, 0.8);
+    }
+}
+
+.search-icon {
+    color: var(--tum-white);
+    font-size: 1.2rem;
 }
 
 .voice-input {
     background: none;
     border: none;
-    color: var(--tum-light-blue);
-    padding: 0.5rem 1rem;
     cursor: pointer;
+    padding: 0.5rem;
+}
+
+.voice-input i {
+    color: var(--tum-white);
+    font-size: 1.2rem;
 }
 
 /* FAQ Section */
