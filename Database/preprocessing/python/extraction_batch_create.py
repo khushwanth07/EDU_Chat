@@ -1,6 +1,9 @@
 import json
 import os
 
+# Create the .temp folder if it does not exist
+if not os.path.exists(".temp"):
+    os.makedirs(".temp")
 
 DEVELOPER_PROMPT = """
 You are a data analyst extracting information from an email history.
@@ -36,7 +39,7 @@ def read_email(file_path):
 email_files = os.listdir("./Database/preprocessing/emails")[:3]
 
 # Open the JSON file to write the batch requests
-with open('batch_input.jsonl', 'w', encoding='utf-8') as json_file:
+with open('.temp/batch_input.jsonl', 'w', encoding='utf-8') as json_file:
     # Loop through all email files
     for email_file in email_files:
 
