@@ -36,7 +36,7 @@ def read_email(file_path):
 email_files = os.listdir("./Database/preprocessing/emails")[:3]
 
 # Open the JSON file to write the batch requests
-with open('batch_input.jsonl', 'w', encoding='utf-8') as json_file:
+with open('.temp/batch_input.jsonl', 'w', encoding='utf-8') as json_file:
     # Loop through all email files
     for email_file in email_files:
 

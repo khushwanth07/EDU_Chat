@@ -14,7 +14,7 @@ client = OpenAI(api_key=API_KEY)
 
 # Create a batch input file using the jsonl file
 batch_input_file = client.files.create(
-    file=open("batch_input.jsonl", "rb"),
+    file=open(".temp/batch_input.jsonl", "rb"),
     purpose="batch"
 )
 

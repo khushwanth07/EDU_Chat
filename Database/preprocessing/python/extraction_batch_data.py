@@ -47,5 +47,5 @@ for response in responses:
 # Print the data in a readable format
 print(json.dumps(data, indent=4))
 
-with open("batch_output.json", "w") as file:
+with open(".temp/batch_output.json", "w") as file:
     json.dump(data, file, indent=4)
