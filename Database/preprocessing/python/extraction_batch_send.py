@@ -12,6 +12,10 @@ API_KEY = os.getenv('API_KEY')
 # Create an OpenAI client with the API key
 client = OpenAI(api_key=API_KEY)
 
+# Check that the input file exists
+if not os.path.exists(".temp/batch_input.jsonl"):
+    raise FileNotFoundError("The batch input file does not exist. Create it first using extraction_batch_create.py.")
+
 # Create a batch input file using the jsonl file
 batch_input_file = client.files.create(
     file=open(".temp/batch_input.jsonl", "rb"),

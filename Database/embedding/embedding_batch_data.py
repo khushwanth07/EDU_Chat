@@ -23,10 +23,6 @@ responses = [json.loads(response) for response in responses]
 
 data = {}
 
-# responses[0]["response"]["body"]["data"][0]["embedding"] = None
-
-# print(json.dumps(responses[0], indent=4))
-
 for response in responses:
     # Create a unique key for the question answer pair
     key = response["custom_id"]
@@ -45,5 +41,6 @@ for response in responses:
 # Print the data in a readable format
 print(json.dumps(data, indent=4))
 
+# Save the data to a JSON file
 with open(".temp/batch_output.json", "w") as file:
     json.dump(data, file, indent=4)

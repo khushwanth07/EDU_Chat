@@ -1,6 +1,9 @@
 import json
 import os
 
+# Create the .temp folder if it does not exist
+if not os.path.exists(".temp"):
+    os.makedirs(".temp")
 
 DEVELOPER_PROMPT = """
 You are a data analyst extracting information from an email history.
