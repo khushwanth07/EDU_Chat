@@ -1,0 +1,34 @@
+[HEADER_REDACTED_AUTOMATICALLY]
+[REDACTED],
+Thank you for your email, motivation, and patience. I apologize for the late reply.
+I have consulted our program head, Prof. [REDACTED], and she suggests that you reach out directly to her regarding your questions, such that she is able to give you a definitive answer and explanation.
+Best wishes and best of luck,
+[NAME_REDACTED_AUTOMATICALLY]
+---
+[NAME_REDACTED_AUTOMATICALLY]
+[HEADER_REDACTED_AUTOMATICALLY]
+[HEADER_REDACTED_AUTOMATICALLY]
+Good morning,
+I have already tried to send many emails but no one has ever responded to me, I am going to try another time.
+I am a student who tried to apply for the Master's degree called "AI in society". My application was rejected, because with my Bachelor's degree I did not fit into the requirements.
+My goal is to try to fill these "gaps" during this year and send the application again next year.
+However, as I already mentioned, no one really helped me.
+My doubts are about:
+- the 5 credits about statistics/mathematics and
+- "a practical project spanning typically 18 credits, where engineering or scientific insights are blended with political or social science perspectives to address societal issues, especially within technologicallydriven contexts."
+For how the statistics exam is concerned, I am going to do an exam at the LMU.
+The subject matter is a curse called: "[REDACTED]: Hands-on with bootstrap and [REDACTED]"
+Content:
+In this course, we will learn how to conduct empirical analyses through the lenses of permutation- and bootstrap-based techniques. In particular, we will uncover how these nonparametric methods allow us to make reliable inferences under minimal assumptions in a data-driven way.
+This course offers a unique blend of three domains: a solid theoretical foundation, a careful treatment of the computational principles, and a comprehensive revision of key applications that are essential for causal inference. This way, you will understand the basics of nonparametric inference and how to apply it in practice.
+Using real-world examples from experimental or observational data, we will gain experience by applying these methods to uncover causal relationships and draw robust conclusions. Crucially, we will engage in hands-on projects where you can put your coding skills to the test.
+Evaluation:
+The final grade is entirely based on an oral exam. You will be evaluated based on the three core principles of the course, that is
+1.    Applying basic mathematical tools on paper or whiteboard based on the material we covered in class.
+2.    Analyzing a real-world problem using the tools we covered in class. This will entail understanding the statistical environment, the basic assumptions underlying the resampling method one can apply, and the computational challenges or limitations of the method.
+3.    Interpreting the empirical results and having a rigorous discussion about it.
+Can this course be considered as valid, right?
+Could it even be valid to partially cover the requirement about the 18 ECTS practical project?
+If not, I really do not understand what this practical project means. How could I "gain" these credits? Which kind of exams would fit?
+I am very confused and not even having support from the university itself has already been quite stressful and overwhelming, especially for a student like me, who is ready to do anything to reach her goals.
+Thank you in advance for your time.

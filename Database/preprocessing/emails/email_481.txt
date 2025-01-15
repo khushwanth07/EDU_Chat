@@ -1,0 +1,11 @@
+Subject: "Nachreichung"
+Sender: Mailbox(name='[REDACTED]@sot.tum.de [TUS7HTL]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@cst.tum.de
+CC: 
+Date: 2024-06-11 15:32:51+00:00
+Body:
+[REDACTED],
+könntest du 1-00864806 [REDACTED] folgenden Kommentar im PP einfügen: „Please upload your filled out form together with the work certificate as one file. After you uploaded the work certificate only, the previous upload has been deleted, and we do not have access to your form anymore.”
+[REDACTED].
+VG
+[MANUALLY REDACTED]

@@ -1,0 +1,8 @@
+Subject: RDS [REDACTED]: Mailbox(name='[REDACTED]@sot.tum.de [TUS7HTL]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@tum.de
+CC: 
+Date: 2024-06-09 17:01:22+00:00
+Body:
+[REDACTED],
+FYI; der Link zum Seminarzeitplan (https://tumde-my.sharepoint.com/:w:/g/personal/gjergji_kasneci_tum_de/EY8ppDFUyNZFutggaLflZ8QBlbA9Sdf_W7l6Gu1bfadSiQ?e=hbj7U9) ist abgelaufen. Könntest du einen neuen reinstellen auf moodle?
+Danke und

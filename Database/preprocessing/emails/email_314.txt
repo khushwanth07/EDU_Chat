@@ -1,0 +1,11 @@
+Subject: [REDACTED]: Mailbox(name='[REDACTED]@sot.tum.de [TUS7HTL]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@cst.tum.de
+CC: 
+Date: [MANUALLY REDACTED]
+Body:
+[REDACTED],
+Ich habe bei folgender Bewerberin einen Fehler gemacht:
+1-00865353<https://campus.tum.de/tumonline/pl/ui/$ctx/!wbBewerbungEdit.editBewerbung?pOrgNr=55918&pBewerbungNr=865353&pBLpOrgNr=55918&pBLpStSemNr=203&pBLpSort=3&pUrlNr=8> [MANUALLY REDACTED]-[REDACTED]
+Habe mich bei den Punkten verrechnet; könntest du die Ablehnung und die eingetragenen Punkte nochmal rausnehmen? Entschuldige bitte die Umstände.
+Danke und LG
+[MANUALLY REDACTED]

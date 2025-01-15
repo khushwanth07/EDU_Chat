@@ -1,0 +1,67 @@
+Subject: Re: TUM Masterstudiengang - Eignungstest ohne [REDACTED]: Mailbox(name='[REDACTED]@sot.tum.de [TUS7HTL]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@tum.de, [REDACTED]@tum.de
+CC: [REDACTED]@tum.de
+Date: 2024-06-12 08:58:58+00:00
+Body:
+[REDACTED],
+We just decided on the automated proctoring with proctorio, as the zoom-based version will not be feasible for us.
+Because of this, the questions in the test (primarily the technical ones) are now a bit too difficult, since it will be much harder for people to cheat.
+Could you please look over those questions again and propose a bit easier ones? Otherwise we are afraid that the test will filter out too many people, since we’re also not really giving them detailed instructions how to prepare for the questions.
+If you could send us those easier questions by the end of this week, it would be great.
+Best,
+[MANUALLY REDACTED]
+Von: [REDACTED] <[REDACTED]@tum.de>
+Datum: Mittwoch, 12. Juni 2024 um 09:30
+An: "[REDACTED]@sot.tum.de [TUS7HTL]" <[REDACTED]@sot.tum.de>, [REDACTED] <[REDACTED]@tum.de>
+Cc: [REDACTED] <[REDACTED]@tum.de>
+Betreff: AW: TUM Masterstudiengang - Eignungstest ohne Aufsicht
+[REDACTED], dear Efe,
+only in our small round.
+Given the legal restrictions, it might be reasonable to use the Zoom-based monitoring option, as this does not add financial overhead to the participants.
+[MANUALLY REDACTED], if you want to talk about the details, feel free to give me a call anytime before 1 pm or in the late afternoon.
+Best wishes
+Enkelejda
+Von: [MANUALLY REDACTED], [MANUALLY REDACTED] <[REDACTED]@zv.tum.de>
+Gesendet: Dienstag, 11. Juni 2024 17:46
+An: [REDACTED]@sot.tum.de [TUS7HTL] <[REDACTED]@sot.tum.de>
+Cc: [REDACTED] <[REDACTED]@tum.de>; [REDACTED] <[REDACTED]@tum.de>; [REDACTED] <[REDACTED]@tum.de>; [REDACTED] <[REDACTED]@tum.de>; [REDACTED] <[REDACTED]@tum.de>
+Betreff: AW: TUM Masterstudiengang - Eignungstest ohne Aufsicht
+[REDACTED],
+zunächst darf ich vorsorglich darauf hinweisen, dass der Test gemäß Ziffer 5.1.1 lit. b Satz 7 der Anlage 2 zur FPSO auf jeden Fall in Präsenz angeboten werden muss. [REDACTED]-Fernprüfungs-Variante darf nicht stattdessen, sondern nur zusätzlich als freiwillige Option angeboten werden (Ziffer 5.1.1 lit. b Satz 8 der Anlage 2 zur FPSO). Das ist erforderlich, weil Fernprüfungen nach der Vorgabe des § 8 Abs. 1 BayFEV<https://www.gesetze-bayern.de/Content/Document/BayFEV-8> immer freiwillig sein müssen. Gäbe es nur eine Online-Fern-Variante, wären die Bewerber ja gezwungen, daran teilzunehmen, weil sie andernfalls das EV nicht bestehen könnten. Die Fernprüfung wäre dann nicht freiwillig. Bei der vorgenannten Regelung des § 8 BayFEV handelt es sich um eine landesrechtliche, d.h. bayernweit geltende Vorschrift. Sie gilt auch für Prüfungen im Rahmen von Eignungsverfahren. Die TUM als staatliche Hochschule ist daran gebunden und darf hiervon nicht durch eigene Satzungsbestimmungen oder anderslautende Praxis abweichen.
+Egal ob Präsenz- oder Fernprüfung: Auf eine Beaufsichtigung kann aus rechtlichen Gründen aller Regel nicht verzichtet werden. Theoretisch denkbar ist zwar eine Open-Book- bzw. Open-Source-Variante. Allerdings müsste die Prüfung dann so konzipiert sein, dass nicht reines Wissen abgefragt wird, sondern es müssten Zusammenhänge, Hintergrundverständnis, wissenschaftliche Kompetenzen etc. abgeprüft werden. Das ist bei einem Multiple-Choice-Test im Rahmen des Eignungsverfahrens nach der Anlage 2 der FPSO kaum vorstellbar. In der Regel sind Open-Source-Prüfungen Hausarbeiten. Hierbei müssen grundsätzlich die verwendeten Hilfsmittel und Quellen angegeben werden und es muss eine eigenständige Leistung nachgewiesen werden können. Dies halten wir in einem komplett unbeaufsichtigten Online-Test für ausgeschlossen. Es könnte ja dann noch nicht einmal eine effektive Identitätskontrolle der Teilnehmer durchgeführt werden. Das ist schon generell problematisch, umso mehr aber, weil an der TUM erfahrungsgemäß viele Bewerbungen nicht von den Interessenten selbst, sondern von kommerziellen Bewerbungsagenturen platziert werden. (Möglich wäre es natürlich, den Präsenztest in elektronischer Form anzubieten. Dann wäre zumindest eine Identitätskontrolle möglich.)
+Wenn aber weder eine wirksame Identitätskontrolle, noch eine Eigenständigkeit der Leistungserbringung sichergestellt ist, erweist sich der Test als vollkommen ungeeignet, um Aufschluss über die Qualifikation der Bewerber geben zu können. Somit können keinerlei Ablehnungsentscheidungen auf ein schlechtes Testergebnis gestützt werden. [REDACTED] würden die Bewerber in ihrem Grundrecht auf Ausbildungsfreiheit (Art. 12 Abs. 1 des Grundgesetzes) verletzen. Sollten abgelehnte Bewerber das Verwaltungsgericht anrufen, müsste die TUM bzw. der [REDACTED] zumindest die Gerichts- und Anwaltskosten tragen, unter Umständen könnte im worst case sogar Schadensersatz in Betracht kommen.
+Somit ist aus rechtlicher Sicht eine Aufsicht unbedingt erforderlich. Dies kann – wie von [REDACTED] erläutert – entweder eine Zoom-Aufsicht oder eine Proctorio-Aufsicht sein.
+Für Rückfragen stehe ich gerne zur Verfügung.
+---
+[REDACTED]
+Ass. Jur.
+Technische Universität München
+TUM Center for Study and Teaching – Recht / [REDACTED]
+Leitung / Head
+Arcisstr. 21
+80333 München
+Tel. +49 89 289 28158
+Fax +49 89 289 25215
+[REDACTED]@zv.tum.de<mailto:[REDACTED]@zv.tum.de>
+[REDACTED]@cst.tum.de<mailto:[REDACTED]@cst.tum.de>
+www.tum.de/studium/lehre<http://www.tum.de/studium/lehre>
+[REDACTED] schon unseren CST-R-Newsletter "recht verständlich"<https://lists.lrz.de/mailman/listinfo/newsletter-cst-r> ?
+                 …gerne anmelden und weitersagen…
+Von: [REDACTED]@sot.tum.de<mailto:[REDACTED]@sot.tum.de> [TUS7HTL] <[REDACTED]@sot.tum.de<mailto:[REDACTED]@sot.tum.de>>
+Gesendet: Montag, 10. Juni 2024 16:47
+An: [REDACTED] <[REDACTED]@tum.de<mailto:[REDACTED]@tum.de>>; [REDACTED] <[REDACTED]@tum.de<mailto:[REDACTED]@tum.de>>
+Cc: [REDACTED] <[REDACTED]@tum.de<mailto:[REDACTED]@tum.de>>; [REDACTED] <[REDACTED]@tum.de<mailto:[REDACTED]@tum.de>>; [REDACTED] <[REDACTED]@tum.de<mailto:[REDACTED]@tum.de>>; [REDACTED] <[REDACTED]@tum.de<mailto:[REDACTED]@tum.de>>
+Betreff: TUM Masterstudiengang - Eignungstest ohne Aufsicht
+[REDACTED], [REDACTED],
+ich wende mich als Studiengangskoordinatorin des neuen M.Sc. „AI in Society“ an Sie, mit einer Frage zu unserem Eignungstest, den die Bewerber ablegen sollen.
+Nach Rücksprache heute morgen mit [REDACTED] (in CC) bzgl. Aufsichtsoptionen beim Test, würden wir den Test gerne ohne Aufsicht schreiben lassen (online). Uns ist bewusst, welche Problematik damit einhergeht – wir haben das beim Schwierigkeitsgrad der Fragen berücksichtigt. Die anderen Optionen mit Aufsicht erweisen sich für uns leider als schwierig.
+Dürfen wir unseren Test ohne Aufsicht durchführen? Es handelt sich um einen online multiple-choice Test, der über die Plattform exam.moodle.tum.de abgehalten wird.
+Wir freuen uns auf Ihre baldige Rückmeldung (die Zeit drängt leider etwas, da der Test schon in zwei Wochen stattfinden soll).
+[REDACTED] und 
+---
+[REDACTED]
+PhD Candidate
+Coordination TUM Master AI in Society
+[REDACTED]
+TUM School of [REDACTED] and Technology
+https://www.gov.sot.tum.de/rds

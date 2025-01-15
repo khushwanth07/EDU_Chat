@@ -1,0 +1,27 @@
+Subject: Re: Bewerberprüfung
+Sender: Mailbox(name='[REDACTED]@sot.tum.de [TUS7HTL]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@tum.de
+CC: [REDACTED]@tum.de
+Date: 2024-07-07 15:36:11+00:00
+Body:
+[REDACTED]:
+Die zweite Gruppe (64 Leute) ist fertig geprüft. Von ihnen würde ich 13 ablehnen (aufgrund von „technical aspect not given“, „interdisciplinarity not given“, oder Projekten a la „Basic programming course“, „language course“, o.ä. [REDACTED] sind also nur in offensichtlichen Fällen, beim Rest war ich sehr großzügig).
+Wollt ihr sie euch nochmal einzeln anschauen, oder kann ich das so rückmelden?
+Spätestens am 9.7. muss ich die Einladungen zum Test (am 16.7.) verschicken. Aus der ersten Gruppe hatte ich noch 20 Leute auf den Zweittermin geschoben, also Einladungen würden an 51+20=71 Leute gehen.
+(Vorab: danach kommt noch eine dritte Gruppe: Leute, die ihre VPD (Vorprüfungsdokumentation) nachreichen durften. Kann aber gerade nicht im System sehen, wie viele das sind.)
+Danke und 
+Von: "[REDACTED]@sot.tum.de [TUS7HTL]" <[REDACTED]@sot.tum.de>
+Datum: Sonntag, 7. Juli 2024 um 15:51
+An: [REDACTED] <[REDACTED]@tum.de>
+Cc: [REDACTED] <[REDACTED]@tum.de>
+Betreff: Bewerberprüfung
+[REDACTED],
+Ich bin gerade dabei, die restlichen Leute für den zweiten Testtermin durchzuprüfen. Zu folgender Bewerberin kurze Rückfrage:
+Sie hat für Mathe/[REDACTED] folgendes angegeben (alles je 5 ECTS):
+  *   Foundations of [REDACTED]
+  *   Mechanics and [REDACTED]
+  *   [REDACTED]
+  *   Measurement, Control and [REDACTED]
+  *   [REDACTED]
+Ihr background ist “[REDACTED] und Kommunikation”, H[MANUALLY REDACTED]
+Akzeptieren wir das?

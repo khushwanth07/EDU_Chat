@@ -1,0 +1,63 @@
+[HEADER_REDACTED_AUTOMATICALLY]
+[REDACTED],
+For the Politics & [REDACTED], I’d kindly ask you to reach out to the responsible study coordinator for more information, since I do not manage this program.
+Thank you for your wishes!
+Have a nice day,
+[NAME_REDACTED_AUTOMATICALLY]
+[HEADER_REDACTED_AUTOMATICALLY]
+[HEADER_REDACTED_AUTOMATICALLY]
+[REDACTED],
+No worries; thank you for your response, I really do appreciate it!
+Would you by any chance have the presentation/documents of the ‘Politics and Technology’ masters as well?
+Good luck with your PhD research project!
+All the best,
+Noah
+[HEADER_REDACTED_AUTOMATICALLY]
+[REDACTED],
+Please excuse the late response, there was a lot going on with the start of the semester.
+As for more information on the study contents, I will for one attach a presentation we did for the introduction of the study program (AIS_MastersDays.pdf), as well as a part of our study documentation describing the contents of the modules more (study_doc_1-3).
+Regarding recommended preparation: I would highly suggest to brush up on mathematical knowledge, especially statistics, linear algebra, and calculus. Essentially, these are topics to help you study machine learning and data science, which will already be taught from the first semester onwards (see “Foundations of AI & [REDACTED]”). If there are possibilities for you to still study such courses at your university, I would take the chance.
+As for the project: what you are describing might be a bit insufficient, regarding the technical aspect. I can, unfortunately, not tell you for sure right now, since it is up to our selection committee to decide in the end, but I still encourage you to apply and describe your projects as best as possible (there will be forms to fill out for this inside the application portal). I’d also suggest you submit all of the practical experience you have – you don’t have to choose only one of them.
+I hope I could bring you a bit of clarity.
+Best wishes
+[NAME_REDACTED_AUTOMATICALLY]
+---
+[NAME_REDACTED_AUTOMATICALLY]
+[HEADER_REDACTED_AUTOMATICALLY]
+[HEADER_REDACTED_AUTOMATICALLY]
+[REDACTED],
+Hope you’re able to free up a short minute of your time to give me some (short) feedback on my questions to you below. I would appreciate your insights!
+All the best,
+[REDACTED]
+[HEADER_REDACTED_AUTOMATICALLY]
+[REDACTED],
+I really appreciate your elaborate response! Ok 
+About the project; the reason I asked about the specific quantitative requirements is because I intent on using my BA thesis as ‘proof’ of my practical project. The focus of my thesis is on the growing importance of industry-experts in global AI governance, and will involve both quantitative and qualitative methods. However, I will only be able to submit the thesis project for my application in May next year, hence the question about the best time(s) to apply for the program. Will everyone receive their admission results at the same time? Another option would be to submit my minor thesis (15 ECTS) which was a case-study (including quant. thematic analysis) on China’s growing role within the UN, supplemented by my work as an analyst where I’ve worked on a project focusing on the future challenges of Western democracy (e.g. the role of emerging technologies). However I don’t have any hard-proof of having used statistical methods). Maybe you can tell me what my best option is here.
+Sorry for the long e-mail; I appreciate your response ik advance!
+Best,
+[REDACTED]
+[HEADER_REDACTED_AUTOMATICALLY]
+[REDACTED],
+Thank you for your interest in our study program. Of course, I’m happy to answer your questions:
+  1.  Your course “Research and Methods” would pass as sufficient, if you also provide us a description of what has been taught in the course, so we can see that there were indeed statistical methods taught. However, from the other courses you mentioned, I would actually recommend you to follow [REDACTED] with R, just for your own sake, so you have a bit more background knowledge to help you when you start in AI in Society (as, I suppose, maybe you did not study very technical subjects in an [REDACTED]’s?). That’s just a recommendation.
+  2.  How about you describe to me roughly what your project was about – I could then tell you if it sounds sufficient. 😊
+  3.  It technically does not matter when in this period you send your application. However, due to the big amount applications, this year we had to split up the aptitude test into multiple dates. Please don’t take “first come, first serve” as a solid rule here, but I would recommend submitting your application rather sooner than later.
+I hope I could help a bit!
+Best wishes
+[NAME_REDACTED_AUTOMATICALLY]
+---
+[NAME_REDACTED_AUTOMATICALLY]
+[HEADER_REDACTED_AUTOMATICALLY]
+[HEADER_REDACTED_AUTOMATICALLY]
+[NAME_REDACTED_AUTOMATICALLY]
+I recently noticed your Masters program titled ‘AI in Society’, and became very interested in applying as soon as the registration opens in 2025. A bit about me: I am now in the final year of my Bachelor program in [REDACTED] at the University of Malmö in Sweden. However, although it seems I will meet the program-requirements based on my current curriculum, I still have some questions. Could you help me answer whether:
+  1.  I meet the requirement of having 5 ECTS in mathematics/statistics passed if I successfully completed a 7.5 ECTS module on “Research and Methods”. Although the title does not specify the inclusion of statistics, a substantive part of this module focused on quantitative research methodology. If this is not deemed sufficient, would you be able to tell me whether (one of the) following courses does/does not meet this requirement (in case my current module is not sufficient, I would follow one of the following courses in order to meet the requirement):
+     *   [REDACTED] in [REDACTED] (7.5 ECTS)
+     *   [REDACTED] with R (7.5 ECTS)
+     *   [REDACTED] with R (4.5 ECTS)
+  1.  In relation to the 18 ECTS practical project, could you elaborate on what is meant with ’technical tools’ or ’similar’? See the following excerpt from the website page: "They especially need to involve a practical aspect, e.g. you should have investigated or worked on a societal problem with technical tools, for example programming, statistical analysis, or similar.”. Would the use of any quantitative method during the project suffice for example? What if the project combines quantitative and qualitative methods?
+  2.  Does it matter during which period of the application opening (between February and May 31st) I apply for the program? For example, will everyone receive their admission result at the same time, and will the aptitude test be held on different dates?
+I hope you can help me answer these questions; I look forward to applying for the program!
+Best,
+[REDACTED]
+<AIS_MastersDays.pdf><study_doc_1.png><study_doc_2.png><study_doc_3.png>

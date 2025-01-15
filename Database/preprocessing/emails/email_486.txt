@@ -1,0 +1,22 @@
+Subject: AIS geprüfte [REDACTED]: Mailbox(name='[REDACTED]@sot.tum.de [TUS7HTL]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@cst.tum.de
+CC: [REDACTED]@tum.de
+Date: 2024-06-10 09:09:47+00:00
+Body:
+[REDACTED],
+Folgend neue geprüfte Kandidaten:
+Alles OK:
+ [MANUALLY REDACTED]
+Mit dem Kommentar: „One or more of your projects is not described well enough for us to make an informed decision. Please make sure your descriptions explain what exactly you did in the project.
+Most importantly, we need to be able to see a) the practical (technical) aspect, and b) the interdisciplinary aspect (please take note of this information: https://www.sot.tum.de/sot/studium/ai-in-society/application/) . Make sure all your project descriptions match these criteria and resubmit the improved document.”
+Folgende abgelehnt:
+  *  [MANUALLY REDACTED] Bachelor's thesis (which, as you state, is still being completed). Furthermore, we can't count working experience that just started this month, where there additionally is no proof for your employment.)
+[REDACTED]!
+LG [MANUALLY REDACTED]
+---
+[REDACTED]
+PhD Candidate
+Coordination TUM Master AI in Society
+[REDACTED]
+TUM School of [REDACTED] and Technology
+https://www.gov.sot.tum.de/rds

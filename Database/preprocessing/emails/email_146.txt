@@ -1,0 +1,33 @@
+[HEADER_REDACTED_AUTOMATICALLY]
+Hello,
+please come into our Zoom support call: [URLREDACTED_AUTOMATICALLY]
+Best,
+[NAME_REDACTED_AUTOMATICALLY]
+---
+[NAME_REDACTED_AUTOMATICALLY]
+[HEADER_REDACTED_AUTOMATICALLY]
+[HEADER_REDACTED_AUTOMATICALLY]
+hello,
+I am currently stuck in the payment step for the proctoring. I see the screen attached below and when I click pay I get stuck in the same page. I followed all the instructions till I reached this point and don't know what to do next.
+
+[HEADER_REDACTED_AUTOMATICALLY]
+[REDACTED],
+I would like to remind you that as per ticket [TUM#[NUMBER_REDACTED_AUTOMATICALLY][NUMBER_REDACTED_AUTOMATICALLY]] I was allowed to apply with an expired passport as there were some circumstances that prohibited me from renewing it but the admission committee informed me that my application is all good. In case you need to have a look at the recently renewed passport please find it attached to this email. I will be expecting the link to the aptitude test in the next couple of days.
+
+[IMAGE_REDACTED_AUTOMATICALLY]
+[HEADER_REDACTED_AUTOMATICALLY]
+[NAME_REDACTED_AUTOMATICALLY]
+On behalf of the aptitude committee, I would like to invite you to the AI in Society aptitude test on September 3rd.
+Disclaimer: should you receive this email mistakenly, or you do not intend to proceed with this program further, please let me know shortly.
+The test will take place on September 3rd, 11:00-12:30 CEST, consist of 35 multiple choice questions spanned over 90 minutes, and will be held over TUM's internal moodle platform. You will be allowed to use a calculator, as well as a piece of paper and pen to help you.
+You will be asked to answer multiple-choice questions (out of multiple different answers, only one is correct). The topics will span:
+  *   Politics and [REDACTED]
+  *   Economics and Law
+  *   Statistics and Mathematics
+  *   Engineering and [REDACTED]
+For more details about the content of the test, please feel free to look at our website: https://www.sot.tum.de/sot/studium/ai-in-society/application/
+You will need to choose between an on-campus and an off-campus (online) variant:
+  *   In the off-campus (online) variant, you will be monitored via an automated proctoring software. This will require you to pay a fee of 25$ for the proctoring software Proctorio, as well as ensure a working webcam and microphone.
+  *   The on-campus variant will not require any fee, as you will be monitored by staff in person. It will take place in Marsstr. 20-22, [NUMBER_REDACTED_AUTOMATICALLY] Munich, room 605, 6th floor<[URLREDACTED_AUTOMATICALLY] Please note that you will need to bring your laptop to take the test in the on-campus variant, as well! The test will not be written on paper. Should you not be able to bring a laptop for the test, please let us know in advance. We will provide you with a laptop in this case.
+In the coming days, you will receive the link to the moodle test. There, you should 1) choose your preferred exam modality (on-/off-campus) and 2) take the demo test to make yourself familiar with the test environment. Should you choose the off-campus version, you will also be guided through the Proctorio installation and payment there.
+We wish you the best of luck in advance.

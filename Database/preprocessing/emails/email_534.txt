@@ -1,0 +1,15 @@
+Body:
+[REDACTED] & Team,
+mir ist aufgefallen, dass bei folgenden Leuten zwar „nicht ok“ markiert ist, aber kein Kommentar eingefügt ist, warum oder was sie nachreichen sollen. Könntet ihr das bitte noch hinzufügen?
+Praxisprojekte:
+  *   1-[MANUALL_REDACTED] Dritsa: „NOT OK: if you are naming university projects, please provide the respective module name/module number, so we can verify the module is part of your transcript and has the amount of ECTS indicated by you.“
+  *   1-[MANUALL_REDACTED] Egeonu: “NOT OK: 1 credit = 1,4 ECTS. You have achieved 16,8 ECTS, which does not meet the requirement.”
+  *   1-[MANUALL_REDACTED] [REDACTED]: “NOT OK: Please provide module numbers/module names (as written in the transcript), if the named projects are university modules. Otherwise, please provide other proof, such as work certificates or similar, proving your projects.”
+  *   1-[MANUALL_REDACTED] Ramireddy: “NOT OK: Please provide exact module numbers/module names (as written in the transcript), if the named projects are university modules. Also, your thesis project is not part of your transcript. We cannot verify the amount of credits.”
+  *   1-[MANUALL_REDACTED] Weissgerber: “NOT OK: Please include a more in-depth description of what your work duties have encompassed. We need to be able to see a) the practical and b) the interdisciplinary aspect of your work  in order to assess the  good match for our study program. Please highlight these aspects in the provided form (in your own words), and reupload the improved document.”
+Mathe/Statistik:
+  *   1-[MANUALL_REDACTED] Visscher: “NOT OK: content of mathematics/statistics is unclear from the module titles alone. Please provide some clarification, like official module descriptions, for these modules, to make apparent their relation to mathematics and/or statistics.”
+  *   1-[MANUALL_REDACTED] Kimani: “NOT OK: Please provide a module description of the mentioned course, which make the mathematics and/or statistics part of the module apparent.”
+  *   1-[MANUALL_REDACTED] [REDACTED]: “NOT OK: Please provide a module description of the mentioned course, which make the mathematics and/or statistics part of the module apparent.”
+Bei 1-[MANUALL_REDACTED] [REDACTED] ist fälschlicherweise Mathe/Statistik nicht ok gesetzt. Da passt alles.
+[REDACTED] euch.

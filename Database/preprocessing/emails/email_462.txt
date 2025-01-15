@@ -1,0 +1,16 @@
+Subject: [!] AIS [REDACTED]: Mailbox(name='[REDACTED]@sot.tum.de [[MANUALLY REDACTED]]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@cst.tum.de
+CC: 
+Date: 2024-06-19 06:54:59+00:00
+Body:
+[REDACTED],
+Ich konnte dich leider telefonisch nicht erreichen, deshalb jetzt per Email:
+Es gibt aktuell noch 36 ungeprüfte Bewerber. Wir müssten heute alle Bewerber fertig prüfen, weil ich ihnen heute bzgl. Zulassung zum [REDACTED] sagen muss. Wie sieht es mit deinem/eurem Zeitplan aus? Wäre das irgendwie machbar, die 36 Leute heute noch auf Formalitäten zu prüfen? Sodass sie auf „eingegangen“ rutschen und ich sie auf fachliches fertig prüfen kann. Das würde uns enorm helfen…
+[REDACTED]! Mir ist bewusst, wie viel Arbeit das leider ist…
+---
+[REDACTED]
+PhD Candidate
+Coordination TUM Master AI in Society
+[REDACTED]
+TUM School of [REDACTED] and Technology
+https://www.gov.sot.tum.de/rds

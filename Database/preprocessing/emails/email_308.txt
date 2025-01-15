@@ -1,0 +1,18 @@
+Subject: AI in [REDACTED] - [REDACTED]: Mailbox(name='[REDACTED]@sot.tum.de [TUS7HTL]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@gmail.com
+CC: 
+Date: 2024-07-08 16:00:46+00:00
+Body:
+Dear applicant,
+Please use the following Zoom link for your AI in [REDACTED] on July 9th, 14:00 – 14:30 CEST.
+https://tum-conf.zoom-x.de/j/66640665048?pwd=zoIrSa1TOJyj9buGY0Q9wbFuE55ioD.1
+We look forward to getting to know you!
+Best wishes
+[REDACTED]
+---
+[REDACTED]
+PhD Candidate
+Coordination TUM Master AI in Society
+[REDACTED]
+TUM School of [REDACTED] and Technology
+https://www.gov.sot.tum.de/rds

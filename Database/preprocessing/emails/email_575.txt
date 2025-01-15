@@ -1,0 +1,5 @@
+Body:
+[REDACTED],
+Bewerber 1-[MANUALL_REDACTED]<https://campus.tum.de/tumonline/pl/ui/$ctx;design=pl;header=max;lang=DE/!wbBewerbungEdit.editBewerbung?pOrgNr=55557&pBewerbungNr=868471&pBLpOrgNr=55557&pBLpStSemNr=203&pBLpSort=3&pUrlNr=8> ([REDACTED]) hat als Englischnachweis den Kommentar „nicht ok – nur 12 ECTS Bachelorarbeit, 3 ECTS fehlen“. Er hat aber weiter unten im Transkript noch einen Kurs („[REDACTED]“), der 6 ECTS hat, mit dem Kommentar, dass er auf Englisch unterrichtet wurde.
+Wir haben ja die Regelung, dass wenn die englische BA unter 15 ECTS kommt, man mit weiteren englischen Modulen „auffüllen“ kann.
+In dem Fall ist sein Englischnachweis also OK.

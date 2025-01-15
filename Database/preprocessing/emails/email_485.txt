@@ -1,0 +1,18 @@
+Subject: TUM Masterstudiengang - Eignungstest ohne [REDACTED]: Mailbox(name='[REDACTED]@sot.tum.de [TUS7HTL]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@tum.de, [REDACTED]@tum.de
+CC: [REDACTED]@tum.de, [REDACTED]@tum.de, [REDACTED]@tum.de, [REDACTED]@tum.de
+Date: 2024-06-10 14:47:08+00:00
+Body:
+[REDACTED], [REDACTED],
+ich wende mich als Studiengangskoordinatorin des neuen M.Sc. „AI in Society“ an Sie, mit einer Frage zu unserem Eignungstest, den die Bewerber ablegen sollen.
+Nach Rücksprache heute morgen mit [REDACTED] (in CC) bzgl. Aufsichtsoptionen beim Test, würden wir den Test gerne ohne Aufsicht schreiben lassen (online). Uns ist bewusst, welche Problematik damit einhergeht – wir haben das beim Schwierigkeitsgrad der Fragen berücksichtigt. Die anderen Optionen mit Aufsicht erweisen sich für uns leider als schwierig.
+Dürfen wir unseren Test ohne Aufsicht durchführen? Es handelt sich um einen online multiple-choice Test, der über die Plattform exam.moodle.tum.de abgehalten wird.
+Wir freuen uns auf Ihre baldige Rückmeldung (die Zeit drängt leider etwas, da der Test schon in zwei Wochen stattfinden soll).
+[REDACTED] und 
+---
+[REDACTED]
+PhD Candidate
+Coordination TUM Master AI in Society
+[REDACTED]
+TUM School of [REDACTED] and Technology
+https://www.gov.sot.tum.de/rds

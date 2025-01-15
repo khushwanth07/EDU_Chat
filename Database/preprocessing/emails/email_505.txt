@@ -1,0 +1,18 @@
+Subject: AIS OK [REDACTED]: Mailbox(name='[REDACTED]@sot.tum.de [TUS7HTL]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@cst.tum.de, [REDACTED]@zv.tum.de
+CC: 
+Date: 2024-06-03 10:34:21+00:00
+Body:
+[REDACTED],
+[REDACTED] ist nun vorbei, also keinen neuen Bewerber mehr (…puh).
+Die folgenden können auf OK:
+ [MANUALLY REDACTED]
+[REDACTED] und LG
+Alina
+---
+[REDACTED]
+PhD Candidate
+Coordination TUM Master AI in Society
+[REDACTED]
+TUM School of [REDACTED] and Technology
+https://www.gov.sot.tum.de/rds

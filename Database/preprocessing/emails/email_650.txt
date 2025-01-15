@@ -1,0 +1,25 @@
+Body:
+[REDACTED],
+Thank you for your interest in the M.Sc. AI in Society.
+To answer your questions: although your Bachelor thesis sounds very fitting topic-wise, we unfortunately cannot accept practical projects which will not be finalized by the application deadline. We realize that this is very unfortunate, however we need to stick to the study program regulations here.
+However, from the rest of your options, it would make the most sense to include your 2 years of work experience around analyzing social media trends. In such cases, we ask the applicants to submit some sort of work certificate from your company, which states a) what you have been working on and b) how long you have been working there. The duration of your work is relevant for us to compare to our ECTS requirement – we recalculate from hours to ECTS to make it comparable (for reference, 1 ECTS correspond to 30 hours). Since you’ve been working there for over 2 years, and you are missing 6 credits to fulfil our requirement, your work experience would need to cover 6x30 hours = 180 hours, which should most definitely suffice. Apart from providing a work certificate, please of course also list this experience inside of the provided form.
+Please also do your best to highlight the *interdisciplinary* parts of your work experience. Pure computer science/programming work is not interdisciplinary. Something like social media trend analysis, data analytics, generating insights, building a program to help XYZ societal problem… etc, is what we are looking for when screening the applications. You can highlight such contributions in our form.
+Depending on what exactly you did there, your research paper on meat production analysis might also make sense. If there was some practical/implementation aspect included (i.e. it was not a literature review kind of paper, but you actually ran some analysis yourself), I’d advise you to also include this.
+Let me know if you have further questions. If not, I’m wishing you the best of luck for the application procedure!
+Best wishes
+[REDACTED]
+---
+
+Betreff: Question reg. application for MSc AI in Society program
+[REDACTED]/Madam,
+My name is [REDACTED] and I am currently finishing my bachelor studies in Management and Technology at TUM.
+I am very interested in the AI in Society master's program offered by your department. The program description fits my interests and goals for my academic journey. Thus, I would like to be able to submit a great application in order to increase my chances of getting accepted.
+With that being said, I have a few questions and I am mainly seeking for advice regarding one of the points on the online application. During the application it is asked for me to submit a Proof of completed practical project (18 ECTS) type of form. During bachelor studies at TUM I have completed a project study in AI development and market research with a start-up company, which was worth 12 credits. I've also added a short description in the PDF and I think it fits very well what they are asking for.
+However, it is asked that I must include modules worth 18 credits. Thus I am a bit puzzled on what to include next.
+  *   I am currently writing my bachelor's thesis where the topic is: "[REDACTED] and Misogyny in the [REDACTED]" which perfectly fits the practical project which is described in the PDF document. I have already prepared a good chunk of the research project. However the thesis would only be officially finalized long after the master's application deadline is done. Does it make sense to include this as part the proof?
+  *   I have completed a very interesting project with Java where I created a [REDACTED] (12 credits). Do you see a way where this would sound relevant in the sense it is asked for in the PDF?
+  *   I wrote a research paper for a management elective subject in where I had to analyze the production of meat and meat products in Germany as well as the production and distribution safety measures taken into consideration.
+  *   Moreover, I already have well over 2 years of work experience working with social media trends and analysing KPIs as well as research on IT tools etc (you can see more on the CV) at Siemens AG and ROBUR.
+Could any of the above mentioned papers/experiences be relevant to include in this proof of completed practical projects document? I would be very grateful if I could receive some advice, thus helping me create a good application.
+If this is outside of your scope of work, please forward me to anyone who deals with these type of concerns.
+I am looking forward to hearing back.

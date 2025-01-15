@@ -1,0 +1,16 @@
+Subject: Bewerberprüfung
+Sender: Mailbox(name='[REDACTED]@sot.tum.de [TUS7HTL]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@tum.de
+CC: [REDACTED]@tum.de
+Date: 2024-07-07 13:51:14+00:00
+Body:
+[REDACTED],
+Ich bin gerade dabei, die restlichen Leute für den zweiten Testtermin durchzuprüfen. Zu folgender Bewerberin kurze Rückfrage:
+Sie hat für Mathe/[REDACTED] folgendes angegeben (alles je 5 ECTS):
+  *   Foundations of [REDACTED]
+  *   Mechanics and [REDACTED]
+  *   [REDACTED]
+  *   Measurement, Control and [REDACTED]
+  *   [REDACTED]
+Ihr background ist “[REDACTED] und Kommunikation”, Hochschule München.
+Akzeptieren wir das?

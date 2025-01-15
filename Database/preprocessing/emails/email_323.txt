@@ -1,0 +1,37 @@
+Subject: Re: AI in [REDACTED] - [REDACTED]: Mailbox(name='[REDACTED]@sot.tum.de [TUS7HTL]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@gmail.com
+CC: 
+Date: 2024-07-07 18:17:14+00:00
+Body:
+[REDACTED],
+For me, on kulibri it shows that you chose 09:00 – 09:30. It could be that you are in a different timezone (CEST+3?), since the website seems to adjust the times to the user’s timezone, as we later figured out.
+In any case, your interview will be tomorrow, 09:00 – 09:30 CEST.
+Best,
+[MANUALLY REDACTED][MANUALLY REDACTED]---
+[REDACTED]
+PhD Candidate
+Coordination TUM Master AI in Society
+[REDACTED]
+TUM School of [REDACTED] and Technology
+https://www.gov.sot.tum.de/rds
+Von: [REDACTED] <[REDACTED]@gmail.com>
+Datum: Sonntag, 7. Juli 2024 um 18:15
+An: "[REDACTED]@sot.tum.de [TUS7HTL]" <[REDACTED]@sot.tum.de>
+Betreff: Re: AI in [REDACTED] - [REDACTED]
+[REDACTED], hope you are doing well.
+[REDACTED], I chose the 12.00-12.30 am CEST time slot, however, this email says that it is at 9-9.30.
+I can be available in both slots, there is no problem. I just wanted to clarify which one is correct.
+[REDACTED], Jul 7, 2024 at 3:00 PM [REDACTED]@sot.tum.de<mailto:[REDACTED]@sot.tum.de> [TUS7HTL] <[REDACTED]@sot.tum.de<mailto:[REDACTED]@sot.tum.de>> wrote:
+Dear applicant,
+Please use the following Zoom link for your AI in [REDACTED] on July 8th, 09:00 – 09:30 AM CEST.
+https://tum-conf.zoom-x.de/j/67562985971?pwd=OVCIOeSIaCMgKhf2aCxMEDuYiGdEAC.1
+We look forward to getting to know you!
+Best wishes
+[REDACTED]
+---
+[REDACTED]
+PhD Candidate
+Coordination TUM Master AI in Society
+[REDACTED]
+TUM School of [REDACTED] and Technology
+https://www.gov.sot.tum.de/rds

@@ -1,0 +1,35 @@
+Subject: Re: Bewerberprüfung
+Sender: Mailbox(name='[REDACTED]@sot.tum.de [TUS7HTL]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@tum.de
+CC: [REDACTED]@tum.de
+Date: 2024-07-08 07:45:06+00:00
+Body:
+[REDACTED],
+Du findest die Dokumente unter Bewerberprüfung -> Applicants. Dort geht es um folgende Kandidaten:
+  *  [MANUALLY REDACTED]
+Da müsstest du jeweils zu den PPs etwas runterscrollen. Über den Projektbeschreibungen habe ich jeweils einen roten Kommentar eingefügt, was aus meiner Sicht nicht passt.
+Von: [REDACTED] <[REDACTED]@tum.de>
+Datum: Sonntag, 7. Juli 2024 um 17:43
+An: "[REDACTED]@sot.tum.de [TUS7HTL]" <[REDACTED]@sot.tum.de>
+Cc: [REDACTED] <[REDACTED]@tum.de>
+Betreff: Re: Bewerberprüfung
+[REDACTED],
+danke für die Übersicht.
+Lass mich die Ablehnungen kurz durchgehen (es reicht, wenn du die Dokumente zu den jeweiligen PPs in den Ordner hochladen könntest). Falls eine Rückfrage oder Beschwerde reinkommt, haben wir zumindest eine sichere Grundlage.
+Von meinem iPhone gesendet
+Am 07.07.2024 um 17:40 schrieb [REDACTED] <[REDACTED]@tum.de>:
+[REDACTED],
+ja, das akzeptieren wir, da die Ausrichtung des Studiengangs sehr technisch ist.
+Danke und 
+Von meinem iPhone gesendet
+Am 07.07.2024 um 15:51 schrieb [REDACTED]@sot.tum.de [TUS7HTL] <[REDACTED]@sot.tum.de>:
+[REDACTED],
+Ich bin gerade dabei, die restlichen Leute für den zweiten Testtermin durchzuprüfen. Zu folgender Bewerberin kurze Rückfrage:
+Sie hat für Mathe/[REDACTED] folgendes angegeben (alles je 5 ECTS):
+  1.  Foundations of [REDACTED]
+  2.  Mechanics and [REDACTED]
+  3.  [REDACTED]
+  4.  Measurement, Control and [REDACTED]
+  5.  [REDACTED]
+Ihr background ist “[REDACTED] und Kommunikation”, Hochschule München.
+Akzeptieren wir das?

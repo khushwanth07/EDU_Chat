@@ -1,0 +1,32 @@
+Subject: Re: Test confirmation for tomorrow
+Sender: Mailbox(name='[REDACTED]@sot.tum.de [[MANUALLY REDACTED]]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@gmail.com
+CC: 
+Date: 2024-06-24 12:25:01+00:00
+Body:
+[REDACTED],
+Due to the large number of applications, there are still applicants which we didn’t fully check yet. Your application is unfortunately not fully checked yet (they also weren’t processed first-come-first-serve). For these cases, we are planning a second test date on July 16th, to which you will be invited, should your documents pass.
+We apologize for the delay and hope for your understanding.
+Best wishes
+[MANUALLY REDACTED]
+---
+[REDACTED]
+PhD Candidate
+Coordination TUM Master AI in Society
+[REDACTED]
+TUM School of [REDACTED] and Technology
+https://www.gov.sot.tum.de/rds
+Von: [REDACTED] <[REDACTED]@gmail.com>
+Datum: Montag, 24. Juni 2024 um 11:49
+An: "[REDACTED]@sot.tum.de [TUS7HTL]" <[REDACTED]@sot.tum.de>
+Betreff: Test confirmation for tomorrow
+[REDACTED],
+I have applied to the Master 3 months ago, but I still didn't get the confirmation for the test tomorrow.
+Should I expect it at any time today?
+*Sorry for bothering you now, I imagine you have much stuff to do.
+Thanks.
+--
+=============================
+[REDACTED]
+[REDACTED]
+[MANUALLY REDACTED]==============================

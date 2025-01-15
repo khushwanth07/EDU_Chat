@@ -1,0 +1,25 @@
+Subject: [REDACTED]: Mailbox(name='[REDACTED]@sot.tum.de [TUS7HTL]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@cst.tum.de
+CC: 
+Date: 2024-07-08 09:48:23+00:00
+Body:
+[REDACTED],
+[REDACTED] sind mit PP ok:
+B[MANUALLY REDACTED]
+Folgende nicht ok:
+  *   [REDACTED]: NOT OK: 28 hours = 1 ECTS. Requirement: 5 ECTS
+  *   [REDACTED]: NOT OK: technical aspect not given sufficiently.
+  *   [REDACTED]: NOT OK: interdisciplinary aspect not given sufficiently.
+  *   [REDACTED]: NOT OK: interdisciplinary aspect not given sufficiently.
+  *   [REDACTED]: NOT OK: technical aspect not given sufficiently.
+  *   [REDACTED]: NOT OK: interdisciplinary aspect not given sufficiently.
+  *   [REDACTED]: NOT OK: unclear which module the project refers to. We cannot match ECTS.
+Vielen lieben Dank.
+LG [MANUALLY REDACTED]
+---
+[REDACTED]
+PhD Candidate
+Coordination TUM Master AI in Society
+[REDACTED]
+TUM School of [REDACTED] and Technology
+https://www.gov.sot.tum.de/rds
