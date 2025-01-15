@@ -14,7 +14,7 @@ client = OpenAI(api_key=API_KEY)
 
 # Create a batch input file using the jsonl file
 batch_input_file = client.files.create(
-    file=open("batchinput.jsonl", "rb"),
+    file=open("batch_input.jsonl", "rb"),
     purpose="batch"
 )
 
@@ -25,7 +25,7 @@ batch = client.batches.create(
     endpoint="/v1/chat/completions",
     completion_window="24h",
     metadata={
-        "description": "email qna extraction"
+        "description": "email qna extraction",
     }
 )
 
