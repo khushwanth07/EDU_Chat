@@ -3,89 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TUM AI & Society Course Assistant</title>
+    <title>AI & Society Course Assistant - TUM</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="top-nav">
-        <div class="nav-content">
-            <a href="#" class="logo">
-                <img src="https://www.tum.de/typo3conf/ext/tumcd/Resources/Public/Icons/tum-logo.svg" alt="TUM Logo">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="https://www.tum.de/typo3conf/ext/tumcd/Resources/Public/Icons/tum-logo.svg" alt="TUM Logo" class="tum-logo">
             </a>
             <div class="nav-links">
-                <a href="#" class="nav-link">About the course</a>
-                <a href="#" class="nav-link">Curriculum</a>
-                <a href="#" class="nav-link">Course Homepage</a>
+                <a href="#">About the course</a>
+                <a href="#">Curriculum</a>
+                <a href="#">Course Homepage</a>
             </div>
         </div>
     </nav>
 
-    <div class="container">
-        <header class="header">
-            <button class="theme-toggle" aria-label="Toggle theme">
-                <i class="fas fa-moon"></i>
-            </button>
+    <!-- Hero Section with Chatbot -->
+    <section class="hero">
+        <div class="hero-container">
             <h1>AI & Society Course Assistant</h1>
-        </header>
-
-        <div class="search-container">
-            <i class="fas fa-search search-icon"></i>
-            <input type="text" class="search-bar" placeholder="What's on your mind?">
-            <button class="voice-input" aria-label="Voice input">
-                <i class="fas fa-microphone"></i>
-            </button>
-            <div class="suggestions"></div>
+            <div class="search-container">
+                <div class="search-wrapper">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" class="search-input" placeholder="What's on your mind?">
+                    <button class="voice-input">
+                        <i class="fas fa-microphone"></i>
+                    </button>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <section class="faq-section">
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="section-container">
             <h2>Frequently Asked Questions</h2>
-            <div class="faq-grid">
-                <div class="faq-card">
-                    <h3>What are the Required Documents for Admission?</h3>
-                </div>
-                <div class="faq-card">
-                    <h3>When is the Application Period?</h3>
-                </div>
-                <div class="faq-card">
-                    <h3>What is the Program Objective?</h3>
-                </div>
-                <div class="faq-card">
-                    <h3>What are the Tuition Fees for students from abroad?</h3>
-                </div>
-                <div class="faq-card">
-                    <h3>How is the Admission Process?</h3>
-                </div>
-                <div class="faq-card">
-                    <h3>Who can I contact for more information?</h3>
-                </div>
-                <div class="faq-card">
-                    <h3>How long is the Program?</h3>
-                </div>
-                <div class="faq-card">
-                    <h3>What is the expected outcome for after graduation?</h3>
+            <div class="faq-carousel">
+                <div class="faq-items">
+                    <div class="faq-item">
+                        <span class="faq-accent"></span>
+                        <h3>What are the Required Documents for Admission?</h3>
+                    </div>
+                    <div class="faq-item">
+                        <span class="faq-accent"></span>
+                        <h3>When is the Application Period?</h3>
+                    </div>
+                    <div class="faq-item">
+                        <span class="faq-accent"></span>
+                        <h3>What is the Program Objective?</h3>
+                    </div>
+                    <div class="faq-item">
+                        <span class="faq-accent"></span>
+                        <h3>What are the Tuition Fees for students from abroad?</h3>
+                    </div>
+                    <div class="faq-item">
+                        <span class="faq-accent"></span>
+                        <h3>How is the Admission Process?</h3>
+                    </div>
+                    <div class="faq-item">
+                        <span class="faq-accent"></span>
+                        <h3>Who can I contact for more information?</h3>
+                    </div>
+                    <div class="faq-item">
+                        <span class="faq-accent"></span>
+                        <h3>How long is the Program?</h3>
+                    </div>
+                    <div class="faq-item">
+                        <span class="faq-accent"></span>
+                        <h3>What is the expected outcome for after graduation?</h3>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <div class="chat-window">
-            <div class="chat-header">
-                <h3>AI Course Assistant</h3>
-                <div class="chat-actions">
-                    <button class="chat-action-btn" aria-label="Clear chat">
-                        <i class="fas fa-trash"></i>
-                    </button>
-                    <button class="chat-action-btn" aria-label="Download chat">
-                        <i class="fas fa-download"></i>
-                    </button>
-                </div>
-            </div>
+    <!-- Chat Window (Initially Hidden) -->
+    <div class="chat-window">
+        <div class="chat-container">
             <div class="chat-messages"></div>
+            <div class="chat-input">
+                <input type="text" placeholder="Type your message...">
+                <button class="send-button">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
         </div>
     </div>
 
+    <!-- Footer -->
     <footer class="footer">
-        <div class="footer-content">
+        <div class="footer-container">
             <div class="footer-links">
                 <a href="#">Jobs</a>
                 <a href="#">Feedback</a>
@@ -95,14 +106,6 @@
             </div>
         </div>
     </footer>
-
-    <div class="feedback-popup">
-        <p>Was this response helpful?</p>
-        <div class="feedback-buttons">
-            <button class="feedback-btn positive">Yes</button>
-            <button class="feedback-btn negative">No</button>
-        </div>
-    </div>
 
     <script src="script.js"></script>
 </body>

@@ -1,42 +1,51 @@
+/* TUM Colors and Variables */
 :root {
-    --primary-color: #072140;
-    --secondary-color: #3070b3;
-    --background-color: #f5f7ff;
-    --text-color: #2c3e50;
-    --shadow-color: rgba(0, 0, 0, 0.1);
+    --tum-blue: #072140;
+    --tum-blue-secondary: #0A2D57;
+    --tum-light-blue: #3070B3;
+    --tum-white: #FFFFFF;
+    --tum-gray: #E8ECEF;
+    --tum-text: #14191A;
 }
 
+/* Reset and Base Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 body {
-    background: var(--background-color);
+    background-color: var(--tum-white);
+    color: var(--tum-text);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-/* Navigation Styles */
-.top-nav {
-    background: var(--primary-color);
-    padding: 1rem 2rem;
-    color: white;
+/* Navigation Bar */
+.navbar {
+    background-color: var(--tum-blue);
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
-.nav-content {
+.nav-container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo img {
-    height: 40px;
+.tum-logo {
+    height: 2rem;
+    width: auto;
 }
 
 .nav-links {
@@ -44,149 +53,150 @@ body {
     gap: 2rem;
 }
 
-.nav-link {
-    color: white;
+.nav-links a {
+    color: var(--tum-white);
     text-decoration: none;
+    font-size: 1rem;
     transition: opacity 0.3s ease;
 }
 
-.nav-link:hover {
+.nav-links a:hover {
     opacity: 0.8;
 }
 
-/* Container Styles */
-.container {
+/* Hero Section */
+.hero {
+    background-color: var(--tum-blue);
+    padding: 8rem 0 4rem;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem;
-    flex: 1;
-}
-
-/* Header Styles */
-.header {
+    padding: 0 2rem;
     text-align: center;
-    margin-bottom: 3rem;
-    position: relative;
 }
 
-.theme-toggle {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    background: none;
-    border: none;
-    color: var(--text-color);
-    font-size: 1.5rem;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-.header h1 {
-    color: var(--primary-color);
-    margin-bottom: 1rem;
+.hero h1 {
+    color: var(--tum-white);
     font-size: 2.5rem;
+    margin-bottom: 2rem;
 }
 
-/* Search Container Styles */
+/* Search Container */
 .search-container {
     max-width: 600px;
     margin: 0 auto;
+}
+
+.search-wrapper {
     position: relative;
-    transition: all 0.5s ease;
-}
-
-.search-container.bottom {
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    max-width: 1000px;
-    padding: 0 2rem;
-    z-index: 100;
-}
-
-.search-bar {
-    width: 100%;
-    padding: 1rem 3rem;
-    border: 2px solid var(--secondary-color);
-    border-radius: 25px;
-    font-size: 1rem;
-    outline: none;
-    transition: all 0.3s ease;
-    background: white;
+    background: var(--tum-white);
+    border-radius: 2rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .search-icon {
-    position: absolute;
-    left: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--secondary-color);
+    color: var(--tum-light-blue);
+    margin: 0 1rem;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    padding: 0.8rem;
+    font-size: 1rem;
+    outline: none;
+    background: transparent;
 }
 
 .voice-input {
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--secondary-color);
-    cursor: pointer;
-    border: none;
     background: none;
-    font-size: 1.2rem;
+    border: none;
+    color: var(--tum-light-blue);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
 }
 
-/* FAQ Section Styles */
+/* FAQ Section */
 .faq-section {
-    margin-top: 4rem;
-    opacity: 1;
-    transition: all 0.5s ease;
+    padding: 4rem 0;
+    background-color: var(--tum-white);
 }
 
-.faq-section.hidden {
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(-20px);
+.section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
 
 .faq-section h2 {
-    color: var(--primary-color);
-    margin-bottom: 1.5rem;
     text-align: center;
+    color: var(--tum-blue);
     font-size: 2rem;
+    margin-bottom: 3rem;
 }
 
-.faq-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
+.faq-carousel {
+    overflow: hidden;
 }
 
-.faq-card {
-    background: white;
+.faq-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.faq-item {
+    background: var(--tum-white);
     padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px var(--shadow-color);
+    border-radius: 0.5rem;
     cursor: pointer;
-    transition: all 0.3s ease;
-    border-left: 4px solid var(--secondary-color);
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
 }
 
-.faq-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 20px var(--shadow-color);
+.faq-accent {
+    width: 4px;
+    height: 100%;
+    background: var(--tum-light-blue);
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
 }
 
-/* Chat Window Styles */
+.faq-item:hover {
+    transform: translateX(10px);
+}
+
+.faq-item h3 {
+    margin-left: 1rem;
+    color: var(--tum-text);
+    font-size: 1.1rem;
+}
+
+/* Chat Window */
 .chat-window {
     display: none;
-    max-width: 1000px;
-    margin: 2rem auto;
-    background: white;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px var(--shadow-color);
-    height: 60vh;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 400px;
+    height: 500px;
+    background: var(--tum-white);
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     overflow: hidden;
 }
 
@@ -195,81 +205,70 @@ body {
     flex-direction: column;
 }
 
-.chat-header {
-    padding: 1rem;
-    background: var(--primary-color);
-    color: white;
+.chat-container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
 }
 
-.chat-actions {
+.chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+}
+
+.chat-input {
+    padding: 1rem;
+    border-top: 1px solid var(--tum-gray);
     display: flex;
     gap: 1rem;
 }
 
-.chat-action-btn {
-    background: none;
+.chat-input input {
+    flex: 1;
+    padding: 0.8rem;
+    border: 1px solid var(--tum-gray);
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+.send-button {
+    background: var(--tum-light-blue);
+    color: var(--tum-white);
     border: none;
-    color: white;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.5rem;
     cursor: pointer;
-    font-size: 1.2rem;
-    transition: transform 0.3s ease;
+    transition: background-color 0.3s ease;
 }
 
-.chat-messages {
-    flex-grow: 1;
-    padding: 1.5rem;
-    overflow-y: auto;
+.send-button:hover {
+    background-color: var(--tum-blue);
 }
 
-.message {
-    margin-bottom: 1rem;
-    max-width: 80%;
-    padding: 1rem;
-    border-radius: 15px;
-    position: relative;
-    animation: fadeIn 0.3s ease;
-}
-
-.user-message {
-    background: var(--secondary-color);
-    color: white;
-    margin-left: auto;
-    border-bottom-right-radius: 5px;
-}
-
-.bot-message {
-    background: #f0f2f5;
-    color: var(--text-color);
-    margin-right: auto;
-    border-bottom-left-radius: 5px;
-}
-
-/* Footer Styles */
+/* Footer */
 .footer {
-    background: var(--primary-color);
-    color: white;
-    padding: 1rem 2rem;
+    background-color: var(--tum-blue);
+    padding: 1.5rem 0;
     margin-top: auto;
 }
 
-.footer-content {
+.footer-container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 2rem;
 }
 
 .footer-links {
     display: flex;
-    justify-content: flex-start;
     gap: 2rem;
     flex-wrap: wrap;
 }
 
 .footer-links a {
-    color: white;
+    color: var(--tum-white);
     text-decoration: none;
+    font-size: 0.9rem;
     transition: opacity 0.3s ease;
 }
 
@@ -277,64 +276,9 @@ body {
     opacity: 0.8;
 }
 
-/* Feedback Popup Styles */
-.feedback-popup {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: white;
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px var(--shadow-color);
-    display: none;
-    animation: slideInRight 0.3s ease;
-}
-
-.feedback-buttons {
-    display: flex;
-    gap: 0.5rem;
-    margin-top: 0.5rem;
-}
-
-.feedback-btn {
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-.feedback-btn.positive {
-    background: var(--secondary-color);
-    color: white;
-}
-
-.feedback-btn.negative {
-    background: #e74c3c;
-    color: white;
-}
-
-/* Animations */
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-@keyframes slideInRight {
-    from { transform: translateX(100%); }
-    to { transform: translateX(0); }
-}
-
-/* Dark Mode */
-body.dark-mode {
-    --background-color: #1a1a1a;
-    --text-color: #ffffff;
-    --shadow-color: rgba(255, 255, 255, 0.1);
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
-    .nav-content {
+    .nav-container {
         flex-direction: column;
         gap: 1rem;
     }
@@ -345,38 +289,38 @@ body.dark-mode {
         gap: 1rem;
     }
 
-    .search-container.bottom {
-        bottom: 70px;
+    .hero {
+        padding: 6rem 0 3rem;
     }
 
-    .faq-grid {
-        grid-template-columns: 1fr;
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .search-wrapper {
+        margin: 0 1rem;
     }
 
     .chat-window {
-        height: 70vh;
-        margin: 1rem;
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+        right: 0;
+        border-radius: 0;
     }
 
     .footer-links {
         justify-content: center;
+        text-align: center;
     }
 }
 
 @media (max-width: 480px) {
-    .container {
-        padding: 1rem;
+    .hero h1 {
+        font-size: 1.5rem;
     }
 
-    .header h1 {
-        font-size: 1.8rem;
-    }
-
-    .search-bar {
-        padding: 0.8rem 2.5rem;
-    }
-
-    .message {
-        max-width: 90%;
+    .faq-item h3 {
+        font-size: 1rem;
     }
 }
