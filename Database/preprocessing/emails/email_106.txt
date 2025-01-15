@@ -1,0 +1,24 @@
+[HEADER_REDACTED_AUTOMATICALLY]
+[REDACTED],
+Thank you for your interest in our study program. Of course, I’m happy to answer your questions:
+  *   Your course “Research and Methods” would pass as sufficient, if you also provide us a description of what has been taught in the course, so we can see that there were indeed statistical methods taught. However, from the other courses you mentioned, I would actually recommend you to follow [REDACTED] with R, just for your own sake, so you have a bit more background knowledge to help you when you start in AI in Society (as, I suppose, maybe you did not study very technical subjects in an [REDACTED]’s?). That’s just a recommendation.
+  *   How about you describe to me roughly what your project was about – I could then tell you if it sounds sufficient. 😊
+  *   It technically does not matter when in this period you send your application. However, due to the big amount applications, this year we had to split up the aptitude test into multiple dates. Please don’t take “first come, first serve” as a solid rule here, but I would recommend submitting your application rather sooner than later.
+I hope I could help a bit!
+Best wishes
+[NAME_REDACTED_AUTOMATICALLY]
+---
+[NAME_REDACTED_AUTOMATICALLY]
+[HEADER_REDACTED_AUTOMATICALLY]
+[HEADER_REDACTED_AUTOMATICALLY]
+[NAME_REDACTED_AUTOMATICALLY]
+I recently noticed your Masters program titled ‘AI in Society’, and became very interested in applying as soon as the registration opens in 2025. A bit about me: I am now in the final year of my Bachelor program in [REDACTED] at the University of Malmö in Sweden. However, although it seems I will meet the program-requirements based on my current curriculum, I still have some questions. Could you help me answer whether:
+  *   I meet the requirement of having 5 ECTS in mathematics/statistics passed if I successfully completed a 7.5 ECTS module on “Research and Methods”. Although the title does not specify the inclusion of statistics, a substantive part of this module focused on quantitative research methodology. If this is not deemed sufficient, would you be able to tell me whether (one of the) following courses does/does not meet this requirement (in case my current module is not sufficient, I would follow one of the following courses in order to meet the requirement):
+     *   [REDACTED] in [REDACTED] (7.5 ECTS)
+     *   [REDACTED] with R (7.5 ECTS)
+     *   [REDACTED] with R (4.5 ECTS)
+  *   In relation to the 18 ECTS practical project, could you elaborate on what is meant with ’technical tools’ or ’similar’? See the following excerpt from the website page: "They especially need to involve a practical aspect, e.g. you should have investigated or worked on a societal problem with technical tools, for example programming, statistical analysis, or similar.”. Would the use of any quantitative method during the project suffice for example? What if the project combines quantitative and qualitative methods?
+  *   Does it matter during which period of the application opening (between February and May 31st) I apply for the program? For example, will everyone receive their admission result at the same time, and will the aptitude test be held on different dates?
+I hope you can help me answer these questions; I look forward to applying for the program!
+Best,
+[REDACTED]

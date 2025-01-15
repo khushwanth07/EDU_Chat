@@ -1,0 +1,63 @@
+Subject: Re: [REDACTED] for [REDACTED]: Mailbox(name='[REDACTED]@sot.tum.de [TUS7HTL]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@163.com
+CC: 
+Date: 2024-07-09 07:19:55+00:00
+Body:
+[REDACTED],
+According to our plan, your interview is taking place on July 10th, 09:30 – 10:00. You will receive a link at some point during the day today.
+Best wishes
+[MANUALLY REDACTED]
+---
+[REDACTED]
+PhD Candidate
+Coordination TUM Master AI in Society
+[REDACTED]
+TUM School of [REDACTED] and Technology
+https://www.gov.sot.tum.de/rds
+Von: ZOU SHIYU <[REDACTED]@163.com>
+Datum: Dienstag, 9. Juli 2024 um 08:55
+An: "[REDACTED]@sot.tum.de [TUS7HTL]" <[REDACTED]@sot.tum.de>
+Betreff: [REDACTED] for [REDACTED]
+[REDACTED]. [REDACTED],
+I hope this message finds you well. My name is [REDACTED], and I am writing to confirm the details for the second stage interview, for which I have already selected a time.
+According to our previous communication, I understand that the Zoom meeting link for the interview will be sent approximately 12 hours before the scheduled interview time. However, I have not yet received any email containing the specified Zoom meeting link. Could you please clarify the expected format and approximate timing for when the link will be sent? This information will greatly assist me in ensuring that I am prepared and able to join the meeting on time.
+Thank you very much for your attention to this matter. I look forward to your response.
+在 2024-07-02 18:46:47，"[REDACTED]@sot.tum.de [TUS7HTL]" <[REDACTED]@sot.tum.de> 写道：
+[REDACTED],
+Another applicant also had a similar “issue”. Apparently, the website automatically converts the times to your timezone. So, what you are seeing is just according to your timezone, not CEST.
+Best,
+[MANUALLY REDACTED]
+---
+[REDACTED]
+PhD Candidate
+Coordination TUM Master AI in Society
+[REDACTED]
+TUM School of [REDACTED] and Technology
+https://www.gov.sot.tum.de/rds
+Von: ZOU SHIYU <[REDACTED]@163.com>
+Datum: Dienstag, 2. Juli 2024 um 12:36
+An: "[REDACTED]@sot.tum.de [TUS7HTL]" <[REDACTED]@sot.tum.de>
+Betreff: Re:M.Sc. AI in Society - Invitation to Interview
+[REDACTED]. [REDACTED],
+I hope this message finds you well.
+I am honored to have received the notification for the second interview for the AI in Society program. Thank you very much for this valuable opportunity!
+When scheduling the interview, I noticed that the prompt states, "Times are given in CEST," but in the Antwort section below, the time zone is listed as Asia/Shanghai. To avoid any errors, could you please confirm whether I should follow the Asia/Shanghai time zone mentioned in the Antwort section when arranging the interview time?
+Thank you for your assistance and guidance!
+Dear applicant,
+Thank you for taking part in the aptitude test for the M.Sc. AI in Society at TUM on the 26th of June 2024. We have assessed your application and test scores, and as a result would like to invite you to the second stage of the aptitude assessment in the form of an interview.
+During the aptitude interview, two members of the selection committee will discuss your motivation for choosing this degree program. They will also explore your willingness to engage in interdisciplinary learning and work, your professional interests, any previous specializations, and your professional background to assess how well these align with the goals of the program and your career aspirations. We will focus on understanding your motivation for the study program, not testing your knowledge on specific subjects.
+The interviews will take place from July 3rd to July 10th and will be conducted online over Zoom.
+How to select a timeslot:
+Please use the following link: https://app.kulibri.com/pr/GY6mLGdlpEg0/1BWn1BWnmarZw9zE
+You will need to enter your email address as well as your full name. Please then choose one timeslot that works best for you. Try to refrain from selecting multiple timeslots, as they are limited. Each timeslot can only be selected by one person, therefore the distribution of slots works by the principle “first come, first serve”. Don’t forget to submit your answer after selecting.
+Should you want to change your selection later, you will be able to do so yourself. However, please shortly let us know in case you had to change your slot (especially last minute).
+As soon as you have selected a time slot, you can think of it as confirmed – there will be no additional email confirming your timeslot. You will receive your personal Zoom link at least 12 hours in advance to your interview. Before the conversation, please make sure everything works from your end (camera, microphone, internet connection).
+If you have any questions about the procedure, please reach out to [REDACTED]@sot.tum.de<mailto:[REDACTED]@sot.tum.de>
+We are looking forward to getting to know to you better!
+---
+[REDACTED]
+PhD Candidate
+Coordination TUM Master AI in Society
+[REDACTED]
+TUM School of [REDACTED] and Technology
+https://www.gov.sot.tum.de/rds

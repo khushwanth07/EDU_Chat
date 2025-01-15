@@ -1,0 +1,17 @@
+Body:
+[REDACTED],
+Thank you for your interest in the M.Sc. AI in Society. Please excuse the late reply.
+Your background sounds very good. Technically, we can count practical projects that were not part of a university module. However, you would then need to provide us with an official documentation that those practical projects in total spanned at least 540 hours for completion (540h correspond to 18 ECTS). Is this possible for you?
+Unfortunately, as much as we would want to, we can't just let you compile an own project without an official documentation about how much time was spent for it. Please understand that we need to compare students' achievements universally somehow; this we can do by setting a minimum of ECTS credits, or, hours invested.
+If it's somehow possible for you to officially document your projects with hours invested, we'd be happy to receive your application!
+If you have any more questions, please reach back out.
+--- 
+[REDACTED] 
+
+[REDACTED]. [MANUALL_REDACTED],
+I come from [REDACTED] and I finished my bachelor’s degree in [REDACTED] with focus on [REDACTED].
+I am very interested in the AI for society program, and would like to ask about the requirement, specifically regarding the practical project.
+Does the practical project need to be recognized with credits, i.e. does it have to be part of my university course? Would individual projects or volunteer experience be able to also contribute to the requirement? E.g. I won a competition to generate an electricity-management model that reduces campus electricity cost. I also conducted environmental education and practice on the topic of clothing waste and wind power generators for elementary school.
+Can the project be part of a course or does it have to stand indiviually? E.g. course “introduction to medical engineering” incorporates a small project, would this count?
+If from my university, I do not officially 18 credits for a practical project in social science, is there a way to make up for this requirement? E.g. by compiling my own project, Kaggle, etc.
+Thank you very much for your help and answer in advance.

@@ -1,0 +1,17 @@
+Body:
+Dear [MANUALL_REDACTED],
+Thank you for your interest in the M.Sc. AI in Society.
+To answer your questions: there are no limitations on who can apply, per se. Meaning, it does not mean which Bachelor’s program you have studied specifically. It only matters that you fulfil the requirements, which you can find here: https://www.sot.tum.de/sot/studium-1/ai-in-society/
+If you fulfil (most importantly) the requirements of having passed at least 5 ECTS from the fields of mathematics / statistics, as well as have completed a practical project worth at least 18 ECTS (more information here: https://www.sot.tum.de/sot/studium-1/ai-in-society/application/), we highly encourage you to apply.
+[REDACTED] of [REDACTED] means the following: we ask you to submit to us your best 140 ECTS credits. Meaning, listing the modules where you got the best grades, overall worth 140 credits (your bachelor’s probably spanned 180 credits, but we’re just asking for the best). In the application process, there will be forms where you can enter this information. The information you found about 90 credits is referring to something different and is not relevant for this Master’s.
+I hope I could clarify these points for you. If you have other questions or something is still not quite clear, please reach back out to me.
+
+Betreff: Application requirements
+Dear official,
+I am a prospective applicant for the AI in Society program. As I was roaming through the website, I have not come across with any information where it is specified whom can apply for it. Are there any limitations for applications? I am a [REDACTED] graduate who is highly interested in the intersection of Data, AI, Quantitative methods with social sciences. I also possess some data analysis and programming skills. Do you think I could apply to the program?
+Another question relates to required documents. On the program website a 'List of [REDACTED]’ is specified as a requirement. When I looked into it, I saw that it is explained as follows:
+"For all other Master’s programs offered by the [REDACTED] for Technology in Society list 90 credits (or half of the credits required for your undergraduate degree)."
+However, I am not sure if I completely understand what this means. Would you be so kind to help me understand the context of this requirement?
+Many 
+Best
+[MANUALL_REDACTED]

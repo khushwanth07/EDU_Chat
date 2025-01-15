@@ -1,0 +1,11 @@
+[HEADER_REDACTED_AUTOMATICALLY]
+[REDACTED],
+Könntest du bitte die restlichen Leute mit Unterlagen auf „eingegangen“ noch auf OK setzen? Das wären konkret folgende:
+  *   1-[NUMBER_REDACTED_AUTOMATICALLY]<https://campus.tum.de/tumonline/pl/ui/$ctx/!wbBewerbungEdit.editBewerbung?pOrgNr=[NUMBER_REDACTED_AUTOMATICALLY]&pBewerbungNr=[NUMBER_REDACTED_AUTOMATICALLY]&pBLpOrgNr=[NUMBER_REDACTED_AUTOMATICALLY]&pBLpStSemNr=203&pBLpSort=3&pUrlNr=8> [REDACTED]
+  *   1-[NUMBER_REDACTED_AUTOMATICALLY]<https://campus.tum.de/tumonline/pl/ui/$ctx/!wbBewerbungEdit.editBewerbung?pOrgNr=[NUMBER_REDACTED_AUTOMATICALLY]&pBewerbungNr=[NUMBER_REDACTED_AUTOMATICALLY]&pBLpOrgNr=[NUMBER_REDACTED_AUTOMATICALLY]&pBLpStSemNr=203&pBLpSort=3&pUrlNr=8> [REDACTED]
+  *   1-[NUMBER_REDACTED_AUTOMATICALLY]<https://campus.tum.de/tumonline/pl/ui/$ctx/!wbBewerbungEdit.editBewerbung?pOrgNr=[NUMBER_REDACTED_AUTOMATICALLY]&pBewerbungNr=[NUMBER_REDACTED_AUTOMATICALLY]&pBLpOrgNr=[NUMBER_REDACTED_AUTOMATICALLY]&pBLpStSemNr=203&pBLpSort=3&pUrlNr=8> [REDACTED]
+  *   1-[NUMBER_REDACTED_AUTOMATICALLY]<https://campus.tum.de/tumonline/pl/ui/$ctx/!wbBewerbungEdit.editBewerbung?pOrgNr=[NUMBER_REDACTED_AUTOMATICALLY]&pBewerbungNr=[NUMBER_REDACTED_AUTOMATICALLY]&pBLpOrgNr=[NUMBER_REDACTED_AUTOMATICALLY]&pBLpStSemNr=203&pBLpSort=3&pUrlNr=8> [REDACTED]
+  *   1-[NUMBER_REDACTED_AUTOMATICALLY]<https://campus.tum.de/tumonline/pl/ui/$ctx/!wbBewerbungEdit.editBewerbung?pOrgNr=[NUMBER_REDACTED_AUTOMATICALLY]&pBewerbungNr=[NUMBER_REDACTED_AUTOMATICALLY]&pBLpOrgNr=[NUMBER_REDACTED_AUTOMATICALLY]&pBLpStSemNr=203&pBLpSort=3&pUrlNr=8> [REDACTED]
+[REDACTED] dir.
+---
+[NAME_REDACTED_AUTOMATICALLY]

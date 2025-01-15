@@ -1,0 +1,25 @@
+[HEADER_REDACTED_AUTOMATICALLY]
+[REDACTED],
+Sollten 6 ECTS sein. Ich glaube, das was sie geschickt hat, ist eigentlich schon die Modulbeschreibung. Kannst du grob beurteilen, ob das passend klingt, oder komplett unpassend?
+Danke und 
+[HEADER_REDACTED_AUTOMATICALLY]
+[HEADER_REDACTED_AUTOMATICALLY]
+[REDACTED],
+am besten sie sollte eine Modulbeschreibung einreichen. Wie viel ECTS ist das?
+[HEADER_REDACTED_AUTOMATICALLY]
+[HEADER_REDACTED_AUTOMATICALLY]
+[REDACTED],
+ich habe eine Bewerberin, die sich letztes Jahr schon beworben hat, aber die wir wegen mangelnder Mathevorkenntnisse ablehnen mussten. Sie macht jetzt folgenden Kurs extra an der LMU:
+"[REDACTED]: Hands-on with bootstrap and [REDACTED]"
+Content:
+In this course, we will learn how to conduct empirical analyses through the lenses of permutation- and bootstrap-based techniques. In particular, we will uncover how these nonparametric methods allow us to make reliable inferences under minimal assumptions in a data-driven way.
+This course offers a unique blend of three domains: a solid theoretical foundation, a careful treatment of the computational principles, and a comprehensive revision of key applications that are essential for causal inference. This way, you will understand the basics of nonparametric inference and how to apply it in practice.
+Using real-world examples from experimental or observational data, we will gain experience by applying these methods to uncover causal relationships and draw robust conclusions. Crucially, we will engage in hands-on projects where you can put your coding skills to the test.
+Evaluation:
+The final grade is entirely based on an oral exam. You will be evaluated based on the three core principles of the course, that is
+1.    Applying basic mathematical tools on paper or whiteboard based on the material we covered in class.
+2.    Analyzing a real-world problem using the tools we covered in class. This will entail understanding the statistical environment, the basic assumptions underlying the resampling method one can apply, and the computational challenges or limitations of the method.
+Interpreting the empirical results and having a rigorous discussion about it.
+-------------------------------------------
+Ich möchte mir von dir eine Bestätigung einholen, ob wir das sicher für die 5 ECTS Mathe/Statistik zählen lassen werden, oder nicht. Ist der Kurs aus deiner Sicht ausreichend?
+[REDACTED] und

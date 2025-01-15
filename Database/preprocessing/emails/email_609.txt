@@ -1,0 +1,71 @@
+Body:
+[REDACTED],
+Thank you for pointing this out, we will fix it for the next iteration of applicants. For now, please don’t use the form filling function in those fields, but instead just put the text on top.
+As for the document explaining the credit calculation: yes, please attach this to your application. You can attach it to the end or beginning of the form, whichever way works. We will refer to it when converting your credits to ECTS, since it is an official statement from your university.
+Thank you and best wishes
+[REDACTED]
+
+Betreff: RE: 2-[MANUALL_REDACTED] - Questions regarding the online application
+[REDACTED],
+I have found a bug in the pdf template “best_credits_form_ais final”, please find the attachment, the two blocks with “this block has bug” always change at the same time instead of being independent.
+Besides, regarding the converting from my bachelor university credit system to ECTS, my bachelor program
+“Chinesisch-[REDACTED] für [REDACTED] der Tongji-Universität (CDHAW)”
+https://www.dhik.org/kooperationen/cdhaw/
+https://de.tongji.edu.cn/berblick/Colleges/CDHAW.htm
+https://cdhaw.tongji.edu.cn/zde/main.htm
+has an official document “Ergänzende Erklärung zur Studienleistungsanrechnung_CDHAW” (see attachment).
+Should I attach it directly to “best_credits_form_ais final” for your reference? (if yes, in the beginning or end?)
+Would you recognize this document for your evaluation process?
+Thank you very much for your support and help.
+I look forward to receiving your reply.
+--------------------------------------------------------------------------------
+DAI, [MANUALL_REDACTED] (Mr.)
+
+
+Subject: RE: 2-[MANUALL_REDACTED] - Questions regarding the online application
+[REDACTED],
+Thank you for your prompt reply. That’s a great help!
+I wish you a pleasant and healthy time.
+
+Subject: Re: 2-02144753 - Questions regarding the online application
+[REDACTED],
+To answer your questions:
+  1.  In the form for “best 140 ECTS”, please refer to your bachelor’s transcript.
+  2.  I would choose “Second degree” in this case, since it would be your second Master’s degree.
+Best wishes
+[REDACTED]
+
+Betreff: RE: 2-[MANUALL_REDACTED] - Questions regarding the online application
+[REDACTED],
+I hope this email finds you well.
+My name is [REDACTED] (Stu-ID: 03751038), currently studying Robotics, Cognition, Intelligence (M.Sc.) in the 6th semester at TUM.
+I would like to ask for my case (currently study master RCI at TUM), the application for AI for Society is “Consecutive masters courses” OR “Second degree”? FYI, I have two bachelor in Mechatronics.
+Thank you very much for your support and help.
+I look forward to receiving your reply.
+--------------------------------------------------------------------------------
+
+Subject: Re: 2-02144753 - Questions regarding the online application
+[REDACTED],
+Thank you for your email and your interest in the MSc AI in Society.
+To answer your questions:
+  1.  Please name your Bachelor’s degree here, as you can not apply to a Master’s program with another Master’s program.
+  2.  As mathematics and statistics are inherently part of [REDACTED], we would let this pass.
+  3.  For all three of your options: yes. In any case, please make sure their contents adhere to our requirements: https://www.sot.tum.de/sot/studium/ai-in-society/application/ As you come from a technical background, please make sure to especially highlight the interdisciplinary aspect of your projects.
+  4.  In this case, please upload the same IELTS certificate again in your application to AI in Society.
+I hope I could answer your questions. If anything else is unclear, please reach back out to me.
+Best wishes
+[REDACTED]
+---
+
+Betreff: 2-[MANUALL_REDACTED] - Questions regarding the online application
+[REDACTED] and [REDACTED],
+I hope this email finds you well.
+My name is [REDACTED] (Stu-ID: 03751038), currently studying Robotics, Cognition, Intelligence (M.Sc.) in the 6th semester at TUM.
+I am very interested in applying for a second master program “AI in Society” in WS24/25.
+And would like to ask the following questions:
+  1.  For the “Entrance qualification for Master’s program” in the application procedure, should I choose my on-going master program RCI at TUM OR choose one of my bachelor (I have a double bachelor degree)?
+  2.  For the “Proof of passing module in math or statistics”, I would like to use the course “[REDACTED] and [REDACTED] (IN2028, 5 ECTS)” at TUM, Is it appropriate? Does this option strictly have to be pure math? E.g., linear algebra, statistics, etc.
+  3.  For the “Proof of successful participation in a practical project.. at leat 18 credits”, can I use my bachelor praktikum (10 ECTS) + TUM practical course (10 ECTS) to fullfill this requirement? Is my bachelor thesis (12 ECTS, a computer vision project) can also be recognized as a practical project here?
+  4.  For the “Evidence of English”, I have already been checked with IELTS when I apply for the RCI master program, how can I fullfill this requirement automatically?
+Thank you very much for your support and help.
+I look forward to receiving your reply.

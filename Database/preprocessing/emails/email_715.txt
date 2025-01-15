@@ -1,0 +1,14 @@
+Body:
+[REDACTED],
+Thank you for your interest in the M.Sc. AI in Society.
+I understand your problem. I propose the following solution: could you download the respective form two times to fill in all your modules, then mark which is the first, and which is the second (e.g. insert “1” and “2” somewhere on the PDF), and upload both of them? Possibly you need to merge these two PDFs back into one.
+Please let me know if this does not work.
+---
+[REDACTED]
+
+Betreff: Foreign university's courses are not provided in the form of modules
+Hello, I'm an applicant from Beijing Institute of Technology, China. I'm redirected to you for help from the TUM [REDACTED].
+I'm applying for the master program "AI in Society", and it requires several forms in which I should list some of my "modules", while in BIT there's no such thing. The courses can be maximally classified as like "major required course" while both "[REDACTED]" and "[REDACTED]" are "major required course".
+I can try to fill the forms by just treating modules as courses, but in the form "List of best 140 Credits" there are only around 40 rows for modules, and since BIT's credit system is not based on ECTS, I should list all of my "modules", while until now there are more than 60 courses on my transcript of record.
+I wonder what I should do to deal with this (modules and courses), or maybe you can just send me all the required forms all with extra rows?
+Best wishes.

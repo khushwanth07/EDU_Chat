@@ -1,0 +1,24 @@
+[HEADER_REDACTED_AUTOMATICALLY]
+[REDACTED],
+Thank you for your interest. For any questions, please reach out to [REDACTED], who is responsible for this project week.
+Best wishes
+[NAME_REDACTED_AUTOMATICALLY]
+[HEADER_REDACTED_AUTOMATICALLY]
+[HEADER_REDACTED_AUTOMATICALLY]
+[REDACTED],
+Would you please tell me when exactly this project would take place?
+Oliver
+[HEADER_REDACTED_AUTOMATICALLY]
+[NAME_REDACTED_AUTOMATICALLY]
+I would like to forward you an advertisement for a project week suitable for students of AI in Society. Feel free to check it out!
+[REDACTED]
+[REDACTED]
+-----------
+[NAME_REDACTED_AUTOMATICALLY]
+we introduced a new project week where you will have the chance to develop an AI-based chatbot for study counseling, with our AI in Society program serving as the first use case. The goal is to create a chatbot that provides accurate answers to frequently asked questions from students and prospective applicants using curated information.
+During this project, you will:
+  *   Work with cutting-edge technologies in [REDACTED] (AI) and [REDACTED] (NLP) to design a user-friendly solution.
+  *   Learn and apply key AI concepts in a hands-on, practical setting.
+  *   Help position the AI in Society program at the forefront of responsible AI-powered study counseling.
+We are looking for students who are passionate about programming and enthusiastic about exploring natural language processing and chatbot development.
+You can register for the course at https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/[NUMBER_REDACTED_AUTOMATICALLY]?$scrollTo=toc_overview. If you have any questions, feel free to contact [REDACTED] at [REDACTED]@tum.d[IMAGE_REDACTED_AUTOMATICALLY]ailto:[REDACTED]@tum.de>.

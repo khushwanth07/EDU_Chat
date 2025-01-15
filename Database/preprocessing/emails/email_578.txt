@@ -1,0 +1,15 @@
+Body:
+Dear applicant,
+  1.  The tuition fee for international applicants amounts to 4000€ per semester. You can look up this information online.
+  2.  Yes, you can.
+  3.  We are not yet sure if we are offering an online option. If the test will only be conducted in person, we are requiring the applicants to take the test in person.
+---
+
+Betreff: Information required
+Hello
+Hope you are doing well. I am [REDACTED] from [MANUALL_REDACTED]. I am interested in taking admission in your university. I want to take admission in your program "AI in society".
+I've few questions.
+1. What is tuition fee? In total including everything for a semester
+2. Can i apply as an international student.?
+3. How would i give aptitude test in person as I'm not in Germany right now.? Any online options available.?
+Regards

@@ -1,0 +1,18 @@
+Body:
+Dear applicant,
+The comment on your VPD status is the following:
+“You have indicated that you have applied for the VPD in full. Your proof of this has been received and provisionally OK. The document is now only set to "not OK" so that you can upload the final VPD here. Uni-assist will email you the final VPD once it is complete. Please upload the final VPD for TUM here as soon as you receive it. However, if we then discover that your documents have not been received by [REDACTED] in full by the deadline, you will be excluded from the application process.”
+Meaning:
+  *   For now, everything is OK. You don’t need to upload the final VPD by May 31st, but can upload it to us later, as soon as you receive it.
+  *   What is important however, is that you have sent your full documents to uni-assist by May 31st. We can verify this. So, if you applied for a VPD correctly with your full documents by May 31st, everything is fine.
+I hope this makes it clear.
+
+Betreff: Queries related to Maters VPD [TUM#2024052310000652]
+Hello,
+I have applied for Ms 'AI in Society' and I am yet to submit my final VPD and this may take some time. I read in a FAQ that we will be given grant time till 15.07, but in my application page it says that the VPD final document should be uploaded by 31.05.
+So can you please clear this uncertainty?
+Applicant number
+2-[MANUALL_REDACTED]
+Application number
+1-[MANUALL_REDACTED]
+[REDACTED]

@@ -1,0 +1,28 @@
+[REDACTED].
+Bei den Punkten „Übertragungsweg der Rechnung“ und „Email address for digital invoice“ muss ich etwas eintragen, sonst kann ich den Eintrag nicht an Sie freigeben.
+Von: "Koll, Daniel" <[REDACTED]@zv.tum.de>
+Datum: Montag, 15. April 2024 um 08:33
+An: "[REDACTED]@sot.tum.de [TUS7HTL]" <[REDACTED]@sot.tum.de>
+Cc: [REDACTED] <[REDACTED]@tum.de>, [REDACTED] <[REDACTED]@tum.de>
+Betreff: AW:
+[REDACTED],
+hier die Antworten:
+  1.  Bitte hier „nein“ auswählen. [REDACTED] ist leider nicht möglich, da wir Basis Einträge (vom CST gezahlt) und Premium-Einträge (von den Schools gezahlt) haben. Nur die Studiengänge mit Premium-Eintrag müssen hier etwas eingeben, bei den Basis Einträgen kommt unsere Rechnungsadresse bei der letzten Nachkontrolle hinein.
+  2.  Wir tragen hier unsere Daten am 03.05. für alle Basis Einträge ein. Sie können diese Felder also leer lassen.
+[REDACTED]
+Von: [REDACTED]@sot.tum.de [TUS7HTL] <[REDACTED]@sot.tum.de>
+Gesendet: Sonntag, 14. April 2024 13:02
+An: Koll, Daniel <[REDACTED]@zv.tum.de>
+Cc: [REDACTED] <[REDACTED]@tum.de>; [REDACTED] <[REDACTED]@tum.de>
+Betreff: Re:
+[REDACTED],
+[REDACTED]! Ich bin gerade dabei den Eintrag zu erstellen, und habe ein paar Rückfragen, damit ich es richtig ausfülle:
+  1.  „I want a collective invoice (Sammelrechnung)” -> Ja/Nein? Ich nehme an, ja?
+  2.  “Übertragungsweg der Rechnung“:
+-> Postweg
+-> E-Mail (PDF)
+-> E-Mail (X-Rechnung)
+-> PEPPOL
+Was sollte bei den Punkten ausgewählt werden?
+[REDACTED] und beste Grüße
+[REDACTED]

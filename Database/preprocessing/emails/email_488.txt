@@ -1,0 +1,41 @@
+Subject: Re: AIS ok [REDACTED]: Mailbox(name='[REDACTED]@sot.tum.de [TUS7HTL]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@tum.de, [REDACTED]@tum.de
+CC: 
+Date: 2024-06-09 15:16:27+00:00
+Body:
+[REDACTED],
+Ok, was meinst du mit c+p? Und mit Nachreichung: also fordern wir jetzt nichts mehr nach, und gewähren das nur, falls sich jemand beschwert?
+Zum ImmatAmt bin ich aktuell mit einer Nina in Kontakt (habe leider keinen Nachnamen erfahren), sie bearbeitet aktuell die Bewerber. Sie erreichst du entweder über [REDACTED]@cst.tum.de<mailto:[REDACTED]@cst.tum.de> oder telefonisch hat sie mir folgende Durchwahl gegeben: -22025.
+[REDACTED] allgemein ist „TUM CST – Bewerbung und Immatrikulation“. Leiterin ist [REDACTED]: +49 (89) 289 – 22843
+[REDACTED] können wir ja weiterhin im Juli durchführen. Aktuell ist der Zeitraum 1.-12. Juli geplant, wenn wir den Test vom 25.6 auf den 2.7 schieben, würden wir die Interviews auf 8.-19.7 schieben. Aber wenn du meinst, das geht nicht, dann lassen wir das. Kommt aber auch darauf an, was du vom ImmatAmt erfährst.
+LG [MANUALLY REDACTED]
+---
+[REDACTED]
+PhD Candidate
+Coordination TUM Master AI in Society
+[REDACTED]
+TUM School of [REDACTED] and Technology
+https://www.gov.sot.tum.de/rds
+Von: [REDACTED] <[REDACTED]@tum.de>
+Datum: Sonntag, 9. Juni 2024 um 16:21
+An: "[REDACTED]@sot.tum.de [TUS7HTL]" <[REDACTED]@sot.tum.de>, [REDACTED] <[REDACTED]@tum.de>
+Betreff: AW: AIS ok Kandidaten
+[REDACTED],
+die 14 neuen Fälle sind ok, die kannst du gerne durchgeben.
+Verteile gerne die übrigen Fälle an die AK mit separaten Tabellen (c+p in neue Liste pro Mitglied). Wenn möglich, sollten wir die Möglichkeit der Nachreichung einräumen, nur falls jemand sein Recht einklagen möchte und eine kurzfristige Deadline (2 Tage statt 5 Sätzen).
+Wer sind die Ansprechpartner beim ImmatAmt? Ich würde gerne dort anrufen und auf unseren Testtermin aufmerksam machen. Aus anderen Studiengängen habe ich von diesen Engpässen noch nichts gehört, vielleicht kann man die Aufgaben anders aufteilen.
+[REDACTED] sollten wir nicht verschieben. Wie mit der AK besprochen, haben wir die Interviews im Juli eingeplant und sollten diesen Prozess auch vor Ende der Vorlesungszeit durchführen. Die meisten unserer Studierenden sind internationale Bewerber. Wenn wir zu spät sind, können die unmöglich zum Oktober starten (der Programmierkurs fängt schon zum 7.10. an) oder werden sich dann für einen anderen Studienplatz entscheiden. In beiden Fällen hätte das für AiS negative Auswirkungen.
+[MANUALLY REDACTED]
+Von: [REDACTED]@sot.tum.de [TUS7HTL] <[REDACTED]@sot.tum.de>
+Gesendet: Sonntag, 9. Juni 2024 13:56
+An: [REDACTED] <[REDACTED]@tum.de>; [REDACTED] <[REDACTED]@tum.de>
+Betreff: AIS ok Kandidaten
+[REDACTED], [REDACTED],
+In der Tabelle sind 14 neue Kandidaten auf „All OK“, gebt mir bitte kurz Bescheid. Damit sind aktuell alle neuen Kandidaten geprüft, die ich vom ImmatAmt bekommen habe.
+Zum weiteren Ablauf: ich schicke heute eine allgemeine E-Mail an die Kommissionsmitglieder raus, mit der timeline die wir aktuell planen (siehe deine letzte Email, Enkelejda). Die Fälle, die ich bisher habe und noch unentschieden sind, verteile ich an die Mitglieder.
+Da würde ich wohl im shared folder für jeden separat eine Tabelle zum Ausfüllen erstellen, mit nur den Kandidaten, die sie auch bearbeiten sollen. Es wird problematisch, wenn mehrere Leute gleichzeitig die „Haupttabelle“ im shared folder bearbeiten wollen, das System ist ja nicht für live Kollaboration gedacht. So vermeiden wir, dass irgendetwas schief geht, und die Leute sind auch weniger verwirrt, was sie bearbeiten sollen.
+Bei der Prüfung fallen mir schon ein paar Kandidaten auf, wo ich vor der deadline gesagt hätte, wir bitten um Nachreichung, da Beschreibung unklar. Ich würde das ab jetzt komplett lassen, und die Kommission auf Basis dessen, was die Bewerber hochgeladen haben, entscheiden lassen. Das ImmatAmt kann zwar einmalig nochmal 5 [REDACTED] hinterlegen, aber wir sind so spät dran, dass das nicht mehr möglich sein wird (Nachreichung rechtzeitig bekommen, nochmal prüfen durch Kommission, 1 Woche vor Test fertig werden).
+Allgemein: ich kann nicht absehen, ob das ImmatAmt rechtzeitig die übrigen 160 Bewerber durchprüft. Wenn wir mit x Kandidaten nicht rechtzeitig fertig werden, können wir diese wohl oder übel erst zum Zweittermin zum Test einladen. Ich weiß nicht, wie problematisch das ist, aber es fehlen einfach die Kapazitäten. [REDACTED] dort arbeiten auch schon auf Hochtouren.
+Sagt mir gern kurz Bescheid, ob der Vorschlag mit den separaten Tabellen so passt.
+LG
+[MANUALLY REDACTED]

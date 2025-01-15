@@ -1,0 +1,12 @@
+Body:
+Hello,
+This is the comment inside your application:
+“You have indicated that you have applied for the VPD in full. Your proof of this has been received and provisionally OK. The document is now only set to "not OK" so that you can upload the final VPD here. Uni-assist will email you the final VPD once it is complete. Please upload the final VPD for TUM here as soon as you receive it. However, if we then discover that your documents have not been received by [REDACTED] in full by the deadline, you will be excluded from the application process.
+Please note our regulations: https://www.tum.de/studium/bewerbung/uni-assist/”
+I hope this is clear now. Please reach back out in case of further questions.
+
+Betreff: VPD issue
+[REDACTED],
+Please check attached screenshot and guide me what is the issue, I already applied for uni assist VPD, and upload a form on TUM portal about that
+[cid:image001.png@01DAA13B.DC6ACC60]
+[cid:image002.png@01DAA13B.DC6ACC60]

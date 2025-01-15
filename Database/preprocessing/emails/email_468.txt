@@ -1,0 +1,25 @@
+Subject: Re: [REDACTED]: Mailbox(name='[REDACTED]@sot.tum.de [[MANUALLY REDACTED]]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@nirmauni.ac.in
+CC: 
+Date: 2024-06-18 14:18:12+00:00
+Body:
+[REDACTED],
+Up until now, the students were checked for formal requirements by our admissions committee, i.e. whether you have submitted all necessary documents, as well as whether your submitted practical projects are sufficient.
+Those students who have passed this stage will receive an email with an invitation to the test in the next days.
+Our time is CEST. But if there are any unclarities, please just orient yourself for Berlin time.
+Best wishes
+[REDACTED]
+---
+[REDACTED]
+PhD Candidate
+Coordination TUM Master AI in Society
+[REDACTED]
+TUM School of [REDACTED] and Technology
+https://www.gov.sot.tum.de/rds
+Von: PARIKH HARSH <[REDACTED]@nirmauni.ac.in>
+Datum: Dienstag, 18. Juni 2024 um 12:12
+An: "[REDACTED]@sot.tum.de [TUS7HTL]" <[REDACTED]@sot.tum.de>
+Betreff: [REDACTED]
+[REDACTED],
+Will all prospective students who have applied for the program receive the test link, or is there an additional selection process before that?
+ Also, the test timing is in CET, correct? The website shows GMT+2, which I believe is CET.

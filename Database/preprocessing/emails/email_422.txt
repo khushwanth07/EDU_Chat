@@ -1,0 +1,46 @@
+Subject: Re: AI in Society: Invitation to [REDACTED]: Mailbox(name='[REDACTED]@sot.tum.de [TUS7HTL]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@tum.de
+CC: 
+Date: 2024-06-24 15:05:00+00:00
+Body:
+[REDACTED],
+Thank you for your email.
+If you haven’t already seen that: We have a section “Details about the test” on our website, please have a look: https://www.sot.tum.de/sot/studium/ai-in-society/application/
+Otherwise, if you received an invitation to the exam and a link to moodle, please also have a look at the demo exam to get a rough idea about the questions.
+Regarding the on-site location: you can now also find it on moodle.
+Best wishes,
+[MANUALLY REDACTED]
+---
+[REDACTED]
+PhD Candidate
+Coordination TUM Master AI in Society
+[REDACTED]
+TUM School of [REDACTED] and Technology
+https://www.gov.sot.tum.de/rds
+Von: [REDACTED] <[REDACTED]@tum.de>
+Datum: Samstag, 22. Juni 2024 um 21:37
+An: "[REDACTED]@sot.tum.de [[MANUALLY REDACTED]]" <[REDACTED]@sot.tum.de>
+Betreff: Fw: AI in Society: Invitation to [REDACTED]
+[REDACTED]/Madam,
+My name is [REDACTED], and I recently applied to the AI in Society master's program. However, I am feeling quite nervous regarding the aptitude test and wanted to ask if you could give me some tips on what I should focus on and the depth of the knowledge that is expected.
+Also, I noticed that an on-site exam would be offered. However, I could not find any details regarding the exam room. Could you please clarify the location of the on-site exam if the room has been set already, or we will receive an update later regarding this?
+Thank you in advance, and I am looking forward to your reply.
+________________________________
+From: [REDACTED]
+Sent: 19 June 2024 12:05
+Subject: AI in Society: Invitation to [REDACTED]
+Dear applicant,
+Thank you very much for your interest in the Technical University of Munich and your application for the Master’s program in AI in Society for the winter semester 2024/25.
+For this program, the admission is conditioned on the successful completion of an aptitude assessment. Since your submitted documents have been approved by our aptitude committee, we would hereby like to invite you to take the aptitude test for our study program on June 26th, from 11:00 to 12:30 (GMT+2 or CEST).
+The test for the winter semester 2024/25 will be held online. You will receive the link to the test a few days in advance to make yourself familiar with the setup.
+Please note that during the test, you will be monitored via an automated proctoring software. Participation using the proctoring program will demand a fee of 25$. You will find more information about this with the link that will be sent to you in the next days.
+In case you do not agree to partake in the online test with the automated monitoring procedure, please reach out to us by this Friday, June 21st, 23:59 PM .
+The test will be conducted in English language and span 90 minutes. You will be asked to answer multiple-choice questions (out of multiple different answers, only one is correct). The topics will span:
+  *   Politics and [REDACTED]
+  *   Economics and Law
+  *   Statistics and Mathematics
+  *   Engineering and [REDACTED]
+During the test, you are allowed to use a calculator.
+If you have any questions, please reach out to [REDACTED]@sot.tum.de<mailto:[REDACTED]@sot.tum.de>.
+We are wishing you good preparations and the best of luck in our exam!
+Yours

@@ -1,0 +1,74 @@
+Subject: [[REDACTED]] FW: TUM AIS - exam modality clarification
+Sender: Mailbox(name='[REDACTED]@sot.tum.de [TUS7HTL]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@tum.de, [REDACTED]@tum.de
+CC: 
+Date: 2024-06-25 13:20:41+00:00
+Body:
+[REDACTED], [REDACTED],
+Ich leite euch gleich 2 Kandidaten weiter, die Probleme mit Moodle haben. Der TN in dieser Mail ist im Kurs eingeschrieben, ich habe nachgesehen. Habt ihr noch eine Idee, was er probieren könnte?
+Danke euch und LG
+[MANUALLY REDACTED]
+---
+[REDACTED]
+PhD Candidate
+Coordination TUM Master AI in Society
+[REDACTED]
+TUM School of [REDACTED] and Technology
+https://www.gov.sot.tum.de/rds
+Von: [MANUALLY REDACTED] [MANUALLY REDACTED] <[REDACTED]@gmail.com>
+Datum: Dienstag, 25. Juni 2024 um 13:32
+An: "[REDACTED]@sot.tum.de [TUS7HTL]" <[REDACTED]@sot.tum.de>
+Betreff: Re: TUM AIS - exam modality clarification
+[REDACTED]. Fastowski,
+It still does not work. I have just logged in with both of the options that I see (the same as on the screenshot you provided) and the only thing inside is an online moodle test for [REDACTED] (a subject that I already took). I have attached a screenshot below.
+This morning I re-read all of the emails you sent and I remembered that you require a fee of $25. I have not paid it as I have not recieved a link where I can pay. Maybe this is where the problem comes from?
+Thank you again for your cooperation!
+[REDACTED], Jun 25, 2024, 09:10 [REDACTED]@sot.tum.de<mailto:[REDACTED]@sot.tum.de> [TUS7HTL] <[REDACTED]@sot.tum.de<mailto:[REDACTED]@sot.tum.de>> wrote:
+[REDACTED],
+No reason to wait longer, it should work now.
+How are you logging in? When you open the link I sent you, you should see two options (see screenshot attached). Please try the different sign-in option from the one you used up until now.
+Let me know.
+Best,
+[MANUALLY REDACTED]
+---
+[REDACTED]
+PhD Candidate
+Coordination TUM Master AI in Society
+[REDACTED]
+TUM School of [REDACTED] and Technology
+https://www.gov.sot.tum.de/rds
+Von: [MANUALLY REDACTED] [MANUALLY REDACTED] <[REDACTED]@gmail.com<mailto:[REDACTED]@gmail.com>>
+Datum: Montag, 24. Juni 2024 um 18:42
+An: "[REDACTED]@sot.tum.de<mailto:[REDACTED]@sot.tum.de> [[MANUALLY REDACTED]]" <[REDACTED]@sot.tum.de<mailto:[REDACTED]@sot.tum.de>>
+Betreff: Re: TUM AIS - exam modality clarification
+[REDACTED]. [MANUALLY REDACTED],
+Thank you for your help but for some reason, it still does not show up on my moodle page. Maybe I should wait a bit longer?
+Fehler! Es wurde kein Dateiname angegeben.
+На пн, 24.06.2024 г. в 18:51 [REDACTED]@sot.tum.de<mailto:[REDACTED]@sot.tum.de> [TUS7HTL] <[REDACTED]@sot.tum.de<mailto:[REDACTED]@sot.tum.de>> написа:
+[REDACTED],
+I have just checked, and you have been enrolled in the moodle exam, so everything should work.
+Are you accessing it through the following link: https://exam.moodle.tum.de ?
+Best wishes
+[REDACTED]
+---
+[REDACTED]
+PhD Candidate
+Coordination TUM Master AI in Society
+[REDACTED]
+TUM School of [REDACTED] and Technology
+https://www.gov.sot.tum.de/rds
+Von: [MANUALLY REDACTED] [MANUALLY REDACTED] <[REDACTED]@gmail.com<mailto:[REDACTED]@gmail.com>>
+Datum: Montag, 24. Juni 2024 um 17:45
+An: "[REDACTED]@sot.tum.de<mailto:[REDACTED]@sot.tum.de> [TUS7HTL]" <[REDACTED]@sot.tum.de<mailto:[REDACTED]@sot.tum.de>>
+Betreff: Re: TUM AIS - exam modality clarification
+[REDACTED]. [MANUALLY REDACTED],
+Thank you for your email! However, I do not have an option for an exam on my moodle page. My name is [REDACTED] and my MatrNr is [MANUALLY REDACTED]. May I ask for help?
+Thank you in advance!
+Looking forward to hearing from you,
+Nikolay
+На пн, 24.06.2024 г. в 17:47 [REDACTED] <[REDACTED]@tum.de<mailto:[REDACTED]@tum.de>> написа:
+Dear applicants,
+as a short clarification: please choose the option about off-site or on-site on the moodle exam page, not via an email to me. Please look for "Select your exam option here".
+Thank you!
+Best,
+[REDACTED]

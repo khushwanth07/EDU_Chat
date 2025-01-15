@@ -1,0 +1,30 @@
+Subject: FW: Could not reupload document
+Sender: Mailbox(name='[REDACTED]@sot.tum.de [TUS7HTL]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@cst.tum.de
+CC: 
+Date: 2024-05-30 10:36:57+00:00
+Body:
+Hallo zusammen,
+Könntet ihr untenstehender Bewerberin bitte nochmal den [REDACTED] freischalten?
+Vielen lieben Dank.
+[MANUALLY REDACTED]
+Von: [REDACTED] <[REDACTED]@gmail.com>
+Datum: Donnerstag, 30. Mai 2024 um 12:21
+An: "[REDACTED]@tum.de" <[REDACTED]@tum.de>, "[REDACTED]@sot.tum.de [TUS7HTL]" <[REDACTED]@sot.tum.de>
+Betreff: Could not reupload document
+Hello,
+My information is as follows:
+Applicant number
+2-[MANUALLY REDACTED]
+Application number
+1-[MANUALLY REDACTED]
+Degree programme
+Master of Science | AI in Society (1. FS)
+Start of course
+Winter semester 2024/25
+I have submitted my application. However, I wanted to update my "Subject and grade transcript of studies to date" section but I accidentally uploaded the wrong file. I immediately tried to re-upload the correct file but it timed out. So I clicked "Upload document" for that section again, the wrong file was uploaded instead.
+I've been trying for many hours trying to re-upload the correct file but it won't let me. The page either times out or is stuck loading the page.
+Could you advise what I should do? In the meantime, I'll still try to re-upload it.
+Apologies for the trouble, but I attach here the file I wanted to re-upload in case I couldn't upload the correct file by the deadline.
+Warm regards,
+[REDACTED]

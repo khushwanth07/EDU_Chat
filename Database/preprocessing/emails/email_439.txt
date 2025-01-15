@@ -1,0 +1,23 @@
+Subject: FW: [REDACTED]: Mailbox(name='[REDACTED]@sot.tum.de [[MANUALLY REDACTED]]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@tum.de, [REDACTED]@tum.de
+CC: 
+Date: 2024-06-24 08:44:58+00:00
+Body:
+[REDACTED], liebe Eva,
+Unten wieder ein anderes Problem einer Bewerberin, bzgl. VPN. Wisst ihr hier weiter?
+Danke und LG
+[MANUALLY REDACTED]
+---
+[REDACTED]
+PhD Candidate
+Coordination TUM Master AI in Society
+[REDACTED]
+TUM School of [REDACTED] and Technology
+https://www.gov.sot.tum.de/rds
+Von: [REDACTED] <[REDACTED]@yahoo.de>
+Datum: Sonntag, 23. Juni 2024 um 13:26
+An: "[REDACTED]@sot.tum.de [[MANUALLY REDACTED]]" <[REDACTED]@sot.tum.de>
+Betreff: [REDACTED]
+Dear organizers of the master´s programme "AI in Society",
+i want to participate in the online aptitude test, but the Proctorio software is not working while using a VPN. I need to use a VPN, as I take the test from [REDACTED] at the moment and cannot access Moodle without a VPN. Is there any way to take the test online while using VPN?
+With

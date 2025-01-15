@@ -1,0 +1,48 @@
+[HEADER_REDACTED_AUTOMATICALLY]
+[REDACTED],
+Nun kann ich [REDACTED] geben (du findest sie in blau):
+  1.  Kann ich meine Kurse aus dem Bachelor anrechnen lassen?
+Wenn es Leistungen aus dem Bachelorstudiengang sind, mit dem [REDACTED] beworben hast und zum Abschluss dazugerechnet wurden, können diese Leistungen nicht noch einmal anerkannt werden. Zusatzleistungen, die nicht zum Abschluss dazugerechnet wurden, aber während des Bachelorstudiengangs gemacht wurden,  könnten theoretisch anerkannt werden, wenn diese nicht bei der Bewertung während des Bewerbungsverfahrens zum Master herangezogen wurden.
+  1.  Gibt es eine maximale Anzahl an Kursen/ECTS, die man sich anrechnen lassen kann?
+Es gibt keine Maximalzahl, jedoch, wenn die Summe der anerkannten ECTS höher als 21 ist, muss der Student hochgestuft werden.
+  1.  Da meine vorherige niederländische Uni ein anderes Notensystem verwendet, bin ich mir bzgl. der Notenumrechnung nicht sicher. Kann ich - falls sich im Gespräch mit dem departmental student academic advisor (mit Dir?) herausstellt, dass die Umrechnung sehr unvorteilhaft für mich ist - meinen Antrag noch zurückziehen?
+[REDACTED] erfolgt über die [REDACTED]. Und ja, Du kannst eine Anerkennung zurückziehen, wenn die Notenumrechnung ungünstig ist. Du darfst jedoch keine Anerkennung einreichen für ein Modul, bei dem Du die Prüfungsleistung bereits angetreten hast. Vorleistungen dürfen nur einmal in Summe eingereicht werden.
+  1.  Sollte ein Antrag genehmigt und ein bereits bestandener Kurs anerkannt und dessen Note übernommen werden, kann ich den äquivalenten Kurs an der TUM trotzdem noch belegen?
+Nein, nicht im gleichen Studiengang.
+  1.  Und falls ja,
+     *   kann ich die Note der bereits anerkannten Leistung durch den TUM-Kurs verbessern? Nein,
+     *   kann ich im Falle einer schlechteren Note im TUM-Kurs die der anerkannten Leistung beibehalten? Nein
+---
+[NAME_REDACTED_AUTOMATICALLY]
+[HEADER_REDACTED_AUTOMATICALLY]
+[HEADER_REDACTED_AUTOMATICALLY]
+Okay, dann entschuldige bitte die erneute Störung! Bei mir eilt es nicht, ich dachte ich frage nur nochmal nach, bevor es in Vergessenheit gerät. :)
+[HEADER_REDACTED_AUTOMATICALLY]
+[REDACTED],
+ich habe [REDACTED] nicht vergessen. Ich warte aktuell auf Bestätigung bzgl. einiger [REDACTED] von meinen Kollegen, damit ich eine eindeutige Antwort geben kann.
+Da die Verspätung an meinem Ende liegt, ist es natürlich nicht zu spät, solltest Du noch einen Antrag einreichen wollen. Ich hoffe, ich kann Dir heute oder morgen Bescheid geben.
+---
+[NAME_REDACTED_AUTOMATICALLY]
+[HEADER_REDACTED_AUTOMATICALLY]
+[HEADER_REDACTED_AUTOMATICALLY]
+[REDACTED],
+I have tried contacting you regarding the recognition of credits last week but haven’t heard from you. I hope it’s not too late now…
+In principle, I would have the option of applying for recognition of credits. However, I have a few admittedly rather annoying questions (I apologize in advance):
+  1.  Can I have my Bachelor's courses recognized?
+  2.  Is there a maximum number of courses/ECTS that can be recognized?
+  3.  As my previous Dutch university uses a different grading system, I am not sure about the grade conversion. If during the meeting with the departmental student academic advisor (is that you?) it turns out that the conversion is very disadvantageous for me, can I still withdraw my application?
+  4.  If an application is approved and a course I have already passed is recognized and its grade is transferred, can I still take the equivalent course at TUM?
+  5.  And if so,
+     *   can I improve the grade of the already recognized achievement through the TUM course?
+     *   can I keep the grade of the recognized achievement in case I get a worse grade in the TUM course?
+Thank you very much for your constant effort and support!
+[HEADER_REDACTED_AUTOMATICALLY]
+[NAME_REDACTED_AUTOMATICALLY]
+this email is to inform you about the process regarding the recognition of credits. If you have previously completed a module which is very similar to the contents of one of the AI in Society modules, you might want to apply for recognition of this course.
+For this, you will need to:
+- fill the form we provide on our website: https://www.sot.tum.de/sot/studium/ai-in-society/downloads/
+- collect the documents listed here: https://www.tum.de/en/studies/during-your-studies/organizing-your-studies/recognition-of-credits
+Please send them to [REDACTED]@sot.tum.de. If you have modules you need to recognize as soon as possible (i.e. modules from our first semester curriculum), please send your documents to us by October 25th.
+Best wishes
+[REDACTED]
+[REDACTED] AI in Society

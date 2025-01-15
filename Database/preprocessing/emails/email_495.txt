@@ -1,0 +1,7 @@
+Subject: Akzeptiert: Austausch zur Eignungsprüfung "AI in Society"
+Sender: Mailbox(name='[REDACTED]@sot.tum.de [TUS7HTL]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@tum.de
+CC: 
+Date: 2024-06-04 15:53:57+00:00
+Body:
+None

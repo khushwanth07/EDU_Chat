@@ -1,0 +1,10 @@
+Subject: AIS [REDACTED]: Mailbox(name='[REDACTED]@sot.tum.de [TUS7HTL]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@cst.tum.de
+CC: 
+Date: 2024-05-29 09:09:06+00:00
+Body:
+[REDACTED],
+Folgende neue geprüfte Fälle:
+[REDACTED] OK:
+  [MANUALLY REDACTED]Unfortunately, we cannot count modules which are not yet officially part of your transcript.“
+[REDACTED] und

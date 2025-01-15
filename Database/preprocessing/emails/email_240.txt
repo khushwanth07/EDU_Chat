@@ -1,0 +1,17 @@
+Subject: AIS Interview - [REDACTED]: Mailbox(name='[REDACTED]@sot.tum.de [TUS7HTL]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@gmail.com
+CC: 
+Date:[MANUALLY REDACTED]
+Dear applicant,
+Please use the following Zoom link for your AI in [REDACTED] on July 23rd, 09:30 – 10:00 AM CEST.
+https://tum-conf.zoom-x.de/j/63846231470?pwd=E7qeinwsuPbIG7jh3SblqO9LyCeMBA.1
+We look forward to getting to know you!
+Best wishes
+[REDACTED]
+---
+[REDACTED]
+PhD Candidate
+Coordination TUM Master AI in Society
+[REDACTED]
+TUM School of [REDACTED] and Technology
+https://www.gov.sot.tum.de/rds

@@ -1,0 +1,9 @@
+Subject: AIS, [MANUALLY REDACTED] im [REDACTED]: Mailbox(name='[REDACTED]@sot.tum.de [TUS7HTL]', email_address='[REDACTED]@sot.tum.de', routing_type='SMTP', mailbox_type='Mailbox')
+To: [REDACTED]@zv.tum.de
+CC: 
+Date: 2024-06-03 14:08:03+00:00
+Body:
+[REDACTED],
+Du hattest schon einmal kurz erwähnt, dass der Prozess, den wir hier aktuell zur Bewerberprüfung haben, nicht ganz optimal (also ziemlich aufwändig) ist, wo ich Dir auch zustimme. Wir schlagen Änderungen in der FPSO gerne vor, bräuchten konkrete Vorschläge zur Verbesserung aber bis zur nächsten [REDACTED], die am 17.07. ist.
+Hättest Du bei uns konkrete Vorschläge, wie wir euch den Prozess erleichtern könnten (was grundlegend in der FPSO geändert werden müsste)? Oder ging es Dir eher um den technischen Ablauf unserer Kommunikation?
+[REDACTED] und
