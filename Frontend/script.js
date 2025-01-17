@@ -6,14 +6,41 @@ document.addEventListener('DOMContentLoaded', () => {
     const chatMessages = document.querySelector('.chat-messages');
     const chatInput = document.querySelector('.chat-input input');
     const sendButton = document.querySelector('.send-button');
+    const clearChatBtn = document.querySelector('.clear-chat');
+    const downloadChatBtn = document.querySelector('.download-chat');
     const faqItems = document.querySelectorAll('.faq-item');
+    const heroSection = document.querySelector('.hero');
 
-    // Chat Functions
+    // Chat Window Management Functions
     function showChatWindow() {
-        chatWindow.classList.add('active');
-        chatInput.focus();
+        if (!chatWindow.classList.contains('active')) {
+            // Expand hero section first
+            heroSection.classList.add('expanded');
+            
+            // Show chat window with animation
+            setTimeout(() => {
+                chatWindow.classList.add('active');
+                chatInput.focus();
+            }, 300);
+    
+            // Smooth scroll to chat window on mobile
+            if (window.innerWidth <= 768) {
+                setTimeout(() => {
+                    chatWindow.scrollIntoView({ behavior: 'smooth' });
+                }, 100);
+            }
+        }
     }
 
+    function collapseChatWindow() {
+        chatWindow.classList.remove('active');
+        heroSection.classList.remove('expanded');
+        // Clear search input when collapsing
+        searchInput.value = '';
+        chatInput.value = '';
+    }
+
+    // Message Management Functions
     function addMessage(message, isUser = false) {
         const messageDiv = document.createElement('div');
         messageDiv.classList.add('message');
@@ -25,20 +52,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         chatMessages.appendChild(messageDiv);
         chatMessages.scrollTop = chatMessages.scrollHeight;
-    }
-
-    function handleSearch(question) {
-        showChatWindow();
-        addMessage(question, true);
-        
-        // Show typing indicator
-        const typingIndicator = showTypingIndicator();
-
-        // Simulate response (replace with actual API call)
-        setTimeout(() => {
-            typingIndicator.remove();
-            addMessage(`Here's what I found about "${question}". This is a simulated response that would be replaced with actual backend integration.`);
-        }, 1500);
     }
 
     function showTypingIndicator() {
@@ -56,33 +69,109 @@ document.addEventListener('DOMContentLoaded', () => {
         return indicator;
     }
 
+    // Function to handle user input or FAQ click
+    function handleInput(inputText) {
+        if (!inputText.trim()) return;
+
+        // Display user message
+        addMessage(inputText, true);
+
+        // Show chat window
+        showChatWindow();
+
+        // Display typing indicator
+        const typingIndicator = showTypingIndicator();
+
+        // Fetch response from backend
+        fetch('http://127.0.0.1:5000/query', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ query: inputText })
+        })
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then((data) => {
+                typingIndicator.remove();
+                addMessage(data.response, false);
+            })
+            .catch((error) => {
+                typingIndicator.remove();
+                console.error('Error fetching response:', error);
+                addMessage('Sorry, something went wrong. Please try again.',error, false);
+            });
+    }
+
     // Event Listeners
     searchInput.addEventListener('keypress', (e) => {
         if (e.key === 'Enter' && searchInput.value.trim()) {
-            handleSearch(searchInput.value.trim());
+            handleInput(searchInput.value.trim());
             searchInput.value = '';
         }
     });
 
     chatInput.addEventListener('keypress', (e) => {
         if (e.key === 'Enter' && chatInput.value.trim()) {
-            handleSearch(chatInput.value.trim());
+            handleInput(chatInput.value.trim());
             chatInput.value = '';
         }
     });
 
     sendButton.addEventListener('click', () => {
         if (chatInput.value.trim()) {
-            handleSearch(chatInput.value.trim());
+            handleInput(chatInput.value.trim());
             chatInput.value = '';
         }
+    });
+
+    // Clear chat functionality with collapse
+    clearChatBtn.addEventListener('click', () => {
+        if (confirm('Are you sure you want to clear the chat history?')) {
+            chatMessages.innerHTML = '';
+            collapseChatWindow();
+            // Optional: Add a system message
+            setTimeout(() => {
+                addMessage('Chat history has been cleared. How can I help you?', false);
+            }, 300);
+        }
+    });
+
+    // Download chat functionality
+    downloadChatBtn.addEventListener('click', () => {
+        const messages = Array.from(chatMessages.children)
+            .filter(msg => msg.classList.contains('message'))
+            .map(msg => {
+                const isUser = msg.classList.contains('user-message');
+                const text = msg.querySelector('span').textContent;
+                return `${isUser ? 'You' : 'Assistant'}: ${text}`;
+            })
+            .join('\n\n');
+
+        if (messages.length === 0) {
+            alert('No messages to download yet.');
+            return;
+        }
+
+        const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+        const blob = new Blob([messages], { type: 'text/plain' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `chat-history-${timestamp}.txt`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
     });
 
     // FAQ Items Click Handlers
     faqItems.forEach(item => {
         item.addEventListener('click', () => {
             const question = item.querySelector('h3').textContent;
-            handleSearch(question);
+            handleInput(question);
         });
     });
 
@@ -112,8 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         recognition.onresult = (event) => {
             const transcript = event.results[0][0].transcript;
-            searchInput.value = transcript;
-            handleSearch(transcript);
+            handleInput(transcript);
             
             voiceInput.querySelector('i').classList.remove('fa-microphone-slash');
             voiceInput.querySelector('i').classList.add('fa-microphone');
@@ -129,18 +217,6 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
         voiceInput.style.display = 'none';
     }
-
-    // Responsive Design Handler
-    function handleResize() {
-        if (window.innerWidth <= 768) {
-            chatWindow.style.height = `${window.innerHeight}px`;
-        } else {
-            chatWindow.style.height = '500px';
-        }
-    }
-
-    window.addEventListener('resize', handleResize);
-    handleResize();
 
     // Message Styling
     const messageStyles = {
@@ -178,5 +254,12 @@ document.addEventListener('DOMContentLoaded', () => {
     observer.observe(chatMessages, {
         childList: true,
         subtree: true
+    });
+
+    // Add keyboard shortcut to collapse chat (Escape key)
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && chatWindow.classList.contains('active')) {
+            collapseChatWindow();
+        }
     });
 });

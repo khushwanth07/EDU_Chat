@@ -11,50 +11,77 @@
 </head>
 
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="#" class="page__header-logo">
-                <svg width="80" height="42" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73 38">
-                    <path d="M28 0v31h8V0h37v38h-7V7h-8v31h-7V7h-8v31H21V7h-7v31H7V7H0V0h28z" fill="currentColor"/>
-                </svg>
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="#" class="page__header-logo">
+            <svg width="80" height="42" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73 38">
+                <path d="M28 0v31h8V0h37v38h-7V7h-8v31h-7V7h-8v31H21V7h-7v31H7V7H0V0h28z" fill="currentColor"/>
+            </svg>
 
-                <div class="page__header-text">
-                    Technische  <br>
-                    Universität <br>
-                    München
-                </div>
-                
-            </a>
-            <div class="nav-links">
-                <div class="dropdown">
-                    <button class="dropbtn">
-                        <i class="fas fa-bars"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="https://www.tum.de/en/studies/degree-programs/detail/ai-in-society">About the
-                            course</a>
-                        <a href="https://www.sot.tum.de/sot/studium/ai-in-society/studies/">Curriculum</a>
-                        <a href="https://www.sot.tum.de/sot/studium/ai-in-society/">Course Homepage</a>
-                    </div>
-
+            <div class="page__header-text">
+                Technische  <br>
+                Universität <br>
+                München
+            </div>
+            
+        </a>
+        <div class="nav-links">
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="https://www.tum.de/en/studies/degree-programs/detail/ai-in-society">About the
+                        course</a>
+                    <a href="https://www.sot.tum.de/sot/studium/ai-in-society/studies/">Curriculum</a>
+                    <a href="https://www.sot.tum.de/sot/studium/ai-in-society/">Course Homepage</a>
                 </div>
 
             </div>
-        </div>
-    </nav>
 
-    <!-- Hero Section with Chatbot -->
+        </div>
+    </div>
+</nav>
+
+    <!-- Hero Section with Integrated Chat -->
     <section class="hero">
         <div class="hero-container">
-            <h1>AI & Society Course Assistant</h1>
-            <div class="search-container">
-                <div class="search-wrapper">
-                    <i class="fas fa-search search-icon"></i>
-                    <input type="text" class="search-input" placeholder="What's on your mind?">
-                    <button class="voice-input">
-                        <i class="fas fa-microphone"></i>
-                    </button>
+            <h1>AI in Society Course Assistant</h1>
+            <p class="hero-text">
+                Your intelligent companion for navigating the AI & Society course at TUM. Ask questions about admissions, curriculum, career prospects, and more. Get instant, accurate responses tailored to your needs.
+            </p>
+            <div class="chat-interface">
+                <!-- Chat Window -->
+                <div class="chat-window">
+                    <div class="chat-header">
+                        <button class="clear-chat">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                        <button class="download-chat">
+                            <i class="fas fa-download"></i>
+                        </button>
+                    </div>
+                    <div class="chat-container">
+                        <div class="chat-messages"></div>
+                        <div class="chat-input">
+                            <input type="text" placeholder="Type your message...">
+                            <button class="send-button">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Search Container -->
+                <div class="search-container">
+                    <div class="search-wrapper">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="text" class="search-input" placeholder="What's on your mind?">
+                        <button class="voice-input">
+                            <i class="fas fa-microphone"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -92,19 +119,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Chat Window (Initially Hidden) -->
-    <div class="chat-window">
-        <div class="chat-container">
-            <div class="chat-messages"></div>
-            <div class="chat-input">
-                <input type="text" placeholder="Type your message...">
-                <button class="send-button">
-                    <i class="fas fa-paper-plane"></i>
-                </button>
-            </div>
-        </div>
-    </div>
 
     <!-- Footer -->
     <footer class="footer">
