@@ -19,6 +19,8 @@ There should be between 0 and 5 questions answers pairs in the json, prefer the 
 Output all questions and answers in english.
 Each question should be followed by a single answer.
 If the email does not contain a definite anwser set the answer to "NO ANSWER"
+Don't forget to convert Unicode escape characters
+
 This is an example of how the json should be structured:
 [
     {
