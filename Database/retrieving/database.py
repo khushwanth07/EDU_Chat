@@ -17,11 +17,11 @@ client = OpenAI(api_key=API_KEY)
 
 # Database connection details
 db_config = {
-    "database": "alina_database",
-    "host": "localhost",
-    "user": "data_team",
-    "password": "7rt?!ERdyT6d$iTQR9E$",
-    "port": "5432",
+    "database": os.getenv('DB_NAME'),
+    "host": os.getenv('DB_HOST'),
+    "user": os.getenv('DB_USER'),
+    "password": os.getenv('DB_PASSWORD'),
+    "port": os.getenv('DB_PORT'),
 }
 
 
@@ -45,10 +45,14 @@ def _create_questions_table():
     connection = _get_connection()
     try:
         print("Creating table 'questions'...")
+
+        # Create a cursor object using the connection
         cursor = connection.cursor()
+        
+        # Create the extension for the vector data type
         cursor.execute("CREATE EXTENSION IF NOT EXISTS vector;")
 
-        # Check if the table already exists
+        # Check if the questions table already exists
         cursor.execute("""
         SELECT EXISTS (
             SELECT FROM information_schema.tables
@@ -58,9 +62,11 @@ def _create_questions_table():
         table_exists = cursor.fetchone()[0]
 
         if table_exists:
+            # Table already exists
             print("Table 'questions' already exists.")
             return False
         else:
+            # Create the questions table with the required columns
             create_table_query = """
             CREATE TABLE IF NOT EXISTS questions (
                 id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
