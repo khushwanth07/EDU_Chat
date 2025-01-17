@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # OpenAI API key
-API_KEY = os.getenv('API_KEY')
+API_KEY = os.getenv("API_KEY")
 
 client = OpenAI(api_key=API_KEY)
 
@@ -19,7 +19,6 @@ There should be between 0 and 5 questions answers pairs in the json, prefer the 
 Output all questions and answers in english.
 Each question should be followed by a single answer.
 If the email does not contain a definite anwser set the answer to "NO ANSWER"
-Don't forget to convert Unicode escape characters
 
 This is an example of how the json should be structured:
 [
@@ -37,7 +36,7 @@ This is an example of how the json should be structured:
 
 # Function to read the email file
 def read_email(file_path):
-    with open(file_path, 'r', encoding='utf-8') as file:
+    with open(file_path, "r", encoding="utf-8") as file:
         return file.read()
 
 
@@ -45,16 +44,16 @@ def read_email(file_path):
 email_files = os.listdir("./Database/preprocessing/emails")
 email_files.sort()
 
-#print(email_files)  #Debugging for index error
+# print(email_files)  #Debugging for index error
 email_index = 701
 
 email = read_email(f"./Database/preprocessing/emails/{email_files[email_index]}")
 
 print(f"Analyzing email {email_files[email_index]}")
-#print(f"Email starts with sentence: {email[:50]}")
+# print(f"Email starts with sentence: {email[:50]}")
 
 completion = client.chat.completions.create(
-    model="gpt-4o",
+    model="gpt-4",
     messages=[
         {
             "role": "developer",
@@ -63,13 +62,13 @@ completion = client.chat.completions.create(
         {
             "role": "user",
             "content": email,
-        }
-    ]
+        },
+    ],
 )
 response = json.loads(completion.choices[0].message.content)
 
 # Print the full response for debugging
-#print(completion)
+# print(completion)
 
 # Pretty print the response
 print(json.dumps(response, indent=4))
