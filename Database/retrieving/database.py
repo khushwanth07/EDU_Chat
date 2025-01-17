@@ -20,7 +20,7 @@ def get_connection():
     return psycopg2.connect(**db_config)
 
 
-def create_table():
+def create_questions_table():
     """
     Create the questions table if it does not exist.
 
@@ -31,19 +31,49 @@ def create_table():
     try:
         cursor = connection.cursor()
         cursor.execute("CREATE EXTENSION IF NOT EXISTS vector;")
-        create_table_query = """
-        CREATE TABLE IF NOT EXISTS questions (
-            id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-            embedding vector(1536),
-            question_text TEXT NOT NULL,
-            answer_text TEXT NOT NULL,
-            source_type VARCHAR(50),
-            source VARCHAR(255)
+
+        # Check if the table already exists
+        cursor.execute("""
+        SELECT EXISTS (
+            SELECT FROM information_schema.tables
+            WHERE table_name = 'questions'
         );
-        """
-        cursor.execute(create_table_query)
+        """)
+        table_exists = cursor.fetchone()[0]
+
+        if table_exists:
+            print("Table 'questions' already exists.")
+        else:
+            create_table_query = """
+            CREATE TABLE IF NOT EXISTS questions (
+                id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+                embedding vector(1536),
+                question_text TEXT NOT NULL,
+                answer_text TEXT NOT NULL,
+                source_type VARCHAR(50),
+                source VARCHAR(255)
+            );
+            """
+            cursor.execute(create_table_query)
+            connection.commit()
+            print("Table 'questions' created successfully.")
+    except Exception as e:
+        print(f"Error: {e}")
+    finally:
+        cursor.close()
+        connection.close()
+
+
+def clear_questions_table():
+    """
+    Clear the questions table.
+    """
+    connection = get_connection()
+    try:
+        cursor = connection.cursor()
+        cursor.execute("DELETE FROM questions;")
         connection.commit()
-        print("Table 'questions' created successfully.")
+        print("Table 'questions' cleared successfully.")
     except Exception as e:
         print(f"Error: {e}")
     finally:
@@ -97,16 +127,14 @@ def find_closest_questions(embedding, top_n=5):
     connection = get_connection()
     try:
         cursor = connection.cursor()
-        # Convert embedding list to a string formatted for pgvector
-        embedding_str = f"ARRAY[{', '.join(map(str, embedding))}]::vector"
-        find_query = f'''
+        find_query = '''
         SELECT id, question_text, answer_text, source_type, source,
-               1 - (embedding <-> {embedding_str}) AS similarity
+               1 - (embedding <-> %s) AS similarity
         FROM questions
-        ORDER BY embedding <-> {embedding_str} ASC
+        ORDER BY embedding <-> %s
         LIMIT %s;
         '''
-        cursor.execute(find_query, (top_n,))
+        cursor.execute(find_query, (embedding, embedding, top_n))
         results = cursor.fetchall()
         return results
     except Exception as e:
@@ -117,13 +145,73 @@ def find_closest_questions(embedding, top_n=5):
         connection.close()
 
 
+def print_database_info():
+    """
+    Print the list of databases and tables in the PostgreSQL server.
+
+    Returns:
+        None
+    """
+    connection = get_connection()
+    try:
+        cursor = connection.cursor()
+        cursor.execute("SELECT datname FROM pg_database;")
+        databases = cursor.fetchall()
+        print("Databases:")
+        for database in databases:
+            print(database[0])
+
+        cursor.execute(
+            "SELECT table_name FROM information_schema.tables WHERE table_schema = 'public';"
+        )
+        tables = cursor.fetchall()
+        print("\nTables in 'alina_database':")
+        for table in tables:
+            print(table[0])
+
+        cursor.execute("SELECT COUNT(*) FROM questions;")
+        question_count = cursor.fetchone()[0]
+        print(f"\nNumber of questions in 'questions' table: {question_count}")
+
+    except Exception as e:
+        print(f"Error: {e}")
+    finally:
+        cursor.close()
+        connection.close()
+
+
+def test_database():
+    """
+    Get the first question from the questions table and print it.
+    Then find the closest questions to the same question.
+    """
+    connection = get_connection()
+    try:
+        cursor = connection.cursor()
+        cursor.execute("SELECT * FROM questions LIMIT 1;")
+        question = cursor.fetchone()
+        print(f"Question of first question in 'questions' table: {question[2]}")
+        print(f"Embedding of first question: {question[1]}")
+
+        if question:
+            embedding = question[1]
+            closest_questions = find_closest_questions(embedding, top_n=5)
+            print("\nClosest questions:")
+            for q in closest_questions:
+                print(q)
+    except Exception as e:
+        print(f"Error: {e}")
+    finally:
+        cursor.close()
+        connection.close()
+
+
 if __name__ == "__main__":
-    create_table()
+    create_questions_table()
+    print_database_info()
     # Example usage
-    example_embedding = [0.1] * 1536  # Replace with real embedding values
-    insert_question(
-        example_embedding, "What is AI?", "AI stands for Artificial Intelligence.", "pdf", "example_source.pdf"
-    )
-    closest_questions = find_closest_questions(example_embedding)
-    for question in closest_questions:
-        print(question)
+    # example_embedding = [0.1] * 1536  # Replace with real embedding values
+    # insert_question(
+    #     example_embedding, "What is AI?", "AI stands for Artificial Intelligence.", "pdf", "example_source.pdf"
+    # )
+    test_database()

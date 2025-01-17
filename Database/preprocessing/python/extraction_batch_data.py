@@ -39,7 +39,7 @@ for response in responses:
             "created": created,  # timestamp of the api response
             "question": qa["Q"],  # question
             "answer": qa["A"],  # answer
-            "source-type": "email",  # source type (email, pdf, etc.)
+            "source_type": "email",  # source type (email, pdf, etc.)
             "source": response["custom_id"],  # source email file (e.g. email_001.txt)
             "request_id": response["response"]["request_id"],  # request id of the api call
         }
