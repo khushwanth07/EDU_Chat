@@ -36,7 +36,13 @@ def read_email(file_path):
 
 
 # Get a list of all email files
-email_files = os.listdir("./Database/preprocessing/emails")[:100]
+email_files = os.listdir("./Database/preprocessing/emails")
+
+# Sort the email files by name
+email_files.sort()
+
+# Only use the first 100 email files for debugging purposes
+email_files = email_files[:100]
 
 # Open the JSON file to write the batch requests
 with open('.temp/extraction_batch_input.jsonl', 'w', encoding='utf-8') as json_file:
