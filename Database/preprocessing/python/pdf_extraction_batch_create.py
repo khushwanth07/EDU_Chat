@@ -6,14 +6,14 @@ if not os.path.exists(".temp"):
     os.makedirs(".temp")
 
 DEVELOPER_PROMPT = """
-You are a data analyst extracting information from an email history.
+You are a data analyst extracting information from an pdf history.
 This data is used to generate FAQs and answers for a chatbot, for the website of the course program.
 Keep the answers as authenticate as possible as there should be no to very less information loss.
-The questions and answers should be based solely on the email content and not contain any personal information.
-Anything containing personal information should be removed in such a way that the context of the message is not lost.
+The questions and answers should be based solely on the text content.
+
 Provide clear Question and Answer pairs as JSON.
-If there is no question or answer, please reply with an empty json object.
-There should be between 0 and 5 questions and answers in the json, prefer the minimum that covers the email content.
+There should be between 20 and 2000 questions and answers in the json, prefer the maximal that covers the text content
+(especially every paragraph, you can create question for each paragraph and the answer should contain as more as possible the content of paragrah ).
 Each question should be followed by a single answer.
 This is an example of how the json should look like:
 [
@@ -28,23 +28,22 @@ This is an example of how the json should look like:
 ]
 """
 
-
 # Function to read a email file
-def read_email(file_path):
+def read_pdf(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return file.read()
 
 
 # Get a list of all email files
-email_files = os.listdir("./Database/preprocessing/emails")[:3]
+pdf_files = os.listdir("./Database/preprocessing/pdf")[3:5]
 
 # Open the JSON file to write the batch requests
-with open('.temp/batch_input.jsonl', 'w', encoding='utf-8') as json_file:
+with open('.temp/pdf_extraction_batch_input.jsonl', 'w', encoding='utf-8') as json_file:
     # Loop through all email files
-    for email_file in email_files:
+    for pdf_file in pdf_files:
 
         # Read the email content
-        email_content = read_email(f"./Database/preprocessing/emails/{email_file}")
+        pdf_content = read_pdf(f"./Database/preprocessing/pdf/{pdf_file}")
 
         # Create the message for the OpenAI API
         messages = [
@@ -54,13 +53,13 @@ with open('.temp/batch_input.jsonl', 'w', encoding='utf-8') as json_file:
             },
             {
                 "role": "user",
-                "content": email_content
+                "content": pdf_content
             }
         ]
 
         # Create the batch request for the OpenAI API
         batch_request = {
-            "custom_id": email_file,
+            "custom_id": pdf_file,
             "method": "POST",
             "url": "/v1/chat/completions",
             "body": {

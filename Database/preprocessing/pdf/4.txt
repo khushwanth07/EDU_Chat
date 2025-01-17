@@ -1,0 +1,496 @@
+
+
+######### Programm Structure
+(1) Formal structure 
+The prescribed duration of the program spans four semesters, encompassing a total of 120 credit 
+points. Within this framework, 78 credit points are allocated to mandatory modules, 12 to elective 
+modules, and the remaining 30 are dedicated to the final thesis. A schematic representation of the 
+program's structure can be found follow :
+Semester1:Foundations of Al & Data Science
+(SOT86053)
+(required) 9cp
+Intro. toProgram.& Data
+Processing SOT10054 (required)3cp
+Al in and for Society : Science, Technolog)and Society in the
+Digital Age(SOT46308)(reguired)6cp
+Psychology of Law, Governance and Regulation of Artificial Intelligence(SOT46302) (required) 6cp
+Psychology of Learning and structional Design of Albased systems(SOT10057)(required)6cp
+semester2:
+Introduction to Deep Leaming(IN2346) (reguired)6cp, Deep learning demystifled :Hands-on deep Learning for Non-CS Majors (S0T86086)(reguired)3 CP
+Explainable Al-- A Comprehensive Seminar on Transparent and Ethical Al(SOT86051) 6cp
+Academic Competencies and Practical Skills (SOT44303) 4cp
+Methods 1(MCTS0027) 5cp
+Al in Diverse Societies(SOT46301)6cp
+semester3:
+Natural Language Processing(IN2361)(required)6cp
+Human-Al interaction(SOT10046)(required)6cp
+Project Week (required)6cp
+Electives: Al in different domains of society 12cp
+semester4:
+Master's thesis
+(reguired)
+30 CP
+
+The Master program “AI in Society” covers a wide range of topics from the technical aspects of AI 
+and data science to the societal implications of AI. The curriculum includes foundational courses in 
+AI and data science, programming and data processing, as well as specialized courses on topics 
+such as deep learning, human-AI interaction, and natural language processing. It also includes 
+courses that focus on the societal aspects of AI, such as governance, law and regulation of AI, AI in 
+diverse societies, and elective modules in different societal application areas of AI. In this way the 
+program prepares students for roles bridging technical AI and societal implications. It provides 
+interdisciplinary knowledge and the grounding for responsible and interdisciplinary application of AI.
+
+The significant number of mandatory courses stems from the recognition that students enter the 
+program with diverse backgrounds outside of computer science. It is essential to first equip them 
+with fundamental AI concepts, rudimentary programming skills, and computational aspects of social 
+science methodologies to effectively address the challenges posed by AI applications across various 
+societal sectors. By grounding students in these foundational topics, we ensure they possess the 
+comprehensive skill set required to quantify, navigate and innovate within the complex landscape of 
+AI integration into social science research, developments, and processes. This holistic approach not 
+only bridges any pre-existing knowledge gaps but also fosters a collaborative learning environment 
+where students from various disciplines can contribute unique perspectives.
+
+The program culminates in a Master's thesis, allowing students to apply the knowledge and skills 
+they have acquired throughout the program to a research project.
+
+In summary, the curriculum is structured as follows:
+
+1. Foundation and Introduction: The program begins with foundational courses in AI, Data 
+Science, Introduction to Programming & Data Processing, AI in and for Society: Science, 
+Technology and Society in the Digital Age, as well as courses on Law, Governance, & 
+Regulation of AI, and an introduction to Psychology of learning and instructional design of 
+AI-based systems. These foundation and introductory courses in the M.Sc. program "AI in 
+Society" aim to equip students with a foundational understanding of AI, data science, 
+programming, and the societal implications of AI. Recognizing the diverse academic 
+backgrounds of incoming students, these compulsory courses ensure a consistent and 
+unified knowledge base across AI concepts, programming, and the societal aspects of AI. 
+This approach fosters a shared terminological foundation, enabling students from various 
+disciplines to engage effectively throughout the program. These foundational courses are 
+compulsory to guarantee that all students, regardless of their previous bachelor-level 
+academic backgrounds, attain a consistent understanding of essential subjects and foster a 
+unified terminological foundation in AI concepts, programming, regulation and politics of AI.
+The aim of each module and their contribution to the achievement of the qualification profile 
+are provided in Table 1.
+
+2. Deepening Knowledge and Skills: The next set of courses, including Deep Learning, 
+Explainable AI, Social Science Methods for Studying AI in Society (Academic Competencies
+and Practical Skills and Methods 1), and AI in Diverse Societies, as described in Table 1 are 
+designed to deepen the students' knowledge and understanding, forming the basis for the 
+development and/or application of independent ideas. These courses also start to introduce 
+the application of knowledge, with students expected to integrate existing and new 
+knowledge in complex contexts, make scientifically sound decisions, and carry out 
+application-oriented projects.
+
+3. Specialization and Application: The final set of courses, including Natural Language 
+Processing, Human-AI Interaction, and Project week (see Table 1), allow students to 
+specialize in their areas of interest and apply their knowledge and skills to real-world 
+scenarios. These courses are designed to further enhance the students' ability to design 
+research questions, choose and justify concrete ways of operationalizing research, select 
+and justify research methods, and explain and critically interpret research results.
+
+4. Elective Modules (a preliminary selection is provided in Table 2) offer the opportunity to 
+deepen knowledge in applications of AI. The list of elective modules will grow continuously 
+with newly appointed colleagues joining the School of Social Sciences and Technology.
+
+5. Master's Thesis: The program culminates in a Master's thesis, which requires students to 
+apply all the knowledge, skills, and competencies they have acquired throughout the program 
+to a substantial piece of independent research.
+
+
+
+Table 1: Aim of the mandatory modules and their contribution to the qualification profile.
+
+Foundation and Introduction:
+
+Module Code :SOT86053
+Compulsory Module Name:Foundations of AI & Data Science
+Aim & contribution to the qualification profile:
+Introduce foundational concepts and methodologies in AI 
+and data science (e.g., data analysis techniques, neural 
+networks, basics of reinforcement learning and many more 
+foundational techniques of machine learning). Students
+with no prior knowledge on these topics will gain a 
+comprehensive understanding of AI's technical landscape, 
+ensuring they can bridge practical requirements in AI 
+applications.
+
+Module Code :SOT46302
+Compulsory Module Name:Law, Governance and 
+Regulation of Artificial 
+Intelligence
+Aim & contribution to the qualification profile:
+Provide insights into the legal, governance, and regulatory 
+aspects of AI. This module delves deep into the legal and 
+regulatory aspects of AI. It equips students with the 
+knowledge and skills to navigate the complex legal 
+landscape of AI, fostering informed societal discussions 
+and decisions, and ensuring the ethical and responsible 
+deployment of AI technologies.
+
+
+Module Code :SOT10054
+Compulsory Module Name:Introduction to 
+Programming and Data 
+Processing
+Aim & contribution to the qualification profile:
+This module provides essential programming and data 
+processing skills for students with non-technical 
+backgrounds. Students will be equipped to harness and 
+implement data-driven AI applications.
+
+
+Module Code :SOT46308
+Compulsory Module Name:Science, Technology and 
+Society in the Digital Age
+Aim & contribution to the qualification profile:
+This module delves into the intricate relationship between 
+AI, science, and society in our digital era. Students will be 
+equipped with an understanding of 
+of AI in societal contexts, its implications and potential. 
+the transformative role 
+This 
+course sets the stage for grasping the broader societal 
+impacts and responsibilities of AI applications.
+
+
+Module Code :SOT10057
+Compulsory Module Name:Psychology of learning 
+and instructional design of
+AI-based systems
+Aim & contribution to the qualification profile:
+This module delves into the psychology of learning and 
+instructional systems and focuses on the interplay between 
+psychological principles and instructional design features. 
+Students will explore foundational psychological learning 
+theories, instructional design methodologies, and 
+psychometric instruments and tools, equipping them to 
+design AI systems that are cognizant of human behavior 
+and can be evaluated for their psychological impact. This 
+knowledge ensures that AI applications are not only 
+technically sound but also psychologically aligned with 
+human users, fostering a more holistic and human-centric 
+approach to AI integration in society.
+
+
+Deepening Knowledge and Skills:
+
+Module Code :IN2346
+Compulsory Module Name:Introduction to Deep 
+Learning
+Aim & contribution to the qualification profile:
+This module offers an introduction and in-depth 
+understanding of state-of-the-art deep learning concepts 
+and techniques. Students will possess a comprehensive 
+grasp of areas at the forefront of deep learning, enabling 
+them to convey pioneering ideas and engage with technical 
+and non-technical experts.
+
+
+Module Code :SOT86086
+Compulsory Module Name:Deep Learning Demystified: Hands-on Deep Learning for Non-CS Majors
+Aim & contribution to the qualification profile:
+This accompanying course “Deep Learning Demystified: 
+Hands-on Deep Learning for Non-CS Majors” aims to 
+prepare students that lack Computer science backgrounds 
+from their bachelor’s degree by providing a practical and 
+intuitive understanding of deep learning. It focuses on 
+building foundational knowledge and integrating hands-on 
+experience, ensuring that these students are well-equipped to tackle the main course on Introduction to Deep 
+Learning.
+
+
+Module Code :SOT86051
+Compulsory Module Name:Explainable AI -- A 
+Comprehensive Seminar on Transparent and 
+Ethical AI
+Aim & contribution to the qualification profile:
+This module delves into the concepts of AI transparency, 
+fairness, and explainability. It ensures graduates can make scientifically grounded decisions regarding AI applications, 
+always critically weighing potential repercussions and 
+societal ramifications, and hence be empowered to engage 
+with different stakeholders.
+
+
+Module Code :MCTS0027
+Compulsory Module Name:Methods 1
+Aim & contribution to the qualification profile:This module equips students with state-of -the-art research 
+methods and frameworks relevant to studying AI in society
+and specifically implications of AI applications in different 
+societal contexts.
+
+
+
+Module Code :SOT44303
+Compulsory Module Name:Academic Competencies 
+and
+Practical Skills
+Aim & contribution to the qualification profile:
+This module equips students with essential academic and 
+hands-on skills, from design thinking to academic writing. 
+Through targeted sessions, students apply and reflect on 
+these skills, ensuring they are adept at both theoretical and 
+real-world challenges within the AI in society landscape.
+
+
+Module Code :SOT46301
+Compulsory Module Name:AI in Diverse Societies
+Aim & contribution to the qualification profile:
+This module investigates the challenges and opportunities 
+of AI in diverse societal contexts (including future of work, 
+job displacement, etc.). Students will be acutely conscious 
+of the societal expectations and consequences of AI, 
+ensuring their work aligns with societal needs and 
+expectations related to AI's integration into everyday life.
+
+
+Module Code :IN2361
+Compulsory Module Name:Natural Language 
+Processing
+Aim & contribution to the qualification profile:
+This module introduces techniques for processing and 
+understanding human language (NLP) using AI. Students 
+will be equipped with a comprehensive set of technical 
+skills to grasp of areas at the forefront of NLP, ensuring 
+they can bridge ethical, regulatory, and practical 
+requirements in various NLP application domains (text 
+processing, language understanding, translation, 
+governance-related applications, etc.).
+
+Module Code :SOT10046
+Compulsory Module Name:Human-AI Interaction
+Aim & contribution to the qualification profile:
+This module delves into the intricacies of user experience 
+and human factors in AI systems, which are pivotal for the 
+successful integration and adoption of AI technologies in 
+daily applications (e.g., recommendation engines, search 
+algorithms, decision support systems, generative AI 
+solutions, etc). Through literature reviews and group 
+discussions, students will collaboratively design and 
+develop AI-integrated interactive systems. Hence, 
+graduates will be equipped with the expertise to critically 
+assess the performance of AI-driven interactive systems, 
+ensuring they can bridge the gap between AI technology 
+and its practical, user-centric applications.
+
+
+Module Code :TUM 
+Projects
+Week
+Compulsory Module Name:Project week
+Aim & contribution to the qualification profile:
+This module offers a unique platform for students to 
+collaboratively tackle contemporary challenges like 
+sustainability, digitalization in health care, administration, 
+and governance, mobility/transportation and hence apply 
+their knowledge on various aspects of artificial intelligence
+in real-world scenarios. Graduates will not only deepen 
+their domain-specific knowledge but also enhance their 
+interdisciplinary competencies, preparing them to address 
+complex, real-world issues with a holistic perspective.
+
+
+
+Table 2: Elective modules and their contribution to the qualification profile.
+
+
+Module Code :SOT10053
+Compulsory Module Name:Learning Analytics
+Aim & contribution to the qualification profile:
+Dive deep into the methodologies and tools used to analyze and 
+interpret data about learners to optimize learning experiences and the 
+environments in which they occur.
+
+
+Module Code :SOT10030
+Compulsory Module Name:Gaze-based HCI
+Aim & contribution to the qualification profile:
+Explore the cutting-edge interface techniques based on eye-tracking, 
+understanding the intricacies of human-computer interaction through 
+gaze behaviors.
+
+
+Module Code :SOT86052
+Compulsory Module Name:Responsible Data 
+Science for Safe and 
+Socially Aligned AI 
+Applications
+Aim & contribution to the qualification profile:
+Investigate the ethical, safe, and socially-aligned practices in data 
+science, ensuring AI applications are developed responsibly
+
+
+Module Code :SOT860809
+Compulsory Module Name:  Advanced Topic: Law 
+and Digitization in 
+Action
+Aim & contribution to the qualification profile:
+Engage in a deep exploration of contemporary issues at the 
+intersection of law and digital technologies, focusing on real-world 
+applications and implications.
+
+
+Module Code :SOT56307
+Compulsory Module Name: Philosophy of Artificial 
+Intelligence: Key
+Readings
+Aim & contribution to the qualification profile:
+Delves into the intersection of phenomenology and AI, exploring 
+foundational philosophical questions about the nature of the mind and 
+AI's conceptual underpinnings. Equips students with a deep 
+understanding of AI's philosophical context and the ability to critically 
+analyze its relationship with human cognition.
+
+
+
+Module Code :SOT10058
+Compulsory Module Name: Advanced Analysis of 
+Variance Procedures
+Aim & contribution to the qualification profile:
+This module delves into advanced ANOVA techniques, enabling 
+students to apply intricate variance analysis to complex datasets. By 
+mastering such procedures, students will be able to rigorously evaluate 
+experimental results, ensuring robust data interpretation and informed 
+decision-making in quantitative research scenarios.
+
+
+Module Code :SOT10059
+Compulsory Module Name: Development of 
+Research Instruments
+Aim & contribution to the qualification profile:
+This module equips students with the expertise to design theory-based 
+questionnaires tailored for instructional measurement. They'll master 
+the evaluation of existing instruments using psychometric quality 
+criteria, conduct studies to assess these criteria, and refine 
+instruments based on findings. This ensures students can (re-)use, 
+create and critically assess research tools, enhancing the validity and 
+reliability of their research.
+
+
+
+The program uses a variety of teaching and learning methods to cater to different learning styles and 
+ensure a comprehensive understanding of the material. More specifically, traditional lectures form 
+the backbone of the curriculum, providing students with foundational knowledge in areas like AI, 
+deep learning, and natural language processing. Interactive seminars in courses such as 
+"Explainable AI -- A Comprehensive Seminar on Transparent and Ethical AI” employ seminar-style 
+teaching, fostering discussions and debates on the explainable and ethical AI. Through hands-on 
+workshops in courses like "Deep Learning Demystified: Hands-on Deep Learning for Non-CS 
+Majors" a practical, workshop-based approach is envisioned, where students can actively engage 
+with the material and gain hands-on experience. On the other hand, research projects, such as the
+Project Weeks, where students come together to address real-world problems through AI in an 
+interdisciplinary team, offers students an opportunity to undertake hands-on interdisciplinary 
+research projects, allowing them to apply theoretical knowledge and creative AI solutions to practical 
+challenges (see also: https://www.tum.de/en/studies/degree-programs/key-skill-programs/project-weeks).
+
+In courses such as the "Academic Competencies and Practical Skills" student will learn academic 
+and hands-on skills, from design thinking to academic writing through targeted sessions. Students 
+will apply and reflect on these skills considering the latest developments in AI and its societal 
+integration. Collaborative courses and projects ensure furthermore throughout the accompanying 
+exercises of the curriculum that students develop teamwork skills and learn to collaborate on 
+complex AI challenges.
+
+
+In summary, this blend of traditional lectures, interactive sessions, hands-on workshops, group work, 
+and research projects ensures a comprehensive and immersive learning experience for students, 
+preparing them for both academic and industry challenges in the realm of AI.
+
+
+Interdisciplinary competencies, such as a sense of social responsibility and personality development, 
+are integrated throughout the program. For example, the course on AI in Diverse Societies 
+encourages students to consider the social implications of AI and the importance of ethical decision-making in this field. The project work also provides opportunities for students to develop their 
+teamwork and communication skills, as well as their ability to work independently and take 
+responsibility for their own learning.
+
+
+(3) Mobility window: During the third semester, students have the opportunity for a mobility window, 
+allowing for a typical one-semester study period at another university either within Germany or 
+internationally, without any time delay in their academic progression. The respective modules
+(Human-AI Interaction, Natural Language Processing, Project week and two elective modules) can 
+be substituted with comparable courses from other universities. Periods of study will be recognized 
+unless there are substantial differences in the competences acquired.
+
+
+
+#####7 Organization and Coordination
+
+The master’s program is administratively located at TUM School of Social Sciences and Technology
+(SOT), Professional Profile Political, Social and Educational Sciences and Technology. Most 
+modules as well as the master’s thesis are offered by the teaching staff of TUM SOT. In particular, 
+the TUM School of Computation, Information and Technology (CIT) provides additional modules for 
+this program.
+
+
+For administrative aspects of study organization, some responsibilities lie with the central units of 
+the TUM Center for Study and Teaching (TUM CST), while others are handled by the facilities of 
+TUM SOT (see the following overview):
+• Student Advising: Student Advising and Information Services 
+(TUM CST)
+Email: studium@tum.de
+Phone: +49 (0)89 289 22245
+Provides information and advising for
+prospective and current students
+(via hotline/service desk)
+• Departmental Student Advising: TUM SOT, Alina Fastowski, ais@sot.tum.de
+• Academic Programs Office (within department/school), Infopoint, etc.: 
+TUM SOT, Studien- und Qualitätsmanagement
+Hedi Schmid, Tel.-Nr.: +49 89 907793075
+leitung.stm@sot.tum.de 
+• Study Abroad Advising/Internationalization: 
+TUM-wide: TUM Global & Alumni Office
+internationalcenter@tum.de 
+Departmental: NN 
+• Gender Equality Officer: TUM-wide: Dr. Eva Sandmann
+sandmann@tum.de, Tel. +49 (0)89 289 22335
+Departmental (SOT): Prof. Dr. Allister Loder
+allister.loder@tum.de Tel. +49 (0)89 289 22436 
+• Advising – Barrier-Free Education: TUM-wide: Service Office for Disabled and
+Chronically Ill Students (TUM CST), 
+Email: Handicap@zv.tum.de
+Phone: +49 (0)89 289 22737
+Departmental: Talissa Stadler
+Talissa,stadler@tum.de 
+
+• Admissions and Enrollment: Admissions and Enrollment (TUM CST)
+Email: studium@tum.de
+Phone: +49 (0)89 289 22245
+Admissions, enrollment, Student Card, 
+leaves of absence, student fees payment, 
+withdrawal
+• Aptitude Assessment (EV): TUM-wide: Admissions and Enrollment
+(TUM CST)
+Departmental: Alina Fastowski (ais@sot.tum.de) 
+• Semester Fees and Scholarships: Fees and Scholarships (TUM CST),
+Email: beitragsmanagement@zv.tum.de
+• Examination Office: Graduation Office & Academic Records (TUM CST)
+Campus Munich 
+Graduation documents, notifications of 
+examination results, preliminary degree 
+certificates
+
+• Departmental Examination Office: TUM SOT STM
+Alina Fastowski (ais@sot.tum.de)
+Examination Board: Prof. Dr. Gjergji Kasneci (Chair)
+Prof. Dr. Oleksandra Poquet (Vice Chair)
+Prof. Dr. Christian Djeffal
+Prof. Dr. Stefania Centrone
+Prof. Dr. Enkelejda Kasneci
+Secretary (Alina Fastowski, ais@sot.tum.de ) 
+ 
+• Quality Management: TUM-wide: Quality Management (TUM CST), 
+https://www.tum.de/studium/tumcst/teams-cst/ 
+Departmental: TUM SOT 
+Vice Dean of Student and Academic Affairs:
+Prof. Dr. Claudia Nerdel 
+vd.study_teaching@sot.tum.de 
+QM Representative Head, QM Circle, 
+Evaluations Representative Head, 
+Module Management:
+Hedwig Schmid hedi.schmid@hfp.tum.de 
+Dr. Fred Slanitz slanitz@tum.de
+
+
+
+
+
+
+
+
