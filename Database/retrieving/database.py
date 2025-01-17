@@ -148,6 +148,23 @@ def _insert_questions_from_json():
     print("Questions inserted successfully.")
 
 
+def _create_index():
+    """
+    Create an index on the embedding column for faster similarity search.
+    """
+    connection = _get_connection()
+    try:
+        cursor = connection.cursor()
+        cursor.execute("CREATE INDEX embedding_index ON questions USING ivfflat(embedding);")
+        connection.commit()
+        print("Index created successfully.")
+    except Exception as e:
+        raise e
+    finally:
+        cursor.close()
+        connection.close()
+
+
 def _find_closest_embedding(embedding, top_n=5):
     """
     Find and return the top_n closest embeddings based on cosine similarity.
@@ -158,24 +175,23 @@ def _find_closest_embedding(embedding, top_n=5):
 
     Returns:
         list[tuple]: A list of tuples containing the closest questions, each tuple with
-                     (id, question_text, answer_text, source_type, source, similarity).
+                     (id, question_text, answer_text, source_type, source, distance).
     """
     connection = _get_connection()
     try:
         cursor = connection.cursor()
         find_query = '''
-        SELECT id, question_text, answer_text, source_type, source,
-               1 - (embedding <-> %s) AS similarity
+        SELECT id, question_text,answer_text, source_type, source,
+               (embedding <=> %s::vector) AS distance
         FROM questions
-        ORDER BY embedding <-> %s
+        ORDER BY distance ASC
         LIMIT %s;
         '''
-        cursor.execute(find_query, (embedding, embedding, top_n))
+        cursor.execute(find_query, (embedding, top_n))
         results = cursor.fetchall()
         return results
     except Exception as e:
         raise e
-        return []
     finally:
         cursor.close()
         connection.close()
@@ -274,10 +290,12 @@ def initialize_database(clear=False):
     """
     if _create_questions_table():
         _insert_questions_from_json()
+        _create_index()
 
     elif clear:
         _clear_questions_table()
         _insert_questions_from_json()
+        _create_index()
 
     print("Finished initializing database.")
     print(f"Loaded {_get_number_of_questions()} questions.")
@@ -306,13 +324,22 @@ def find_closest_questions(question, top_n=5):
         top_n (int): The number of closest questions to return.
 
     Returns:
-        list[tuple]: A list of tuples containing the closest questions, each tuple with
-                     (id, question_text, answer_text, source_type, source, similarity).
+        list[dict]: A list of dictionaries containing the closest questions, each with
+                    the keys 'id', 'question_text', 'answer_text', 'source_type', 'source', 'distance'.
     """
     embedding = embed_question(question)
-    return _find_closest_embedding(embedding, top_n)
+    entries = _find_closest_embedding(embedding, top_n)
+    entries = [{
+        "id": entry[0],
+        "question_text": entry[1],
+        "answer_text": entry[2],
+        "source_type": entry[3],
+        "source": entry[4],
+        "distance": entry[5]
+    } for entry in entries]
+    return entries
 
 
 if __name__ == "__main__":
     # Initialize the database
-    initialize_database(clear=True)
+    initialize_database(clear=False)
