@@ -3,7 +3,7 @@
         "created": 1737111811,
         "question": "Would the incident of academic misconduct in a previous university impact the application to the AI in Society program at TUM?",
         "answer": "NO ANSWER",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_001.txt",
         "request_id": "9f567603e623b2da04dc90c37fd8a24c"
     },
@@ -11,7 +11,7 @@
         "created": 1737111821,
         "question": "Would the incident of academic misconduct impact the application to your program?",
         "answer": "This depends on if the previous degree and the degree MSc. AI in Society are similar enough. If they are not similar then there would be no problem to apply. If they are similar, then there could then be a problem.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_002.txt",
         "request_id": "0715b44a9a53d8ecdffb088d2e5aa698"
     },
@@ -19,7 +19,7 @@
         "created": 1737111828,
         "question": "Who can help with getting a Letter of endorsement for a scholarship application?",
         "answer": "You're advised to reach out to the head of your study program. They will be able to support you in obtaining the document if you describe your situation well.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_003.txt",
         "request_id": "172fdfc8d3eae97210ad30ba9a36e616"
     },
@@ -27,7 +27,7 @@
         "created": 1737111840,
         "question": "Where can I find detailed information about the application process for the AI in Society program?",
         "answer": "You can find detailed information about the application process on our website here: https://www.sot.tum.de/sot/studium/ai-in-society/application/",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_004.txt",
         "request_id": "b90eab0f854ca2f800ac0ec0c6cce659"
     },
@@ -35,7 +35,7 @@
         "created": 1737111848,
         "question": "What is the format of the aptitude test for M.Sc (AI in Society)? Is it an open-book or closed-book exam?",
         "answer": "The format of the aptitude test is closed-book, so there are no additional aids allowed.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_005.txt",
         "request_id": "40ad73ed881441523b7034b608936d5a"
     },
@@ -43,7 +43,7 @@
         "created": 1737111852,
         "question": "Can I talk to professors or students to get a deeper understanding of the course?",
         "answer": "Talking to professors or students would need some organizing. But if you have concrete questions, you can forward them to me.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_006.txt",
         "request_id": "9c575d1281ce9443fcbdc2ac25bcf660"
     },
@@ -51,7 +51,7 @@
         "created": 1737111862,
         "question": "Where can I find the information about the aptitude test and certain modules?",
         "answer": "Information about the aptitude test and certain modules can be found on our website: https://www.sot.tum.de/sot/studium/ai-in-society/application/",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_007.txt",
         "request_id": "aeaf97f93b1792d2c4d699e98e22b6a9"
     },
@@ -59,7 +59,7 @@
         "created": 1737111866,
         "question": "Can I apply to the Master's program in AI in Society with a bachelor's degree in a field different from what are listed as requirements?",
         "answer": "You can apply to the program with any Bachelor's degree. What matters is whether the further admission requirements, such as practical project, entrance exam, etc., are fulfilled.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_008.txt",
         "request_id": "545cf6d39c9eea3be10365fb198f3438"
     },
@@ -67,7 +67,7 @@
         "created": 1737111870,
         "question": "I have already completed a Master's degree. May I list the credits I earned during my master's study?",
         "answer": "No, please only list credits from your Bachelor\u2019s degree. We cannot take a Master\u2019s degree as basis for another Master\u2019s degree application. It will always be the Bachelor\u2019s degree that is relevant.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_009.txt",
         "request_id": "9512d494b92fb7e24ae2d41a23975ff7"
     },
@@ -75,7 +75,7 @@
         "created": 1737111876,
         "question": "What was the decision on the rest of the cases for credit recognition?",
         "answer": "The rest of the cases for credit recognition were unfortunately declined.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_010.txt",
         "request_id": "f8c65f1b75e757d1487b2d1e0d1a4098"
     },
@@ -83,7 +83,7 @@
         "created": 1737111882,
         "question": "Did my request for credit recognition for the AI in Society courses get approved?",
         "answer": "Your request for credit recognition for the AI in Society courses has been declined.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_011.txt",
         "request_id": "98e1287017ae08beb2ecc253f52c4607"
     },
@@ -91,7 +91,7 @@
         "created": 1737111885,
         "question": "What was the outcome of the credit recognition request for the AI in Society courses \u201cFoundations of AI\u201d and \u201cIntroduction to Programming\u201d?",
         "answer": "The request for credit recognition was declined.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_012.txt",
         "request_id": "5766b24e0749d77d3f0f46b0cf9b768b"
     },
@@ -99,7 +99,7 @@
         "created": 1737111888,
         "question": "Could you kindly provide the individual scores for my academic performance and the writing test from the first stage of the application process?",
         "answer": "You had received 18 points based on your grades (academic performance) and 29 points in the written test. This led to 47 points in total.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_013.txt",
         "request_id": "e8e7839f0383c03d6f5ff876fbfb0c0b"
     },
@@ -107,7 +107,7 @@
         "created": 1737111891,
         "question": "Could you share information about the tuition fees or any other costs associated with the program?",
         "answer": "The tuition fees per semester for students outside of the EU currently amount to 4000 euros. More information about this is available here: https://www.tum.de/en/studies/fees/tuition",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_014.txt",
         "request_id": "ebb0fd45e993e228e4a1822e261e05bc"
     },
@@ -115,7 +115,7 @@
         "created": 1737111904,
         "question": "Can a student who was exmatriculated under the circumstances of academic misconduct apply for a degree at TUM?",
         "answer": "NO ANSWER",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_015.txt",
         "request_id": "524f42198f0d40fd61db815ff42e3e15"
     },
@@ -123,7 +123,7 @@
         "created": 1737111916,
         "question": "Do I need to explicitly apply for these scholarships for MSc. AI in Society program?",
         "answer": "NO ANSWER",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_016.txt",
         "request_id": "451d5af2a77004cefd7a466e85d94899"
     },
@@ -131,7 +131,7 @@
         "created": 1737111924,
         "question": "Is it a problem if I cannot provide at least 18 ECTS worth of practical experience with my application to the MSc. AI in Society program at TUM?",
         "answer": "If you cannot provide at least 18 ECTS worth of practical experience with your application, your application will unfortunately be declined. Practical experience outside of the university context, like work experience, is also counted.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_017.txt",
         "request_id": "ec2e1d035e203420e9dcee150ac64bc3"
     },
@@ -139,7 +139,7 @@
         "created": 1737111934,
         "question": "Can you provide detailed guidance on the structure and focus of the assessment & aptitude test procedure for MSc. AI in Society?",
         "answer": "I can\u2019t give out detailed information about the contents of the test, unfortunately, at least not beyond of what can be found on our website. However, I can tell you that we will not be asking very specific questions (like business law or similar). The test will be multiple choice, so you should be able to recognize the correct answers with general knowledge.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_018.txt",
         "request_id": "9e7f8212bf44d3463916abb148348b46"
     },
@@ -147,7 +147,7 @@
         "created": 1737111940,
         "question": "Where can I find all of the relevant admission criteria and procedures for the MSc. AI in Society?",
         "answer": "All of the relevant admission criteria and procedures can be found on this website: https://www.sot.tum.de/sot/studium/ai-in-society/application/",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_019.txt",
         "request_id": "0e2d21822e8ec0cf8b8693bdba01f374"
     },
@@ -155,7 +155,7 @@
         "created": 1737111950,
         "question": "What is the deadline for applications for the MSc. AI in Society program at TUM?",
         "answer": "Applications are open until May 31st.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_020.txt",
         "request_id": "11314639df23773ef8cd1cc9728d894a"
     },
@@ -163,7 +163,7 @@
         "created": 1737111960,
         "question": "Who should nominate you for the scholarship?",
         "answer": "You need to be nominated by a professor.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_021.txt",
         "request_id": "00eb89a57ddcf46089b20a3a58f22945"
     },
@@ -171,7 +171,7 @@
         "created": 1737111966,
         "question": "What will I do during the Project Week?",
         "answer": "During the Project Week, you'll have the chance to transform meaningless smartphone use into meaningful learning experiences. You will work in small teams, brainstorm innovative ideas, and develop a functional app prototype that redefines how we engage with technology.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_022.txt",
         "request_id": "057baaf8f9c11271e82b48677898ef75"
     },
@@ -179,7 +179,7 @@
         "created": 1737111971,
         "question": "Can I apply to the AI in Society master's program at TUM at the beginning of the application period next year, even though some of my modules, which count towards the required 140 ECTS, are only graded with \u201cpassed\u201d or \u201cnot passed\u201d?",
         "answer": "No, that's not a problem. For us, it's only important that you have completed at least 140 ECTS. If some modules are only graded as passed/not passed, that's not a problem. For the calculation of the average grade, we then only consider the modules that were actually graded and weight them accordingly.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_023.txt",
         "request_id": "de17b7dba7a5def0f5b7d3c4e99c087f"
     },
@@ -187,7 +187,7 @@
         "created": 1737111978,
         "question": "Can misclassified academic misconduct during a past program affect future application to a similar program at a different university?",
         "answer": "NO ANSWER",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_024.txt",
         "request_id": "e94d290a060abc5fafd1e73eadb914da"
     },
@@ -195,7 +195,7 @@
         "created": 1737111983,
         "question": "Am I eligible to apply for this course if I have a Bachelors of Technology in & Engineering?",
         "answer": "Yes, there is no restriction regarding Bachelor\u2019s degree programs \u2013 all students from all backgrounds are welcomed.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_025.txt",
         "request_id": "dac8e417e69ceeda12e8769bd617e70d"
     },
@@ -203,7 +203,7 @@
         "created": 1737111986,
         "question": "Is the mathematical knowledge acquired from the course called 'Hands-on with bootstrap and [REDACTED]' sufficient?",
         "answer": "If it is a lecture + practice, probably yes. If it is a seminar, it will not be enough.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_026.txt",
         "request_id": "2831d0424d299817e37145f2c1999956"
     },
@@ -211,7 +211,7 @@
         "created": 1737111990,
         "question": "What kinds of exams would fit into the 'AI in society' Master's degree program requirements?",
         "answer": "NO ANSWER",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_027.txt",
         "request_id": "539481a242a1d5e6fe361cef9aee76e8"
     },
@@ -219,7 +219,7 @@
         "created": 1737112001,
         "question": "Can this course be credited for the 5 ECTS Math/Statistics requirements?",
         "answer": "NO ANSWER",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_028.txt",
         "request_id": "551b44c2599a4f755e2903c76b85fa7d"
     },
@@ -227,7 +227,7 @@
         "created": 1737112004,
         "question": "Can the '[REDACTED]: Hands-on with bootstrap and [REDACTED]' course at LMU be counted towards the 5 ECTS Math/Statistics requirement?",
         "answer": "NO ANSWER",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_029.txt",
         "request_id": "685ad917f3d967c77ae1c2fd95f16148"
     },
@@ -235,7 +235,7 @@
         "created": 1737112013,
         "question": "Can work experience be used as proof for practical project?",
         "answer": "Yes, if you choose to submit work experience as proof for practical project, you will need to provide a work certificate from your employer.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_030.txt",
         "request_id": "df879c9e5bb8e94ddc8d0c35bdfa1d25"
     },
@@ -243,7 +243,7 @@
         "created": 1737112022,
         "question": "Can the same course credit be recognized twice?",
         "answer": "There is a regulation which forbids us from recognizing such courses twice.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_031.txt",
         "request_id": "bb125974f5d5f34f4202de5af2668613"
     },
@@ -251,7 +251,7 @@
         "created": 1737112027,
         "question": "How many candidates will be selected after the voting deadline?",
         "answer": "The 3 candidates with the most votes will be selected.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_032.txt",
         "request_id": "1a5cb40f2406eca61407e01d9910356d"
     },
@@ -259,7 +259,7 @@
         "created": 1737112033,
         "question": "When should the elected representatives reach out for initial meeting?",
         "answer": "The elected representatives should reach out to schedule an initial meeting at the end of November.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_033.txt",
         "request_id": "c5d63c54c948c422145f379fefe4456a"
     },
@@ -267,7 +267,7 @@
         "created": 1737112043,
         "question": "What will be the responsibilities of the students during the gathering?",
         "answer": "The students will comply with existing rules, including noise control and alcohol consumption, and will be responsible for cleaning up and waste management.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_034.txt",
         "request_id": "74eaf11b023fa7867720c25b41a84aee"
     },
@@ -275,7 +275,7 @@
         "created": 1737112050,
         "question": "Can a student participate in multiple project weeks for the AI in Society program?",
         "answer": "There is no limit to the number of project weeks you can participate in, but places are limited and participation requires you to dedicate a full week of your time during the semester.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_035.txt",
         "request_id": "de4da84fe8f16e7ae5030f68e601f9b1"
     },
@@ -283,7 +283,7 @@
         "created": 1737112060,
         "question": "Is there a requirement to provide one single project worth 18 credits for the AI in Society program at TU Munich?",
         "answer": "There is no requirement for one single project worth 18 credits. You can specify multiple ones which in sum make up 18 credits. However, your thesis can only count as a project module if it will be completed at the point of your application.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_036.txt",
         "request_id": "3d883119dfd15f9d5c1f070268327a31"
     },
@@ -291,7 +291,7 @@
         "created": 1737112068,
         "question": "Is there any limit to the number of project weeks you can participate in?",
         "answer": "No, there is no limit to the number of project weeks you can participate in.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_037.txt",
         "request_id": "50d971576c72987a75560fa27381eeaf"
     },
@@ -299,7 +299,7 @@
         "created": 1737112078,
         "question": "Can notes on the event be circulated via email?",
         "answer": "Yes, I can assist with announcing the get-together via email.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_038.txt",
         "request_id": "0c4db2505f794d98bf897f0f0f54ca20"
     },
@@ -307,7 +307,7 @@
         "created": 1737112084,
         "question": "How can I get more information on the 'Politics and Technology' masters?",
         "answer": "You can reach out to the responsible study coordinator for more information about the 'Politics and Technology' masters.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_039.txt",
         "request_id": "587da75fe19612cb0241f0870eaf3c2e"
     },
@@ -315,7 +315,7 @@
         "created": 1737112096,
         "question": "What is required to understand the contents of the courses submitted for recognition?",
         "answer": "Module descriptions are required to understand the contents of the courses.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_040.txt",
         "request_id": "add4bafe52c1e3a74799c094aa8b38db"
     },
@@ -323,7 +323,7 @@
         "created": 1737112108,
         "question": "Is the meeting confirmed and at what time?",
         "answer": "Yes, the meeting is confirmed for tomorrow at 15:00.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_041.txt",
         "request_id": "84a4c51041514630fed680f748f9157f"
     },
@@ -331,7 +331,7 @@
         "created": 1737112115,
         "question": "Are there any specific formats or additional documentation requirements that may support my application?",
         "answer": "We would highly recommend you to also get a Confirmation of accreditation from the respective Department of Education along with your application.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_042.txt",
         "request_id": "363f4ca60fbd96b5e27c9437d153b681"
     },
@@ -339,7 +339,7 @@
         "created": 1737112121,
         "question": "Can the individual in charge approve a case without a new meeting?",
         "answer": "Yes, in certain situations, the individual in charge can approve a case without requiring a new meeting.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_043.txt",
         "request_id": "bd592e5af6e4eedfc0782cc83d88fd91"
     },
@@ -347,7 +347,7 @@
         "created": 1737112132,
         "question": "What if the registration is expired in the system?",
         "answer": "In such a case, the instructor can manually add the student into the course.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_044.txt",
         "request_id": "848fb47a8fb217e94cfaf224c7c648c1"
     },
@@ -355,7 +355,7 @@
         "created": 1737112140,
         "question": "What kind of help is being sought regarding the 'AI in Society' Master program?",
         "answer": "Clarification is being sought on the admission requirements and course recognition for the program.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_045.txt",
         "request_id": "e8fd4461a83d4de6507fb1c5e1cfb73b"
     },
@@ -363,7 +363,7 @@
         "created": 1737112204,
         "question": "How can a student be manually added into a course?",
         "answer": "NO ANSWER",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_046.txt",
         "request_id": "0d2a1d88088e58f07f1e739b85818768"
     },
@@ -371,7 +371,7 @@
         "created": 1737112228,
         "question": "When can the PA members receive the documents?",
         "answer": "Ideally, the PA members should receive the documents on Monday.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_047.txt",
         "request_id": "66d8db7be4f996ad526f2e6a4faa748d"
     },
@@ -379,7 +379,7 @@
         "created": 1737112237,
         "question": "When do applications open for the next winter semester?",
         "answer": "The applications for the next winter semester (starting in October 2025) will open in January/February 2025.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_048.txt",
         "request_id": "b84763e395226fb7d6af920225d1e795"
     },
@@ -387,7 +387,7 @@
         "created": 1737112242,
         "question": "What will be the fate of the case, that their module does not reach the needed ECTS count?",
         "answer": "Such cases can be denied without further consideration.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_049.txt",
         "request_id": "2b49e1c22df901f40b6d9c19a430571e"
     },
@@ -395,7 +395,7 @@
         "created": 1737112248,
         "question": "Can we include the Project Week 'AI, Society, and Governance' in our study program for the Projectweeks?",
         "answer": "Yes, we can include the first one, but not the second one.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_050.txt",
         "request_id": "ba07f616256a12ee29256c3010078bb1"
     },
@@ -403,7 +403,7 @@
         "created": 1737111858,
         "question": "Can I improve the grade of the already recognized achievement through the TUM course or keep the grade of the recognized achievement in case I get a worse grade in the TUM course?",
         "answer": "No, you cannot improve or maintain the grade of the recognized achievement through the TUM course.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_051.txt",
         "request_id": "0aca029287067f17bbc2f6f5eabb6e16"
     },
@@ -411,7 +411,7 @@
         "created": 1737111876,
         "question": "Do students still have their regular courses during the Project Week?",
         "answer": "NO ANSWER",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_052.txt",
         "request_id": "39de1fc8719c9dc98221276228066957"
     },
@@ -419,7 +419,7 @@
         "created": 1737111878,
         "question": "Can the following Project Weeks be included in our program?",
         "answer": "NO ANSWER",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_053.txt",
         "request_id": "495f3f4e296b2d7fad5942aef957e663"
     },
@@ -427,7 +427,7 @@
         "created": 1737111880,
         "question": "Can I participate in multiple project weeks?",
         "answer": "Yes, there is no limit on the number of project weeks you can participate in but remember that places are limited and participation requires dedicating at least a full week of your time during the semester.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_054.txt",
         "request_id": "8d8c9ddd0de1de20e3649c94d6b274ed"
     },
@@ -435,7 +435,7 @@
         "created": 1737111889,
         "question": "If this program is not a fit for my qualifications, could you suggest any other programs at the university that may be more aligned with my goals?",
         "answer": "NO ANSWER",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_055.txt",
         "request_id": "c2f04f656001124e0a260258230184d9"
     },
@@ -443,7 +443,7 @@
         "created": 1737111897,
         "question": "Are there any specific formats or additional documentation requirements that may support my application?",
         "answer": "NO ANSWER",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_056.txt",
         "request_id": "ae57620ac6fe2d9183583b6d4f4f683d"
     },
@@ -451,7 +451,7 @@
         "created": 1737111902,
         "question": "Is it possible to have a face to face meeting to discuss about the 'AI in Society' Master program?",
         "answer": "Before I make suggestions: would you be able to come in person, or do you prefer a zoom meeting?",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_057.txt",
         "request_id": "c5b81f8e91281b14c2b39b5db91f0a9c"
     },
@@ -459,7 +459,7 @@
         "created": 1737111906,
         "question": "What is the recommended preparation for the 'AI in Society' program?",
         "answer": "It's highly suggested to brush up on mathematical knowledge, especially statistics, linear algebra, and calculus. These are topics that will help you study machine learning and data science, which will be taught from the first semester onwards.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_058.txt",
         "request_id": "c0cdfe4b74f8fc06f60450fefabaa1b4"
     },
@@ -467,7 +467,7 @@
         "created": 1737111920,
         "question": "How many hours per week were studied for the subjects listed in the application for recognition of credits?",
         "answer": "Approximately 8 hours per week were studied, but this information is being confirmed with the university where the course was taken.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_059.txt",
         "request_id": "e91051cbd85a5a2e3dadfe69a826da2e"
     },
@@ -475,7 +475,7 @@
         "created": 1737111925,
         "question": "How are the hours studied per week calculated?",
         "answer": "The hours studied per week were calculated by the applicant as approximately 8 hours.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_060.txt",
         "request_id": "e073e49df5837ddf35906a2de474de39"
     },
@@ -483,7 +483,7 @@
         "created": 1737111931,
         "question": "How were the hours studied per week calculated?",
         "answer": "The hours studied per week were calculated approximately as 8 hours by the applicant, however it is being clarified with the university where the course was taken.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_061.txt",
         "request_id": "3b64d0fcd0c67d191a925e91f46b6b53"
     },
@@ -491,7 +491,7 @@
         "created": 1737111939,
         "question": "Who needs help to be manually added into a course?",
         "answer": "The Taiwanese student from the AIS master program needs help to be manually added into the course.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_064.txt",
         "request_id": "da9f51192140bab67b172a9a0d31c374"
     },
@@ -499,7 +499,7 @@
         "created": 1737111943,
         "question": "What should a student do if registration expired according to the system?",
         "answer": "They should request assistance for manual addition into the course.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_065.txt",
         "request_id": "943965d87016c9c179df117c45a9ba6f"
     },
@@ -507,7 +507,7 @@
         "created": 1737111947,
         "question": "What to do when the registration period is over but you still want to register?",
         "answer": "You can reach out for help to manually add you into the course.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_066.txt",
         "request_id": "839c08bdbec213dae179cd03836e2719"
     },
@@ -515,7 +515,7 @@
         "created": 1737111950,
         "question": "How do I apply for recognition of credits at TUM?",
         "answer": "To apply for recognition of credits, you need to fill the form provided on TUM's website and collect the documents listed on their specific page. After which, you should send them to the mentioned email address.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_067.txt",
         "request_id": "879cddea2435084913488058a380a11d"
     },
@@ -523,7 +523,7 @@
         "created": 1737111962,
         "question": "Will the project week class be awarded 6 ECTS?",
         "answer": "NO ANSWER",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_068.txt",
         "request_id": "a13addb4c58cf36fc685195974ee49b1"
     },
@@ -531,7 +531,7 @@
         "created": 1737111972,
         "question": "What is the process of applying for recognition of my previous courses?",
         "answer": "For applying for recognition of this course, you need to fill the form provided on our website and collect the documents listed. These need to be sent to the mentioned email id. If you have modules you need to recognize as early as possible, please send your documents to us by October 25th.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_070.txt",
         "request_id": "cd8cd2f890570b41dd02f290112619c3"
     },
@@ -539,7 +539,7 @@
         "created": 1737111985,
         "question": "Does my admission remain valid if I reject the study place now and decide to return later?",
         "answer": "Yes, your admission will still be valid for an indefinite time, so if you decide to take the study place up again in the future, the university will still admit you.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_071.txt",
         "request_id": "43c809ce7692fa4dc9448f96dfc1c294"
     },
@@ -547,7 +547,7 @@
         "created": 1737111994,
         "question": "When is the payment deadline for the tuition fees?",
         "answer": "The payment deadline for the tuition fees for first-time enrollment for the summer semester is March 15, and for the winter semester, it is September 15.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_072.txt",
         "request_id": "16a66ea8b77588c12ce51943a7f73f8b"
     },
@@ -555,7 +555,7 @@
         "created": 1737112003,
         "question": "Who can I contact for any questions about the project week?",
         "answer": "For any questions, please reach out to [REDACTED], who is responsible for this project week.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_073.txt",
         "request_id": "f0fba50b2065953f08fe64d98980f49f"
     },
@@ -563,7 +563,7 @@
         "created": 1737112015,
         "question": "Specifically, I am also concerned about the semester in which I started at TUM: The start of the contract was July 1, 2023. That means the teaching duty for this semester should be calculated proportionally to the lecture days that were left in this summer semester. As a rule, I have a 2.5 SWS teaching obligation per semester, but for the summer semester 2023 it should be less. Can you help me understand my teaching load?",
         "answer": "The 0 SWS are general and apply to the period from 1.7.23 to 31.1.25.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_074.txt",
         "request_id": "806db8e5a9b4cbc9a632ff121542c6c2"
     },
@@ -571,7 +571,7 @@
         "created": 1737112025,
         "question": "For the summer semester of 2023, what should be my teaching obligation?",
         "answer": "For the summer semester of 2023, your teaching obligation should be less than your regular 2.5 SWS per semester.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_075.txt",
         "request_id": "904bc0a6317543530671dccd8edb44d3"
     },
@@ -579,7 +579,7 @@
         "created": 1737112038,
         "question": "What should I do after taking the modules from my other study?",
         "answer": "After taking them and writing the exam, reach back out for course recognition.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_076.txt",
         "request_id": "df3a5acdf6f23d0d6eb376e99fa14c72"
     },
@@ -587,7 +587,7 @@
         "created": 1737112046,
         "question": "When will the project week take place?",
         "answer": "NO ANSWER",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_077.txt",
         "request_id": "0536758917b3dba3c65d5814ed5f38e3"
     },
@@ -595,7 +595,7 @@
         "created": 1737112055,
         "question": "When were the documents received by TUM?",
         "answer": "NO ANSWER",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_078.txt",
         "request_id": "a7eea07df8561c9e9290e01bef6fd482"
     },
@@ -603,7 +603,7 @@
         "created": 1737112073,
         "question": "What can I do in case of issues with the enrollment in my chosen course?",
         "answer": "In case of issues, you should reach out to the departmental student advisors. You could also reach out to your fellow students for support with lecture materials while you do not have access to them online. You are also allowed to continue attending your courses as normal, while your matriculation issue is being resolved.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_079.txt",
         "request_id": "e2fb59ad8f166dd3359c370598b406ab"
     },
@@ -611,7 +611,7 @@
         "created": 1737112091,
         "question": "What is the deadline for the payment of the tuition fees for first-time enrollment?",
         "answer": "The payment deadline for the tuition fees for first-time enrollment for the summer semester is March 15, for the winter semester September 15. You have time until the 15.11.2024 to pay the semester fees.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_080.txt",
         "request_id": "f6eb6ef6df258247aa32b7805ff3d87e"
     },
@@ -619,7 +619,7 @@
         "created": 1737112102,
         "question": "Do I need a letter confirming the exemption from the German language requirement for my program, which is essential for my visa submission?",
         "answer": "We can issue a letter stating that German knowledge is not required for our program.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_081.txt",
         "request_id": "7167acc3e71aa51e075edf6657d3c57d"
     },
@@ -627,7 +627,7 @@
         "created": 1737112113,
         "question": "What documents are required by the student for the visa application?",
         "answer": "The student requires an extension letter or supporting document for the visa application, and a letter confirming the exemption from the German language requirement for the program.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_082.txt",
         "request_id": "5d39fe03b1aafc727e1bdfa51cefd1c9"
     },
@@ -635,7 +635,7 @@
         "created": 1737112119,
         "question": "I specifically need information about the semester I started at TUM: The contract started on 1.7.2023. How is the teaching assignment for this semester calculated?",
         "answer": "NO ANSWER",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_083.txt",
         "request_id": "0bf0901af5cdc7b10e13bfa036d7f0f8"
     },
@@ -643,7 +643,7 @@
         "created": 1737112131,
         "question": "Who should I contact regarding exmatriculation, semester fees, etc.?",
         "answer": "You should contact the responsible colleagues at the Office for Application and Matriculation https://www.tum.de/en/studies/graduation/withdrawal-from-university/ or the fee management https://www.tum.de/en/studies/fees-and-financial-aid/reimbursement-of-student-union-fees-regular/.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_086.txt",
         "request_id": "e7eb34744912040bb12747805a14c9b6"
     },
@@ -651,7 +651,7 @@
         "created": 1737112140,
         "question": "Where can information about the degree and the corresponding documents be found?",
         "answer": "This information can be found on the Technical University of Munich's main website at https://www.tum.de/en/studies/graduation/documents/.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_087.txt",
         "request_id": "f1b72baa75bd08c1e5d86ea1e29b7246"
     },
@@ -659,7 +659,7 @@
         "created": 1737112150,
         "question": "Can I register for courses without having officially enrolled yet?",
         "answer": "After providing proof of completing your previous studies, you should be matriculated quickly and then you can register for courses as an AI in Society student.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_088.txt",
         "request_id": "af1b0324a7e612ebe1d163014f1fc495"
     },
@@ -667,7 +667,7 @@
         "created": 1737112157,
         "question": "Can I still register for the courses and gain access to the Moodle content while my enrollment is pending?",
         "answer": "NO ANSWER",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_089.txt",
         "request_id": "6f9084b7f9918e1f3c3869bc24ec7d05"
     },
@@ -675,7 +675,7 @@
         "created": 1737112164,
         "question": "Can the meeting regarding the paper extension be rescheduled to tomorrow?",
         "answer": "The email suggests the possibility of rescheduling, but does not confirm this change.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_090.txt",
         "request_id": "f4edf0d6e7fd48c929f16dd46e458523"
     },
@@ -683,7 +683,7 @@
         "created": 1737112166,
         "question": "What is the status of the student's enrollment if they haven't received their Bachelor's certificate yet?",
         "answer": "The student is currently unable to complete the enrollment due to not having received the Bachelor's certificate.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_091.txt",
         "request_id": "a566d08be9949a0b3edcc02dd81132d4"
     },
@@ -691,7 +691,7 @@
         "created": 1737112175,
         "question": "Can you provide information about the specific lecture times (and possibly rooms) for my courses?",
         "answer": "The detailed plan is still being worked on. It will be published on the website in due time before the start of the semester.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_092.txt",
         "request_id": "4777203445a914b94765f92f649e90ff"
     },
@@ -699,7 +699,7 @@
         "created": 1737112186,
         "question": "When is the first regular tutorial for Foundations of AI?",
         "answer": "The first regular tutorial for Foundations of AI will be on 23.10.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_093.txt",
         "request_id": "ce3f2d98dbaf7953cb4e9e9ad89d2d80"
     },
@@ -707,7 +707,7 @@
         "created": 1737112191,
         "question": "What exactly should be stated in the letter of extension?",
         "answer": "NO ANSWER",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_094.txt",
         "request_id": "9f8b3764075ad292f89e2751da3fc08f"
     },
@@ -715,7 +715,7 @@
         "created": 1737112196,
         "question": "Can I schedule a meeting to clear my doubts about the program?",
         "answer": "NO ANSWER",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_095.txt",
         "request_id": "6ce159805370c492109be1263d10ef25"
     },
@@ -723,7 +723,7 @@
         "created": 1737112202,
         "question": "Who should I contact regarding partnerships of the program?",
         "answer": "You should reach out to our program head for information about partnerships.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_096.txt",
         "request_id": "930df37d04f29781191ac203ff314a4f"
     },
@@ -731,7 +731,7 @@
         "created": 1737112207,
         "question": "Has the program ever advertised its partnerships?",
         "answer": "NO ANSWER",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_097.txt",
         "request_id": "9331b9c9d15440bd5d649af7576e2c29"
     },
@@ -739,7 +739,7 @@
         "created": 1737112210,
         "question": "Will the invitation link for the new Whatsapp group be shared?",
         "answer": "Yes, as soon as the new group is created, the invitation link will be shared.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_098.txt",
         "request_id": "1bd64d70f27530e1271ea942f7d1a1f3"
     },
@@ -747,7 +747,7 @@
         "created": 1737112215,
         "question": "What's the suggested plan for the Whatsapp group during the Welcome Event?",
         "answer": "The suggested plan is to create a new Whatsapp group and promote it during the Welcome Event, while keeping the existing group unchanged.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_099.txt",
         "request_id": "dae45c76f7c209ab5710d44796f43db8"
     },
@@ -755,7 +755,7 @@
         "created": 1737112221,
         "question": "Can I participate in the event and potentially AIS courses without official enrollment at this stage?",
         "answer": "Yes, you can still participate in the event.",
-        "source-type": "email",
+        "source_type": "email",
         "source": "email_100.txt",
         "request_id": "58e5b7150090ce3fb1de0d15c94a77ec"
     }
