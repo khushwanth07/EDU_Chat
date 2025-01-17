@@ -11,16 +11,14 @@ API_KEY = os.getenv('API_KEY')
 client = OpenAI(api_key=API_KEY)
 
 DEVELOPER_PROMPT = """
-You are a data analyst extracting information from an email history.
-This data is used to generate FAQs and answers for a chatbot, for the website of the course program.
-Keep the answers as authenticate as possible as there should be no to very less information loss.
+You are a data analyst extracting information from an email history for the creation of a FAQ.
+Keep the question and answer pairs as close to the original email as possible.
+If there is no relevant question or no definite answer return an empty json object.
 The questions and answers should be based solely on the email content and not contain any personal information.
-Anything containing personal information should be removed in such a way that the context of the message is not lost.
-Provide clear Question and Answer pairs as JSON.
-If there is no question or answer, please reply with an empty json object.
-There should be between 0 and 5 questions and answers in the json, prefer the minimum that covers the email content.
+There should be between 0 and 5 questions answers pairs in the json, prefer the minimum that covers the email content.
+Output all questions and answers in english.
 Each question should be followed by a single answer.
-This is an example of how the json should look like:
+This is an example of how the json should be structured:
 [
     {
         "Q": "What is the ECTS credit requirement for the MSc. AI in Society program at TUM?",
@@ -43,7 +41,9 @@ def read_email(file_path):
 # Get the email folder files list witch is a subfolder of the current directory
 email_files = os.listdir("./Database/preprocessing/emails")
 
-email = read_email(f"./Database/preprocessing/emails/{email_files[0]}")
+email = read_email(f"./Database/preprocessing/emails/{email_files[730]}")
+
+print(email_files[730])
 
 completion = client.chat.completions.create(
     model="gpt-4o",
