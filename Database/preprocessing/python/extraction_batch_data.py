@@ -15,7 +15,7 @@ API_KEY = os.getenv("API_KEY")
 client = OpenAI(api_key=API_KEY)
 
 # Get the file response from the OpenAI API
-file_response = client.files.content("file-D2qwkvPCJ9kmsPu1B6ESD7")
+file_response = client.files.content("file-Gz7rammmCsRJvavrZ4hjnk")
 
 # Split the response into lines to get the individual responses for each email
 responses = file_response.text.splitlines()
