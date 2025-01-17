@@ -43,6 +43,8 @@ for response in responses:
             "source": response["custom_id"],  # source email file (e.g. email_001.txt)
             "request_id": response["response"]["request_id"],  # request id of the api call
         }
+        if qa["A"] == "NO ANSWER":
+            data[key]["source_type"] = "no_answer"
 
 # Print the data in a readable format
 # print(json.dumps(data, indent=4))
