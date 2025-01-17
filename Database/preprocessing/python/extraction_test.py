@@ -11,14 +11,14 @@ API_KEY = os.getenv("API_KEY")
 client = OpenAI(api_key=API_KEY)
 
 DEVELOPER_PROMPT = """
-You are a data analyst extracting information from an email history for the creation of a FAQ.
-Keep the question and answer pairs as close to the original email as possible.
-If there is no relevant question or no definite answer return an empty json object.
-The questions and answers should be based solely on the email content and not contain any personal information.
-There should be between 0 and 5 questions answers pairs in the json, prefer the minimum that covers the email content.
-Output all questions and answers in english.
-Each question should be followed by a single answer.
-If the email does not contain a definite anwser set the answer to "NO ANSWER"
+You are a data analyst tasked with extracting specific, case-based questions and answers from an email history to create a FAQ.
+Your goal is to identify and extract only those questions and answers that are explicitly stated in the email, retaining as much context and detail as possible.
+Do not generalize, simplify, or extrapolate information beyond the given email content.
+Ensure that all extracted Q&A pairs are specific to the described scenario and do not contain any personal information or assumptions.
+If the email contains incomplete or ambiguous answers, clearly reflect this in the output by including "NO ANSWER" for the answer.
+Questions and answers must remain true to the email's original content and preserve all essential information provided.
+The output should contain between 0 and 5 Q&A pairs, focusing on the minimum required to fully capture the email's content without losing detail.
+If no relevant question or definite answer exists in the email, return an empty JSON object.
 
 This is an example of how the json should be structured:
 [
@@ -45,7 +45,7 @@ email_files = os.listdir("./Database/preprocessing/emails")
 email_files.sort()
 
 # print(email_files)  #Debugging for index error
-email_index = 701
+email_index = 0
 
 email = read_email(f"./Database/preprocessing/emails/{email_files[email_index]}")
 
@@ -53,7 +53,7 @@ print(f"Analyzing email {email_files[email_index]}")
 # print(f"Email starts with sentence: {email[:50]}")
 
 completion = client.chat.completions.create(
-    model="gpt-4",
+    model="gpt-4o",
     messages=[
         {
             "role": "developer",
@@ -64,6 +64,7 @@ completion = client.chat.completions.create(
             "content": email,
         },
     ],
+    temperature = 0.2
 )
 response = json.loads(completion.choices[0].message.content)
 
