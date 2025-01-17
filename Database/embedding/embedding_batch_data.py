@@ -14,7 +14,7 @@ API_KEY = os.getenv("API_KEY")
 client = OpenAI(api_key=API_KEY)
 
 # Get the file response from the OpenAI API
-file_response = client.files.content("file-1YDa66JkdP8AiDNP5TJWKV")
+file_response = client.files.content("file-7QhdKXPsJvpX4V5P21P8ki")
 
 # Split the response into lines to get the individual responses for each email
 responses = file_response.text.splitlines()
@@ -39,8 +39,8 @@ for response in responses:
     }
 
 # Print the data in a readable format
-print(json.dumps(data, indent=4))
+# print(json.dumps(data, indent=4))
 
 # Save the data to a JSON file
-with open(".temp/batch_output.json", "w") as file:
+with open(".temp/embedding_batch_output.json", "w") as file:
     json.dump(data, file, indent=4)
