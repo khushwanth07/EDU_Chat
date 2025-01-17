@@ -1,7 +1,7 @@
 Body:
 Dear applicant,
 Please use the following Zoom link for your AI in [REDACTED] on July 4th, 18:00-18:30 CEST.
-https://tum-conf.zoom-x.de/j/65507928097?pwd=7rQb5vs0efi0s2DTpbd0JrJg6xSU37.1
+https://[Zoom link redacted]
 We look forward to getting to know you!
 Best wishes
 [REDACTED]

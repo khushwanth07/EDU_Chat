@@ -3,7 +3,7 @@ Subject: AI in [REDACTED] - [REDACTED]: Mailbox(name='[REDACTED]@sot.tum.de [TUS
 Body:
 Dear applicant,
 Please use the following Zoom link for your AI in [REDACTED] on July 26th, 10:00 – 10:30 AM CEST.
-https://tum-conf.zoom-x.de/j/69442779975?pwd=bOg3HkQj6iz7NW2bQ3J1GSVplGvgOR.1
+https://[Zoom link redacted]
 We look forward to getting to know you!
 Best wishes
 [REDACTED]

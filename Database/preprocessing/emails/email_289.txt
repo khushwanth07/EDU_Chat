@@ -5,7 +5,7 @@ Date: 2024-07-09 14:56:35+00:00
 Body:
 Dear applicant,
 Please use the following Zoom link for your AI in [REDACTED] on July 10th, 13:30 – 14:00 CEST.
-https://tum-conf.zoom-x.de/j/66656125298?pwd=bykqlGycCNmFuknzsmdumt1KUzMx82.1
+https://[Zoom link redacted]
 We look forward to getting to know you!
 Best wishes
 [REDACTED]
