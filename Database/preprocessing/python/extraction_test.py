@@ -41,9 +41,12 @@ def read_email(file_path):
 # Get the email folder files list witch is a subfolder of the current directory
 email_files = os.listdir("./Database/preprocessing/emails")
 
-email = read_email(f"./Database/preprocessing/emails/{email_files[730]}")
+email_index = 730
 
-print(email_files[730])
+email = read_email(f"./Database/preprocessing/emails/{email_files[email_index]}")
+
+print(f"Analyzing email {email_files[email_index]}")
+print(f"Email starts with sentence: {email[:100]}")
 
 completion = client.chat.completions.create(
     model="gpt-4o",
