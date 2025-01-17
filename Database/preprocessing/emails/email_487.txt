@@ -4,5 +4,5 @@ CC:
 Date: 2024-06-09 17:01:22+00:00
 Body:
 [REDACTED],
-FYI; der Link zum Seminarzeitplan (https://tumde-my.sharepoint.com/:w:/g/personal/gjergji_kasneci_tum_de/EY8ppDFUyNZFutggaLflZ8QBlbA9Sdf_W7l6Gu1bfadSiQ?e=hbj7U9) ist abgelaufen. Könntest du einen neuen reinstellen auf moodle?
+FYI; der Link zum Seminarzeitplan (https://tumde-my.sharepoint.com/:w:/g/personal/[Name Redacted]_[Name Redacted]_tum_de/EY8ppDFUyNZFutggaLflZ8QBlbA9Sdf_W7l6Gu1bfadSiQ?e=hbj7U9) ist abgelaufen. Könntest du einen neuen reinstellen auf moodle?
 Danke und
