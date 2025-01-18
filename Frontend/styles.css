@@ -253,7 +253,8 @@ body {
 /* Chat Window */
 .chat-window {
     display: none;
-    background: var(--tum-white);
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid var(--tum-white);
     border-radius: 1rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     overflow: hidden;
@@ -261,6 +262,7 @@ body {
     height: 60vh;
     position: relative;
     z-index: 1;
+    backdrop-filter: blur(8px);
 }
 
 .chat-window.active {
@@ -271,66 +273,131 @@ body {
 .chat-header {
     display: flex;
     justify-content: flex-end;
-    padding: 0.5rem;
-    background-color: var(--tum-gray);
-    gap: 0.5rem;
+    padding: 1rem;
+    background-color: transparent;
+    gap: 1rem;
 }
 
 .chat-header button {
     background: none;
     border: none;
-    padding: 0.5rem;
+    padding: 0.75rem;
     cursor: pointer;
-    color: var(--tum-blue);
-    border-radius: 0.25rem;
+    color: var(--tum-white);
+    border-radius: 0.5rem;
     transition: background-color 0.2s ease;
+    font-size: 1.2rem;
 }
 
 .chat-header button:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .chat-container {
     display: flex;
     flex-direction: column;
     height: 100%;
+    padding: 0 1rem;
 }
 
 .chat-messages {
     flex: 1;
     overflow-y: auto;
     padding: 1rem;
-}
-
-.chat-input {
-    padding: 1rem;
-    border-top: 1px solid var(--tum-gray);
     display: flex;
+    flex-direction: column;
     gap: 1rem;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
 }
 
-.chat-input input {
-    flex: 1;
-    padding: 0.8rem;
-    border: 1px solid var(--tum-gray);
-    border-radius: 0.5rem;
-    outline: none;
+.chat-messages::-webkit-scrollbar {
+    width: 6px;
 }
 
-.send-button {
-    background: var(--tum-light-blue);
+.chat-messages::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+}
+
+/* Message Styles */
+.message {
+    max-width: 80%;
+    padding: 1rem;
+    background-color: var(--tum-gray);
+    color: var(--tum-text);
+    border-radius: 1rem 1rem 1rem 0;
+    align-self: flex-start;
+    word-wrap: break-word;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    line-height: 1.5;
+}
+
+.user-message {
+    background-color: var(--tum-light-blue);
     color: var(--tum-white);
-    border: none;
-    padding: 0.8rem 1.2rem;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    border-radius: 1rem 1rem 0 1rem;
+    align-self: flex-end;
 }
 
-.send-button:hover {
-    background-color: var(--tum-blue);
+/* Typing Indicator */
+.typing-indicator {
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: var(--tum-gray);
+    border-radius: 1rem 1rem 1rem 0;
+    align-self: flex-start;
+    margin-bottom: 1rem;
+    width: fit-content;
 }
 
+.typing-dot {
+    width: 8px;
+    height: 8px;
+    background-color: var(--tum-text);
+    border-radius: 50%;
+    opacity: 0.6;
+    animation: typing 1.4s infinite ease-in-out;
+}
+
+.typing-dot:nth-child(1) { animation-delay: 0s; }
+.typing-dot:nth-child(2) { animation-delay: 0.2s; }
+.typing-dot:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes typing {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .chat-window {
+        height: 70vh;
+        margin: 1rem;
+        width: calc(100% - 2rem);
+    }
+
+    .message {
+        max-width: 85%;
+    }
+}
+
+@media (max-width: 480px) {
+    .chat-window {
+        height: 75vh;
+    }
+
+    .message {
+        max-width: 90%;
+        padding: 0.875rem;
+    }
+}
 /* FAQ Section */
 .faq-section {
     padding: 4rem 0;
@@ -383,34 +450,183 @@ body {
 }
 
 /* Footer */
-.footer {
-    background-color: var(--tum-blue);
-    padding: 1.5rem 0;
-    margin-top: auto;
-}
-
-.footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
-}
-
-.footer-links {
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-}
-
-.footer-links a {
-    color: var(--tum-white);
+/* Footer */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  a {
     text-decoration: none;
-    font-size: 0.9rem;
-    transition: opacity 0.3s ease;
-}
-
-.footer-links a:hover {
-    opacity: 0.8;
-}
+    color: inherit;
+  }
+  ul {
+    list-style: none;
+  }
+  
+  .page__footer {
+    background-color: #0A2D57;
+    padding:4em 0em 0em;
+    color:white;
+    
+  }
+  .page__footer-primary{
+    padding:0 40px 4em;
+  }
+  
+  .page__footer-quicklinks{
+    padding:0 40px;
+  }
+  .page__footer-tertiary{
+    background-color: var(--tum-blue);
+    padding:0 40px 4em 40px;
+  }
+  
+  
+  .page__footer.container {
+      background-color: var(--tum-gray);
+    max-width: 1200px; 
+  }
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .flex__md-4 {
+    flex: 1 1 30%;
+  }
+  .flex__md-4 a:hover {
+    text-decoration: underline;
+  }
+  .page__footer-logo img {
+    margin-right: 15px;
+  }
+  .o-flag {
+    display: flex;
+    align-items: flex-start;
+  }
+  .o-flag__media {
+    margin-right: 15px;
+    margin-top: 14px;
+  }
+  .o-flag__body p {
+    margin: 5px 0;
+  }
+  h2.h6 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .page__footer-links a,
+  .page__footer-news a {
+    color: white;
+    transition: color 0.3s;
+  }
+  .page__footer-links a:hover,
+  .page__footer-news a:hover {
+    color:white
+    text=underline;
+  }
+  .page__footer-news li {
+    margin-bottom: 8px;
+  }
+  .page__footer-quicklinks {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 15px;
+  }
+  .page__footer-quicklinks ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .page__footer-quicklinks ul li a {
+    font-size: 14px;
+    color: white;
+  }
+  .page__footer-quicklinks ul li a:hover {
+    color: #000;
+  }
+  h2 {
+    margin: 0; /* Remove default margin */
+    font-size: 14px; /* Match font size with links */
+    font-weight: bold; /* Emphasize section headers */
+    line-height: 1.5; /* Improve readability */
+    color: white; /* Consistent text color */
+  }
+  
+  .partners-container {
+    display: flex;
+    align-items: center; /* 确保垂直居中对齐 */
+  }
+  
+  .partners-container img {
+    margin-right: 10px; /* 添加图片和文字之间的间距 */
+  }
+  
+  .partners-container a {
+    text-decoration: none; /* 去掉链接的下划线 */
+  }
+  .page__footer-social-media ul {
+    display: flex;
+    gap: 10px;
+  }
+  .page__footer-social-media ul li a img {
+    transition: transform 0.3s ease;
+  }
+  .page__footer-social-media ul li a:hover img {
+    transform: scale(1.1);
+  }
+  .page__footer-tertiary {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+  }
+  .page__footer-partner h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .page__footer-partner p {
+    font-size: 14px;
+    color:white;
+  }
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  @media (max-width: 768px) {
+    .flex__md-4 {
+      flex: 1 1 100%;
+    }
+    .page__footer-quicklinks ul {
+      flex-direction: column;
+      gap: 5px;
+    }
+    .page__footer-social-media ul {
+      justify-content: center;
+    }
+  }
+  
+  .flex {
+    display: flex;
+    align-items: stretch; /* Ensure equal height for children */
+    gap: 20px; /* Optional: spacing between sections */
+  }
 
 /* Responsive Design */
 @media (max-width: 768px) {

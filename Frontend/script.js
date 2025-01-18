@@ -4,8 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const voiceInput = document.querySelector('.voice-input');
     const chatWindow = document.querySelector('.chat-window');
     const chatMessages = document.querySelector('.chat-messages');
-    const chatInput = document.querySelector('.chat-input input');
-    const sendButton = document.querySelector('.send-button');
     const clearChatBtn = document.querySelector('.clear-chat');
     const downloadChatBtn = document.querySelector('.download-chat');
     const faqItems = document.querySelectorAll('.faq-item');
@@ -20,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
             // Show chat window with animation
             setTimeout(() => {
                 chatWindow.classList.add('active');
-                chatInput.focus();
             }, 300);
     
             // Smooth scroll to chat window on mobile
@@ -37,7 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
         heroSection.classList.remove('expanded');
         // Clear search input when collapsing
         searchInput.value = '';
-        chatInput.value = '';
     }
 
     // Message Management Functions
@@ -69,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return indicator;
     }
 
-    // Function to handle user input or FAQ click
+    // Function to handle user input
     function handleInput(inputText) {
         if (!inputText.trim()) return;
 
@@ -101,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
             .catch((error) => {
                 typingIndicator.remove();
                 console.error('Error fetching response:', error);
-                addMessage('Sorry, something went wrong. Please try again.',error, false);
+                addMessage('Sorry, something went wrong. Please try again.', false);
             });
     }
 
@@ -113,21 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    chatInput.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter' && chatInput.value.trim()) {
-            handleInput(chatInput.value.trim());
-            chatInput.value = '';
-        }
-    });
-
-    sendButton.addEventListener('click', () => {
-        if (chatInput.value.trim()) {
-            handleInput(chatInput.value.trim());
-            chatInput.value = '';
-        }
-    });
-
-    // Clear chat functionality with collapse
+    // Clear chat functionality
     clearChatBtn.addEventListener('click', () => {
         if (confirm('Are you sure you want to clear the chat history?')) {
             chatMessages.innerHTML = '';
@@ -217,44 +199,6 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
         voiceInput.style.display = 'none';
     }
-
-    // Message Styling
-    const messageStyles = {
-        user: {
-            backgroundColor: '#3070B3',
-            color: '#FFFFFF',
-            borderRadius: '1rem 1rem 0 1rem'
-        },
-        bot: {
-            backgroundColor: '#E8ECEF',
-            color: '#14191A',
-            borderRadius: '1rem 1rem 1rem 0'
-        }
-    };
-
-    // Apply styles to messages
-    function styleMessages() {
-        const messages = document.querySelectorAll('.message');
-        messages.forEach(message => {
-            const isUser = message.classList.contains('user-message');
-            const styles = isUser ? messageStyles.user : messageStyles.bot;
-            Object.assign(message.style, styles);
-            message.style.padding = '1rem';
-            message.style.marginBottom = '1rem';
-            message.style.maxWidth = '80%';
-            message.style.alignSelf = isUser ? 'flex-end' : 'flex-start';
-        });
-    }
-
-    // Observer for dynamic message styling
-    const observer = new MutationObserver(() => {
-        styleMessages();
-    });
-
-    observer.observe(chatMessages, {
-        childList: true,
-        subtree: true
-    });
 
     // Add keyboard shortcut to collapse chat (Escape key)
     document.addEventListener('keydown', (e) => {
