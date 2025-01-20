@@ -32,7 +32,12 @@ for response in responses:
     created = response["response"]["body"]["created"]
 
     # Get the content of the response
-    content = json.loads(response["response"]["body"]["choices"][0]["message"]["content"])
+    try:
+        content = json.loads(response["response"]["body"]["choices"][0]["message"]["content"])
+    except Exception as e:
+        print(f"Error: {e}")
+        print(f"Response: {response}")
+        content = []
 
     for qa in content:
         data[key] = {
