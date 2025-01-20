@@ -25,8 +25,12 @@ def status_embedding_batch(batch_id, client=None):
     # Retrieve the batch status
     batch = client.batches.retrieve(batch_id)
 
+    completed = batch.request_counts.completed
+    total = batch.request_counts.total
+    failed = batch.request_counts.failed
+
     # Print the batch status
-    print(f"Batch status: {batch.status}")
+    print(f"Batch status: {batch.status}. {completed} out of {total} requests completed. {failed} requests failed.")
 
     # # Print the batch id
     # print(f"Batch id: {batch.id}")
@@ -38,3 +42,9 @@ def status_embedding_batch(batch_id, client=None):
         return batch.output_file_id
     else:
         return None
+
+
+if __name__ == "__main__":
+    batch_id = ""
+
+    status_embedding_batch(batch_id)

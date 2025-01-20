@@ -1,17 +1,17 @@
 import os
-import json
 
 from dotenv import load_dotenv
 from openai import OpenAI
 
 
-def download_extraction_batch(client=None):
+def download_extraction_batch(batch_output_file_id, client=None):
     """
     Download the batch output file from the OpenAI API.
     Retrieve the batch_output_file_id from the extraction_batch_info.json file and download the file.
 
     Parameters:
     - client (OpenAI): The OpenAI client object.
+    - batch_output_file_id (str): The ID of the batch output file.
     """
 
     if not client:
@@ -24,11 +24,6 @@ def download_extraction_batch(client=None):
         # Create an OpenAI client with the API key
         client = OpenAI(api_key=API_KEY)
 
-    # Load the batch output file id from the extraction_batch_info.json file
-    with open(".temp/extraction_batch_info.json", "r", encoding="utf-8") as file:
-        data = json.load(file)
-        batch_output_file_id = data["batch_output_file_id"]
-
     # Get the file response from the OpenAI API
     file_response = client.files.content(batch_output_file_id)
 
@@ -38,4 +33,6 @@ def download_extraction_batch(client=None):
 
 
 if __name__ == "__main__":
-    download_extraction_batch()
+    batch_output_file_id = ""
+
+    download_extraction_batch(batch_output_file_id)

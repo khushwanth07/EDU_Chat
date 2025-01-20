@@ -75,7 +75,7 @@ def create_extraction_batch(number_of_emails=None):
     Create a batch of requests to extract Q&A pairs from email content using the OpenAI API.
     Reads the email content from the emails folder and creates a request for each email.
     Writes all batch requests to a JSONL file for batch processing.
-    
+
     Parameters:
     - number_of_emails (int): The number of emails to process. If None, all emails are processed.
     """

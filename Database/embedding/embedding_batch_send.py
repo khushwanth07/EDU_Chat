@@ -25,7 +25,7 @@ def send_embedding_batch(client=None):
 
     # Check that the input file exists
     if not os.path.exists(".temp/embedding_batch_input.jsonl"):
-        raise FileNotFoundError("The batch input file does not exist. Create it first using extraction_batch_create.py.")
+        raise FileNotFoundError("The batch input file does not exist. Create it first using extraction_batch_create.py")
 
     # Create a batch input file using the jsonl file
     batch_input_file = client.files.create(
@@ -45,6 +45,10 @@ def send_embedding_batch(client=None):
     )
 
     # Print the batch ID
-    print(batch.id)
+    print(f"Batch ID: {batch.id}")
 
     return batch.id
+
+
+if __name__ == "__main__":
+    send_embedding_batch()

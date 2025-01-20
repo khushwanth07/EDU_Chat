@@ -28,15 +28,16 @@ def main():
 
     print("Embedding batch sent successfully.")
 
-    output_file_id = status_embedding_batch(batch_id, client)
+    output_file_id = None
 
     while output_file_id is None:
-        output_file_id = status_embedding_batch(batch_id, client)
         time.sleep(10)
+        output_file_id = status_embedding_batch(batch_id, client)
 
     data_embedding_batch(output_file_id, client)
 
     print("Embedding batch data retrieved successfully.")
+    print("Done.")
 
 
 if __name__ == "__main__":

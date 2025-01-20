@@ -27,16 +27,19 @@ def main():
     print("Extraction batch created successfully.")
 
     # Send the batch of requests to the OpenAI API
-    send_extraction_batch(client)
+    batch_id = send_extraction_batch(client)
 
     print("Extraction batch sent successfully.")
 
+    output_file_id = None
+
     # Check the status of the batch processing
-    while not status_extraction_batch(client):
+    while output_file_id is None:
         time.sleep(10)
+        output_file_id = status_extraction_batch(batch_id, client)
 
     # Download the batch output file from the OpenAI API
-    download_extraction_batch(client)
+    download_extraction_batch(output_file_id, client)
 
     print("Extraction batch downloaded successfully.")
 

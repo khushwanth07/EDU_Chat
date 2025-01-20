@@ -1,5 +1,4 @@
 import os
-import json
 
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -13,6 +12,9 @@ def send_extraction_batch(client=None):
 
     Parameters:
     - client (OpenAI): The OpenAI client object.
+
+    Returns:
+    - batch_id (str): The ID of the batch created.
     """
 
     if not client:
@@ -43,18 +45,11 @@ def send_extraction_batch(client=None):
         metadata={"description": "Batch of emails for the extraction of QnA pairs."},
     )
 
-    # Save the batch_id and batch_input_file_id to the extraction_batch_info.json file
-    with open(".temp/extraction_batch_info.json", "r+", encoding="utf-8") as file:
-        data = json.load(file)
-        data["batch_input_file_id"] = batch_input_file_id
-        data["batch_id"] = batch.id
-        file.seek(0)
-        json.dump(data, file, indent=4)
-        file.truncate()
-
     # Print the batch_id and batch_input_file_id
     print(f"Batch ID: {batch.id}")
     print(f"Batch Input File ID: {batch_input_file_id}")
+
+    return batch.id
 
 
 if __name__ == "__main__":
