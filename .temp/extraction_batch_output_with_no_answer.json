@@ -22,7 +22,15 @@
         "source_type": "email",
         "source": "email_003.txt",
         "request_id": "e59a1545a2425294ffeebbe42eb21356"
-        },
+    },
+    "748aef6c-5a36-4913-a08d-9be28ba245bd": {
+        "created": 1737369124,
+        "question": "With my background, may I ask if I would be considered as a candidate for the AI in Society program?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_004.txt",
+        "request_id": "eef4a4f1cf97785895e95d7178da4e02"
+    },
     "1b5d59b2-a02a-4dd0-a996-04cbc752ec4c": {
         "created": 1737369131,
         "question": "What is the format of the aptitude test for M.Sc (AI in Society)?",
@@ -142,7 +150,15 @@
         "source_type": "email",
         "source": "email_019.txt",
         "request_id": "dbaeefa7feb117904e52e5aff6a41b6f"
-        },
+    },
+    "34038c90-75fc-4bdd-a895-1f113ad647e9": {
+        "created": 1737369245,
+        "question": "Can contributions to open-source software development count towards the project requirements for the MSc. AI in Society program at TUM?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_020.txt",
+        "request_id": "4a402f2254597e8323d3125024abb2f4"
+    },
     "f4b4fe43-c2dc-4732-9580-2bfbc0f3e884": {
         "created": 1737369256,
         "question": "Who needs to nominate the applicant for the scholarship?",
@@ -150,7 +166,15 @@
         "source_type": "email",
         "source": "email_021.txt",
         "request_id": "a0e9a280b9ed90d58032ffcb530801ca"
-        },
+    },
+    "1f9baf22-a70b-4ffd-82c3-76c18bfe3e21": {
+        "created": 1737369261,
+        "question": "How many ECTS is the Project Week worth?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_022.txt",
+        "request_id": "dc7171369f47cd65c2138a3c3a5cace0"
+    },
     "2b115b4d-0e2c-457a-8ac9-6ddcd2cb0d8f": {
         "created": 1737369264,
         "question": "Can I apply at the beginning of the application period next year if I have already completed modules worth 140 ECTS, but some of them are only rated as 'passed' or 'not passed'?",
@@ -158,7 +182,15 @@
         "source_type": "email",
         "source": "email_023.txt",
         "request_id": "569084e30794625702568b6210454e32"
-        },
+    },
+    "4ca3cbeb-b746-4c3a-88e7-0670a655b0b3": {
+        "created": 1737369268,
+        "question": "Would being exmatriculated due to academic misconduct from a previous masters degree at a german university affect the application to the AI in Society program at TUM?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_024.txt",
+        "request_id": "c4fd38e59bc2ecbc40d90e26bef3e952"
+    },
     "4ff0f675-5ce5-497b-beee-1ee06a923e86": {
         "created": 1737369271,
         "question": "What degree students are eligible to apply for this course?",
@@ -166,7 +198,15 @@
         "source_type": "email",
         "source": "email_025.txt",
         "request_id": "1533aca3d455bb919a1eb0deaf10a828"
-        },
+    },
+    "3e61ef10-734c-44b2-8b8c-c808bf85e3fc": {
+        "created": 1737369276,
+        "question": "What kind of exams would fit the practical project requirement for the Master's degree 'AI in society'?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_027.txt",
+        "request_id": "d18d65df55bd9242f83a445114fb0e54"
+    },
     "d9771256-7538-408d-9916-e95068cd042e": {
         "created": 1737369289,
         "question": "How is the course '[REDACTED]: Hands-on with bootstrap and [REDACTED]' at LMU evaluated?",
@@ -270,7 +310,15 @@
         "source_type": "email",
         "source": "email_041.txt",
         "request_id": "6f910297f1bee5d58beb1b7184c2ae4c"
-        },
+    },
+    "1e0984cc-b0ab-4c9a-9117-1e2152aa63b7": {
+        "created": 1737369414,
+        "question": "Are there any specific formats or additional documentation requirements that may support my application?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_042.txt",
+        "request_id": "795e814610fb279c06c303304c066cac"
+    },
     "9386eb44-8035-413d-a184-907d2d0b08b5": {
         "created": 1737369420,
         "question": "Is there a software known for conducting tests (MC and [REDACTED])?",
@@ -318,7 +366,23 @@
         "source_type": "email",
         "source": "email_054.txt",
         "request_id": "bdba78e943c25815a85055c99538dd6c"
-            },
+    },
+    "e1ad8fa5-9ac6-4e91-8f99-8d9cc848b1e3": {
+        "created": 1737368958,
+        "question": "If the AI in [REDACTED]'s Program at TUM is not a fit for my qualifications, could you suggest any other programs at the university that may be more aligned with my goals?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_055.txt",
+        "request_id": "27dd482f718f93b59a5c9f1ee64ce16e"
+    },
+    "57f37384-7c49-408b-89ea-2cce7b7f1827": {
+        "created": 1737368967,
+        "question": "Are there any specific formats or additional documentation requirements that may support my application to the Master\u2019s program?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_056.txt",
+        "request_id": "76533b61b4af3aeaf1ab8a8669d5b853"
+    },
     "f3a0d6e0-21c6-4184-ba6a-d237e2937d0f": {
         "created": 1737368972,
         "question": "Can I discuss the 'AI in Society' Master program and its admission requirements in person?",
@@ -326,7 +390,15 @@
         "source_type": "email",
         "source": "email_057.txt",
         "request_id": "485a1e329c388b5cc7553e0521df797e"
-        },
+    },
+    "1a3257e0-2557-4cb3-b18a-f786765f6c00": {
+        "created": 1737368975,
+        "question": "Will everyone receive their admission result at the same time, and will the aptitude test be held on different dates?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_058.txt",
+        "request_id": "4fedd8b24029bbbd8ee255f66ec8de7c"
+    },
     "be5c170d-7258-41b2-9e4e-2c06893da0d3": {
         "created": 1737368988,
         "question": "How many hours per week did I study for these subjects?",
@@ -350,7 +422,15 @@
         "source_type": "email",
         "source": "email_061.txt",
         "request_id": "0fc339b2c31cdd36dad2f748740433d2"
-        },
+    },
+    "9de77ed5-cf69-4b71-ac8e-d9260a973db5": {
+        "created": 1737369014,
+        "question": "Can the student be manually added to the course after the registration has expired?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_064.txt",
+        "request_id": "be94b9de52b102a02a67552f728c6b04"
+    },
     "6a03fd61-d422-4981-9b91-c73024c28230": {
         "created": 1737369017,
         "question": "What is the solution if the registration period has ended and a student still needs to register?",
@@ -430,7 +510,15 @@
         "source_type": "email",
         "source": "email_077.txt",
         "request_id": "b8103972aff85830326273f03cbc406f"
-        },
+    },
+    "e9e7ebda-4fac-4da3-b2d1-651a369be75d": {
+        "created": 1737369117,
+        "question": "You still didn't answer my original question regarding the two different dates of tuition/semester fees which I found on your website. Can you help me to verify it?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_078.txt",
+        "request_id": "e31d56288da29cf941ff86973f8bb4e3"
+    },
     "e340217d-4315-41b3-b105-71de45c02365": {
         "created": 1737369131,
         "question": "What are the steps to complete enrollment at TUM?",
@@ -446,7 +534,23 @@
         "source_type": "email",
         "source": "email_080.txt",
         "request_id": "a0a512a26952db6a0ef855e1dc377749"
-            },
+    },
+    "069cd4df-38fa-4db1-9ad9-d5c7f3ee7293": {
+        "created": 1737369158,
+        "question": "Can I get a letter confirming the exemption from the German language requirement for my program?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_081.txt",
+        "request_id": "e20bfb878b7d04342b06c4c831953ab8"
+    },
+    "48c1a7c5-511e-4003-ae9d-baf874f931f6": {
+        "created": 1737369167,
+        "question": "Can you provide an extension letter or supporting document for the visa application?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_082.txt",
+        "request_id": "b62df7d72f695c794092f7ae1ac0832f"
+    },
     "63baf6ca-61b3-4e48-b9ce-6c7c38f68ca3": {
         "created": 1737369175,
         "question": "Specifically, I am also concerned about the semester in which I started at TUM: The contract start was 1.7.2023. That means the teaching assignment for this semester should be calculated proportionally to the lecture days that were still left in this summer semester. I usually have a 2.5 SWS teaching obligation per semester, but for the summer semester 2023 it should be less.",
@@ -494,7 +598,23 @@
         "source_type": "email",
         "source": "email_093.txt",
         "request_id": "c3861f7bcb414d81c82833a042ac1417"
-            },
+    },
+    "6007a00b-207e-406b-a00d-453714e2422e": {
+        "created": 1737369242,
+        "question": "What should be stated in the letter of extension for the visa application?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_094.txt",
+        "request_id": "c33f6d6f7846874b62b4eeba5f99f4d3"
+    },
+    "b293d5be-9d58-4f48-bcd0-8f855b05e6d5": {
+        "created": 1737369250,
+        "question": "Can we schedule a meeting to clear my doubts about the Master's Program AI in Society?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_095.txt",
+        "request_id": "c867b1e17fa58e0807e96a87cbf05b53"
+    },
     "948653a0-8d3c-4725-aff6-17f68183f15c": {
         "created": 1737369259,
         "question": "How can I get information about the companies or institutions that the program has partnerships with?",
@@ -510,7 +630,30 @@
         "source_type": "email",
         "source": "email_098.txt",
         "request_id": "87931ccacf98d885cc9d2e66fed4ec17"
-            
+    },
+    "04e5c8fe-37c3-433d-b6f3-b094dd24dbf7": {
+        "created": 1737368941,
+        "question": "Did I receive an invitation email for the event?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_102.txt",
+        "request_id": "97a2e640190fdcb7fc72e73ed1b6603d"
+    },
+    "467bc258-5b38-479d-8bca-4e90a52f2ebd": {
+        "created": 1737368946,
+        "question": "Where can I find the exam dates, if they are already fixed?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_104.txt",
+        "request_id": "61317737d25951d617a09a6749b4214f"
+    },
+    "0eeb3b2e-9896-47ce-949a-4a0ebbfbc2b2": {
+        "created": 1737368956,
+        "question": "What are the prerequisites and any additional requirements for applicants with a non-ICT undergraduate degree for the Master of Science in AI in Society at the Technical University of Munich (TUM)?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_105.txt",
+        "request_id": "bab58db46b6c66599e49a3c42bc1a76f"
     },
     "678e0792-3bca-4dc5-9378-720ec7883a93": {
         "created": 1737368963,
@@ -559,7 +702,23 @@
         "source_type": "email",
         "source": "email_114.txt",
         "request_id": "a34af1cb046f768feda79113ec7f9847"
-            },
+    },
+    "4f93055e-fb16-4075-a74e-dc1c0340dc83": {
+        "created": 1737369020,
+        "question": "If an applicant is admitted but still needs to upload a new valid ID, should I record this as a requirement? Or can I still check the box 'all requirements recorded'?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_115.txt",
+        "request_id": "76015ec05c76a61367c218da13c0b361"
+    },
+    "16f3a902-9628-4798-8ee1-aa8285a7d19d": {
+        "created": 1737369024,
+        "question": "What is the purpose of the 'all conditions booked' checkbox?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_116.txt",
+        "request_id": "e6e87cbb743544b273e146fdf23ccea5"
+    },
     "54fca388-f21a-4199-99d4-44b2ff9e52b8": {
         "created": 1737369033,
         "question": "What should I do if I am unable to start studying from 1st October due to visa delays?",
@@ -591,7 +750,15 @@
         "source_type": "email",
         "source": "email_123.txt",
         "request_id": "fe683c610880aa0586832a161aa642f0"
-        },
+    },
+    "5ae6ddc6-0a29-4ffa-b8f8-9cebb92d7fa8": {
+        "created": 1737369069,
+        "question": "Does my current status as a student in an EU country affect the tuition fee requirements for my application to the AI in Society program at the Technical University of Munich?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_124.txt",
+        "request_id": "e99e12d3d9a5ebf7fa885facde6ede1b"
+    },
     "c58c2b31-466a-42d3-ab4b-ffd3c265d42c": {
         "created": 1737369073,
         "question": "Is it possible to submit independent or other project work that I have completed for other parties for admission to the AI in Society - MSc course?",
@@ -599,7 +766,15 @@
         "source_type": "email",
         "source": "email_125.txt",
         "request_id": "736d5b8e5bf38e84114ace7a381cd626"
-        },
+    },
+    "81e8f84f-ce95-43ca-be07-e2e50487aefe": {
+        "created": 1737369081,
+        "question": "What if the fields provided aren't enough to list up to 140 credits as most of the courses on my transcript are 2 and 3 credits each?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_126.txt",
+        "request_id": "9232fca428625bc97d0f93fe286771b9"
+    },
     "d1fa31db-4bbf-41d5-b913-b297e9d48da1": {
         "created": 1737369086,
         "question": "Is the department planning any online orientation?",
@@ -679,7 +854,15 @@
         "source_type": "email",
         "source": "email_137.txt",
         "request_id": "fbaee5a72f5b2944ae7fc20369771ad5"
-        },
+    },
+    "7ac3c286-960c-423e-8c73-ba4185d3ff98": {
+        "created": 1737369193,
+        "question": "Can an interview be conducted if I fell short on points for admission?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_138.txt",
+        "request_id": "ee5d55fb1806b1538e9165accab8a9c3"
+    },
     "8375ce52-49ec-4cad-906d-f2564d67caf9": {
         "created": 1737369196,
         "question": "Where can I get an official statement about tuition fees at TUM?",
@@ -719,7 +902,15 @@
         "source_type": "email",
         "source": "email_143.txt",
         "request_id": "c6ada749e07a6f4c9668bd5491fcdcf8"
-        },
+    },
+    "e6d69a92-a117-4515-a6b8-a503326bbbdc": {
+        "created": 1737369258,
+        "question": "Who can issue an official document confirming the duration and tuition fee of the 'AI in Society' program at TUM?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_144.txt",
+        "request_id": "589c1bb80e2c4cbf380d337d2abc4f79"
+    },
     "17693a9f-7104-4293-9bd5-6ed455a74f6c": {
         "created": 1737369268,
         "question": "What materials am I allowed to use during the AI in Society aptitude test?",
@@ -735,7 +926,15 @@
         "source_type": "email",
         "source": "email_146.txt",
         "request_id": "d8df6e1058308a3e520e064aee43566f"
-        },
+    },
+    "e59c42cb-0eca-4fb4-9ce4-bee0bb91df6c": {
+        "created": 1737369298,
+        "question": "Where can a student get an official document from TUM confirming the duration of the 'AI in Society' course and the tuition fee per semester?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_147.txt",
+        "request_id": "8a063897f148a76f9cad559a9ac5127c"
+    },
     "10c9d1d3-6643-4d9c-ab4c-ce427fe6898a": {
         "created": 1737369301,
         "question": "Can I know the schedule for the lectures (hour/day) for the upcoming winter semester?",
@@ -775,7 +974,15 @@
         "source_type": "email",
         "source": "email_153.txt",
         "request_id": "714c0212b3121d8b0cc1e5464a4b57eb"
-        },
+    },
+    "36e41b65-0724-48bb-879e-de2d7628026e": {
+        "created": 1737369064,
+        "question": "I am considering transferring to the AI Master's program at [REDACTED] University of Munich (LMU) after completing my first year at Utrecht University. Would I need to provide a VPD (preliminary review documentation) certification as part of my application process for the transfer?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_154.txt",
+        "request_id": "f90049676fd469429dc2c910dd8cb667"
+    },
     "b439568a-674e-4b4c-8b88-064416b42c29": {
         "created": 1737369073,
         "question": "Can the committee reconsider an application after it has been rejected?",
@@ -783,7 +990,15 @@
         "source_type": "email",
         "source": "email_156.txt",
         "request_id": "ce8ceaef77fc149204f6965a67c46734"
-        },
+    },
+    "10b928a6-8cfd-421c-affd-66725d13a42c": {
+        "created": 1737369080,
+        "question": "Can an applicant's score from part 1 of the aptitude assessment be changed?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_157.txt",
+        "request_id": "f2ffffb8c78742f3f76b24003e48ac77"
+    },
     "d199bb9a-28ae-4396-95a5-8ea9543d16a7": {
         "created": 1737369089,
         "question": "Do I need to provide a VPD (preliminary review documentation) certification as part of my application process for transferring to the AI Master's program at LMU?",
@@ -807,7 +1022,15 @@
         "source_type": "email",
         "source": "email_160.txt",
         "request_id": "375f2ba0c1da95f1e0ac643d0ca38a3a"
-        },
+    },
+    "ec52c47b-9688-4637-8cec-32aa9e5029c0": {
+        "created": 1737369104,
+        "question": "Can the committee reconsider a rejected application if the applicant has now received a scholarship?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_161.txt",
+        "request_id": "90c5ae162e2beaba4a7a00c751c0aa49"
+    },
     "3af35811-2331-4e85-b7e1-438a2d96fc38": {
         "created": 1737369129,
         "question": "Since this will be my second master's program, will I have to pay the tuition fee?",
@@ -839,7 +1062,15 @@
         "source_type": "email",
         "source": "email_165.txt",
         "request_id": "29b26332e29b719a871fc4fd9762ae23"
-        },
+    },
+    "c4e8d5e4-888f-47fa-b156-5eb943388fec": {
+        "created": 1737369157,
+        "question": "What is the correct email address for submitting the enrollment documents at TUM?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_166.txt",
+        "request_id": "93de8b06a4ab121ad10d4c271845e8fc"
+    },
     "f70244d3-2d12-4a57-a37a-96b44425fbaf": {
         "created": 1737369162,
         "question": "When is the aptitude test scheduled?",
@@ -887,7 +1118,15 @@
         "source_type": "email",
         "source": "email_172.txt",
         "request_id": "283bb41dfa9c6f4d0e6368f5bf031f64"
-        },
+    },
+    "699b1888-df01-4edd-b281-23d7705af416": {
+        "created": 1737369209,
+        "question": "Can the university provide a letter verifying English language proficiency for visa application purposes?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_173.txt",
+        "request_id": "c3f7bc81f9d51c7887aef51f6f7d95ec"
+    },
     "931256fe-4fd7-4e4e-8071-8dff60f081d9": {
         "created": 1737369214,
         "question": "Can the university provide a letter verifying my English language proficiency for my visa application?",
@@ -959,7 +1198,15 @@
         "source_type": "email",
         "source": "email_184.txt",
         "request_id": "18b684e33d62bbb120dfc57c2f1f7e58"
-        },
+    },
+    "4b2414b7-2859-49c7-b5ec-93bbfc55b98d": {
+        "created": 1737369274,
+        "question": "Should I have received the link a few days in advance, or will it be the time of the test?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_185.txt",
+        "request_id": "1ec0e0fbd93cd0e6a51606f8792df7d1"
+    },
     "a00de2b6-8b43-4418-bcd9-dd21f9cf5221": {
         "created": 1737369284,
         "question": "How should I respond to the current invitation for the winter semester 24? Should I formally decline this online and then reapply next year as you described, or should I just leave it open?",
@@ -991,7 +1238,23 @@
         "source_type": "email",
         "source": "email_190.txt",
         "request_id": "02eb621feeddee6bbcd4020f47799b11"
-            },
+    },
+    "324bf489-7df6-4186-99ae-ce3a0e1f4bd3": {
+        "created": 1737369320,
+        "question": "Will students really learn calculation and programming or are the subjects treated superficially in the AI in Society program?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_191.txt",
+        "request_id": "2f75722b584ffc9cf48c0c111bf474ee"
+    },
+    "1a12a80a-b649-47ae-bad4-83b33afccb86": {
+        "created": 1737369327,
+        "question": "Can I ignore the submission of the APS certificate to finalize my enrollment process?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_193.txt",
+        "request_id": "5b0ce9709a8e16d8a16ccff3c290a8a1"
+    },
     "544008e3-f9f5-43b2-970a-c2077737c7ec": {
         "created": 1737369333,
         "question": "Where should documents for enrollment be sent?",
@@ -1047,7 +1310,15 @@
         "source_type": "email",
         "source": "email_230.txt",
         "request_id": "abd45ed4345309ce032b38be235d33a5"
-        },
+    },
+    "77deebf8-ee59-4baa-9ce3-e02f2a9798be": {
+        "created": 1737369117,
+        "question": "Can I move forward with the application after providing the new passport?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_231.txt",
+        "request_id": "6233b065dd2df6c36792b3b84e8e6284"
+    },
     "95c46a10-e055-42e7-9ceb-01ef5266718c": {
         "created": 1737369125,
         "question": "Was my total score of 25 points enough to pass to the interview stage?",
@@ -1071,7 +1342,15 @@
         "source_type": "email",
         "source": "email_234.txt",
         "request_id": "690f9e33201e55af40b7baa5ee468d9b"
-        },
+    },
+    "89c400ec-84d9-4b02-95db-21c21c692498": {
+        "created": 1737369139,
+        "question": "If yes, can I still participate in lectures/practical work etc. from January and possibly contribute my experiences (possibly as a 'guest') - and then officially start in the winter semester of 2024/2025?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_235.txt",
+        "request_id": "e1515aa0674e0b84a172d9062f9e253c"
+    },
     "ca35ba68-2829-4f00-a3d4-1df55581cdad": {
         "created": 1737369158,
         "question": "Can I reject the offer now and then apply again next year with a guaranteed seat?",
@@ -1079,7 +1358,15 @@
         "source_type": "email",
         "source": "email_245.txt",
         "request_id": "1032527f5cf2cdb6ff9419b7149c7200"
-        },
+    },
+    "9095889c-724c-4a8d-a253-2ed09fe12fb7": {
+        "created": 1737369161,
+        "question": "Can I submit digital versions of my transcripts and degrees for enrollment at TUM?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_246.txt",
+        "request_id": "515b19b51f4bea35e6b16ec6c7cf54ce"
+    },
     "16ae4138-4976-46ea-9516-6312279b1559": {
         "created": 1737369164,
         "question": "Could you let me know my final score for Level 1 of this process?",
@@ -1183,7 +1470,15 @@
         "source_type": "email",
         "source": "email_259.txt",
         "request_id": "865bb2d6779e1183375c8618f20b7e5a"
-        },
+    },
+    "e78570fd-7def-481d-92f9-34047c66c098": {
+        "created": 1737369140,
+        "question": "What should I do if I can't make any foreign currency transactions with my card to pay for the off-campus variant of the aptitude test?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_260.txt",
+        "request_id": "db34966ed01526b7f25073f01015e237"
+    },
     "cd35f67f-79c8-4f3e-a962-454916105e26": {
         "created": 1737369150,
         "question": "When is the third aptitude test planned?",
@@ -1223,7 +1518,15 @@
         "source_type": "email",
         "source": "email_267.txt",
         "request_id": "515b3871e3be8b296c84068715fa985a"
-        },
+    },
+    "57d78a16-6d39-4c95-8de5-99fb9214d7d7": {
+        "created": 1737369320,
+        "question": "What should I do if I received the invitation to the test but have not received a link to partake in the aptitude test?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_268.txt",
+        "request_id": "d0b5387ac83d3a3ad84adf2ebb10633f"
+    },
     "d23a834e-bc08-40e2-8118-38d540cdfa7e": {
         "created": 1737369330,
         "question": "What is the location for the on-campus variant of the aptitude test?",
@@ -1295,7 +1598,15 @@
         "source_type": "email",
         "source": "email_282.txt",
         "request_id": "591ea34188dab30517a5ab19865c7558"
-        },
+    },
+    "e9fcc79b-a22f-4d9b-9224-11816acd9225": {
+        "created": 1737369433,
+        "question": "How is the 'Subject and grade transcript of studies to date' different than the Degree certificate?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_283.txt",
+        "request_id": "1cd66fb3009b47ef5d6b7a390bf3a01b"
+    },
     "a816d65b-a387-433c-9a2c-22f6d362b4fa": {
         "created": 1737369442,
         "question": "Are there any additional steps I need to take or applications I should submit for financial aid consideration at TUM or the AIS master program?",
@@ -1327,7 +1638,15 @@
         "source_type": "email",
         "source": "email_298.txt",
         "request_id": "9961ede79e736dd296e466be6b115110"
-        },
+    },
+    "8a200772-e5df-4a48-a359-6693900c5db3": {
+        "created": 1737369481,
+        "question": "I am unable to find the acceptance deadlines anywhere on the website. Could you inform me of when I need to accept/decline (for deferment)?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_300.txt",
+        "request_id": "56d314307fccde2e1a6020a10bcbc4b9"
+    },
     "ad5ffca4-f3af-43ef-8a0e-b88457887ab5": {
         "created": 1737369071,
         "question": "What are the options for taking the aptitude test for the AI in Society program at TUM?",
@@ -1367,7 +1686,23 @@
         "source_type": "email",
         "source": "email_316.txt",
         "request_id": "94925f236ef93796ebea8d8ffce4025f"
-            },
+    },
+    "3cfd1f85-3bd1-4977-8c9a-fc99c5b682cf": {
+        "created": 1737369147,
+        "question": "Where can I find the information about my enrollment status and tuition charges in my portal?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_319.txt",
+        "request_id": "ef32b824edf50371e1321c6e89ac05bf"
+    },
+    "85580314-a2a6-47fb-a707-feed50e988f5": {
+        "created": 1737369154,
+        "question": "If yes, can I still participate in lectures/practical work etc. in the meantime from January and possibly contribute my experiences (possibly as a 'guest') - and then officially start in the winter semester 2024/2025?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_320.txt",
+        "request_id": "faa6f5872cfde044d5bec3bb1696282a"
+    },
     "d69e1a04-066e-4688-9dd9-bf30d32b7bf4": {
         "created": 1737369160,
         "question": "What is the procedure for applicants who have not yet received an invitation to the aptitude test for the M.Sc. AI in Society at TUM?",
@@ -1415,7 +1750,15 @@
         "source_type": "email",
         "source": "email_348.txt",
         "request_id": "73532c143657a6e57e334c52ba9c13b8"
-        },
+    },
+    "7759dd72-2d8e-4b23-885c-0fe6e7cbbae7": {
+        "created": 1737369079,
+        "question": "Why haven't I received a link to participate in the meeting?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_353.txt",
+        "request_id": "8c091a0ab541e5295e97f71b1d1e1b63"
+    },
     "5eb4117f-b410-4404-840e-362a92dd1544": {
         "created": 1737369087,
         "question": "Will I receive a confirmation email after selecting a timeslot for the aptitude interview for the M.Sc. AI in Society at TUM?",
@@ -1551,7 +1894,15 @@
         "source_type": "email",
         "source": "email_393.txt",
         "request_id": "9175af411657b4d02bb722aacbf138cd"
-        },
+    },
+    "a3d9ec01-b6c3-4a0d-8f9b-6184abb95210": {
+        "created": 1737369312,
+        "question": "How can an applicant finalize the payment for the aptitude test fee for the AI in Society program?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_394.txt",
+        "request_id": "3b371b0812d949ca68b6204a82ddc04b"
+    },
     "dbbafe98-f487-41a7-b0cc-24fc8be8fb07": {
         "created": 1737369326,
         "question": "Can an applicant request to be considered for the rescheduled test date if they have a scheduling conflict with the original date?",
@@ -1567,7 +1918,15 @@
         "source_type": "email",
         "source": "email_396.txt",
         "request_id": "35f299448ef532fd852cba7d8faa762d"
-        },
+    },
+    "cf637ef8-bcdb-404f-a004-eb5139d2003b": {
+        "created": 1737369349,
+        "question": "Is there a fee required to access the moodle exam for the TUM Master AI in Society program?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_397.txt",
+        "request_id": "9d5b472d94044601a8b51459a6e6eae5"
+    },
     "dde63694-e901-43d5-9ad8-1828877aec50": {
         "created": 1737369356,
         "question": "Where should I choose the option about off-site or on-site for the exam?",
@@ -1615,7 +1974,15 @@
         "source_type": "email",
         "source": "email_407.txt",
         "request_id": "4bccea70ec7ff8ae24cf8e1195af5b23"
-        },
+    },
+    "0531919b-0c2e-4311-9294-85919053866b": {
+        "created": 1737369121,
+        "question": "Can I ask about [REDACTED]?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_409.txt",
+        "request_id": "4bc189dd91842751fd5ae8cc6bc26eda"
+    },
     "287a5ae5-ba32-4c9d-a85d-d5e403df6c20": {
         "created": 1737369130,
         "question": "When will I receive the invitation email with all the details for the second date of the aptitude test?",
@@ -1703,7 +2070,15 @@
         "source_type": "email",
         "source": "email_426.txt",
         "request_id": "96f772653abd976f043bcebb32d3d107"
-        },
+    },
+    "20336f45-09b6-429d-8e02-eeb5750973da": {
+        "created": 1737369212,
+        "question": "Is there any way to take the online aptitude test for the master's programme 'AI in Society' while using a VPN?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_427.txt",
+        "request_id": "35e5d7b431d5daf94b7800f255cabe12"
+    },
     "444e744a-9d15-4712-a1e5-d856d688011f": {
         "created": 1737369216,
         "question": "So, does it mean that I don't have the test tomorrow?",
@@ -1783,7 +2158,15 @@
         "source_type": "email",
         "source": "email_438.txt",
         "request_id": "55174941b308abbf0b313e268cbda51c"
-        },
+    },
+    "364a64fe-7a90-4b6c-b1aa-066585c68b5d": {
+        "created": 1737369276,
+        "question": "Why is the Proctorio software not working while using a VPN?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_439.txt",
+        "request_id": "912bbc00aed7046fd1d13dc6ebdcfcb9"
+    },
     "c3e94081-4567-4739-89ea-b4ee149ac8db": {
         "created": 1737369281,
         "question": "What should I do if I am unable to participate in the online assessment at the scheduled time?",
@@ -1823,7 +2206,23 @@
         "source_type": "email",
         "source": "email_445.txt",
         "request_id": "dd3bf877a0f499c0679365df45169256"
-            },
+    },
+    "1c1f07bb-be1c-4893-8eb6-8260b4927efb": {
+        "created": 1737369322,
+        "question": "How does the inability to make the $25 payment affect the status of an application to the TUM Master AI in Society program?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_446.txt",
+        "request_id": "4faf7862ccdf23cc1a25db61bb8c432c"
+    },
+    "efc201d4-0268-4539-97ce-3d8da1e50c18": {
+        "created": 1737369331,
+        "question": "Can I use the software without any problems in Vietnam?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_447.txt",
+        "request_id": "4c296f99536e1e9211b7845182ec4ad7"
+    },
     "88797326-95fa-4441-bfb6-799277d30b1f": {
         "created": 1737369337,
         "question": "What does the online monitoring for the aptitude test involve?",
@@ -1879,7 +2278,31 @@
         "source_type": "email",
         "source": "email_461.txt",
         "request_id": "da376907b6d56dd90c76cf702643626b"
-                },
+    },
+    "059b990e-cd60-4600-bf28-7b6972d9be7a": {
+        "created": 1737369157,
+        "question": "What should be done if the application for the [REDACTED] (VPD) to uni-assist was submitted before the course deadline, but no response has been received yet, and there is a concern about missing the resubmission deadline?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_464.txt",
+        "request_id": "dfe728b72d91355f37242307e8ef4870"
+    },
+    "d50df8ab-55b9-42c5-8220-ee494d3f4877": {
+        "created": 1737369161,
+        "question": "What should be done if the application for the [REDACTED] (VPD) to uni-assist was submitted before the course deadline, but no response has been received yet, and there is a concern about missing the resubmission deadline?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_465.txt",
+        "request_id": "c5f1f77dc0015dbe5ca962b43acc8420"
+    },
+    "078aaaa8-dcac-4c55-a3ef-df762f080185": {
+        "created": 1737369167,
+        "question": "What is the plan for setting up the test environment?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_467.txt",
+        "request_id": "6c670fb3a4ad3f00a47cb1a7d4d915e2"
+    },
     "ea7e5245-9ee3-45d4-a39d-9ef233abb084": {
         "created": 1737369174,
         "question": "Is the test timing in CET?",
@@ -1903,7 +2326,15 @@
         "source_type": "email",
         "source": "email_470.txt",
         "request_id": "2cc211757383cda63d9c4a872692fcd1"
-        },
+    },
+    "87942acd-947e-4561-a3f5-fd1d1b1c7242": {
+        "created": 1737369209,
+        "question": "Which medium is necessary/allowed during the online test for the AI in Society program?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_471.txt",
+        "request_id": "c63383632989aeb3591ff1d82f5f32f0"
+    },
     "389b8f8b-d019-422f-af2e-bd74190943c8": {
         "created": 1737369225,
         "question": "What topics will be covered in the aptitude test for the Master's programme 'AI in Society' at TUM?",
@@ -1927,7 +2358,15 @@
         "source_type": "email",
         "source": "email_479.txt",
         "request_id": "21bd5f9aee48bccdb2cdff3f49c49f72"
-        },
+    },
+    "f8b58e78-9f6a-48a6-87ee-4fa3fa4f40af": {
+        "created": 1737369251,
+        "question": "Where can the applicant find the materials to study all of the required subjects that will be on the exam?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_482.txt",
+        "request_id": "98cceb34fbcc4e3b13ea7c24051b885d"
+    },
     "024ce5b7-a890-4e70-9236-10f223e0ac1f": {
         "created": 1737369264,
         "question": "Can working experience that just started in the same month of application be considered in the AI in Society application?",
@@ -1967,7 +2406,15 @@
         "source_type": "email",
         "source": "email_494.txt",
         "request_id": "286af18f10103f36e1d3541d05200ff8"
-        },
+    },
+    "5e7b83be-6fa6-4e1e-bb02-c2b70d90f97d": {
+        "created": 1737369314,
+        "question": "I was notified that my document was incorrect 2 hours ago. And less than 1 hour ago i recieved the rejection. However, i did not have the time to upload my correct document. I would really appreciate it if you can give me time to upload my correct document so that my document can be reconsidered.",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_496.txt",
+        "request_id": "2195bcb2daf53b4f22b30b6f78d0b7b3"
+    },
     "4f8b1c33-3475-465b-a6e9-6f78a9480460": {
         "created": 1737369323,
         "question": "Who is the appropriate contact person for the planning and implementation of the aptitude test?",
@@ -1991,7 +2438,23 @@
         "source_type": "email",
         "source": "email_502.txt",
         "request_id": "fae99bad34f33b509ca87a94d17175aa"
-            },
+    },
+    "25698566-39f9-485e-824e-f34619ff5c90": {
+        "created": 1737369113,
+        "question": "At what time will the aptitude test for the masters program Ai in Society be on June 25?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_503.txt",
+        "request_id": "ed38e11c2753d40f2657de5df447431c"
+    },
+    "9d3390b8-5aaf-4b81-9d41-6b9036b2ae35": {
+        "created": 1737369118,
+        "question": "At what time will the aptitude test for the masters program Ai in Society be on June 25?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_504.txt",
+        "request_id": "ce412c5a57527aedf84c6a308be41ac1"
+    },
     "24bb99bd-a75d-4e62-97ae-2ef4e7aa5ac2": {
         "created": 1737369126,
         "question": "Are there any specific books or resources to study for the aptitude test for the masters program Ai in Society?",
@@ -1999,7 +2462,15 @@
         "source_type": "email",
         "source": "email_506.txt",
         "request_id": "fbdee7cc944e612f74c39b8f2a4cc3cf"
-        },
+    },
+    "f9b5ba16-d08f-4ed3-9b8c-4f7f524553ed": {
+        "created": 1737369134,
+        "question": "What is the process for module recognition and how is it decided whether a module can be credited or not?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_507.txt",
+        "request_id": "252eb3a0c70346b6b3088e0f7553e369"
+    },
     "2dd797ce-5c98-498e-9c21-470afef6ead1": {
         "created": 1737369138,
         "question": "When will applicants be notified whether they are admitted for the aptitude test for the masters program Ai in Society?",
@@ -2007,7 +2478,15 @@
         "source_type": "email",
         "source": "email_508.txt",
         "request_id": "acbca1ecccccc37e34af74b557d14f9c"
-        },
+    },
+    "2b2e3419-023d-4c4e-9988-9c4695c93f04": {
+        "created": 1737369142,
+        "question": "In my application portal it says that  'Application documents': not checked yet even though the Required documents (for admission) have been uploaded. Is this normal?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_510.txt",
+        "request_id": "8882dfca0ed4ff089a259b2a4d74f3c5"
+    },
     "159376a1-b2f5-479d-b9f5-a4c9c9540c6a": {
         "created": 1737369147,
         "question": "What should I do if I accidentally uploaded the wrong file to the 'Subject and grade transcript of studies to date' section of my application and can't re-upload the correct one?",
@@ -2015,7 +2494,15 @@
         "source_type": "email",
         "source": "email_511.txt",
         "request_id": "07be619a98cb13c9ba37c1cb97573290"
-        },
+    },
+    "41a2e515-fed8-4be0-8bff-b73772bd98b5": {
+        "created": 1737369151,
+        "question": "What should I do if I accidentally uploaded the wrong file to the 'Subject and grade transcript of studies to date' section of my application and cannot re-upload the correct one?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_512.txt",
+        "request_id": "e78d70f24568a74c747a5e49ee7c6b30"
+    },
     "777aa33a-ada5-4ccc-8caa-f8c12d99df39": {
         "created": 1737369157,
         "question": "Has there been any update on the contents of the online written test for the 'AI in Society' course?",
@@ -2031,7 +2518,15 @@
         "source_type": "email",
         "source": "email_516.txt",
         "request_id": "8662f8f874bdc50d30c0168922e7d009"
-        },
+    },
+    "24d2e0f1-4260-433c-aad8-5d8ae87d09e0": {
+        "created": 1737369171,
+        "question": "Can an extension be requested to submit the required proof of English language proficiency?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_517.txt",
+        "request_id": "3ade34e2f04162c05e357bd69104b70d"
+    },
     "d320d46c-4f50-42fb-9093-5a95e9baa589": {
         "created": 1737369179,
         "question": "For the practical part of the application, is it sufficient to just mention them or do you need a proof?",
@@ -2055,7 +2550,15 @@
         "source_type": "email",
         "source": "email_520.txt",
         "request_id": "2b033a0128d8a5e1bfc998c07a1827b7"
-        },
+    },
+    "4a11ab9f-32c0-45e6-8a43-b6e9c2c104e2": {
+        "created": 1737369205,
+        "question": "Do the courses I have taken and the projects I have done meet the practical part of the requirements for the AI in Society program at TUM?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_521.txt",
+        "request_id": "9e1920f6035ac22729fae91f2d9df90f"
+    },
     "e4588d97-c980-4309-9c65-cb4ccabc345c": {
         "created": 1737369212,
         "question": "If I received a notification that the document was not Okay and now I have reuploaded a correction in TUM Online, do I need to actually start another application?",
@@ -2087,7 +2590,15 @@
         "source_type": "email",
         "source": "email_525.txt",
         "request_id": "14300805fe4d454188eb8bdce7a25bbe"
-        },
+    },
+    "97c82695-edf6-4cd2-88e7-356507870ad9": {
+        "created": 1737369281,
+        "question": "Based on my bachelor's degree, would I be a good fit for the AI in Society Master's Program at TUM?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_526.txt",
+        "request_id": "ee251dacc7bdc33072cee3637384440a"
+    },
     "0348fab8-5553-4964-97f8-910b35ce4eaa": {
         "created": 1737369329,
         "question": "May I know if there is a timeline on when we will be informed if we met all formal requirements, also on the final announcement itself?",
@@ -2095,7 +2606,23 @@
         "source_type": "email",
         "source": "email_528.txt",
         "request_id": "9561f3f40362634e42a1216f00b4ecd3"
-            },
+    },
+    "e305fb7b-cec0-436f-b91c-642cd79c2595": {
+        "created": 1737369348,
+        "question": "Can I use my volunteer work in politics as proof of practical experience for the M. Sc. AI in Society program, even though I don't have a work certificate for it?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_529.txt",
+        "request_id": "e9aafe037328cb75e611e9cca983c424"
+    },
+    "f6dac5da-b4eb-45c2-a288-11d54da1bd06": {
+        "created": 1737369363,
+        "question": "Can seminar papers be submitted as the practical part for the application to the AI in Society Master's program?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_535.txt",
+        "request_id": "95e81c87a17b9b6c06f2e74f18109155"
+    },
     "b626581c-139e-4939-ae82-3a171a54b713": {
         "created": 1737369372,
         "question": "What is the documentation requirement for the list of best 140 credits for the Master of Science AI in Society program?",
@@ -2103,7 +2630,15 @@
         "source_type": "email",
         "source": "email_536.txt",
         "request_id": "7c8feac7aca61bb56a9960768d86dc67"
-        },
+    },
+    "59801068-f950-4e4f-acea-11dbf9e522f9": {
+        "created": 1737369375,
+        "question": "Are there any preparatory workshops or sessions offered by the university for the aptitude assessment for the Master of Science | AI in Society at TUM?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_537.txt",
+        "request_id": "4750e7e58966c99e0ae2a54f5d2c6988"
+    },
     "1fd3620a-ef0c-475e-ae8d-3eb964443ad3": {
         "created": 1737369384,
         "question": "Will the interviews for the AI in Society master's program at TUM be online or in person?",
@@ -2223,7 +2758,15 @@
         "source_type": "email",
         "source": "email_562.txt",
         "request_id": "2e5a475c4e56a4409dd33f1dbf1be727"
-        },
+    },
+    "2fe328c2-ff08-4b39-84dc-d5fe697dc21d": {
+        "created": 1737369187,
+        "question": "Is it problematic that the FPSO states the aptitude test is offered in presence at TUM, but we have now set it to be online-only?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_563.txt",
+        "request_id": "f22c445506c91d29e734a0f4146647d4"
+    },
     "caf0b415-9a4b-4612-862f-d6b5f66584de": {
         "created": 1737369191,
         "question": "When will the admission decisions be rendered and by when should applicants know if they are selected for an aptitude test?",
@@ -2239,7 +2782,15 @@
         "source_type": "email",
         "source": "email_567.txt",
         "request_id": "6a254a36d3d10db88c85a804bbb2a0d7"
-        },
+    },
+    "715703ce-a091-4210-8bee-11e5bdedcccd": {
+        "created": 1737369218,
+        "question": "Should I contact the lecturers to get some kind of text/letter, which states that the lectures were in English?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_568.txt",
+        "request_id": "9546b5de240082ba9111fb98243cd481"
+    },
     "0da3ec07-0fef-4960-9eda-638bd32b723c": {
         "created": 1737369223,
         "question": "Do you happen to have a copy of the course catalog for AI in Society program?",
@@ -2415,7 +2966,15 @@
         "source_type": "email",
         "source": "email_596.txt",
         "request_id": "75cf2a043c3f7b42b8281a5aa3ece013"
-        },
+    },
+    "75ac2d8e-3cf2-45f3-8bc4-3d27adec71e0": {
+        "created": 1737369463,
+        "question": "Do you know someone whom I could contact about the management of the application?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_597.txt",
+        "request_id": "8892b1312a1b4e43550d58eb48880c5b"
+    },
     "9a777865-8679-45fb-b737-8feff9928601": {
         "created": 1737369467,
         "question": "Since when do you offer this program?",
@@ -2431,7 +2990,15 @@
         "source_type": "email",
         "source": "email_599.txt",
         "request_id": "3b83412302435cf4821ed55ba6efdb16"
-        },
+    },
+    "97ac5b48-868a-4747-b78a-f4b597b57134": {
+        "created": 1737369127,
+        "question": "Can the APS application form and payment receipt be enough proof to initiate my application?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_601.txt",
+        "request_id": "7269a3e5bb765a2cc0968dfb7b348f21"
+    },
     "e9d5db75-d557-4b1a-b0e1-fbf1e8a3282c": {
         "created": 1737369133,
         "question": "What is the VPD requirement for the application to TUM?",
@@ -2463,7 +3030,15 @@
         "source_type": "email",
         "source": "email_606.txt",
         "request_id": "dd4f6442c345c63657e1232d1f689a1f"
-        },
+    },
+    "b830a19a-3a60-4765-ac01-0a60390eb0ed": {
+        "created": 1737369185,
+        "question": "Can you provide all details for the AI M.Sc. program as per my specific case?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_608.txt",
+        "request_id": "aa6c123947c1dc07d9193d571738a1ab"
+    },
     "affe26e5-bff7-4cd4-ae4e-8d475ba1975f": {
         "created": 1737369189,
         "question": "For the \u201cEvidence of English\u201d, I have already been checked with IELTS when I apply for the RCI master program, how can I fulfill this requirement automatically?",
@@ -2471,7 +3046,15 @@
         "source_type": "email",
         "source": "email_609.txt",
         "request_id": "3bea55eb63ce4a21cdffa290dca25516"
-        },
+    },
+    "a4b389b6-6e86-43bf-afea-d1cc2aa963ed": {
+        "created": 1737369210,
+        "question": "Can I upload employment verification from my employer for the practical experience, in lieu of the 18 credit hours in undergrad?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_610.txt",
+        "request_id": "4d3d6015510dcaaf3958e5e0c92f4146"
+    },
     "09488df5-9458-44a2-b1c8-70b4d9b74d88": {
         "created": 1737369216,
         "question": "What is the requirement for the letter issued by the professor?",
@@ -2519,7 +3102,31 @@
         "source_type": "email",
         "source": "email_617.txt",
         "request_id": "0df2bee5597b3d6ac7b6a7d68da39d3e"
-                },
+    },
+    "63710851-b85e-437a-9923-80ffebdc4430": {
+        "created": 1737369269,
+        "question": "Can my real working experiences demonstrate my project management skills instead of a practical project relevant to the course of study within at least 18 credits including module description?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_618.txt",
+        "request_id": "cdd1af611f4aad869fac985b20e3b5d0"
+    },
+    "181e9aad-8da8-4cec-a9bf-d0d47c377715": {
+        "created": 1737369284,
+        "question": "Would I be exempt from tuition fees or required to pay if my bachelor\u2019s degree was obtained from my home country outside of the EU/EEA, but I have lived, studied, and worked in Germany for almost 4 years during my master\u2019s studies?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_621.txt",
+        "request_id": "40586e785dd099c7a22e68881edb0a27"
+    },
+    "0c8ed349-2fbc-4419-9851-340d4e8a4e07": {
+        "created": 1737369293,
+        "question": "Can practical experience gained through extracurricular internships or work experience be considered for the MSc. AI in Society program at TUM?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_622.txt",
+        "request_id": "4cb90d57fb7d0ec975d4a4b9d1b9126c"
+    },
     "6af04d35-ade3-4d10-bb38-4a0b0b5f53d0": {
         "created": 1737369304,
         "question": "How can I fill in my courses equivalent to 140 credits if the given form is not enough?",
@@ -2575,7 +3182,23 @@
         "source_type": "email",
         "source": "email_635.txt",
         "request_id": "4fbc37814cd49725f2eb35d550d8b7f1"
-            },
+    },
+    "3c65c5b0-7fd4-4585-8248-baa0980a67f2": {
+        "created": 1737369162,
+        "question": "Are my internships at KPMG, HBplus, 3T.Law, and a pending internship at WTS appropriate in terms of their content for the Master's program AI in Society?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_637.txt",
+        "request_id": "315e89edc714ab93b4bae1140aed2ba8"
+    },
+    "03cc20ef-4ff6-49af-a484-da5e1f8147c3": {
+        "created": 1737369335,
+        "question": "Do I need a Toefl test, as the Abitur with B2 level is not enough, right?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_638.txt",
+        "request_id": "767649214d0807c7495de2d2e6893b45"
+    },
     "163c3b2f-c753-4144-9d0b-ab8fa010c68e": {
         "created": 1737369175,
         "question": "Do I fulfill the requirement of the practical project worth at least 18 ECTS or can I make up for it during the course of my studies?",
@@ -2607,7 +3230,23 @@
         "source_type": "email",
         "source": "email_643.txt",
         "request_id": "ac63f954a2f513207eefd5d0f5c9c3ad"
-            },
+    },
+    "21387d7f-194b-487a-9a23-7404e74d0647": {
+        "created": 1737369200,
+        "question": "What is the procedure for verifying if the modules that applicants indicate really correspond to at least 5 ECTS for Math/Statistics and 18 ECTS for a practical project?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_645.txt",
+        "request_id": "e3d97822cf43bdd140788e07d59b666e"
+    },
+    "1c8d5db6-02dc-4e33-b095-e8ea7a5abb38": {
+        "created": 1737369372,
+        "question": "How do we verify if the modules that applicants indicate really correspond to at least 5 ECTS for Math/Statistics and 18 ECTS for the Practical Project?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_646.txt",
+        "request_id": "bdcf92437365a2fe90ed86c2cf540acb"
+    },
     "9cd69651-625e-406b-bd26-740900ad6f06": {
         "created": 1737369208,
         "question": "Is the list of best credits different from a transcript? Do I need to provide this?",
@@ -2639,7 +3278,15 @@
         "source_type": "email",
         "source": "email_652.txt",
         "request_id": "70fb42d61e1e136e27c7b8d698ce03fa"
-        },
+    },
+    "19d6bfbd-ecfb-47d9-8c23-b84bc2bb862b": {
+        "created": 1737369394,
+        "question": "Is it possible to arrange a short phone call next week or are there office hours where I can visit you in the department at TU?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_653.txt",
+        "request_id": "a0db821092b03bd67dbf04caa491ec05"
+    },
     "8b241f43-512c-4728-bd81-b7e22e0888c3": {
         "created": 1737369253,
         "question": "Can TUM consider my internship experience gained during my Masters degree and/or my six (6) plus years of professional experience working for the Department of Transportation as a in lieu of these 18 ECTS credit hours?",
@@ -2655,7 +3302,15 @@
         "source_type": "email",
         "source": "email_655.txt",
         "request_id": "d28c57e806725fdf746884ebc1073199"
-        },
+    },
+    "c6c06db8-a2ee-4c62-b122-664bcfc548bc": {
+        "created": 1737369406,
+        "question": "Will the mistake in the application number impact the application?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_656.txt",
+        "request_id": "b64ba4c76389ee8891921aa9cd1683bb"
+    },
     "ef35fca9-59d0-4134-9a21-98385b71d94f": {
         "created": 1737369292,
         "question": "Does a course titled 'Introduction to AI (5 ECTS)' and a Bachelor's thesis on AI chatbots, focusing on their various use cases (15 ECTS), meet the criteria for the practical project requirement for the TUM M.Sc. program 'AI in Society'?",
@@ -2695,7 +3350,31 @@
         "source_type": "email",
         "source": "email_663.txt",
         "request_id": "bc50f7e202903e99dd56a47e1e940978"
-                },
+    },
+    "d00e9c01-d344-4056-8029-378704f0a405": {
+        "created": 1737369311,
+        "question": "What is the procedure to verify if the modules that people specify really correspond to at least 5 or 18 ECTS for the requirements of '5 ECTS Math/Statistics' and '18 ECTS Practical Project' respectively?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_664.txt",
+        "request_id": "39f40dab24ca61dc4af992326cda4495"
+    },
+    "8571090d-9793-4221-888d-07daca2650af": {
+        "created": 1737369442,
+        "question": "Shouldn't the status of the document initially be 'received' instead of 'ok', since we would have to check it first?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_666.txt",
+        "request_id": "6afcabb55e0083932c84c90e448a219e"
+    },
+    "4f3c90b3-509f-4143-8f36-ba77d2ccc611": {
+        "created": 1737369321,
+        "question": "Is the AIS study programme accredited or registered for accreditation?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_667.txt",
+        "request_id": "6ccc9fa0745f2d8c8e8734bc876ffb40"
+    },
     "caf2b543-53df-4d29-b917-02a9d77718d8": {
         "created": 1737369327,
         "question": "What is the request regarding the five-year program for architecture students?",
@@ -2791,7 +3470,23 @@
         "source_type": "email",
         "source": "email_688.txt",
         "request_id": "d4e7f977dfb9c31399f799a2c6072c62"
-            },
+    },
+    "27d2657b-0854-43f1-96b1-c2e386a4b2e1": {
+        "created": 1737369395,
+        "question": "Is it possible to arrange a short phone call or visit the department at TU to discuss the program and the admission process?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_689.txt",
+        "request_id": "4603cdaa9be7975013dfa1274df93516"
+    },
+    "33c15b1b-2f76-44dd-b432-8ffd87e8b8c5": {
+        "created": 1737369403,
+        "question": "Would a weekly research & review work also count as a project in the requirement?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_690.txt",
+        "request_id": "181fe643a047826703535b847d1b8a04"
+    },
     "25cb2cdf-294b-40d5-8464-6481d2d11ebe": {
         "created": 1737369413,
         "question": "Can I make up for the missing 6 ECTS through professional experience or other relevant (extracurricular) activities?",
@@ -2815,7 +3510,15 @@
         "source_type": "email",
         "source": "email_697.txt",
         "request_id": "e68f70b28cf9b1a7bc3ed48c17abe4c9"
-        },
+    },
+    "52a5ce60-b4af-454a-a777-8b5c1237ee73": {
+        "created": 1737369447,
+        "question": "Is it possible to arrange a short phone call next week or are there office hours where I can visit you in the department at TU?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_698.txt",
+        "request_id": "4553ae5d88c736098fc7392b9bfeedbf"
+    },
     "e38194fd-1476-41ff-9a5f-b80b556c12f3": {
         "created": 1737369450,
         "question": "Do you have the dates more or less when it will happen?",
@@ -2879,7 +3582,15 @@
         "source_type": "email",
         "source": "email_706.txt",
         "request_id": "3e11155830c0d19766b2f8c424cf827d"
-        },
+    },
+    "dd092991-f5fa-4785-9065-e702ea706b88": {
+        "created": 1737369192,
+        "question": "Where can I find the list of the admission requirements for the AI and society master?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_707.txt",
+        "request_id": "849b1ee6c99e518b95963c3aab07f265"
+    },
     "f95058a8-b952-48ce-805b-39b113e755a0": {
         "created": 1737369197,
         "question": "Do the attached transcripts fulfil the minimum requirements of mathematics/statistics background?",
@@ -2895,7 +3606,15 @@
         "source_type": "email",
         "source": "email_709.txt",
         "request_id": "ef2c8881a69270bb6442f57b16ee3d1e"
-        },
+    },
+    "f17141df-4f06-474f-94c4-c5359df9fa40": {
+        "created": 1737369208,
+        "question": "Can you please tell where I can find the list of the admission requirements for this master?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_710.txt",
+        "request_id": "56049459e9c3a4a315426eb08bcbe962"
+    },
     "aaa7eb8c-c9d1-473b-871e-2c7ded7bd65f": {
         "created": 1737369212,
         "question": "How does the aptitude committee assess practical experience for the AI in Society program at TUM?",
@@ -2927,7 +3646,15 @@
         "source_type": "email",
         "source": "email_716.txt",
         "request_id": "a9a5a808acb623551e69366a51e34372"
-        },
+    },
+    "71dcc55c-eda0-4643-b938-48021fb98e4f": {
+        "created": 1737369245,
+        "question": "Is there any additional material or information that I should provide?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_717.txt",
+        "request_id": "79b5194f6e53f0520bf1b4e047e8bc9d"
+    },
     "383f417c-40a2-44ed-9c72-7a371a5b67a8": {
         "created": 1737369253,
         "question": "If I am eligible for a waiver of the English proficiency certificate, would it be necessary for my university to provide a document verifying that English was the language of instruction during my Master's studies?",
@@ -2943,7 +3670,15 @@
         "source_type": "email",
         "source": "email_719.txt",
         "request_id": "f533bd7dd79ff6cc39856efd6deb7623"
-        },
+    },
+    "7b1ecfac-ab57-45da-b865-4f489f186896": {
+        "created": 1737369272,
+        "question": "Are there any recommended books or references to help prepare for the aptitude test for the Master's Program in AI in Society?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_720.txt",
+        "request_id": "029ef7808e79fb4554615092f0698bdc"
+    },
     "206afa59-6d7d-49aa-b78e-1527c60b24f8": {
         "created": 1737369277,
         "question": "Who will send the link to the application portal for the MSc. AI in Society program?",
@@ -2951,7 +3686,15 @@
         "source_type": "email",
         "source": "email_721.txt",
         "request_id": "601b3da9b16eb8e5f7846c9a8d1a1d1c"
-        },
+    },
+    "94737c9d-a97e-430c-a6a9-31d9d507dfae": {
+        "created": 1737369282,
+        "question": "If from my university, I do not officially 18 credits for a practical project in social science, is there a way to make up for this requirement?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_722.txt",
+        "request_id": "166313d5e4db16053ce58a43a47be57b"
+    },
     "27f998aa-3d33-4efa-a07d-b42bf215c804": {
         "created": 1737369288,
         "question": "What does the requirement of 'List of [REDACTED]' mean for the M.Sc. AI in Society program application?",
@@ -2967,7 +3710,23 @@
         "source_type": "email",
         "source": "email_724.txt",
         "request_id": "adea039894224f577f0aba2f7405ecac"
-            },
+    },
+    "51bc9584-5698-4a69-8ad8-14411e261b58": {
+        "created": 1737369303,
+        "question": "Does the student have the 18 Credits needed in practical projects for the application for the MSc. AI in Society?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_726.txt",
+        "request_id": "b15b91a8679c2cdb1c779832e107d775"
+    },
+    "1c2662cf-db08-4a7a-a7f8-44b85a8ad659": {
+        "created": 1737369309,
+        "question": "Would you be available for a short meeting this week or the coming?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_727.txt",
+        "request_id": "c3a10e5dc433b0acdccc15e35b3209d6"
+    },
     "d6b8d0df-005c-458e-a198-bed0e146f1fc": {
         "created": 1737369317,
         "question": "If I don't have the project that you are inquiring about, is it worthy giving it a try to the application?",
@@ -2999,7 +3758,15 @@
         "source_type": "email",
         "source": "email_731.txt",
         "request_id": "0b69680863228272b0d7c4aa787164f6"
-        },
+    },
+    "a72ac01d-7826-4554-a47d-b8e5c9ed5c12": {
+        "created": 1737369349,
+        "question": "If the bachelor program of TUM Informatik only offers thesis of 15 credits, does this mean I will not be qualified for the AI in Society program, even if the content of the thesis project is qualified for the application?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_732.txt",
+        "request_id": "f3780fef1294f6a67a48cc494669a6ab"
+    },
     "6f885c68-2f8e-4d5d-9f0c-66f4c15f4052": {
         "created": 1737369354,
         "question": "What is the format of the list of the best 140 ECTS along with the proof of the practical project worth at least 18 ECTS credits completed during bachelor\u2019s studies that I need to submit on my online application for the Master of Science - AI in Society program?",
@@ -3031,5 +3798,13 @@
         "source_type": "email",
         "source": "email_737.txt",
         "request_id": "541a746735b587afa488c38301b49d39"
-        }
+    },
+    "387a1f01-f2eb-4ff7-9c9d-745a0eaaeb6c": {
+        "created": 1737369387,
+        "question": "Would I still be required to pay the standard application fee, or are there any fee waivers or reductions available for current international students?",
+        "answer": "NO ANSWER",
+        "source_type": "no_answer",
+        "source": "email_738.txt",
+        "request_id": "b99ce11c7fcc42c02dfe94887075b772"
+    }
 }
