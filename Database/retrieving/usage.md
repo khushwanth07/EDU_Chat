@@ -1,7 +1,7 @@
-# Usage Manual for `example.py`
+# Usage Manual for `initialize.py`
 
 ## Prerequisites
-Before running the `example.py` script, ensure you have Docker (Desktop) installed and properly set up on your machine.
+Before running the `initialize.py` script, ensure you have Docker (Desktop) installed and properly set up on your machine.
 
 ## Running the File in Docker
 
@@ -26,20 +26,20 @@ Before running the `example.py` script, ensure you have Docker (Desktop) install
     ```
 
 
-## Running `example.py`
+## Running `initialize.py`
 
 1. **Navigate to the `Database/retrieving` Directory**:
-    Open your terminal and navigate to the `Database/retrieving` directory where the `example.py` script is located.
+    Open your terminal and navigate to the `Database/retrieving` directory where the `initialize.py` script is located.
 
     ```sh
     cd /Database/retrieving
     ```
 
-2. **Run the `example.py` Script**:
-    Execute the `example.py` script to initialize the database and find the closest questions to a given question.
+2. **Run the `initialize.py` Script**:
+    Execute the `initialize.py` script to initialize the database and find the closest questions to a given question.
 
     ```sh
-    python example.py
+    python initialize.py
     ```
 
 3. **Output**:
@@ -50,3 +50,6 @@ Before running the `example.py` script, ensure you have Docker (Desktop) install
     Question: [Question Text] with answer: [Answer Text]
     ...
     ```
+
+4. **Done**
+    Now the database is fully initialized. For retrieving data from the database see `example_usage.py`.
