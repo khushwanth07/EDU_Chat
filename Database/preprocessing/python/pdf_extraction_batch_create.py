@@ -65,7 +65,7 @@ with open('.temp/pdf_extraction_batch_input.jsonl', 'w', encoding='utf-8') as js
             "body": {
                 "model": "gpt-4",
                 "messages": messages,
-                "max_tokens": 2000
+                "max_tokens": 20000
             }
         }
 

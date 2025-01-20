@@ -1,37 +1,76 @@
-[HEADER_REDACTED_AUTOMATICALLY]
-Also, happy new year to you too!
-[MANNUALY_REDACTED]
-[HEADER_REDACTED_AUTOMATICALLY]
-[REDACTED]. [NAME_REDACTED_AUTOMATICALLY],
-thank you for your prompt response!
-Here is the curriculum for the Master's program:
-Master’s Program - HS Aalen<[URLREDACTED_AUTOMATICALLY]
-As previously mentioned, I have successfully completed all my courses except one - due to the unfortunate circumstances I described earlier. While the program at HS Aalen offers a strong focus on programming, TUM’s program is distinguished by its comprehensive emphasis on governance, legal frameworks, and the societal implications of AI—areas that were not covered in my previous studies and that I would be thrilled to explore further.
-Additionally, for your reference, here is the curriculum of my Bachelor's degree, where I minored in data analytics:
-Bachelor’s Program - Sociology at ELTE<[URLREDACTED_AUTOMATICALLY]
-As I was unable to complete only one class due to - so to say - external circumstances, would it be possible to consider an exemption? Perhaps an oral interview with the admissions board could be arranged, or I could meet a higher standard in the assessment process to fully demonstrate both my knowledge and my strong dedication to joining your program.
-It would be an incredible honour to study at such a prestigious institution as TUM and to gain a more holistic and advanced understanding of AI.
-Thank you very much for your time and consideration. I wish you a [REDACTED]!
-[HEADER_REDACTED_AUTOMATICALLY]
-[REDACTED],
-Thank you for your email and your interest in the MSc. AI in Society.
-I’m very sorry to read what has happened to you – this sounds beyond frustrating. Thank you for explaining your situation in detail.
-Now: in German universities, there is a notion of “endgültig nicht bestanden”, i.e. “finally/definitively failed”. This means, if you have finally failed a subject and you have therefore failed your degree, you are exempted from doing the same/similar degree anywhere else in Germany. I am assuming that you received an “endgültig nicht bestanden”.
-Therefore, the first step here would be to check whether your degree (MSc. [REDACTED]) and our degree (MSc. AI in Society) are similar enough (“fachverwandt”). This check needs to be done by our program heads, but for this we need to know more details about your previous degree, i.e. which university, which modules are part of the curriculum, etc.
-After we have done this check, there are two ways this could go:
-1) Either we decide that the two degrees are not similar enough; then you can apply to us with no problems. Or:
-2) We decide that the two degrees are highly similar; then you, unfortunately, would be declined by TUM.
-Therefore, please let us know some more information about your previous degree. You can also just send us the website of the degree if it lists all relevant information.
-Best wishes, happy holidays, and a happy new year,
-[REDACTED]
----
-[NAME_REDACTED_AUTOMATICALLY]
-[HEADER_REDACTED_AUTOMATICALLY]
-[HEADER_REDACTED_AUTOMATICALLY]
-[REDACTED]. [NAME_REDACTED_AUTOMATICALLY],
-I hope this message finds you well. I am writing to inquire about my eligibility to apply for the AI in Society program at TUM.
-Firstly, I am an international student who came to Germany for my masters study, after finishing my bachelors in my home country. During my previous studies in MSc [REDACTED] at a German public university, I encountered an unfortunate situation that resulted in my exmatriculation. The project in question was entirely my own work, but it was uploaded to GitHub without my consent by a co-worker from the company where I was completing my internship, whom I had trusted for a second opinion. This individual later admitted to uploading the project as an act of personal retaliation after I declined their romantic advances a week later.
-Despite providing evidence to support my case (including transcripts, correspondence, and screenshots), the incident was ultimately classified as academic misconduct, and I was exmatriculated. This situation was devastating, as I was just 5 credit points away from completing my master's degree, having successfully passed all other exams (many with excellent grades), completed my internship, and already secured a master's thesis placement. I had successfully completed numerous challenging exams in technical subjects, all of which were on paper where cheating was not an option and never even crossed my mind. I am truly perplexed as to how my previous university could not see that this was simply a misunderstanding.
-I am passionate about completing my education and am eager to continue contributing to this field. I would greatly appreciate the opportunity to discuss whether my application would still be considered in light of these circumstances.The circumstances are deeply regrettable, and measures have been taken to ensure such a situation cannot happen again.
-Could you please advise whether this situation would impact my application to your program? I would be happy to provide further information or documentation if necessary.
-Thank you for your understanding, and I look forward to your response.
+Q:what is the Annex 1: Examination Modules ? / Can you introduce the info of certain course ?
+A:
+Foundations of AI & Data Science (SOT86053)
+This course is delivered in the form of a lecture and exercise (VO + UE) in the first semester, with a total of 6 hours per week (SWS). It offers 9 credits and the examination is a written exam (K) lasting 90 minutes. The course is conducted in English.
+
+Law, Governance, and Regulation of Artificial Intelligence (SOT46302)
+This lecture (VO) is scheduled for the first semester, with 3 hours per week (SWS). The course is worth 6 credits, and the examination is a written exam (K) lasting 120 minutes. The course is taught in English.
+
+Introduction to Programming and Data Processing (SOT10054)
+The course is a combination of lectures and exercises (VO + UE), taking place in the first semester, with 2 hours per week (SWS). It is worth 3 credits, and the examination is an oral exercise (ÜB). The course is conducted in English.
+
+AI in and for Society: Science, Technology, and Society in the Digital Age (SOT46308)
+This lecture (VO) is offered in the first semester, with 2 hours per week (SWS). It offers 6 credits, and the examination is a written exam (K) lasting 90 minutes. The language of instruction is English.
+
+Psychology of Learning and Instructional Design of AI-based Systems (SOT10057)
+This course combines lectures and exercises (VO + UE), held in the first semester, with 4 hours per week (SWS). It is worth 6 credits, and the examination is a written exam (K) lasting 60 minutes. The course is taught in English.
+
+Introduction to Deep Learning (IN2346)
+A lecture (VO) offered in the second semester, with 4 hours per week (SWS), this course is worth 6 credits. The examination is a written exam (K) lasting 90 minutes, and the course is conducted in English.
+
+Deep Learning Demystified: Hands-on Deep Learning for Non-CS Majors (SOT86086)
+This is a practical training (PR) course, scheduled in the second semester with 2 hours per week (SWS). It offers 3 credits and the examination is an oral exercise (ÜB). The course is taught in English.
+
+Explainable AI – A Comprehensive Seminar on Transparent and Ethical AI (SOT86051)
+The course is a seminar (SE) in the second semester, with 3 hours per week (SWS). It is worth 6 credits, and the examination is a scientific paper (W), with 6 pages required. The language of instruction is English.
+
+Methods 1 (MCTS0027)
+This seminar (SE) is held in the second semester, with 3 hours per week (SWS). It is worth 5 credits, and the examination is an oral exercise (ÜB). The course is conducted in English.
+
+Academic Competencies and Practical Skills (SOT44303)
+A seminar (SE) in the second semester with 2 hours per week (SWS), this course is worth 4 credits. The examination is a scientific paper (W). The course is taught in English.
+
+AI in Diverse Societies (SOT46301)
+This seminar (SE) is held in the second semester with 2 hours per week (SWS), offering 6 credits. The examination is a written exam (K) lasting 60 minutes, and the course is in English.
+
+Natural Language Processing (IN2361)
+A lecture (VO) in the third semester, with 4 hours per week (SWS), this course is worth 6 credits. The examination is a written exam (K) lasting 120 minutes, and the course is conducted in English.
+
+Human-AI Interaction (SOT10046)
+This course, combining lectures and exercises (VO + UE), is held in the third semester, with 4 hours per week (SWS). It is worth 6 credits, and the examination is an oral exercise (ÜB). The course is taught in English.
+
+TUM Project Week
+The TUM Project Week is a project week (P/SE) offered in the third semester, with 4 hours per week (SWS). It is worth 6 credits, and the examination is a project work (PA). The course is in English.
+
+Master’s Thesis (SOT10060)
+The Master's Thesis is a required part of the program, offering 30 credits. The thesis is evaluated through a scientific paper (W), worth 27 credits, and the Master’s Colloquium is a presentation (P) worth 3 credits. The thesis is completed in English.
+
+
+
+Q:what is the elective modules ?Can you give me the information about it ?
+A:
+Elective Modules:
+In the elective area "AI in Different Domains of Society," students must earn at least 12 credits from the following courses:
+
+Learning Analytics (SOT10053)
+This is a seminar (SE) with 3 hours per week (SWS) and offers 6 credits. The examination is a project work (PA), and the course is taught in English.
+
+Gaze-based HCI (SOT10030)
+A lecture with exercises (VO + UE), this course is offered in the third semester with 4 hours per week (SWS). It provides 6 credits, and the examination is a written exam (K) lasting 90 minutes. The language of instruction is English.
+
+Responsible Data Science for Safe and Socially Aligned AI Applications (SOT86052)
+This seminar (SE) is held in the third semester, with 3 hours per week (SWS) and offers 6 credits. The examination is a presentation (P) with a 30-minute duration. The course is conducted in English.
+
+Advanced Topic: Law and Digitization in Action (SOT860809)
+A seminar (SE) held in the third semester, this course provides 5 credits, and the examination is a learning portfolio (LP). The course is in English.
+
+Philosophy of Artificial Intelligence: Key Readings (SOT56307)
+A seminar (SE) in the third semester, offering 6 credits with an oral exam (M) lasting 30 minutes. The course is taught in English.
+
+Advanced Analysis of Variance Procedures (SOT10058)
+This seminar (SE) in the third semester offers 6 credits, and the examination is a learning portfolio (LP). The language of instruction is English.
+
+Development of Research Instruments (SOT10059)
+A seminar (SE) in the third semester with 4 hours per week (SWS), offering 6 credits. The examination is a scientific paper (W), and the course is taught in English.
+
+

@@ -10,6 +10,31 @@ API_KEY = os.getenv("API_KEY")
 
 client = OpenAI(api_key=API_KEY)
 
+
+DEVELOPER_PROMPT = """
+You are a data analyst extracting information from text.
+This data is used to generate FAQs and answers for a chatbot, for the website of the course program.
+Keep the answers as authenticate as possible as there should be no to very less information loss.
+The questions and answers should be based solely on the text content.
+
+Provide clear Question and Answer pairs as JSON.
+There should be between 20 and 50 questions and answers in the json, prefer the maximal that covers the text content
+(especially every paragraph, you can create question for each paragraph and the answer should contain as more as possible the content of paragrah . 
+You can give the quesion by the content 'Q:' and the relevant answer by the content 'A:').
+.
+This is an example of how the json should look like:
+[
+    {
+        "Q": "What does the 'Law, Governance, and Regulation of Artificial Intelligence' course consists of?",
+        "A": "The 'Law, Governance, and Regulation of Artificial Intelligence' course is a lecture scheduled for the first semester, with 3 hours per week. The course is worth 6 credits, and the examination is a written exam lasting 120 minutes. The course is taught in English."
+    },
+    {
+        "Q": "What courses are offered in the elective area 'AI in Different Domains of Society'?",
+        "A": "In the elective area 'AI in Different Domains of Society', students must earn at least 12 credits from the following courses: 'Learning Analytics', 'Gaze-based HCI', 'Responsible Data Science for Safe and Socially Aligned AI Applications', 'Advanced Topic: Law and Digitization in Action', 'Philosophy of Artificial Intelligence: Key Readings', 'Advanced Analysis of Variance Procedures', 'Development of Research Instruments'. All these courses are conducted in English."
+    }
+]
+"""
+'''
 DEVELOPER_PROMPT = """
 You are a data analyst tasked with extracting specific, case-based questions and answers from an email history to create a FAQ.
 Your goal is to identify and extract only those questions and answers that are explicitly stated in the email, retaining as much context and detail as possible.
@@ -32,7 +57,7 @@ This is an example of how the json should be structured:
     }
 ]
 """
-
+'''
 
 # Function to read the email file
 def read_email(file_path):
@@ -53,7 +78,7 @@ print(f"Analyzing email {email_files[email_index]}")
 # print(f"Email starts with sentence: {email[:50]}")
 
 completion = client.chat.completions.create(
-    model="gpt-4o",
+    model="gpt-4",
     messages=[
         {
             "role": "developer",

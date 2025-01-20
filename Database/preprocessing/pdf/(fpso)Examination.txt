@@ -1,0 +1,192 @@
+Examination and Study Regulations
+for the Master's Program in AI in Society
+at the Technical University of Munich
+Dated January 31, 2024
+Pursuant to Articles 9, Sentences 1 and 2, in conjunction with Article 80, Paragraph 1, Sentence 1, Article 84, Paragraph 2, Sentence 1, and Article 90, Paragraph 1, Sentence 2 of the Bavarian Higher Education Innovation Act (BayHIG), the Technical University of Munich enacts the following regulations:
+
+Table of Contents
+§ 34 Scope, Academic Degree
+§ 35 Program Start, Standard Duration, ECTS
+§ 36 Qualification Requirements
+§ 37 Modularization, Module Examinations, Teaching, Language of Instruction
+§ 38 Examination Deadlines, Progress Control, Missed Deadlines
+§ 39 Examination Board
+§ 40 Credit Transfer for Studies and Exams
+§ 41 Continuous Assessment Process, Examination Formats
+§ 42 Admission and Registration for the Master’s Examination
+§ 43 Scope of the Master’s Examination
+§ 44 Repetition and Failure of Examinations
+§ 45 Academic Achievements
+§ 45a Multiple-Choice Procedures
+§ 46 Master’s Thesis
+§ 46a Master Colloquium
+§ 47 Completion and Grading of the Master’s Examination
+§ 48 Certificate, Diploma, Diploma Supplement
+§ 49 Effective Date
+Appendices:
+Examination Modules
+Admission Procedures
+
+
+§ 34 Scope, Academic Degree
+1.The Examination and Study Regulations for the Master's Program in AI in Society (FPSO) supplement the General Examination and Study Regulations for Bachelor's and Master's Programs at the Technical University of Munich (APSO), dated March 18, 2011, in its current version. The APSO takes precedence.
+2.Upon successful completion of the Master's examination, the academic degree "Master of Science" (M.Sc.) is awarded. This degree may also include the university designation “(TUM).”
+
+
+§ 35 Program Start, Standard Duration, ECTS
+1.The AI in Society Master's Program at the Technical University of Munich typically begins in the winter semester.
+2.To earn the Master's degree, students must achieve 90 ECTS credits through compulsory and elective modules, spanning three semesters. Additionally, the Master's Thesis, worth 30 ECTS, must be completed within six months as per § 46. Thus, the program totals at least 120 ECTS, with a standard duration of four semesters.
+
+
+§ 36 Qualification Requirements
+1.Eligibility for the Master's program in AI in Society is demonstrated through:
+	A qualified Bachelor’s degree (or equivalent) of at least six semesters from an accredited domestic or foreign institution.
+	Adequate English proficiency, demonstrated by a recognized language test such as TOEFL (minimum score: 88), IELTS (minimum score: 6.5), or Cambridge English Examinations. Alternatively, prior academic courses totaling 15 ECTS in English also suffice.
+	Passing specific undergraduate modules: Mathematics (minimum 5 ECTS) or Statistics (minimum 5 ECTS), as these skills are essential for success in the program.
+	Completion of a practical project (minimum 18 ECTS) linking engineering/natural sciences with political or social sciences, applied to analyze societal challenges, especially in technology-related contexts.
+	Passing the aptitude assessment process detailed in Appendix 2.
+2.Recognition of vocational training or equivalent achievements as fulfilling the practical project requirement is decided by the admissions committee.
+
+§ 37 Modularization, Module Examinations, Teaching Formats, Language of Instruction
+
+(1) 1General regulations regarding modules and teaching formats are defined in §§ 6 and 8 of the APSO. 2In case of deviations in module specifications, § 12 Paragraph 8 APSO applies.
+(2) The curriculum, including the modules in the compulsory and elective areas, is listed in Appendix 1.
+(3) The language of instruction for the Master’s program AI in Society is generally English.
+
+
+§ 38 Examination Deadlines, Study Progress Control, Missed Deadlines
+Examination deadlines, study progress control, and missed deadlines are governed by § 10 APSO.
+
+§ 39 Examination Board
+The responsible body for decisions on examination matters, as per § 29 APSO, is the Master Examination Board of the Master’s program AI in Society (Examination Board) of the TUM School of Social Sciences and Technology.
+
+§ 40 Recognition of Study Periods, Academic Achievements, and Examination Results
+The recognition of study periods, academic achievements, and examination results is governed by § 16 APSO.
+
+§ 41
+Study-Accompanying Examination Procedures and Examination Formats
+(1) Possible examination formats in this program, in accordance with §§ 12 and 13 of the APSO (Academic and Examination Regulations), include not only written and oral examinations but also laboratory work, exercise tasks (including attestations, if applicable), reports, project work, presentations, learning portfolios, scientific papers, and examination parcours. The specific components of each module examination and the competencies to be assessed are detailed in the module description. Examinations may be conducted as individual or group examinations, provided the topic is suitable. § 18(2) sentences 2 and 3 of the APSO apply accordingly.
+
+a) Written Examination:
+A written examination is a supervised written test aimed at identifying problems within a limited time using the provided methods and tools and, if necessary, applying solutions.
+The duration of written examinations is regulated in § 12(7) of the APSO.
+b) Laboratory Work:
+Depending on the discipline, laboratory work includes experiments, measurements, fieldwork, field exercises, etc., aimed at conducting, evaluating, and gaining insights.
+Components may include describing procedures and their theoretical foundations (including literature review), preparation and practical execution, necessary calculations, documentation and evaluation, and interpretation of results in terms of the knowledge gained.
+Laboratory work may be supplemented by a presentation to assess communication skills in presenting scientific topics to an audience.
+c) Exercise Task:
+Exercise tasks involve solving predefined problems (e.g., mathematical problems, programming tasks, modeling, designs, etc.) to apply theoretical knowledge to practical problem-solving.
+They serve to verify factual and detailed knowledge and its application.
+Exercise tasks can be conducted in written, oral, or electronic form, such as homework, worksheets, programming exercises, (e-)tests, design tasks, posters, tasks within university internships, attestations, etc.
+
+d) Report:
+A report is a written summary and reflection of a learning process aimed at structuring and presenting learned material and analyzing results in the context of a module.
+The report should demonstrate that key aspects have been understood and can be effectively communicated in writing.
+Possible report types include excursion reports, internship reports, and work reports.
+The written report may be supplemented by a presentation to assess communication skills in delivering the content to an audience.
+e) Project Work:
+Project work involves several phases (e.g., initiation, problem definition, role distribution, idea generation, criteria development, decision-making, execution, presentation, written evaluation) to achieve a defined goal within a specific timeframe using appropriate tools.
+It may include a presentation or technical discussion to assess communication skills in presenting scientific topics to an audience.
+Project work can also encompass design drafts, drawings, plans, models, objects, simulations, and documentation.
+f) Scientific Paper:
+A scientific paper is a written assignment where a complex scientific or scientifically applied question is independently addressed using the scientific methods of the respective discipline.
+It should demonstrate the ability to fully address a module-related question, from analysis to conception to implementation, in compliance with scientific standards.
+Possible formats include thesis papers, abstracts, essays, term papers, seminar papers, etc., varying in complexity.
+A scientific paper may be accompanied by a presentation and, if necessary, a colloquium to assess communication skills in presenting scientific topics to an audience.
+
+
+g) Presentation:
+A presentation is a systematic, structured, visually supported oral delivery (using tools such as projectors, slides, posters, videos) that illustrates and summarizes specific topics or results, distilling complex matters to their core.
+The presentation should demonstrate the ability to research and present a specific topic within a given time in a clear, concise, and understandable manner to an audience.
+It should also show the ability to respond competently to audience questions, suggestions, or discussion points.
+The presentation may be supplemented by a brief written preparation.
+h) Oral Examination:
+An oral examination is a time-limited dialogue on specific topics and questions to be answered.
+It aims to demonstrate understanding of the subject matter and the ability to place specific questions within the broader context of the field.
+The duration of oral examinations is regulated in § 13(2) of the APSO.
+i) Learning Portfolio:
+A learning portfolio is a collection of selected works, based on predefined criteria, to demonstrate learning progress and achievement at a given point in time concerning defined content.
+The selection of works, their relevance to personal learning progress, and their significance for achieving learning outcomes must be justified.
+The portfolio should demonstrate responsibility for the learning process.
+Depending on the module description, components of a successful learning portfolio may include application-related work, websites, weblogs, bibliographies, analyses, thesis papers, and graphical representations of a topic or question.
+A summary discussion may be conducted to reflect on the portfolio verbally.
+j) Examination Parcours:
+In an examination parcours, multiple examination elements are completed as part of a single assessment.
+Unlike module component examinations, the parcours is conducted in a cohesive organizational (spatial and temporal) format.
+The examination elements collectively capture the full competency profile of the module.
+Examination elements may include formats such as presentations and oral examinations in combination with practical work.
+The total examination duration is specified in the module catalog.
+
+(2) Module examinations are generally conducted alongside the program. The type and duration of each module examination are listed in Appendix 1. Deviations from these specifications must comply with § 12(8) of the APSO. The evaluation of module examinations is governed by § 17 of the APSO.
+(3) If Appendix 1 specifies that a module examination can be written or oral, the examiner must notify students of the final examination format in an appropriate manner no later than the start of lectures.
+
+
+§ 42 Admission and Registration for the Master’s Examination
+(1) By enrolling in the Master’s program AI in Society, students are considered admitted to the module examinations of the Master’s examination.
+(2) 1Registration for module examinations is governed by § 15 Paragraph 1 APSO. 2Registration for repeat examinations is governed by § 15 Paragraph 2 APSO.
+
+§ 43 Components of the Master’s Examination
+(1) The Master’s examination includes:
+1.The examinations for the respective modules as per Paragraph 2, and
+2.The module Master’s Thesis in accordance with § 46 and § 46a.
+(2) 1The module examinations are listed in Appendix 1. 2Students must obtain 78 credits from compulsory modules and at least 12 credits from elective modules. 3Module selection must comply with § 8 Paragraph 2 APSO.
+
+
+§ 44 Repetition and Failure of Examinations
+(1) The repetition of examinations is governed by § 24 APSO.
+(2) The failure of examinations is governed by § 23 APSO.
+
+§ 45 Academic Achievements
+In the Master’s program AI in Society, no modules conclude with academic achievements alone.
+
+§ 45a Multiple-Choice Procedure
+The implementation of multiple-choice procedures is governed by § 12a APSO.
+
+
+§ 46
+Master’s Thesis
+(1) According to § 18 of the APSO, students must complete a thesis as part of the Master’s examination within the Master’s Thesis module.
+(2)
+The completion of the Master’s Thesis module is generally intended to represent the final examination.
+Students may, upon request, be admitted to the Master’s Thesis module early if the objective of the thesis, as outlined in § 18(2) of the APSO, can be achieved considering their academic progress to date.
+(3)
+The time between the assignment and submission of the thesis must not exceed six months.
+The thesis is considered not submitted and failed if it is not delivered on time without valid reasons recognized under § 10(7) of the APSO.
+The Master’s Thesis module is awarded 30 credits.
+The thesis must be written in English.
+(4)
+The Master’s Thesis module consists of a scientific paper and a Master’s colloquium in accordance with § 46a.
+The scientific paper contributes 27 credits, and the Master’s colloquium contributes 3 credits to the overall assessment.
+(5)
+If the Master’s Thesis module is graded below "sufficient" (4.0), it may be repeated once with a new topic.
+The new thesis topic must be registered no later than six weeks after notification of the result.
+
+
+§ 46a
+Master’s Colloquium
+(1) The Master’s colloquium takes place immediately after the successful completion of the thesis.
+(2) The Master’s colloquium is conducted by the thesis supervisor and an additional qualified observer.
+(3) The Master’s colloquium must be conducted in English.
+(4)
+The colloquium typically lasts 60 minutes.
+Students are given approximately 30 minutes to present their thesis.
+This is followed by a disputation, which extends from the thesis topic to the broader field of study related to the thesis.
+
+§ 47
+Passing and Grading of the Master’s Examination
+(1) The Master’s examination is considered passed when all examinations required under § 43(1) have been successfully completed, and a total of at least 120 credits has been achieved.
+(2)
+The module grade is calculated in accordance with § 17 of the APSO.
+The overall grade for the Master’s examination is determined as a weighted average of the grades for the modules specified in § 43(2) and the Master’s Thesis module.
+The weight of each module corresponds to its allocated credits.
+The overall assessment is expressed using the grading descriptors outlined in § 17 of the APSO.
+
+
+§ 48
+Certificate, Diploma, Diploma Supplement
+If the Master’s examination is passed, a certificate, a diploma, and a Diploma Supplement including a Transcript of Records will be issued in accordance with § 25(1) and § 26 of the APSO.
+
+§ 49
+Effective Date
+This statute takes effect on January 1, 2024.
+It applies to all students who begin their academic studies at the Technical University of Munich starting in the winter semester of 2024/2025.

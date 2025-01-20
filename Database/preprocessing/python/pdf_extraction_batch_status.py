@@ -13,8 +13,8 @@ API_KEY = os.getenv('API_KEY')
 client = OpenAI(api_key=API_KEY)
 
 # Retrieve the batch status
-batch = client.batches.retrieve("batch_678a80ed0ce88190845ae85643993efa")
-
+batch = client.batches.retrieve("batch_678e5b5b885081908972d387c87020f8")
+print(batch)
 # Print the batch status
 print(f"Batch status: {batch.status}")
 

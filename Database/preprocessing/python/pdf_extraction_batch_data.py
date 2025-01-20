@@ -15,7 +15,7 @@ API_KEY = os.getenv("API_KEY")
 client = OpenAI(api_key=API_KEY)
 
 # Get the file response from the OpenAI API
-file_response = client.files.content("file-QWm8Q8Gpetvi8tYvUSDQH9")
+file_response = client.files.content("file-AtpUNXmgEytqjDE1HK541J")
 9
 # Split the response into lines to get the individual responses for each email
 responses = file_response.text.splitlines()
@@ -25,16 +25,22 @@ responses = [json.loads(response) for response in responses]
 data = {}
 
 for response in responses:
-    # Create a unique key for the question answer pair
-    key = str(uuid.uuid4())
 
     # Get the created timestamp from the response
     created = response["response"]["body"]["created"]
 
-    # Get the content of the response
-    content = json.loads(response["response"]["body"]["choices"][0]["message"]["content"])
+    try:
+        # Get the content of the response
+        content = json.loads(response["response"]["body"]["choices"][0]["message"]["content"])
+    except Exception as e:
+        print(f"Error: {e}")
+        print(f"Response: {response["response"]["body"]["choices"][0]["message"]["content"]}")
+        continue
 
     for qa in content:
+        # Create a unique key for the question answer pair
+        key = str(uuid.uuid4())
+
         data[key] = {
             "created": created,  # timestamp of the api response
             "question": qa["Q"],  # question

@@ -1,0 +1,428 @@
+Examination and Study Regulations
+for the Master's Program in AI in Society
+at the Technical University of Munich
+Dated January 31, 2024
+Pursuant to Articles 9, Sentences 1 and 2, in conjunction with Article 80, Paragraph 1, Sentence 1, Article 84, Paragraph 2, Sentence 1, and Article 90, Paragraph 1, Sentence 2 of the Bavarian Higher Education Innovation Act (BayHIG), the Technical University of Munich enacts the following regulations:
+
+Table of Contents
+§ 34 Scope, Academic Degree
+§ 35 Program Start, Standard Duration, ECTS
+§ 36 Qualification Requirements
+§ 37 Modularization, Module Examinations, Teaching, Language of Instruction
+§ 38 Examination Deadlines, Progress Control, Missed Deadlines
+§ 39 Examination Board
+§ 40 Credit Transfer for Studies and Exams
+§ 41 Continuous Assessment Process, Examination Formats
+§ 42 Admission and Registration for the Master’s Examination
+§ 43 Scope of the Master’s Examination
+§ 44 Repetition and Failure of Examinations
+§ 45 Academic Achievements
+§ 45a Multiple-Choice Procedures
+§ 46 Master’s Thesis
+§ 46a Master Colloquium
+§ 47 Completion and Grading of the Master’s Examination
+§ 48 Certificate, Diploma, Diploma Supplement
+§ 49 Effective Date
+Appendices:
+Examination Modules
+Admission Procedures
+
+§ 34 Scope, Academic Degree
+1.The Examination and Study Regulations for the Master's Program in AI in Society (FPSO) supplement the General Examination and Study Regulations for Bachelor's and Master's Programs at the Technical University of Munich (APSO), dated March 18, 2011, in its current version. The APSO takes precedence.
+2.Upon successful completion of the Master's examination, the academic degree "Master of Science" (M.Sc.) is awarded. This degree may also include the university designation “(TUM).”
+
+
+§ 35 Program Start, Standard Duration, ECTS
+1.The AI in Society Master's Program at the Technical University of Munich typically begins in the winter semester.
+2.To earn the Master's degree, students must achieve 90 ECTS credits through compulsory and elective modules, spanning three semesters. Additionally, the Master's Thesis, worth 30 ECTS, must be completed within six months as per § 46. Thus, the program totals at least 120 ECTS, with a standard duration of four semesters.
+
+
+§ 36 Qualification Requirements
+1.Eligibility for the Master's program in AI in Society is demonstrated through:
+	A qualified Bachelor’s degree (or equivalent) of at least six semesters from an accredited domestic or foreign institution.
+	Adequate English proficiency, demonstrated by a recognized language test such as TOEFL (minimum score: 88), IELTS (minimum score: 6.5), or Cambridge English Examinations. Alternatively, prior academic courses totaling 15 ECTS in English also suffice.
+	Passing specific undergraduate modules: Mathematics (minimum 5 ECTS) or Statistics (minimum 5 ECTS), as these skills are essential for success in the program.
+	Completion of a practical project (minimum 18 ECTS) linking engineering/natural sciences with political or social sciences, applied to analyze societal challenges, especially in technology-related contexts.
+	Passing the aptitude assessment process detailed in Appendix 2.
+2.Recognition of vocational training or equivalent achievements as fulfilling the practical project requirement is decided by the admissions committee.
+
+§ 37 Modularization, Module Examinations, Teaching Formats, Language of Instruction
+
+(1) 1General regulations regarding modules and teaching formats are defined in §§ 6 and 8 of the APSO. 2In case of deviations in module specifications, § 12 Paragraph 8 APSO applies.
+(2) The curriculum, including the modules in the compulsory and elective areas, is listed in Appendix 1.
+(3) The language of instruction for the Master’s program AI in Society is generally English.
+
+
+§ 38 Examination Deadlines, Study Progress Control, Missed Deadlines
+Examination deadlines, study progress control, and missed deadlines are governed by § 10 APSO.
+
+§ 39 Examination Board
+The responsible body for decisions on examination matters, as per § 29 APSO, is the Master Examination Board of the Master’s program AI in Society (Examination Board) of the TUM School of Social Sciences and Technology.
+
+§ 40 Recognition of Study Periods, Academic Achievements, and Examination Results
+The recognition of study periods, academic achievements, and examination results is governed by § 16 APSO.
+
+§ 41
+Study-Accompanying Examination Procedures and Examination Formats
+(1) Possible examination formats in this program, in accordance with §§ 12 and 13 of the APSO (Academic and Examination Regulations), include not only written and oral examinations but also laboratory work, exercise tasks (including attestations, if applicable), reports, project work, presentations, learning portfolios, scientific papers, and examination parcours. The specific components of each module examination and the competencies to be assessed are detailed in the module description. Examinations may be conducted as individual or group examinations, provided the topic is suitable. § 18(2) sentences 2 and 3 of the APSO apply accordingly.
+
+a) Written Examination:
+A written examination is a supervised written test aimed at identifying problems within a limited time using the provided methods and tools and, if necessary, applying solutions.
+The duration of written examinations is regulated in § 12(7) of the APSO.
+b) Laboratory Work:
+Depending on the discipline, laboratory work includes experiments, measurements, fieldwork, field exercises, etc., aimed at conducting, evaluating, and gaining insights.
+Components may include describing procedures and their theoretical foundations (including literature review), preparation and practical execution, necessary calculations, documentation and evaluation, and interpretation of results in terms of the knowledge gained.
+Laboratory work may be supplemented by a presentation to assess communication skills in presenting scientific topics to an audience.
+c) Exercise Task:
+Exercise tasks involve solving predefined problems (e.g., mathematical problems, programming tasks, modeling, designs, etc.) to apply theoretical knowledge to practical problem-solving.
+They serve to verify factual and detailed knowledge and its application.
+Exercise tasks can be conducted in written, oral, or electronic form, such as homework, worksheets, programming exercises, (e-)tests, design tasks, posters, tasks within university internships, attestations, etc.
+
+d) Report:
+A report is a written summary and reflection of a learning process aimed at structuring and presenting learned material and analyzing results in the context of a module.
+The report should demonstrate that key aspects have been understood and can be effectively communicated in writing.
+Possible report types include excursion reports, internship reports, and work reports.
+The written report may be supplemented by a presentation to assess communication skills in delivering the content to an audience.
+e) Project Work:
+Project work involves several phases (e.g., initiation, problem definition, role distribution, idea generation, criteria development, decision-making, execution, presentation, written evaluation) to achieve a defined goal within a specific timeframe using appropriate tools.
+It may include a presentation or technical discussion to assess communication skills in presenting scientific topics to an audience.
+Project work can also encompass design drafts, drawings, plans, models, objects, simulations, and documentation.
+f) Scientific Paper:
+A scientific paper is a written assignment where a complex scientific or scientifically applied question is independently addressed using the scientific methods of the respective discipline.
+It should demonstrate the ability to fully address a module-related question, from analysis to conception to implementation, in compliance with scientific standards.
+Possible formats include thesis papers, abstracts, essays, term papers, seminar papers, etc., varying in complexity.
+A scientific paper may be accompanied by a presentation and, if necessary, a colloquium to assess communication skills in presenting scientific topics to an audience.
+
+
+g) Presentation:
+A presentation is a systematic, structured, visually supported oral delivery (using tools such as projectors, slides, posters, videos) that illustrates and summarizes specific topics or results, distilling complex matters to their core.
+The presentation should demonstrate the ability to research and present a specific topic within a given time in a clear, concise, and understandable manner to an audience.
+It should also show the ability to respond competently to audience questions, suggestions, or discussion points.
+The presentation may be supplemented by a brief written preparation.
+h) Oral Examination:
+An oral examination is a time-limited dialogue on specific topics and questions to be answered.
+It aims to demonstrate understanding of the subject matter and the ability to place specific questions within the broader context of the field.
+The duration of oral examinations is regulated in § 13(2) of the APSO.
+i) Learning Portfolio:
+A learning portfolio is a collection of selected works, based on predefined criteria, to demonstrate learning progress and achievement at a given point in time concerning defined content.
+The selection of works, their relevance to personal learning progress, and their significance for achieving learning outcomes must be justified.
+The portfolio should demonstrate responsibility for the learning process.
+Depending on the module description, components of a successful learning portfolio may include application-related work, websites, weblogs, bibliographies, analyses, thesis papers, and graphical representations of a topic or question.
+A summary discussion may be conducted to reflect on the portfolio verbally.
+j) Examination Parcours:
+In an examination parcours, multiple examination elements are completed as part of a single assessment.
+Unlike module component examinations, the parcours is conducted in a cohesive organizational (spatial and temporal) format.
+The examination elements collectively capture the full competency profile of the module.
+Examination elements may include formats such as presentations and oral examinations in combination with practical work.
+The total examination duration is specified in the module catalog.
+
+(2) Module examinations are generally conducted alongside the program. The type and duration of each module examination are listed in Appendix 1. Deviations from these specifications must comply with § 12(8) of the APSO. The evaluation of module examinations is governed by § 17 of the APSO.
+(3) If Appendix 1 specifies that a module examination can be written or oral, the examiner must notify students of the final examination format in an appropriate manner no later than the start of lectures.
+
+
+§ 42 Admission and Registration for the Master’s Examination
+(1) By enrolling in the Master’s program AI in Society, students are considered admitted to the module examinations of the Master’s examination.
+(2) 1Registration for module examinations is governed by § 15 Paragraph 1 APSO. 2Registration for repeat examinations is governed by § 15 Paragraph 2 APSO.
+
+§ 43 Components of the Master’s Examination
+(1) The Master’s examination includes:
+1.The examinations for the respective modules as per Paragraph 2, and
+2.The module Master’s Thesis in accordance with § 46 and § 46a.
+(2) 1The module examinations are listed in Appendix 1. 2Students must obtain 78 credits from compulsory modules and at least 12 credits from elective modules. 3Module selection must comply with § 8 Paragraph 2 APSO.
+
+
+§ 44 Repetition and Failure of Examinations
+(1) The repetition of examinations is governed by § 24 APSO.
+(2) The failure of examinations is governed by § 23 APSO.
+
+§ 45 Academic Achievements
+In the Master’s program AI in Society, no modules conclude with academic achievements alone.
+
+§ 45a Multiple-Choice Procedure
+The implementation of multiple-choice procedures is governed by § 12a APSO.
+
+
+§ 46
+Master’s Thesis
+(1) According to § 18 of the APSO, students must complete a thesis as part of the Master’s examination within the Master’s Thesis module.
+(2)
+The completion of the Master’s Thesis module is generally intended to represent the final examination.
+Students may, upon request, be admitted to the Master’s Thesis module early if the objective of the thesis, as outlined in § 18(2) of the APSO, can be achieved considering their academic progress to date.
+(3)
+The time between the assignment and submission of the thesis must not exceed six months.
+The thesis is considered not submitted and failed if it is not delivered on time without valid reasons recognized under § 10(7) of the APSO.
+The Master’s Thesis module is awarded 30 credits.
+The thesis must be written in English.
+(4)
+The Master’s Thesis module consists of a scientific paper and a Master’s colloquium in accordance with § 46a.
+The scientific paper contributes 27 credits, and the Master’s colloquium contributes 3 credits to the overall assessment.
+(5)
+If the Master’s Thesis module is graded below "sufficient" (4.0), it may be repeated once with a new topic.
+The new thesis topic must be registered no later than six weeks after notification of the result.
+
+
+§ 46a
+Master’s Colloquium
+(1) The Master’s colloquium takes place immediately after the successful completion of the thesis.
+(2) The Master’s colloquium is conducted by the thesis supervisor and an additional qualified observer.
+(3) The Master’s colloquium must be conducted in English.
+(4)
+The colloquium typically lasts 60 minutes.
+Students are given approximately 30 minutes to present their thesis.
+This is followed by a disputation, which extends from the thesis topic to the broader field of study related to the thesis.
+
+§ 47
+Passing and Grading of the Master’s Examination
+(1) The Master’s examination is considered passed when all examinations required under § 43(1) have been successfully completed, and a total of at least 120 credits has been achieved.
+(2)
+The module grade is calculated in accordance with § 17 of the APSO.
+The overall grade for the Master’s examination is determined as a weighted average of the grades for the modules specified in § 43(2) and the Master’s Thesis module.
+The weight of each module corresponds to its allocated credits.
+The overall assessment is expressed using the grading descriptors outlined in § 17 of the APSO.
+
+
+§ 48
+Certificate, Diploma, Diploma Supplement
+If the Master’s examination is passed, a certificate, a diploma, and a Diploma Supplement including a Transcript of Records will be issued in accordance with § 25(1) and § 26 of the APSO.
+
+§ 49
+Effective Date
+This statute takes effect on January 1, 2024.
+It applies to all students who begin their academic studies at the Technical University of Munich starting in the winter semester of 2024/2025.
+
+
+-------------------
+Annex 1: Examination Modules
+Foundations of AI & Data Science (SOT86053)
+This course is delivered in the form of a lecture and exercise (VO + UE) in the first semester, with a total of 6 hours per week (SWS). It offers 9 credits and the examination is a written exam (K) lasting 90 minutes. The course is conducted in English.
+
+Law, Governance, and Regulation of Artificial Intelligence (SOT46302)
+This lecture (VO) is scheduled for the first semester, with 3 hours per week (SWS). The course is worth 6 credits, and the examination is a written exam (K) lasting 120 minutes. The course is taught in English.
+
+Introduction to Programming and Data Processing (SOT10054)
+The course is a combination of lectures and exercises (VO + UE), taking place in the first semester, with 2 hours per week (SWS). It is worth 3 credits, and the examination is an oral exercise (ÜB). The course is conducted in English.
+
+AI in and for Society: Science, Technology, and Society in the Digital Age (SOT46308)
+This lecture (VO) is offered in the first semester, with 2 hours per week (SWS). It offers 6 credits, and the examination is a written exam (K) lasting 90 minutes. The language of instruction is English.
+
+Psychology of Learning and Instructional Design of AI-based Systems (SOT10057)
+This course combines lectures and exercises (VO + UE), held in the first semester, with 4 hours per week (SWS). It is worth 6 credits, and the examination is a written exam (K) lasting 60 minutes. The course is taught in English.
+
+Introduction to Deep Learning (IN2346)
+A lecture (VO) offered in the second semester, with 4 hours per week (SWS), this course is worth 6 credits. The examination is a written exam (K) lasting 90 minutes, and the course is conducted in English.
+
+Deep Learning Demystified: Hands-on Deep Learning for Non-CS Majors (SOT86086)
+This is a practical training (PR) course, scheduled in the second semester with 2 hours per week (SWS). It offers 3 credits and the examination is an oral exercise (ÜB). The course is taught in English.
+
+Explainable AI – A Comprehensive Seminar on Transparent and Ethical AI (SOT86051)
+The course is a seminar (SE) in the second semester, with 3 hours per week (SWS). It is worth 6 credits, and the examination is a scientific paper (W), with 6 pages required. The language of instruction is English.
+
+Methods 1 (MCTS0027)
+This seminar (SE) is held in the second semester, with 3 hours per week (SWS). It is worth 5 credits, and the examination is an oral exercise (ÜB). The course is conducted in English.
+
+Academic Competencies and Practical Skills (SOT44303)
+A seminar (SE) in the second semester with 2 hours per week (SWS), this course is worth 4 credits. The examination is a scientific paper (W). The course is taught in English.
+
+AI in Diverse Societies (SOT46301)
+This seminar (SE) is held in the second semester with 2 hours per week (SWS), offering 6 credits. The examination is a written exam (K) lasting 60 minutes, and the course is in English.
+
+Natural Language Processing (IN2361)
+A lecture (VO) in the third semester, with 4 hours per week (SWS), this course is worth 6 credits. The examination is a written exam (K) lasting 120 minutes, and the course is conducted in English.
+
+Human-AI Interaction (SOT10046)
+This course, combining lectures and exercises (VO + UE), is held in the third semester, with 4 hours per week (SWS). It is worth 6 credits, and the examination is an oral exercise (ÜB). The course is taught in English.
+
+TUM Project Week
+The TUM Project Week is a project week (P/SE) offered in the third semester, with 4 hours per week (SWS). It is worth 6 credits, and the examination is a project work (PA). The course is in English.
+
+Master’s Thesis (SOT10060)
+The Master's Thesis is a required part of the program, offering 30 credits. The thesis is evaluated through a scientific paper (W), worth 27 credits, and the Master’s Colloquium is a presentation (P) worth 3 credits. The thesis is completed in English.
+
+
+
+
+
+Elective Modules:
+In the elective area "AI in Different Domains of Society," students must earn at least 12 credits from the following courses:
+
+Learning Analytics (SOT10053)
+This is a seminar (SE) with 3 hours per week (SWS) and offers 6 credits. The examination is a project work (PA), and the course is taught in English.
+
+Gaze-based HCI (SOT10030)
+A lecture with exercises (VO + UE), this course is offered in the third semester with 4 hours per week (SWS). It provides 6 credits, and the examination is a written exam (K) lasting 90 minutes. The language of instruction is English.
+
+Responsible Data Science for Safe and Socially Aligned AI Applications (SOT86052)
+This seminar (SE) is held in the third semester, with 3 hours per week (SWS) and offers 6 credits. The examination is a presentation (P) with a 30-minute duration. The course is conducted in English.
+
+Advanced Topic: Law and Digitization in Action (SOT860809)
+A seminar (SE) held in the third semester, this course provides 5 credits, and the examination is a learning portfolio (LP). The course is in English.
+
+Philosophy of Artificial Intelligence: Key Readings (SOT56307)
+A seminar (SE) in the third semester, offering 6 credits with an oral exam (M) lasting 30 minutes. The course is taught in English.
+
+Advanced Analysis of Variance Procedures (SOT10058)
+This seminar (SE) in the third semester offers 6 credits, and the examination is a learning portfolio (LP). The language of instruction is English.
+
+Development of Research Instruments (SOT10059)
+A seminar (SE) in the third semester with 4 hours per week (SWS), offering 6 credits. The examination is a scientific paper (W), and the course is taught in English.
+
+
+
+
+--------------------
+Annex 2: Eligibility Procedure
+
+Eligibility Procedure for the Master's Program AI in Society at the Technical University of Munich
+
+1.Purpose of the Procedure 1.1 The qualification for the Master's program AI in Society requires, in addition to the conditions outlined in § 36 (1) Nos. 1-4, proof of suitability according to § 36 (1) No. 5 in accordance with the following regulations. The particular qualifications and abilities of applicants should correspond to the professional field of Artificial Intelligence in  society. 1.2 Individual eligibility parameters are:
+	The ability to work scientifically or in a foundational and method-oriented manner.
+	Existing expertise from the first degree in social sciences, political science, business administration, educational sciences, management, law, psychology, economics, or comparable fields.
+	Knowledge of political matters and important political and societal engineering or natural science matters.
+	Special commitment at the interface of social sciences and technology (e.g., through relevant work experience, internships, study-abroad experiences, part-time jobs, political and/or social engagement, or specific expertise in mathematics, statistics, or data analysis).
+
+
+2.Procedure for Assessing Suitability 2.1 The procedure for assessing suitability is carried out annually. The regulations of the Technical University of Munich (TUM) regarding matriculation, re-registration, leave of absence, and de-registration (ImmatS) from February 6, 2023, in their applicable version, particularly § 6, apply to the procedure for determining eligibility. 2.2 Applicants must submit their applications for the eligibility procedure according to § 6 ImmatS, along with the necessary documents, by the deadline for the winter semester (May 31) via the online application process. The certificate and transcript of the bachelor's degree must be submitted to the TUM Center for Study and Teaching – Applications and Matriculation within five weeks after the start of the lectures. Failure to do so will result in the inability to enroll in the Master's program according to § 36 of these regulations. 2.3 The application must include:
+
+	A transcript of records with at least 140 credits, issued by the responsible examination authority or study office.
+	A list of the best-rated modules with 140 credits, accompanied by a declaration confirming the accuracy of the list.
+	Proof of successful participation in a practical project of at least 18 credits (with module description). If this involves vocational training or other equivalent achievements, appropriate proof must be submitted.
+	A tabular curriculum vitae.
+	Optionally, a written justification (max. 800 words) explaining why the applicant considers themselves particularly suited for the AI in Society Master's program at TUM. This can include specific career training, internships, study-abroad experiences, or additional qualifications.
+	If a justification letter is submitted, it must include a declaration confirming the independent preparation of the document.
+
+
+
+3. Commission for the Qualification Procedure, Selection Commissions
+3.1 The qualification procedure is conducted by the Commission for the Qualification Procedure and the selection commissions. 2. The Commission for the Qualification Procedure is responsible for preparing the procedure, organizing it, and ensuring a structured and standardized process for determining eligibility in accordance with these statutes. It is competent unless another responsibility is defined by these statutes or through delegation. 3. The execution of the procedure, according to Section 5, is the responsibility of the selection commissions, subject to Section 3.2, Sentence 11.
+
+3.2 The Commission for the Qualification Procedure (Commission) consists of five members. 2. These members are appointed by the Dean, in consultation with the Vice Dean for Academic and Student Affairs, from the group of eligible members of the TUM School of Social Sciences and Technology involved in the study program. 3. At least three of the commission members must be university professors according to the BayHIG (Bavarian Higher Education Act). 4. The student body has the right to appoint a student representative who participates in the commission as an advisor. 5. For each member of the Commission, a deputy is appointed. 6. The Commission elects a chairperson and a deputy chairperson from among its members. 7. The procedural provisions of the TUM Basic Regulations, in the currently applicable version, apply to the business processes. 8. The term of office for the members is one year. 9. Extensions of the term and reappointments are possible. 10. Urgent decisions that cannot be postponed may be made by the chairperson instead of the Commission for the Qualification Procedure; the chairperson must inform the Commission immediately. 11. The Study Office supports the Commission for the Qualification Procedure and the selection commissions; the Commission may assign the Study Office the task of conducting formal admission checks according to Section 4 and evaluating points based on predefined criteria that leave no room for judgment, especially converting grades, determining the total points, and assembling the selection commissions from the members appointed by the Commission and assigning them to applicants.
+
+3.3The selection commissions consist of two members from the group of eligible members of the TUM School of Social Sciences and Technology, in accordance with Article 85, Paragraph 1, Sentence 1 of the BayHIG and the Higher Education Examiner Regulation in the study program. 2. At least one member must be a university professor in accordance with the BayHIG. 3. Serving as a member of the Commission for the Qualification Procedure can be done alongside serving as a member of the selection commission. 4. The members are appointed for one year by the Commission for the Qualification Procedure; Section 3.2, Sentence 9 applies accordingly. 5. Different selection commissions may be appointed for each criterion and level.
+
+
+4. Admission to the Qualification Procedure
+4.1 The execution of the qualification procedure requires that the documents mentioned in Section 2.2 be submitted correctly, on time, and in full.
+4.2 
+1.Those who meet the requirements under Section 4.1 will be examined in the qualification procedure according to Section 5.
+2. Otherwise, a rejection notice with reasons and information about legal remedies will be issued.
+
+
+
+
+5. Execution of the Qualification Procedure
+5.1 First Stage of the Qualification Procedure
+5.1.1 1. It will be assessed based on the written application documents as required under Section 2.3 and the test as outlined in Section 5.1.1 b), whether the applicants meet the eligibility requirements for the study program as per Section 1 (First Stage of the Qualification Procedure). 2. A maximum of 96 points can be achieved, with 0 being the worst and 96 being the best possible result:
+The following assessment criteria apply:
+a) Grade
+For every tenth of a grade better than 2.6 achieved in the examination results of 140 credits, 3 points are awarded.
+The maximum score is 48.
+No negative points are awarded.
+For foreign degrees or if the grading system does not align with that of TUM, the grade converted using the Bavarian formula is used.
+If an applicant has a degree with more than 140 credits at the time of application, the assessment is based on the highest-rated modules totaling 140 credits.
+It is the responsibility of the applicants to list these modules in their application and to ensure the accuracy of the submitted data in writing.
+If this is done, the average is calculated based on the best-rated module exams totaling 140 credits.
+The average is computed as a weighted grade point average of the modules.
+The weight of each module corresponds to the credits assigned to it.
+If this information is missing, the overall average grade provided by the applicant will be used.
+Grades and corresponding points:
+Grade	Points
+1.0	48
+1.1	45
+1.2	42
+1.3	39
+1.4	36
+1.5	33
+1.6	30
+1.7	27
+1.8	24
+1.9	21
+2.0	18
+2.1	15
+2.2	12
+2.3	9
+2.4	6
+2.5	3
+≥2.6	0
+
+
+b) Test
+All applicants who meet the requirements under Section 4.2 will be invited to a test (performance assessment in written form).
+The test date will be announced at least one week in advance by the Commission.
+The time window for the test must be set before the application deadline.
+The fixed test date must be adhered to.
+The test is only held once per application phase.
+If an applicant is unable to attend the test for reasons beyond their control, they can, upon justified request, attend a rescheduled test. This rescheduled test will take place at least two weeks before the start of lectures.
+The test will be conducted in person at TUM.
+Alternatively, an online test may be held, with applicants participating at their own risk in case of technical issues unless the university is at fault.
+The test lasts 90 minutes and consists of about 35 questions.
+The test questions are in English.
+The purpose of the test is to assess whether the applicant is expected to successfully and independently complete the study program, demonstrating the necessary subject-specific knowledge that aligns with the fundamentals of a relevant bachelor's program.
+The test content is distributed across the following areas:
+Political/Social Science Fundamentals and Specializations (maximum 15 points)
+Basic Economics and Law (maximum 9 points)
+Mathematical/Statistical Fundamentals (maximum 9 points)
+Engineering/Scientific Fundamentals and Specializations (maximum 15 points)
+Subject-specific knowledge that is to be taught in the Master’s program AI in Society is not assessed in this test.
+The purpose of the test is to demonstrate the applicant's suitability for the program.
+The questions are selected by two commission members, who also decide on any exclusions after evaluating the results. At least one commission member must be a university professor in accordance with the BayHIG.
+The test consists of multiple-choice questions where only one answer is correct.
+Points are awarded for each correct answer as specified in the test.
+The maximum score for the test is 48 points.
+
+
+5.1.2 The score is the sum of the calculated score from 5.1.1 a) (Grade) and the result of the test as per 5.1.1 b).
+5.1.3 Applicants who score at least 68 points have passed the qualification procedure.
+5.1.4 1. Applicants who score fewer than 40 points have failed the qualification procedure. 2. This does not apply if at least 18 points were awarded for the grade calculation under Section 5.1.1 a); in this case, eligibility for the AI in Society program must be proven by participating in the second stage of the qualification procedure.
+
+5.2 Second Stage of the Qualification Procedure
+5.2.1 
+1. The remaining applicants will be invited to an eligibility interview.
+2. In the second stage, the qualifications acquired during the first degree and the outcome of the eligibility interview are assessed, with the qualifications acquired in the first degree being at least equally weighted.
+3. The date for the interview will be announced at least one week in advance.
+4. The time window for the interview must be set before the application deadline.
+5. The fixed interview date must be adhered to.
+6. Applicants who are unable to attend the interview for reasons beyond their control can, upon justified request, attend a rescheduled interview up to two weeks before the start of lectures.
+7. A video conference for the interview is possible upon a justified request approved by the Commission.
+8. If there are technical issues with the video or audio, the interview can continue once the issue is resolved or a rescheduled interview can be set.
+9. In case of repeated disruptions, the interview may be rescheduled to an in-person meeting.
+10. Sections 8 and 9 do not apply if it is proven that the applicant caused the disruption. In this case, the interview will be assessed.
+5.2.2 
+1. The eligibility interview will be conducted individually with each applicant. 2. The interview lasts a minimum of 20 and a maximum of 30 minutes and is conducted in English.
+3. The content of the interview covers the following areas:
+Special motivation for the AI in Society master’s program, as outlined in the motivation letter and evidenced by the CV regarding the field of Artificial Intelligence in Society, including key competencies like communication skills.
+Basic and applied knowledge of mathematics and statistics.
+Knowledge of politically and socially relevant engineering or scientific matters and current topics at the intersection of AI and society.
+Understanding of the interdisciplinary focus of the AI in Society program and potential future career fields.
+The submitted application materials (per Section 2.3) may also be discussed.
+Subject-specific knowledge that will be taught in the Master’s program AI in Society will not be considered.
+5.2.3 
+1. Each selection commission member independently evaluates each of the four focus areas, with equal weighting for all areas. 2. The evaluation is done on a scale from 0 to 48 points, where 0 is the worst and 48 is the best possible result. 3. The score is the arithmetic mean of the individual evaluations. 4. Non-zero decimal places are rounded up.
+5.2.4 
+1. The total score for the second stage is the sum of the points from Section 5.2.3 and half of the score from Section 5.1.2. 2. Applicants who score 48 or more points have passed the qualification procedure.
+3. Applicants with a total score of fewer than 48 points have failed the qualification procedure.
+
+5.3 Determination and Announcement of the Result
+The result of the qualification procedure is determined based on the points achieved and announced through an official notice.
+Rejection notices must include reasons and legal remedy instructions.
+5.4 The determined eligibility applies to all subsequent applications for this program.
+
+
+6. Documentation
+
+The procedure of the qualification process must be documented, including the names of the individuals involved in the decision, the evaluation of both the first and second stages, and the overall result.
+A protocol must be created for the test, which should include the external details of the event (date, location, start and end of the test, names of the selection committee members present, names of the applicants, and any special occurrences).
+The same applies to the qualification interview, with an additional summary of the key topics discussed.
+
+
+7. Repetition
+Applicants who do not pass the qualification process may reapply once more.
+
+
+
+Issued based on the decision of the Academic Senate of the Technical University of Munich on November 30, 2023, and approved by the President of the Technical University of Munich on January 31, 2024.
+Munich, January 31, 2024
+Technical University of Munich
+Signed,
+Thomas F. Hofmann, President
+
+This statute was officially published on January 31, 2024, on the website "https://www.tum.de/satzungen". Additionally, it can be reviewed during office hours at the TUM Center for Study and Teaching - Law, Arcisstraße 21, 80333 Munich, Room 0561. Therefore, the date of publication is January 31, 2024.

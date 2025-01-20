@@ -1,0 +1,1106 @@
+Q: What is the 'Degree Program Documentation Master’s Program AI in Society' ,  ： 
+A: The General Information is as follow:
+• Administrative responsibility: School of Social Sciences and Technology
+Political, Social and Educational Sciences and 
+Technology
+• Name of degree program: AI in Society
+• Degree: Master of Science (M.Sc.)
+• Standard duration of study and credits:
+4 semesters of enrollment and 120 credit points (CP)
+• Form of study: full time
+• Admission: Aptitude assessment (EV – Master’s)
+• Start: Winter semester 2024/2025
+• Language of Instruction: Englisch
+• Main Location: Munich
+• Academic administrator (program design):
+Prof. Enkelejda Kasneci, Prof. Gjergji Kasneci 
+• Contact for further questions (regarding this document):
+Prof. Enkelejda Kasneci
+enkelejda.kasneci@tum.de
+0173-8374843
+• Status as of: 22.07.2024
+
+
+
+
+###Degree Program Objectives：
+
+
+Q:What is the purpose of the Degree Program
+A:Purpose: (1) current starting point  (2) Addressing the above-mentioned and multifaceted challenges posed by AI (3) Aim and Contribution of the MSc program “AI in Society”(4) The intended role of graduates from the MSc program "AI & Society" (5) The MSc program "AI in Society" is both research-oriented and application-oriented.
+
+
+Q:What is the Current Starting Point:
+A:Current Starting Point: As Artificial Intelligence continues to evolve and becomes 
+increasingly integrated into every aspect of our lives, it brings forth a variety of challenges 
+and problems across technological, economic, and political domains. These challenges 
+stem from the rapid development and widespread adoption of AI technologies, as well as 
+their potential consequences on society.
+
+
+
+Q:What are the challenges associated with the increasing adoption of AI-based solutions in society:
+A:1)User-related 2)Socio-economic  3)Socio & geo-political:Regulation and governance
+
+
+1)User-related:Bias and fairness: AI algorithms can inadvertently perpetuate existing biases in 
+data, leading to unfair and discriminatory outcomes.
+Explainability and interpretability: Many AI models are considered "black boxes" 
+due to their complex and hard-to-understand decision-making processes, hence 
+user-dependent explanations and trust-building measures are needed.
+Security and privacy: The increasing reliance on AI raises concerns about 
+privacy, security, and potential misuse (detecting fake news, protecting the end 
+user, etc.)
+
+2)Socio-economic:Job displacement: The automation of tasks by AI may lead to job displacement 
+in various industries, potentially exacerbating unemployment and income 
+inequality.
+Digital divide: The unequal access to AI technologies and the skills required to 
+use them can widen the gap between advantaged and disadvantaged 
+populations.
+Economic concentration: The dominance of a few large tech companies in AI 
+development can lead to an unhealthy concentration of power and stifle 
+innovation.
+
+3)Socio & geo-political:Regulation and governance: The rapid development of AI calls for effective 
+regulation and governance to ensure responsible and ethical use, but the pace 
+of technological advancement often outstrips the ability of policymakers to 
+respond.
+Geopolitical competition: The race for AI supremacy among nations raises 
+concerns about national security, surveillance, and the weaponization of AI.
+Social & Ethical considerations: The deployment of AI in various sectors raises 
+ethical questions about the appropriate boundaries and limits of AI applications.
+
+
+
+Q:How to address the above-mentioned and multifaceted challenges.
+A:
+Addressing the above-mentioned and multifaceted challenges posed by AI's rapid 
+development requires a comprehensive, interdisciplinary approach involving various 
+stakeholders. For example, mitigating bias and improving explainability in AI requires a 
+blend of technical advancements and diversity among development teams. Tackling socioeconomic issues such as job displacement and the digital divide necessitates cooperative 
+efforts in reskilling, education, and improved technological access. Creating effective AI 
+governance involves legal experts, ethicists, and policymakers working together to establish 
+international norms and regulatory frameworks. In essence, a collaborative and cross-disciplinary approach is crucial to responsibly steer the development and implementation of 
+AI technologies.
+
+
+Q:What is the Aim and Contribution of the MSc program “AI in Society”: 
+A:The MSc program addresses 
+the above challenges posed by the integration of AI into society by equipping the students
+with technical skills and interdisciplinary knowledge. The program focuses on mitigating 
+biases in AI, enhancing user-dependent explainability and interpretability, ensuring data 
+privacy and security. It also emphasizes the importance of equitable access to AI 
+technologies and fostering a competitive AI ecosystem. By exposing students to legal, 
+ethical, and policy aspects of AI, the program prepares them to shape regulations and 
+governance frameworks, assess potential risks, and contribute to responsible, ethical, and 
+inclusive AI applications. Especially the current developments in AI (e.g., in the realm of 
+generative AI for generating texts, speech, images, and videos) call for an interdisciplinary 
+oversight supported by social scientists who understand the workings, limitations, and 
+potential impact of such AI solutions.
+
+
+Q:What is the intended role of graduates from the MSc program "AI & Society" 
+A: It is to serve as AI 
+ethicists, consultants, researchers, or product managers in various fields, as well as AI 
+policy advisors in public administration. Their job is to ensure the responsible development 
+and implementation of AI technologies, analyze their potential societal impacts, and promote 
+ethical AI practices in both private and public sectors. Graduates will contribute to the 
+design, evaluation, and governance of AI systems that prioritize fairness, transparency, and 
+social good, while fostering innovation and inclusivity across diverse domains. In summary, 
+the program is an interdisciplinary approach that aims to equip students with the tools and 
+concepts they need to successfully apply AI in social contexts for the social good.
+The role of the graduates from the MSc program "AI & Society" is not to primarily work in 
+the field of AI development, as that is typically done by graduates with a pure computer 
+science back-ground. Instead, these graduates, equipped with a profound understanding of 
+AI, take on intermediary or interface functions between the technical and social science 
+aspects of AI applications.
+
+Q:How to understand that : the MSc program "AI in Society" is both research-oriented and application-oriented.
+A: 
+It is research-oriented as it involves the study of complex AI-related challenges, including 
+biases, socio-economic implications, and legal and ethical aspects. It is application-oriented 
+as it prepares graduates for roles such as AI ethicists, consultants, researchers, and policy 
+advisors, where they apply their knowledge to ensure responsible and ethical AI practices 
+in real-world settings. Thus, the program integrates theoretical knowledge and practical 
+skills to address AI's societal impact.
+
+
+
+Q:What is the Strategic Significance of this degree programm 
+
+A:
+1) Contribution of the study program “AI in Society” to the teaching strategy of the 
+School of Social Sciences and Technology.
+	The MSc program "AI in Society" aligns with the School of Social Sciences and Technology's 
+mission of Human-Centered Engineering. It embodies an interdisciplinary approach,merging AI technical knowledge with social science insights. This program addresses
+multiple challenges arising from AI and by which our society is confronted, reflecting the 
+school's public interest focus. By fostering AI understanding among social scientists and 
+other non-technical disciplines, it contributes to the school's intellectual diversity and 
+promotes international, interdisciplinary exploration. The program's emphasis on 
+stakeholder collaboration aligns with the school's collaborative ethos, preparing graduates 
+for roles in AI governance. Thus, the MSc program "AI in Society" enhances the school's 
+strategic orientation, integrating AI within its human-centered, interdisciplinary framework.
+
+
+
+2) Study program as part of the teaching strategy of the School of Social Sciences and
+Technology
+The MSc program "AI in Society" enriches the School of Social Sciences and Technology's 
+professional profile, "Political, Social and Educational Sciences and Technology." It 
+integrates with the school's existing degree programs, providing a unique lens on AI's 
+societal implications. More specifically, the program's socio-political focus on AI 
+complements the themes in "Political Science (B.Sc.)" and "Politics & Technology (M.Sc.)," 
+extending the discussion on AI's ethical, legal, and social issues. Its emphasis on 
+educational strategies contributes to the discourse on education's role in responsible AI use 
+and governance. The exploration of AI responsibility and ethics dovetails with the 
+"Responsibility in Science, Engineering and Technology (M.A.)," deepening the 
+conversation on ethical AI practices. Lastly, its interdisciplinary approach mirrors "Science 
+and Technology Studies (M.A.)," enriching the dialogue on AI's societal impact.
+
+
+
+3)The MSc program "AI in Society" aligns with TUM's mission as follows:
+
+Innovations for mankind, nature, and society:The program addresses AI's societal challenges, embodying TUM's 
+commitment to responsible and sustainable innovation. Beyond just 
+technical education, TUM has a broader societal mission. The "AI in 
+Society" program aligns well with TUM’s activities around human-centered engineering by producing graduates who are not only 
+technically proficient but also ethically conscious and socially 
+responsible. This holistic approach to education resonates with TUM's 
+commitment to societal betterment, ensuring that its graduates are 
+well-equipped for the challenges of the modern world.
+Highest international standards:AI is undeniably one of the most transformative technologies of our 
+era. By establishing a program that delves into its societal implications, 
+TUM is positioning itself at the forefront of future fields of study, 
+ensuring its continued relevance and leadership in higher education.
+The program adheres to international standards, fostering future fields 
+in AI research and education, and attracting global talent.
+Cosmopolitanism and tolerance :The program promotes cosmopolitanism, fostering international 
+understanding within the AI domain.
+Talents with a sense of values: The program nurtures talents, fostering professional competence, 
+cognitive flexibility, and social competence in the AI field.
+Adding value through diversity and appreciation :The program values diversity, fostering a culture of mutual respect and equal opportunity.
+Learning without borders: The program links top-level research with excellent teaching, offering 
+future-oriented academic education in AI.
+Continuing education and training  for a lifetime:The program contributes to lifelong learning, equipping students for continued success in the evolving AI field.
+Entrepreneurial thinking and acting:The program promotes entrepreneurial spirit, encouraging students to translate research into market-oriented AI innovations.
+Living intergenerational contract :The program fosters an intergenerational approach, combining the 
+enthusiasm of students, faculty creativity, and graduate impact to shape AI research and teaching.
+Dialogue with Society and the Public:The program encourages public dialogue, educating students to shape social change processes responsibly in the AI context.
+
+
+
+Q:What is the Qualification Profile：
+A:
+The following qualification profile corresponds to the specifications of the Qualifications Framework 
+for German Higher Education Qualifications (Hochschulqualifikationsrahmen - HQR) and the 
+requirements contained therein (i) Knowledge and Understanding, (ii) Use, Application and 
+Generation of Knowledge, (iii) Communication and Cooperation and (iv) Scientific Self-Image/Professionalism. The formal aspects according to the HQR (entry requirements, duration, 
+degree options) are detailed in chapters 3 and 6 as well as in the corresponding subject examination 
+and study regulations.
+
+
+Q:What is the Knowledge and Understanding of Qualification Profile:
+A:Graduates will possess an enriched comprehension of AI. This means they will not only be 
+acquainted with the general terminologies, governance, and principles of AI but also with technical 
+concepts like neural networks, machine learning algorithms, and deep learning. They will understand 
+the boundaries of AI, such as its limitations in understanding human emotions or the challenges in 
+ensuring unbiased algorithms, fairness, and transparency. They will also be well-versed in its 
+applications, ranging from healthcare diagnostics to autonomous vehicles, and the societal 
+implications these applications bring, like job displacement or privacy concerns.
+In addition, graduates will have a comprehensive, and critical grasp of areas at the forefront of AI. 
+For instance, they will be knowledgeable about areas like generative AI, natural language 
+processing, or reinforcement learning. Equipped with this knowledge, they will be trained to convey 
+and discuss pioneering ideas with technical and non-technical experts, be it for practical applications,
+for research or public discourse. This also encompasses an understanding of the ethical dilemmas 
+AI poses, such as surveillance concerns or decision-making biases, the legal frameworks 
+surrounding AI use, and the broader social implications. They will be familiar with strategies to 
+address AI-related challenges, like implementing fairness checks or ensuring transparency and 
+privacy in AI decision-making processes. In this way, they will be able to bridge ethical, regulatory
+and practical requirements in various AI application domains. 
+Furthermore, graduates will be adept at understanding the quality-related challenges of AI 
+applications, taking into account both scientific and methodological factors. For example, they will 
+be familiar with different evaluation strategies for assessing the appropriateness of a machine 
+learning model for a given dataset or the potential pitfalls. They will possess the skills to tackle both 
+practical and theoretical issues using these considerations. This will also involve a deep 
+understanding of the principles of responsible AI for ensuring data privacy and security, and methods 
+to gauge the societal repercussions of AI, like engagement with relevant stakeholders and 
+conducting impact assessments or community consultations.
+
+
+
+Q:What is the Application, Use, and Generation of Knowledge of Qualification Profile
+A:Graduates will be trained to both harness and pioneer knowledge in AI applications, undertaking 
+meticulous research, making informed and scientifically grounded decisions, and overseeing 
+intricate projects. These endeavors will consistently prioritize the ethical and responsible deployment 
+of AI. Delving deeper into the unique offerings of the MSc program "AI in Society", graduates will
+develop the following competencies:
+Utilization and Transfer
+Knowledge Integration: Graduates will be trained to merge both established and emerging 
+knowledge in intricate, multidisciplinary scenarios pertinent to AI's role in various domains of society, 
+especially when faced with sparse, complex, or critical information.
+Informed Decision Making: With a focus on the societal ramifications, graduates will learn to make 
+decisions rooted in scientific rigor regarding AI applications, always critically weighing potential 
+repercussions.
+Autonomous Learning: Recognizing the dynamic nature of AI and current limitations, graduates will
+learn to proactively seek and assimilate new knowledge and skills, ensuring they remain at the 
+forefront of the field.
+Project Execution: Graduates will spearhead application-centric projects with autonomy, channeling 
+their expertise to address tangible AI challenges across diverse sectors.
+Scientific Innovation
+Research Formulation: Graduates will be able to formulate research questions that delve into the 
+challenges of the interplay between AI and society.
+Operationalization: They will be trained to pinpoint and defend tangible operational strategies for 
+their research by transforming abstract questions into creative, feasible solutions and executable 
+blueprints.
+Method Selection: Graduates will learn to discern and advocate for fitting research methodologies, 
+weighing the pros and cons of various techniques.
+Result Interpretation: They will learn to interpret and critically dissect research outcomes, drawing 
+insightful inferences about the societal footprint of AI.
+
+
+Q:what is the  Communication and Cooperation of Qualification Profile
+A:Graduates from the MSc program "AI in Society" will be uniquely equipped with competencies in the 
+realm of "Communication and Cooperation". This training will empower them to articulate, 
+collaborate, and adequately resolve challenges and conflicts in varied, multidisciplinary settings, 
+especially at the intersection of AI and societal dynamics.
+Interdisciplinary Dialogue: Graduates will be trained to convey intricate, scientifically grounded
+solutions concerning AI's societal role. They will not only be able to engage with peers from diverse 
+academic backgrounds but will also have the competence to bridge the communication gap with 
+non-academic stakeholders, ensuring that AI concepts are accessible and meaningful to a broader 
+audience. Graduates will be adept at bridging the communication gap between AI specialists and 
+professionals from other disciplines, ensuring seamless collaboration
+Collaborative Synergy: Recognizing the importance of harmonious teamwork, graduates will be able 
+to steer group dynamics by knowing how to integrate team members into tasks with a clear vision, 
+always being attuned to the distinct nuances of an AI application and the related collaborative 
+scenario. They will be able to ensure a conducive, inclusive, and goal-driven team environment.
+Challenge and Conflict Resolution: In the multifaceted realm of AI and society, disagreements are 
+inevitable. Graduates will be adept at pinpointing potential discord in cooperative ventures, reflecting 
+on them contextually. They will know how to prioritize constructive dialogue and concept-driven,
+state-of-the-art AI solutions, ensuring that conflicts are not just resolved but also leveraged as 
+opportunities for growth and understanding.
+Public Engagement: Recognizing the importance of public discourse, graduates will be able to
+effectively communicate AI concepts and implications to the general public, fostering informed 
+societal discussions and decisions.
+
+
+Q: what is the  Scientific self-conception/professionalism of Qualification Profile
+A:Graduates of the MSc program "AI in Society" will be uniquely equipped with competencies in the 
+realm of "Scientific Self-concept and Professionalism". This program is distinctively designed to 
+empower them to confidently, competently, and ethically engage with the societal dimensions of AI.
+Professional Self-Image: Graduates will foster a professional identity that resonates with both 
+scientific realms and professional sectors. Given the program's emphasis on the societal implications 
+of AI, they will be adept at bridging the gap between AI expertise and ethical, regulatory, and practical 
+requirements for real-world AI applications, ensuring they contribute to diverse professional settings 
+with both confidence and competence.
+Justification and Reflection of Actions: Graduates will learn to ground their professional decisions in 
+robust theoretical and methodological foundations. They will not only act but also reflect, always 
+considering alternative strategies for AI applications and their societal implications, thereby 
+perpetually enhancing their professional contributions.
+Self-Assessment and Autonomy: Graduates will possess a suitable self-awareness of their 
+capabilities. They will independently harness their creativity, critical thinking, and decision-making 
+competencies, always seeking guidance to refine and go beyond already acquired skills. Their drive 
+will be intrinsic, with a perpetual quest for learning and self-improvement, especially in understanding 
+the societal nuances of AI.
+Ethical and Responsible Decision-Making: Recognizing the profound societal impact of AI, 
+graduates will be trained to discern both immediate and long-term conditions for professional actions. 
+Their decisions will be deeply rooted in ethical and regulatory considerations, ensuring they 
+consistently maintain the pinnacle of ethical and regulatory standards in their AI-related endeavors.
+Social Responsibility: Central to the program's goals, graduates will be acutely conscious of the 
+societal expectations and consequences of AI. They will critically evaluate their professional actions, 
+ensuring their work aligns with, and even anticipates, societal needs and expectations related to AI's 
+integration into everyday life.
+
+
+Q: What is the Target Groups of Degree programm
+
+A: 
+1)Target Audience
+(1) Educational Qualifications: The MSc program in AI in Society is designed for applicants who have 
+completed a bachelor's degree in social sciences, political sciences, economics, law, and 
+psychology, or a related field. Applicants should have a solid foundation in their respective fields.
+(2) Interests: The program is particularly attractive to applicants who have a keen interest in the 
+intersection of AI and society. This includes, but is not limited to, interests in ethical AI practices, AI 
+governance, AI's socio-economic impacts, and the role of AI in shaping future societies. The program 
+offers applicants the opportunity to delve deep into these topics, equipping them with the necessary 
+skills to navigate and contribute to the field of AI in society.
+(3) Target Audience: The MSc program in AI in Society targets an international audience. It 
+welcomes applicants from all over the world, fostering a diverse and international learning 
+environment. The program's international orientation aligns with its focus on global AI challenges 
+and its commitment to preparing graduates to work in various fields and regions.
+
+2)Prerequisites
+Eligibility for the 'AI in Society' master's program is determined by several criteria: (1) a Bachelor's 
+degree of a minimum of six semesters from a recognized domestic or international university, or an 
+equivalent qualification; (2) proficiency in the English language, evidenced by a recognized language 
+assessment like the TOEFL (with a minimum score of 88) or the IELTS (scoring at least 6.5), or the 
+'Cambridge Main Suite of English Examinations'. Alternatively, if an applicant has undertaken 
+examinations equivalent to 15 credits in English-language modules during their undergraduate 
+studies, this will also serve as proof of their English proficiency; (3) Successful completion of module 
+examinations in either mathematics or statistics (minimum of 5 credits each) from their prior degree 
+program. This foundational knowledge is crucial for thriving in the master's curriculum. (4) a practical 
+project spanning typically 18 credits, where engineering or scientific insights are blended with 
+political or social science perspectives to address societal issues, especially within technologicallydriven contexts. (5) Successful clearance of an aptitude test. To pass the aptitude test expertise in 
+the fundamentals of mathematics and statistics, engineering and natural sciences, political and 
+social sciences, and economics and law is required, also with regard to their practical application at 
+the interface of engineering and natural sciences with political and social sciences. 
+
+3)Target Numbers
+Considering the current resources, the program can initially accommodate 40 students. In the future, 
+with more resource capacities, the number of admissions can be increased to 200.
+
+
+Q:What is the Demand Analysis of Degree programm
+A:
+Employment possibilities: Graduates from the “AI in Society” program will find themselves at a 
+pivotal juncture in the job market. As AI continues to weave itself into the fabric of our society, there's 
+an escalating demand for professionals who can seamlessly merge the intricacies of technical AI 
+with the nuances of social requirements and desired benefits. This program is meticulously designed 
+to prime graduates for a plethora of roles across diverse industries and sectors.
+In the technology sector, graduates might find roles in designing user-friendly AI interfaces and 
+human-AI interaction processes or in ensuring that AI algorithms are transparent and ethically sound. 
+In healthcare, they could be instrumental in integrating AI into diagnostic processes, patient care, 
+and medical research, ensuring that the technology respects patient rights, privacy, and delivers 
+equitable care. For instance, they might work on teams developing AI-driven diagnostic tools, 
+ensuring that these tools are not only technically robust but also ethically designed and considerate
+of diverse patient populations.
+In education, graduates could guide the development of AI-driven educational tools, ensuring they 
+cater to diverse learning needs while maintaining ethical standards. In the realm of sustainability, 
+they might work on AI solutions for environmental monitoring or sustainable resource management, 
+ensuring that these solutions are both effective and socially responsible.
+For those venturing into public administration, they could be at the forefront of crafting policies that 
+govern AI use in public services, ensuring that they are equitable and in the individual’s and public's 
+best interest. In consulting, graduates might advise businesses on the ethical implementation of AI, 
+while in research, they could delve deep into the societal implications of AI, guiding future 
+innovations.
+Specific job roles that encapsulate these responsibilities include AI ethicists, who ensure that AI 
+applications uphold moral and ethical standards; policy advisors, who guide governmental and 
+organizational AI strategies; interdisciplinary researchers, who explore the multifaceted impacts of 
+AI on society; and AI strategy consultants, who aid businesses in leveraging AI responsibly and 
+effectively
+
+Actual demand and relevant data: The demand for professionals who possess a blend of expertise 
+in AI and social sciences is surging. Given Germany's position as a leading global economy and its 
+rapid digital transformation, there is a growing demand for professionals who understand both the 
+technical and societal facets of AI. A fitting example of the high regional, but also global demand can 
+be seen in the strong interest (in the establishment of this program) and endorsement by the
+companies participating in the advisory board (i.e., extended QM circle) of this program: the 
+European Central Bank, Continental, Porsche, IBM, and Adobe. These companies see a distinct 
+advantage – and have formally expressed their interest through letters of intent – in hiring graduates 
+with interdisciplinary AI competence, who can bridge the gap between social and technical 
+challenges related to AI applications. Moreover, with growing concerns about AI ethics, privacy, and 
+governance both corporations and governmental bodies are increasingly aware of the imperative to 
+address the societal ramifications of AI. This has amplified the need for specialists who can 
+seamlessly navigate the social and practical intricacies of AI. Such professionals not only bring 
+conceptual and technical AI expertise but also a nuanced understanding of how AI impacts societal 
+structures in different domains and norms. This dual expertise ensures that AI implementations are 
+not just practical and technically sound but also socially responsible and beneficial for the individual 
+and the society as a whole.
+The McKinsey report underscores this trend, indicating that from 2016 to 2030, the demand for social 
+competencies will increase at double the rate of other skills, witnessing an 8 to 9 percent growth in 
+demand per decade. [https://www.mckinsey.com/featured-insights/future-of-work/skill-shift-automation-and-the-future-of-the-workforce] This trajectory implies that the goal of our program is 
+not just to produce social scientists proficient in AI concepts and principles but to cultivate 
+professionals who can leverage AI to enhance research and applications across disciplines like 
+psychology, sociology, economics, and political science, and law.
+
+
+
+
+
+
+
+Q:What is the  Competition Analysis of degree program
+A:
+(1)External Competition Analysis
+The table below list several similar study programs across European and German Universities.
+Title of Master programs/ Institution/ Target Group
+Artificial Intelligence for Public 
+Services (AI4GOV) 
+Universidad Politécnica de Madrid 
+(Spain), Politecnico di Milano (Italy), Friedrich Alexander-Universität Erlangen-Nürnberg 
+(Germany) and the Tallinn University of 
+Technology (TalTech) Gefördert von der EU
+Professionals, Part-time 
+Master
+https://ai4gov-master.eu/ 
+AI Ethics and Society University of Cambridge, UK
+https://www.ice.cam.ac.uk/course/mst-aiethics-and-society
+Professionals, Part-time 
+Master
+AI and Digital Society Radboud University
+AI and Digital Society | Radboud University 
+(ru.nl)
+Students
+Media and Communications (Data 
+and Society)
+The London School of Economics and Political 
+Science LSE Home
+Social Science Students
+Applied Social Data Science London School of Economics and Political 
+Science, UK
+https://www.lse.ac.uk/Methodology/Study/MScApplied-Social-Data-Science
+Social Sciences & 
+Economics
+Data Science and Society
+(Four Tracks: Health, Governance, 
+Media, Business)
+Tilburg University, NL Broad backgrounds
+Media, Data and Society University of Liverpool, UK Students 
+Big Data in Society
+Social Data Science
+University of Oxford OII | MSc in Social Data 
+Science (ox.ac.uk)
+Broad Backgrounds
+Applied Economics and Data 
+Science
+Carl von Ossietzky Universität Oldenburg: 
+Applied Economics and Data Science - Master 
+// Universität Oldenburg (uol.de)
+Students from Economics
+Social and Economic Data Science Universität Konstanz, DE Students of Social Sciences
+Applied Business Data Science International School of Management, DE Any background
+Management & Data Science Leuphana Universität, Lüneburg, DE Economics
+Management Analytics Universität Mannheim, DE Economics
+Data Science for Public Policy Hertie School of Governance, DE Politics
+
+
+
+Given the focus of the envisioned Master's program "AI in Society," the most relevant study 
+programs from the above list, both in Germany and abroad, that align closely with the themes of AI, 
+society, ethics, and public policy are:
+In Germany:
+• Master in Artificial Intelligence for Public Services (AI4GOV) at Universidad Politécnica 
+de Madrid (Spain), Politecnico di Milano (Italy), Friedrich-Alexander-Universität 
+Erlangen-Nürnberg (Germany), and the Tallinn University of Technology (TalTech). This 
+program is particularly relevant because it focuses on the application of AI in public 
+services, bridging the gap between technology and governance.
+• Data Science for Public Policy at Hertie School of Governance. This program 
+emphasizes the intersection of data science with public policy, making it highly relevant 
+for understanding the societal implications of AI.
+• Social and Economic Data Science at Universität Konstanz. This program delves into 
+the societal and economic implications of data, which can be closely related to the 
+broader themes of AI in society.
+• Applied Business Data Science at the International School of Management. While it has 
+a business focus, the integration of data science can offer insights into the commercial 
+and societal impacts of AI.
+Abroad (Europe):
+• AI Ethics and Society at the University of Cambridge, UK. As the name suggests, this 
+program is directly aligned with the ethical and societal considerations of AI, making it 
+one of the most relevant programs on the list.
+• AI and Digital Society at Radboud University. This program explores the broader 
+implications of AI in the digital realm, touching upon societal impacts.
+• Media, Data and Society at the University of Liverpool, UK. This program delves into the 
+media's role in the age of data, offering insights into how AI impacts communication and 
+society at large.
+• Social Data Science at the University of Oxford. This program's focus on understanding 
+societal trends and behaviors through data aligns closely with the themes of AI in 
+society.
+• Data Science and Society at Tilburg University, NL. With tracks in health, governance, 
+media, and business, this program offers a comprehensive look at the various societal 
+domains impacted by AI.
+
+
+
+The "AI in Society" program stands out due to its interdisciplinary approach, comprehensive 
+curriculum, emphasis on societal implications, and flexible structure. It caters to a diverse target 
+group and offers a unique blend of theoretical knowledge and practical application, all under the 
+guidance of renowned experts in the field. More specifically, main USP of the MSc Programm “AI in 
+Society” are the following:
+• Interdisciplinary Approach: While many programs focus either on the technical aspects 
+of AI or its societal implications, "AI in Society" seamlessly integrates both. It provides 
+students with a holistic understanding, bridging the gap between technology and its real world impact.
+• Comprehensive Curriculum: The program covers a wide range of topics, from 
+foundational AI and data science to the governance, law, and regulation of AI. This 
+breadth ensures that graduates are well-equipped to navigate the multifaceted 
+challenges posed by AI in various societal contexts.
+• Focus on Societal Implications: Unlike many AI programs that prioritize commercial or 
+industrial applications, "AI in Society" emphasizes the broader societal, ethical, and 
+political implications of AI. This makes it particularly relevant in today's world, where the 
+societal impact of technology is a topic of global concern.
+• Diverse Target Group and a rich, interdisciplinary learning environment where different 
+perspectives converge.
+• Flexible Program Structure: With a mix of compulsory and elective modules, students 
+have the flexibility to tailor their learning experience. They can delve deeper into areas 
+of personal interest while still gaining a comprehensive understanding of the core 
+themes.
+• Practical Application: The inclusion of hands-on modules like "Project Week" ensures 
+that students don't just gain theoretical knowledge but also practical skills. This balance 
+prepares them for real-world challenges in both academic and professional settings.
+• Global Perspective: While the program is rooted in the context of AI's impact on society, 
+its curriculum draws on global examples and case studies. This international outlook 
+prepares students to navigate the global challenges and opportunities posed by AI. 
+The introduction of the "AI in Society" program at TUM is not just a response to current academic 
+and industry trends but a strategic move to reinforce TUM's position as a leading global institution, 
+committed to excellence, innovation, and societal betterment.
+
+
+Q: what is the Internal Competition Analysis of degree program
+A:Internal Competition Analysis
+Distinction from the MSc programs “Computer Science” and “ Politics & Technology” 
+While the "Politics and Technology" program emphasizes the broader relationship between all forms 
+of technology and political structures, "AI in Society" narrows down to the specific challenges and 
+opportunities presented by AI. The "Computer Science" program, even with SOT electives, remains 
+fundamentally a technical degree, preparing students for roles that primarily involve software 
+development, algorithm design, etc. In contrast, "AI in Society" prepares students for roles that 
+require a nuanced understanding of AI's societal implications.
+In summary, the AI & Society graduates are equipped to address the complex challenges that arise 
+at the intersection of AI and society. Their ability to evaluate AI systems' societal impacts, navigate 
+ethical considerations, and influence policy and regulation make them valuable assets in a rapidly 
+evolving AI landscape.
+
+
+MSc “AI & Society” 
+Target group: Students with a background in social 
+sciences, politics, and related fields, who have an 
+interest in understanding AI technology and its 
+societal aspects.
+Role and job 
+perspectives of 
+graduates: AI ethicists, consultants, 
+researchers, or product 
+managers in various fields; 
+AI policy advisors in public administration. Ensure the 
+responsible development 
+and implementation of AI 
+technologies, analyze their 
+potential societal impacts, 
+and promote ethi
+practices in both private 
+and public sectors. 
+cal AI 
+Contribute to the design, 
+evaluation, and 
+governance of AI systems 
+that prioritize fairness, 
+transparency, and social 
+good.
+MSc “Politics and Technology”:
+Target group:Students with a 
+background in political 
+sciences and an interest in 
+the intersection of political 
+science, public policy, and 
+technology
+Role and job 
+perspectives of 
+graduates:Policy analysts or advisors 
+in governmental or non-governmental 
+organizations.Consultants in technology 
+policy and regulation.
+Research roles in think 
+tanks or academic 
+institutions focusing on 
+technology's impact on society
+MSc “Computer Science”
+Target group: Students with a 
+technical background
+in computer science, 
+or engineering
+Role and job 
+perspectives of 
+graduates:Developers of AI 
+technologies and 
+solutions; Graduates 
+will be prepared to pursue rather 
+technical paths in
+companies or public 
+administration.
+
+
+
+Q:what is the  Programm Structure of degree program
+A:
+(1) Formal structure 
+The prescribed duration of the program spans four semesters, encompassing a total of 120 credit 
+points. Within this framework, 78 credit points are allocated to mandatory modules, 12 to elective 
+modules, and the remaining 30 are dedicated to the final thesis. A schematic representation of the 
+program's structure can be found follow :
+Semester1:Foundations of Al & Data Science
+(SOT86053)
+(required) 9cp
+Intro. toProgram.& Data
+Processing SOT10054 (required)3cp
+Al in and for Society : Science, Technolog)and Society in the
+Digital Age(SOT46308)(reguired)6cp
+Psychology of Law, Governance and Regulation of Artificial Intelligence(SOT46302) (required) 6cp
+Psychology of Learning and structional Design of Albased systems(SOT10057)(required)6cp
+semester2:
+Introduction to Deep Leaming(IN2346) (reguired)6cp, Deep learning demystifled :Hands-on deep Learning for Non-CS Majors (S0T86086)(reguired)3 CP
+Explainable Al-- A Comprehensive Seminar on Transparent and Ethical Al(SOT86051) 6cp
+Academic Competencies and Practical Skills (SOT44303) 4cp
+Methods 1(MCTS0027) 5cp
+Al in Diverse Societies(SOT46301)6cp
+semester3:
+Natural Language Processing(IN2361)(required)6cp
+Human-Al interaction(SOT10046)(required)6cp
+Project Week (required)6cp
+Electives: Al in different domains of society 12cp
+semester4:
+Master's thesis
+(reguired)
+30 CP
+
+The Master program “AI in Society” covers a wide range of topics from the technical aspects of AI 
+and data science to the societal implications of AI. The curriculum includes foundational courses in 
+AI and data science, programming and data processing, as well as specialized courses on topics 
+such as deep learning, human-AI interaction, and natural language processing. It also includes 
+courses that focus on the societal aspects of AI, such as governance, law and regulation of AI, AI in 
+diverse societies, and elective modules in different societal application areas of AI. In this way the 
+program prepares students for roles bridging technical AI and societal implications. It provides 
+interdisciplinary knowledge and the grounding for responsible and interdisciplinary application of AI.
+
+The significant number of mandatory courses stems from the recognition that students enter the 
+program with diverse backgrounds outside of computer science. It is essential to first equip them 
+with fundamental AI concepts, rudimentary programming skills, and computational aspects of social 
+science methodologies to effectively address the challenges posed by AI applications across various 
+societal sectors. By grounding students in these foundational topics, we ensure they possess the 
+comprehensive skill set required to quantify, navigate and innovate within the complex landscape of 
+AI integration into social science research, developments, and processes. This holistic approach not 
+only bridges any pre-existing knowledge gaps but also fosters a collaborative learning environment 
+where students from various disciplines can contribute unique perspectives.
+
+The program culminates in a Master's thesis, allowing students to apply the knowledge and skills 
+they have acquired throughout the program to a research project.
+
+In summary, the curriculum is structured as follows:
+
+1. Foundation and Introduction: The program begins with foundational courses in AI, Data 
+Science, Introduction to Programming & Data Processing, AI in and for Society: Science, 
+Technology and Society in the Digital Age, as well as courses on Law, Governance, & 
+Regulation of AI, and an introduction to Psychology of learning and instructional design of 
+AI-based systems. These foundation and introductory courses in the M.Sc. program "AI in 
+Society" aim to equip students with a foundational understanding of AI, data science, 
+programming, and the societal implications of AI. Recognizing the diverse academic 
+backgrounds of incoming students, these compulsory courses ensure a consistent and 
+unified knowledge base across AI concepts, programming, and the societal aspects of AI. 
+This approach fosters a shared terminological foundation, enabling students from various 
+disciplines to engage effectively throughout the program. These foundational courses are 
+compulsory to guarantee that all students, regardless of their previous bachelor-level 
+academic backgrounds, attain a consistent understanding of essential subjects and foster a 
+unified terminological foundation in AI concepts, programming, regulation and politics of AI.
+The aim of each module and their contribution to the achievement of the qualification profile 
+are provided in Table 1.
+
+2. Deepening Knowledge and Skills: The next set of courses, including Deep Learning, 
+Explainable AI, Social Science Methods for Studying AI in Society (Academic Competencies
+and Practical Skills and Methods 1), and AI in Diverse Societies, as described in Table 1 are 
+designed to deepen the students' knowledge and understanding, forming the basis for the 
+development and/or application of independent ideas. These courses also start to introduce 
+the application of knowledge, with students expected to integrate existing and new 
+knowledge in complex contexts, make scientifically sound decisions, and carry out 
+application-oriented projects.
+
+3. Specialization and Application: The final set of courses, including Natural Language 
+Processing, Human-AI Interaction, and Project week (see Table 1), allow students to 
+specialize in their areas of interest and apply their knowledge and skills to real-world 
+scenarios. These courses are designed to further enhance the students' ability to design 
+research questions, choose and justify concrete ways of operationalizing research, select 
+and justify research methods, and explain and critically interpret research results.
+
+4. Elective Modules (a preliminary selection is provided in Table 2) offer the opportunity to 
+deepen knowledge in applications of AI. The list of elective modules will grow continuously 
+with newly appointed colleagues joining the School of Social Sciences and Technology.
+
+5. Master's Thesis: The program culminates in a Master's thesis, which requires students to 
+apply all the knowledge, skills, and competencies they have acquired throughout the program 
+to a substantial piece of independent research.
+
+
+Q: what is the basic information of the different course ?
+A:
+Table 1: Aim of the mandatory modules and their contribution to the qualification profile.
+
+Foundation and Introduction:
+
+Module Code :SOT86053
+Compulsory Module Name:Foundations of AI & Data Science
+Aim & contribution to the qualification profile:
+Introduce foundational concepts and methodologies in AI 
+and data science (e.g., data analysis techniques, neural 
+networks, basics of reinforcement learning and many more 
+foundational techniques of machine learning). Students
+with no prior knowledge on these topics will gain a 
+comprehensive understanding of AI's technical landscape, 
+ensuring they can bridge practical requirements in AI 
+applications.
+
+Module Code :SOT46302
+Compulsory Module Name:Law, Governance and 
+Regulation of Artificial 
+Intelligence
+Aim & contribution to the qualification profile:
+Provide insights into the legal, governance, and regulatory 
+aspects of AI. This module delves deep into the legal and 
+regulatory aspects of AI. It equips students with the 
+knowledge and skills to navigate the complex legal 
+landscape of AI, fostering informed societal discussions 
+and decisions, and ensuring the ethical and responsible 
+deployment of AI technologies.
+
+
+Module Code :SOT10054
+Compulsory Module Name:Introduction to 
+Programming and Data 
+Processing
+Aim & contribution to the qualification profile:
+This module provides essential programming and data 
+processing skills for students with non-technical 
+backgrounds. Students will be equipped to harness and 
+implement data-driven AI applications.
+
+
+Module Code :SOT46308
+Compulsory Module Name:Science, Technology and 
+Society in the Digital Age
+Aim & contribution to the qualification profile:
+This module delves into the intricate relationship between 
+AI, science, and society in our digital era. Students will be 
+equipped with an understanding of 
+of AI in societal contexts, its implications and potential. 
+the transformative role 
+This 
+course sets the stage for grasping the broader societal 
+impacts and responsibilities of AI applications.
+
+
+Module Code :SOT10057
+Compulsory Module Name:Psychology of learning 
+and instructional design of
+AI-based systems
+Aim & contribution to the qualification profile:
+This module delves into the psychology of learning and 
+instructional systems and focuses on the interplay between 
+psychological principles and instructional design features. 
+Students will explore foundational psychological learning 
+theories, instructional design methodologies, and 
+psychometric instruments and tools, equipping them to 
+design AI systems that are cognizant of human behavior 
+and can be evaluated for their psychological impact. This 
+knowledge ensures that AI applications are not only 
+technically sound but also psychologically aligned with 
+human users, fostering a more holistic and human-centric 
+approach to AI integration in society.
+
+
+Deepening Knowledge and Skills:
+
+Module Code :IN2346
+Compulsory Module Name:Introduction to Deep 
+Learning
+Aim & contribution to the qualification profile:
+This module offers an introduction and in-depth 
+understanding of state-of-the-art deep learning concepts 
+and techniques. Students will possess a comprehensive 
+grasp of areas at the forefront of deep learning, enabling 
+them to convey pioneering ideas and engage with technical 
+and non-technical experts.
+
+
+Module Code :SOT86086
+Compulsory Module Name:Deep Learning Demystified: Hands-on Deep Learning for Non-CS Majors
+Aim & contribution to the qualification profile:
+This accompanying course “Deep Learning Demystified: 
+Hands-on Deep Learning for Non-CS Majors” aims to 
+prepare students that lack Computer science backgrounds 
+from their bachelor’s degree by providing a practical and 
+intuitive understanding of deep learning. It focuses on 
+building foundational knowledge and integrating hands-on 
+experience, ensuring that these students are wellequipped to tackle the main course on Introduction to Deep 
+Learning.
+
+
+Module Code :SOT86051
+Compulsory Module Name:Explainable AI -- A 
+Comprehensive Seminar on Transparent and 
+Ethical AI
+Aim & contribution to the qualification profile:
+This module delves into the concepts of AI transparency, 
+fairness, and explainability. It ensures graduates can make scientifically grounded decisions regarding AI applications, 
+always critically weighing potential repercussions and 
+societal ramifications, and hence be empowered to engage 
+with different stakeholders.
+
+
+Module Code :MCTS0027
+Compulsory Module Name:Methods 1
+Aim & contribution to the qualification profile:This module equips students with state-of -the-art research 
+methods and frameworks relevant to studying AI in society
+and specifically implications of AI applications in different 
+societal contexts.
+
+
+
+Module Code :SOT44303
+Compulsory Module Name:Academic Competencies 
+and
+Practical Skills
+Aim & contribution to the qualification profile:
+This module equips students with essential academic and 
+hands-on skills, from design thinking to academic writing. 
+Through targeted sessions, students apply and reflect on 
+these skills, ensuring they are adept at both theoretical and 
+real-world challenges within the AI in society landscape.
+
+
+Module Code :SOT46301
+Compulsory Module Name:AI in Diverse Societies
+Aim & contribution to the qualification profile:
+This module investigates the challenges and opportunities 
+of AI in diverse societal contexts (including future of work, 
+job displacement, etc.). Students will be acutely conscious 
+of the societal expectations and consequences of AI, 
+ensuring their work aligns with societal needs and 
+expectations related to AI's integration into everyday life.
+
+
+Module Code :IN2361
+Compulsory Module Name:Natural Language 
+Processing
+Aim & contribution to the qualification profile:
+This module introduces techniques for processing and 
+understanding human language (NLP) using AI. Students 
+will be equipped with a comprehensive set of technical 
+skills to grasp of areas at the forefront of NLP, ensuring 
+they can bridge ethical, regulatory, and practical 
+requirements in various NLP application domains (text 
+processing, language understanding, translation, 
+governance-related applications, etc.).
+
+Module Code :SOT10046
+Compulsory Module Name:Human-AI Interaction
+Aim & contribution to the qualification profile:
+This module delves into the intricacies of user experience 
+and human factors in AI systems, which are pivotal for the 
+successful integration and adoption of AI technologies in 
+daily applications (e.g., recommendation engines, search 
+algorithms, decision support systems, generative AI 
+solutions, etc). Through literature reviews and group 
+discussions, students will collaboratively design and 
+develop AI-integrated interactive systems. Hence, 
+graduates will be equipped with the expertise to critically 
+assess the performance of AI-driven interactive systems, 
+ensuring they can bridge the gap between AI technology 
+and its practical, user-centric applications.
+
+
+Module Code :TUM 
+Projects
+Week
+Compulsory Module Name:Project week
+Aim & contribution to the qualification profile:
+This module offers a unique platform for students to 
+collaboratively tackle contemporary challenges like 
+sustainability, digitalization in health care, administration, 
+and governance, mobility/transportation and hence apply 
+their knowledge on various aspects of artificial intelligence
+in real-world scenarios. Graduates will not only deepen 
+their domain-specific knowledge but also enhance their 
+interdisciplinary competencies, preparing them to address 
+complex, real-world issues with a holistic perspective.
+
+
+
+Table 2: Elective modules and their contribution to the qualification profile.
+
+
+Module Code :SOT10053
+Compulsory Module Name:Learning Analytics
+Aim & contribution to the qualification profile:
+Dive deep into the methodologies and tools used to analyze and 
+interpret data about learners to optimize learning experiences and the 
+environments in which they occur.
+
+
+Module Code :SOT10030
+Compulsory Module Name:Gaze-based HCI
+Aim & contribution to the qualification profile:
+Explore the cutting-edge interface techniques based on eye-tracking, 
+understanding the intricacies of human-computer interaction through 
+gaze behaviors.
+
+
+Module Code :SOT86052
+Compulsory Module Name:Responsible Data 
+Science for Safe and 
+Socially Aligned AI 
+Applications
+Aim & contribution to the qualification profile:
+Investigate the ethical, safe, and socially-aligned practices in data 
+science, ensuring AI applications are developed responsibly
+
+
+Module Code :SOT860809
+Compulsory Module Name:  Advanced Topic: Law 
+and Digitization in 
+Action
+Aim & contribution to the qualification profile:
+Engage in a deep exploration of contemporary issues at the 
+intersection of law and digital technologies, focusing on real-world 
+applications and implications.
+
+
+Module Code :SOT56307
+Compulsory Module Name: Philosophy of Artificial 
+Intelligence: Key
+Readings
+Aim & contribution to the qualification profile:
+Delves into the intersection of phenomenology and AI, exploring 
+foundational philosophical questions about the nature of the mind and 
+AI's conceptual underpinnings. Equips students with a deep 
+understanding of AI's philosophical context and the ability to critically 
+analyze its relationship with human cognition.
+
+
+
+Module Code :SOT10058
+Compulsory Module Name: Advanced Analysis of 
+Variance Procedures
+Aim & contribution to the qualification profile:
+This module delves into advanced ANOVA techniques, enabling 
+students to apply intricate variance analysis to complex datasets. By 
+mastering such procedures, students will be able to rigorously evaluate 
+experimental results, ensuring robust data interpretation and informed 
+decision-making in quantitative research scenarios.
+
+
+Module Code :SOT10059
+Compulsory Module Name: Development of 
+Research Instruments
+Aim & contribution to the qualification profile:
+This module equips students with the expertise to design theory-based 
+questionnaires tailored for instructional measurement. They'll master 
+the evaluation of existing instruments using psychometric quality 
+criteria, conduct studies to assess these criteria, and refine 
+instruments based on findings. This ensures students can (re-)use, 
+create and critically assess research tools, enhancing the validity and 
+reliability of their research.
+
+
+
+The program uses a variety of teaching and learning methods to cater to different learning styles and 
+ensure a comprehensive understanding of the material. More specifically, traditional lectures form 
+the backbone of the curriculum, providing students with foundational knowledge in areas like AI, 
+deep learning, and natural language processing. Interactive seminars in courses such as 
+"Explainable AI -- A Comprehensive Seminar on Transparent and Ethical AI” employ seminar-style 
+teaching, fostering discussions and debates on the explainable and ethical AI. Through hands-on 
+workshops in courses like "Deep Learning Demystified: Hands-on Deep Learning for Non-CS 
+Majors" a practical, workshop-based approach is envisioned, where students can actively engage 
+with the material and gain hands-on experience. On the other hand, research projects, such as the
+Project Weeks, where students come together to address real-world problems through AI in an 
+interdisciplinary team, offers students an opportunity to undertake hands-on interdisciplinary 
+research projects, allowing them to apply theoretical knowledge and creative AI solutions to practical 
+challenges (see also: https://www.tum.de/en/studies/degree-programs/key-skill-programs/projectweeks).
+
+In courses such as the "Academic Competencies and Practical Skills" student will learn academic 
+and hands-on skills, from design thinking to academic writing through targeted sessions. Students 
+will apply and reflect on these skills considering the latest developments in AI and its societal 
+integration. Collaborative courses and projects ensure furthermore throughout the accompanying 
+exercises of the curriculum that students develop teamwork skills and learn to collaborate on 
+complex AI challenges.
+
+
+In summary, this blend of traditional lectures, interactive sessions, hands-on workshops, group work, 
+and research projects ensures a comprehensive and immersive learning experience for students, 
+preparing them for both academic and industry challenges in the realm of AI.
+
+
+Interdisciplinary competencies, such as a sense of social responsibility and personality development, 
+are integrated throughout the program. For example, the course on AI in Diverse Societies 
+encourages students to consider the social implications of AI and the importance of ethical decisionmaking in this field. The project work also provides opportunities for students to develop their 
+teamwork and communication skills, as well as their ability to work independently and take 
+responsibility for their own learning.
+
+
+(3) Mobility window: During the third semester, students have the opportunity for a mobility window, 
+allowing for a typical one-semester study period at another university either within Germany or 
+internationally, without any time delay in their academic progression. The respective modules
+(Human-AI Interaction, Natural Language Processing, Project week and two elective modules) can 
+be substituted with comparable courses from other universities. Periods of study will be recognized 
+unless there are substantial differences in the competences acquired.
+
+
+Q:What is the Organization and Coordination of the degree program
+A:Organization and Coordination
+The master’s program is administratively located at TUM School of Social Sciences and Technology
+(SOT), Professional Profile Political, Social and Educational Sciences and Technology. Most 
+modules as well as the master’s thesis are offered by the teaching staff of TUM SOT. In particular, 
+the TUM School of Computation, Information and Technology (CIT) provides additional modules for 
+this program.
+
+
+For administrative aspects of study organization, some responsibilities lie with the central units of 
+the TUM Center for Study and Teaching (TUM CST), while others are handled by the facilities of 
+TUM SOT (see the following overview):
+• Student Advising: Student Advising and Information Services 
+(TUM CST)
+Email: studium@tum.de
+Phone: +49 (0)89 289 22245
+Provides information and advising for
+prospective and current students
+(via hotline/service desk)
+• Departmental Student Advising: TUM SOT, Alina Fastowski, ais@sot.tum.de
+• Academic Programs Office (within department/school), Infopoint, etc.: 
+TUM SOT, Studien- und Qualitätsmanagement
+Hedi Schmid, Tel.-Nr.: +49 89 907793075
+leitung.stm@sot.tum.de 
+• Study Abroad Advising/Internationalization: 
+TUM-wide: TUM Global & Alumni Office
+internationalcenter@tum.de 
+Departmental: NN 
+• Gender Equality Officer: TUM-wide: Dr. Eva Sandmann
+sandmann@tum.de, Tel. +49 (0)89 289 22335
+Departmental (SOT): Prof. Dr. Allister Loder
+allister.loder@tum.de Tel. +49 (0)89 289 22436 
+• Advising – Barrier-Free Education: TUM-wide: Service Office for Disabled and
+Chronically Ill Students (TUM CST), 
+Email: Handicap@zv.tum.de
+Phone: +49 (0)89 289 22737
+Departmental: Talissa Stadler
+Talissa,stadler@tum.de 
+
+• Admissions and Enrollment: Admissions and Enrollment (TUM CST)
+Email: studium@tum.de
+Phone: +49 (0)89 289 22245
+Admissions, enrollment, Student Card, 
+leaves of absence, student fees payment, 
+withdrawal
+• Aptitude Assessment (EV): TUM-wide: Admissions and Enrollment
+(TUM CST)
+Departmental: Alina Fastowski (ais@sot.tum.de) 
+• Semester Fees and Scholarships: Fees and Scholarships (TUM CST),
+Email: beitragsmanagement@zv.tum.de
+• Examination Office: Graduation Office & Academic Records (TUM CST)
+Campus Munich 
+Graduation documents, notifications of 
+examination results, preliminary degree 
+certificates
+
+• Departmental Examination Office: TUM SOT STM
+Alina Fastowski (ais@sot.tum.de)
+Examination Board: Prof. Dr. Gjergji Kasneci (Chair)
+Prof. Dr. Oleksandra Poquet (Vice Chair)
+Prof. Dr. Christian Djeffal
+Prof. Dr. Stefania Centrone
+Prof. Dr. Enkelejda Kasneci
+Secretary (Alina Fastowski, ais@sot.tum.de ) 
+ 
+• Quality Management: TUM-wide: Quality Management (TUM CST), 
+https://www.tum.de/studium/tumcst/teams-cst/ 
+Departmental: TUM SOT 
+Vice Dean of Student and Academic Affairs:
+Prof. Dr. Claudia Nerdel 
+vd.study_teaching@sot.tum.de 
+QM Representative Head, QM Circle, 
+Evaluations Representative Head, 
+Module Management:
+Hedwig Schmid hedi.schmid@hfp.tum.de 
+Dr. Fred Slanitz slanitz@tum.de
+
+
+
+
+
+
+
+

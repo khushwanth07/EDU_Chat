@@ -4,7 +4,30 @@ import os
 # Create the .temp folder if it does not exist
 if not os.path.exists(".temp"):
     os.makedirs(".temp")
+DEVELOPER_PROMPT = """
+You are a data analyst extracting information from text.
+This data is used to generate FAQs and answers for a chatbot, for the website of the course program.
+Keep the answers as authenticate as possible as there should be no to very less information loss.
+The questions and answers should be based solely on the text content.
 
+Provide clear Question and Answer pairs as JSON.
+There should be between 20 and 50 questions and answers in the json, prefer the maximal that covers the text content
+(especially every paragraph, you can create question for each paragraph and the answer should contain as more as possible the content of paragrah . 
+You can give the quesion by the content 'Q:' and the relevant answer by the content 'A:').
+.
+This is an example of how the json should look like:
+[
+    {
+        "Q": "What does the 'Law, Governance, and Regulation of Artificial Intelligence' course consists of?",
+        "A": "The 'Law, Governance, and Regulation of Artificial Intelligence' course is a lecture scheduled for the first semester, with 3 hours per week. The course is worth 6 credits, and the examination is a written exam lasting 120 minutes. The course is taught in English."
+    },
+    {
+        "Q": "What courses are offered in the elective area 'AI in Different Domains of Society'?",
+        "A": "In the elective area 'AI in Different Domains of Society', students must earn at least 12 credits from the following courses: 'Learning Analytics', 'Gaze-based HCI', 'Responsible Data Science for Safe and Socially Aligned AI Applications', 'Advanced Topic: Law and Digitization in Action', 'Philosophy of Artificial Intelligence: Key Readings', 'Advanced Analysis of Variance Procedures', 'Development of Research Instruments'. All these courses are conducted in English."
+    }
+]
+"""
+'''
 DEVELOPER_PROMPT = """
 You are a data analyst extracting information from an email history.
 This data is used to generate FAQs and answers for a chatbot, for the website of the course program.
@@ -27,7 +50,7 @@ This is an example of how the json should look like:
     }
 ]
 """
-
+'''
 
 # Function to read a email file
 def read_email(file_path):
@@ -39,7 +62,7 @@ def read_email(file_path):
 email_files = os.listdir("./Database/preprocessing/emails")[:3]
 
 # Open the JSON file to write the batch requests
-with open('.temp/batch_input.jsonl', 'w', encoding='utf-8') as json_file:
+with open('.temp/extraction_batch_input.jsonl', 'w', encoding='utf-8') as json_file:
     # Loop through all email files
     for email_file in email_files:
 
