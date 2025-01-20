@@ -15,7 +15,11 @@ API_KEY = os.getenv("API_KEY")
 client = OpenAI(api_key=API_KEY)
 
 # Get the file response from the OpenAI API
-file_response = client.files.content("file-Gz7rammmCsRJvavrZ4hjnk")
+file_response = client.files.content("file-CSzyZPmsTC6MoFMVdQySBR")
+
+# Create a full dump of the original response HttpxBinaryResponseContent
+with open(".temp/extraction_batch_response.txt", "w") as file:
+    file.write(file_response.text)
 
 # Split the response into lines to get the individual responses for each email
 responses = file_response.text.splitlines()
