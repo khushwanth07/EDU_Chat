@@ -48,7 +48,7 @@ def _create_questions_table():
 
         # Create a cursor object using the connection
         cursor = connection.cursor()
-        
+
         # Create the extension for the vector data type
         cursor.execute("CREATE EXTENSION IF NOT EXISTS vector;")
 

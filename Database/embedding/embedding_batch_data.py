@@ -4,43 +4,51 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 
-# Load the environment variables
-load_dotenv()
 
-# Get the API key from the environment variables
-API_KEY = os.getenv("API_KEY")
+def data_embedding_batch(file_id, client=None):
+    """
+    Get the embeddings for the questions extracted from the emails.
+    Read the responses from the file and extract the embeddings for each question.
+    Save the embeddings and the request ids to a JSON file.
+    """
+    if client is None:
+        # Load the environment variables
+        load_dotenv()
 
-# Create an OpenAI client with the API key
-client = OpenAI(api_key=API_KEY)
+        # Get the API key from the environment variables
+        API_KEY = os.getenv("API_KEY")
 
-# Get the file response from the OpenAI API
-file_response = client.files.content("file-JdiXnDgXZzssu6XQk6AiHJ")
+        # Create an OpenAI client with the API key
+        client = OpenAI(api_key=API_KEY)
 
-# Split the response into lines to get the individual responses for each email
-responses = file_response.text.splitlines()
+    # Get the file response from the OpenAI API
+    file_response = client.files.content(file_id)
 
-responses = [json.loads(response) for response in responses]
+    # Split the response into lines to get the individual responses for each email
+    responses = file_response.text.splitlines()
 
-data = {}
+    responses = [json.loads(response) for response in responses]
 
-for response in responses:
-    # Create a unique key for the question answer pair
-    key = response["custom_id"]
+    data = {}
 
-    # Get the embedding from the response
-    embedding = response["response"]["body"]["data"][0]["embedding"]
+    for response in responses:
+        # Create a unique key for the question answer pair
+        key = response["custom_id"]
 
-    # Get the request id from the response
-    request_id = response["id"]
+        # Get the embedding from the response
+        embedding = response["response"]["body"]["data"][0]["embedding"]
 
-    data[key] = {
-        "embedding": embedding,  # embedding of the response
-        "request_id": request_id,  # request id of the api call
-    }
+        # Get the request id from the response
+        request_id = response["id"]
 
-# Print the data in a readable format
-# print(json.dumps(data, indent=4))
+        data[key] = {
+            "embedding": embedding,  # embedding of the response
+            "request_id": request_id,  # request id of the api call
+        }
 
-# Save the data to a JSON file
-with open(".temp/embedding_batch_output.json", "w") as file:
-    json.dump(data, file, indent=4)
+    # Print the data in a readable format
+    # print(json.dumps(data, indent=4))
+
+    # Save the data to a JSON file
+    with open(".temp/embedding_batch_output.json", "w") as file:
+        json.dump(data, file, indent=4)

@@ -1,10 +1,8 @@
 import json
 import os
+import random
 
-# Create the .temp folder if it does not exist
-if not os.path.exists(".temp"):
-    os.makedirs(".temp")
-
+# The developer prompt send to the OpenAI API to extract Q&A pairs from the email content
 DEVELOPER_PROMPT = """
 You are a data analyst tasked with extracting specific, case-based questions and answers from an email history to create a FAQ.
 All Q&A pairs should be given in english. Do not use any other language.
@@ -58,55 +56,75 @@ These are exmples of bad responses:
 """
 
 
-# Function to read a email file
 def read_email(file_path):
-    with open(file_path, 'r', encoding='utf-8') as file:
+    """
+    Read the content of an email file.
+
+    Parameters:
+    - file_path (str): The path to the email file.
+
+    Returns:
+    - str: The content of the email file.
+    """
+    with open(file_path, "r", encoding="utf-8") as file:
         return file.read()
 
 
-# Get a list of all email files
-email_files = os.listdir("./Database/preprocessing/emails")
+def create_extraction_batch(number_of_emails=None):
+    """
+    Create a batch of requests to extract Q&A pairs from email content using the OpenAI API.
+    Reads the email content from the emails folder and creates a request for each email.
+    Writes all batch requests to a JSONL file for batch processing.
+    
+    Parameters:
+    - number_of_emails (int): The number of emails to process. If None, all emails are processed.
+    """
+    # Create the .temp folder if it does not exist
+    if not os.path.exists(".temp"):
+        os.makedirs(".temp")
 
-# Sort the email files by name
-email_files.sort()
+    # Get a list of all email files in the emails folder
+    email_files = os.listdir("./Database/preprocessing/emails")
 
-# Only use the first 100 email files for debugging purposes
-email_files = email_files[:100]
+    # Sort the email files by name for consistency
+    email_files.sort()
 
-# Open the JSON file to write the batch requests
-with open('.temp/extraction_batch_input.jsonl', 'w', encoding='utf-8') as json_file:
-    # Loop through all email files
-    for email_file in email_files:
+    if number_of_emails:
+        # Shuffle the email files to get a random sample
+        random.shuffle(email_files)
 
-        # Read the email content
-        email_content = read_email(f"./Database/preprocessing/emails/{email_file}")
+        # Limit the number of emails to process
+        email_files = email_files[:number_of_emails]
 
-        # Create the message for the OpenAI API
-        messages = [
-            {
-                "role": "developer",
-                "content": DEVELOPER_PROMPT,
-            },
-            {
-                "role": "user",
-                "content": email_content
+    # Open the JSONL file to write the batch requests (JSONL is a JSON file with one JSON object per line)
+    with open(".temp/extraction_batch_input.jsonl", "w", encoding="utf-8") as json_file:
+
+        # Loop over each email file in the emails folder
+        for email_file in email_files:
+
+            # Read the email content
+            email_content = read_email(f"./Database/preprocessing/emails/{email_file}")
+
+            # Create the message for the OpenAI API
+            messages = [
+                {"role": "developer", "content": DEVELOPER_PROMPT},
+                {"role": "user", "content": email_content},
+            ]
+
+            # Create the batch request for the OpenAI API, use the email file name as the custom_id
+            batch_request = {
+                "custom_id": email_file,
+                "method": "POST",
+                "url": "/v1/chat/completions",
+                "body": {"model": "gpt-4", "messages": messages, "max_tokens": 2000},
             }
-        ]
 
-        # Create the batch request for the OpenAI API
-        batch_request = {
-            "custom_id": email_file,
-            "method": "POST",
-            "url": "/v1/chat/completions",
-            "body": {
-                "model": "gpt-4",
-                "messages": messages,
-                "max_tokens": 2000
-            }
-        }
+            # Write the batch request to the JSON file
+            json.dump(batch_request, json_file, ensure_ascii=False)
 
-        # Write the batch request to the JSON file
-        json.dump(batch_request, json_file, ensure_ascii=False)
+            # Add a new line to separate the requests (JSONL format)
+            json_file.write("\n")
 
-        # Add a new line to separate the requests
-        json_file.write('\n')
+
+if __name__ == "__main__":
+    create_extraction_batch()

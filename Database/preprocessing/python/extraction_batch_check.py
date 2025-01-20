@@ -2,20 +2,41 @@ import json
 import uuid
 
 
-def check_batch_extraction():
+def check_extraction_batch():
+    """
+    Check the responses from the batch extraction process and filter out the good responses.
+
+    Returns:
+    - dict: A dictionary of good responses with the following structure:
+        {
+            "uuid": {
+                "created": 1737368942,
+                "question": "Would it be possible to consider an exemption for a student who was unable to complete only one class due to external circumstances?",
+                "answer": "In this situation, it is really only about formalities from our university and cannot be decided by an interview with our admission committee or similar.",
+                "source_type": "email",
+                "source": "email_001.txt",
+                "request_id": "b1ae5c3c35ec86ea9c760955217a7ca9"
+            },
+            ...
+        }
+    """
+
     # Open the full response file
     with open(".temp/extraction_batch_response.txt", "r") as file:
         responses = file.readlines()
 
+    # Initialize counters for different types of responses
     responses_with_empty_json = 0
     responses_with_invalid_json = 0
     responses_with_no_answer = 0
     responses_with_answer = 0
 
+    # Initialize a dictionary to store the good responses
     good_responses = {}
 
-    # Go over all responses
+    # Itterate over all responses
     for response in responses:
+
         # Load the response as a json object
         json_response = json.loads(response)
 
@@ -70,6 +91,7 @@ def check_batch_extraction():
             else:
                 responses_with_answer += 1
 
+                # Create a dictionary for the good response
                 item_dict = {
                     "created": json_response["response"]["body"]["created"],
                     "question": item["Q"],
@@ -79,19 +101,19 @@ def check_batch_extraction():
                     "request_id": json_response["response"]["request_id"],
                 }
 
+                # Add the good response to the dictionary
                 good_responses[str(uuid.uuid4())] = item_dict
 
+    # Print the statistics
     print(f"Responses with empty json: {responses_with_empty_json}")
     print(f"Responses with invalid json: {responses_with_invalid_json}")
     print(f"Responses with no answer: {responses_with_no_answer}")
     print(f"Responses with answer: {responses_with_answer}")
 
-    return good_responses
+    # Write the data to a json file
+    with open(".temp/extraction_batch_output.json", "w") as file:
+        json.dump(good_responses, file, indent=4)
 
 
 if __name__ == "__main__":
-    good_responses = check_batch_extraction()
-
-    # Write the data to a file
-    with open(".temp/extraction_batch_data.json", "w") as file:
-        json.dump(good_responses, file, indent=4)
+    check_extraction_batch()
