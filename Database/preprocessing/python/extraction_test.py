@@ -52,7 +52,7 @@ These are exmples of bad responses:
         "A": "Es wird empfohlen, bei der Universit\u00e4t anzufragen, ob diese die ECTS oder, falls das nicht m\u00f6glich ist, die jeweiligen SWS ausstellen kann."
     }, # Bad because the question is in German.
     {
-        "Q": "Could you provide me with an update on whether my application for the Master's degree in 'AI in Society' has been accepted?",      
+        "Q": "Could you provide me with an update on whether my application for the Master's degree in 'AI in Society' has been accepted?",
         "A": "We received your application and everything is fine."
     }, # Bad because the question is specific to the student and not relevant to the general public.
     {
