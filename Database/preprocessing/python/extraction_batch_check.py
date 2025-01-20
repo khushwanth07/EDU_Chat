@@ -2,54 +2,6 @@ import json
 import uuid
 
 
-"""
-{
-    "id": "batch_req_678e28721cec8190a98b5f0b3de7c4dd",
-    "custom_id": "email_535.txt",
-    "response": {
-        "status_code": 200,
-        "request_id": "95e81c87a17b9b6c06f2e74f18109155",
-        "body": {
-            "id": "chatcmpl-ArjQRmp7sQaiIgO3AQytjcz7BbVNh",
-            "object": "chat.completion",
-            "created": 1737369363,
-            "model": "gpt-4-0613",
-            "choices": [
-                {
-                    "index": 0,
-                    "message": {
-                        "role": "assistant",
-                        "content": "[\n    {\n        \"Q\": \"Is it possible to submit the language certificate after the application deadline for the AI in Society Master's program?\",\n        \"A\": \"Only certain documents can be accepted after the application deadline, and unfortunately, the language certificate is not one of them.\"\n    },\n    {\n        \"Q\": \"Can English-taught modules with a total of at least 15 ECTS be considered as proof of language proficiency for the AI in Society Master's program?\",\n        \"A\": \"If you have completed English-taught modules with a total of at least 15 ECTS, these can also be considered as proof of language proficiency.\"\n    },\n    {\n        \"Q\": \"What qualifies as the practical part required for the application to the AI in Society Master's program?\",\n        \"A\": \"The practical part depends on what exactly you have done in your seminar papers. If no practical part in the form of data analyses or similar technical tools has been used and it is purely literature research, it unfortunately does not meet our requirements.\"\n    },\n    {\n        \"Q\": \"Can seminar papers be submitted as the practical part for the application to the AI in Society Master's program?\",\n        \"A\": \"NO ANSWER\"\n    }\n]",
-                        "refusal": null
-                    },
-                    "logprobs": null,
-                    "finish_reason": "stop"
-                }
-            ],
-            "usage": {
-                "prompt_tokens": 1309,
-                "completion_tokens": 257,
-                "total_tokens": 1566,
-                "prompt_tokens_details": {
-                    "cached_tokens": 0,
-                    "audio_tokens": 0
-                },
-                "completion_tokens_details": {
-                    "reasoning_tokens": 0,
-                    "audio_tokens": 0,
-                    "accepted_prediction_tokens": 0,
-                    "rejected_prediction_tokens": 0
-                }
-            },
-            "service_tier": "default",
-            "system_fingerprint": null
-        }
-    },
-    "error": null
-}
-"""
-
-
 def check_batch_extraction():
     # Open the full response file
     with open(".temp/extraction_batch_response.txt", "r") as file:

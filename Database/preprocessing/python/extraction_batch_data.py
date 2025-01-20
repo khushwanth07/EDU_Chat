@@ -29,8 +29,6 @@ responses = [json.loads(response) for response in responses]
 data = {}
 
 for response in responses:
-    # Create a unique key for the question answer pair
-    key = str(uuid.uuid4())
 
     # Get the created timestamp from the response
     created = response["response"]["body"]["created"]
@@ -44,6 +42,8 @@ for response in responses:
         content = []
 
     for qa in content:
+        # Create a unique key for the question answer pair
+        key = str(uuid.uuid4())
         data[key] = {
             "created": created,  # timestamp of the api response
             "question": qa["Q"],  # question
