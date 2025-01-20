@@ -60,7 +60,7 @@ def check_batch_extraction():
     responses_with_no_answer = 0
     responses_with_answer = 0
 
-    good_responses = []
+    good_responses = {}
 
     # Go over all responses
     for response in responses:
@@ -119,16 +119,15 @@ def check_batch_extraction():
                 responses_with_answer += 1
 
                 item_dict = {
-                    "id": str(uuid.uuid4()),
-                    "source_type": "email",
-                    "source_id": json_response["custom_id"],
                     "created": json_response["response"]["body"]["created"],
                     "question": item["Q"],
                     "answer": item["A"],
+                    "source_type": "email",
+                    "source": json_response["custom_id"],
                     "request_id": json_response["response"]["request_id"],
                 }
 
-                good_responses.append(item_dict)
+                good_responses[str(uuid.uuid4())] = item_dict
 
     print(f"Responses with empty json: {responses_with_empty_json}")
     print(f"Responses with invalid json: {responses_with_invalid_json}")
@@ -140,9 +139,6 @@ def check_batch_extraction():
 
 if __name__ == "__main__":
     good_responses = check_batch_extraction()
-
-    # Sort the data by the source_id
-    good_responses = sorted(good_responses, key=lambda x: x["source_id"])
 
     # Write the data to a file
     with open(".temp/extraction_batch_data.json", "w") as file:
