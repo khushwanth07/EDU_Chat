@@ -10,8 +10,8 @@ def download_extraction_batch(batch_output_file_id, client=None):
     Retrieve the batch_output_file_id from the extraction_batch_info.json file and download the file.
 
     Parameters:
-    - client (OpenAI): The OpenAI client object.
     - batch_output_file_id (str): The ID of the batch output file.
+    - client (OpenAI): The OpenAI client object.
     """
 
     if not client:

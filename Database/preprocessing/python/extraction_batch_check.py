@@ -1,5 +1,6 @@
 import json
 import uuid
+import os
 
 
 def check_extraction_batch():
@@ -20,6 +21,11 @@ def check_extraction_batch():
             ...
         }
     """
+
+    # Check that the extraction batch response file exists
+    if not os.path.exists(".temp/extraction_batch_response.txt"):
+        print("Extraction batch response file not found. First run the extraction batch download script.")
+        return
 
     # Open the full response file
     with open(".temp/extraction_batch_response.txt", "r") as file:

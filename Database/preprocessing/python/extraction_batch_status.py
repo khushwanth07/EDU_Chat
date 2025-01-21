@@ -10,6 +10,7 @@ def status_extraction_batch(batch_id, client=None):
     Retrieve the batch_id from the extraction_batch_info.json file and check the status of the batch.
 
     Parameters:
+    - batch_id (str): The ID of the batch to check.
     - client (OpenAI): The OpenAI client object.
 
     Returns:

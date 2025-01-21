@@ -22,7 +22,7 @@ def main():
     client = OpenAI(api_key=API_KEY)
 
     # Create a batch of requests to extract Q&A pairs from email content
-    create_extraction_batch()
+    create_extraction_batch(number_of_emails=10)
 
     print("Extraction batch created successfully.")
 

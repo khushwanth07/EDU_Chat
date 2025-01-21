@@ -11,6 +11,9 @@ def send_embedding_batch(client=None):
 
     Parameters:
     - client (OpenAI): The OpenAI client object.
+
+    Returns:
+    - str: The ID of the batch created.
     """
 
     if client is None:

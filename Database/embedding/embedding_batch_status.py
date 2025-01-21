@@ -10,7 +10,11 @@ def status_embedding_batch(batch_id, client=None):
     Retrieve the batch_id from the embedding_batch_info.json file and check the status of the batch.
 
     Parameters:
+    - batch_id (str): The ID of the batch to check.
     - client (OpenAI): The OpenAI client object.
+
+    Returns:
+    - output_file_id (str): The ID of the output file if the batch processing is completed, None otherwise.
     """
     if client is None:
         # Load the environment variables

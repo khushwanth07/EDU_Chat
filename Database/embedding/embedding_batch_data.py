@@ -10,6 +10,10 @@ def data_embedding_batch(output_file_id, client=None):
     Get the embeddings for the questions extracted from the emails.
     Read the responses from the file and extract the embeddings for each question.
     Save the embeddings and the request ids to a JSON file.
+
+    Parameters:
+    - output_file_id (str): The ID of the batch output file.
+    - client (OpenAI): The OpenAI client object.
     """
     if client is None:
         # Load the environment variables
