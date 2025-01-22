@@ -13,9 +13,16 @@ def status_extraction_batch(batch_id, client=None):
     - batch_id (str): The ID of the batch to check.
     - client (OpenAI): The OpenAI client object.
 
+<<<<<<< HEAD
     Returns:
     - bool: True if the batch processing is completed, False otherwise.
     """
+=======
+# Retrieve the batch status
+batch = client.batches.retrieve("batch_678e25232cdc8190908c6e8166c8da9b")
+
+print(batch)
+>>>>>>> origin/Final-Touches
 
     if not client:
         # Load the environment variables

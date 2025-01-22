@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 from database import find_closest_questions, find_closest_pdf, add_question
 
 if __name__ == "__main__":
     # Example of finding the closest questions to a given question
     question = "What is the deadline for application to the program?"
+=======
+from database import find_closest_questions
+
+if __name__ == "__main__":
+    # Example of finding the closest questions to a given question
+    question = "How much is the tuition fees?"
+>>>>>>> origin/Final-Touches
 
     # Find the closest questions to the given question
     entries = find_closest_questions(question, top_n=5)
@@ -12,6 +20,7 @@ if __name__ == "__main__":
 
     # Print the closest questions and their answers
     for entry in entries:
+<<<<<<< HEAD
         print(f"Question: {entry['question_text']}\nAnswer: {entry['answer_text']}\nDistance: {entry['distance']}")
 
     # Find the closest pdfs to the given question
@@ -29,3 +38,6 @@ if __name__ == "__main__":
 
     # Add the new question answer pair to the database
     add_question(new_question, new_answer, new_source)
+=======
+        print(f"Question: {entry['question_text']} with answer: {entry['answer_text']}")
+>>>>>>> origin/Final-Touches
