@@ -879,14 +879,6 @@
         "source": "email_111.txt",
         "request_id": "76df0e2eca3ae98570373551edd70ef4"
     },
-    "39ca816b-d274-4f77-9038-85ea694ee485": {
-        "created": 1737387284,
-        "question": "Where can I find the academic calendar for the MSc AI in Society program?",
-        "answer": "You can find the academic calendar on the website: https://www.sot.tum.de/sot/studium/ai-in-society/. The lecture periods can be found under 'semester structure -> Winter semester 2024/25' here: https://www.tum.de/en/studies/application/application-info-portal/dates-periods-and-deadlines",
-        "source_type": "email",
-        "source": "email_112.txt",
-        "request_id": "d71d1f416e905f9138c4915a3258aabb"
-    },
     "c01572b6-dfa3-467b-962c-3e8aab3da28b": {
         "created": 1737387284,
         "question": "What documents are required for enrollment to the AI in Society program?",
@@ -990,14 +982,6 @@
         "source_type": "email",
         "source": "email_129.txt",
         "request_id": "45295e856e7088a520bbe9eb71463115"
-    },
-    "b14af1df-799e-42c1-ad16-c3e5993e6a7d": {
-        "created": 1737387427,
-        "question": "Where can I find the academic calendar for the MSc AI in Society program?",
-        "answer": "You can find the academic calendar on our website: https://www.sot.tum.de/sot/studium/ai-in-society/. The lecture periods you can find here, under \u201csemester structure -> Winter semester 2024/25\u201d: https://www.tum.de/en/studies/application/application-info-portal/dates-periods-and-deadlines.",
-        "source_type": "email",
-        "source": "email_130.txt",
-        "request_id": "da71e0d915a260502a7c6e48fe9b84f5"
     },
     "fa10fd3d-eb70-48fd-a92f-c0b87c5fafd2": {
         "created": 1737387463,
@@ -1518,14 +1502,6 @@
         "source_type": "email",
         "source": "email_256.txt",
         "request_id": "673e327cad9b875aec75537afba051b0"
-    },
-    "5c4e11c8-16f8-4f8c-b366-f5b8c29b1a21": {
-        "created": 1737387292,
-        "question": "Why have I not received a link to the AI in Society program aptitude test?",
-        "answer": "Your application has been marked as insufficient regarding one of your documents, which is why you have not been invited. Check the comment regarding your application.",
-        "source_type": "email",
-        "source": "email_257.txt",
-        "request_id": "e491b2d7c059a2514ba559d31b77261f"
     },
     "7576e3d7-8e00-4a0f-b722-c8f30904c668": {
         "created": 1737387296,
@@ -2375,14 +2351,6 @@
         "source": "email_447.txt",
         "request_id": "482b2690599e7fd3e4ee8202cbd7b5d0"
     },
-    "0186fb40-255c-475a-801c-fd1707e5e774": {
-        "created": 1737387567,
-        "question": "Does that imply that there are other possible ways to take the aptitude test?",
-        "answer": "Yes, you can take the test online or in-person. The in-person test will require you to be physically present at TUM on the specified date and time. You will write the same exam on paper and be monitored by people instead of a software. The online monitoring includes the participant being blocked from opening other browser windows during the test, as well as being recorded through the webcam over the duration of the test. After the test, they will evaluate the recordings to check for possible cheating, after which the videos will be deleted.",
-        "source_type": "email",
-        "source": "email_450.txt",
-        "request_id": "54f7f08311ebf4dfe3ec3eb8d38449e6"
-    },
     "9ed0b8ae-ba96-43b7-be25-620355b43b6d": {
         "created": 1737387567,
         "question": "Is there a fee involved in taking the aptitude test in-person?",
@@ -3191,14 +3159,6 @@
         "source": "email_631.txt",
         "request_id": "318681eef9ff820d622cc07ec8c0d4b5"
     },
-    "ecd958ac-e58a-4069-9a0e-273feb39fdb4": {
-        "created": 1737387528,
-        "question": "Do I only need to list the courses with the highest grades from top to low, or do I need to list the courses with the highest credits for the 'List of 140 best credits' document?",
-        "answer": "You should list your courses sorted from highest grade to lowest grade.",
-        "source_type": "email",
-        "source": "email_632.txt",
-        "request_id": "c3a54243a30767167500836b5108445b"
-    },
     "684f617f-c999-4634-a765-4b2d7528f31d": {
         "created": 1737387528,
         "question": "Will the content of the courses I list in the 'List of 140 best credits' document affect the outcome of my application?",
@@ -3727,14 +3687,6 @@
         "source": "email_714.txt",
         "request_id": "896ae538a9df9e13031fab0f2a837fa9"
     },
-    "a01f72f0-8279-439a-9e45-55657142fb01": {
-        "created": 1737387505,
-        "question": "Can the project be part of a course or does it have to stand indiviually?",
-        "answer": "The project can be part of a course, it does not necessarily need to stand individually.",
-        "source_type": "email",
-        "source": "email_714.txt",
-        "request_id": "896ae538a9df9e13031fab0f2a837fa9"
-    },
     "f52bfd63-d5c1-4399-8ada-3060cd2ab7e3": {
         "created": 1737387505,
         "question": "If from my university, I do not officially 18 credits for a practical project in social science, is there a way to make up for this requirement?",
@@ -3830,38 +3782,6 @@
         "source_type": "email",
         "source": "email_718.txt",
         "request_id": "1e48dd84e4219e922879088149c0fb74"
-    },
-    "cd4b628b-d6e1-42d2-8310-c1d86d1b4995": {
-        "created": 1737387553,
-        "question": "Does the practical project need to be recognized with credits, i.e. does it have to be part of my university course?",
-        "answer": "It's possible to recognize qualifications that were gained outside of a university. If the content requirement of engineering/science knowledge + political-social knowledge + practical application is fulfilled and a volume of at least 18 credits = 540 hours can be demonstrated, it could be recognized as a practical project.",
-        "source_type": "email",
-        "source": "email_719.txt",
-        "request_id": "7dc7aae3960e20d3ffa5e348962ae8c1"
-    },
-    "6eb86cd2-2d9e-46f5-8432-3c13c5892d58": {
-        "created": 1737387553,
-        "question": "Would individual projects or volunteer experience be able to also contribute to the requirement?",
-        "answer": "Practises achieved outside of a university can be recognised (like professional training or another equivalent accomplishment). If the practises meet the contentual requirement (engineering or scientific understanding plus political-social knowledge plus practical application) and they can prove a structural input of at least 18 credits = 540 hours, then that can be accepted as the practical project.",
-        "source_type": "email",
-        "source": "email_719.txt",
-        "request_id": "7dc7aae3960e20d3ffa5e348962ae8c1"
-    },
-    "f065d9f6-2614-4a0e-baf2-15067355c3a5": {
-        "created": 1737387553,
-        "question": "Can the project be part of a course or does it have to stand indiviually?",
-        "answer": "As long as the project meets the contentual requirement (engineering or scientific understanding plus political-social knowledge plus practical application) and the required credit hours, it can be recognized, regardless of whether it is part of a course or stands individually.",
-        "source_type": "email",
-        "source": "email_719.txt",
-        "request_id": "7dc7aae3960e20d3ffa5e348962ae8c1"
-    },
-    "46259cf2-16d3-4026-a995-a76bbbf03fcb": {
-        "created": 1737387553,
-        "question": "If from my university, I do not officially 18 credits for a practical project in social science, is there a way to make up for this requirement?",
-        "answer": "If the practises meet the contentual requirement (engineering or scientific understanding plus political-social understanding plus practical application) and they can prove a structural input of at least 18 credits = 540 hours, then that can be accepted as the practical project. However, a credible documentation of the practical experience is required, meaning verifiable documents that confirm the content and structure.",
-        "source_type": "email",
-        "source": "email_719.txt",
-        "request_id": "7dc7aae3960e20d3ffa5e348962ae8c1"
     },
     "f3ffce8e-c571-47e6-875e-46c2b4c9e339": {
         "created": 1737387553,
