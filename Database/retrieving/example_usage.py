@@ -1,3 +1,8 @@
+"""
+This script demonstrates how to use the database functions to find the closest questions to a given question,
+find the closest pdfs to a given question, and add a new question answer pair to the database.
+"""
+
 from database import find_closest_questions, find_closest_pdf, add_question
 
 if __name__ == "__main__":

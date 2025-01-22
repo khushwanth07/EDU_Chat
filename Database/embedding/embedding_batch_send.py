@@ -1,3 +1,8 @@
+"""
+This script sends the batch of requests to get the embeddings for the questions extracted from the emails.
+Load the batch from the input file and send it to the OpenAI API for processing.
+"""
+
 import os
 
 from dotenv import load_dotenv

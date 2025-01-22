@@ -1,3 +1,8 @@
+"""
+This script downloads the batch output file from the OpenAI API.
+The result is written to a text file in the .temp folder.
+"""
+
 import os
 
 from dotenv import load_dotenv

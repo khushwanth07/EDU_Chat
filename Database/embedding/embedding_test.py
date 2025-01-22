@@ -1,3 +1,7 @@
+"""
+This script demonstrates how to create an embedding for a given input text using the OpenAI API.
+"""
+
 import os
 
 from openai import OpenAI

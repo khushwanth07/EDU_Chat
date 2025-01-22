@@ -1,3 +1,8 @@
+"""
+This script combines batch creation, sending, status checking, downloading, and extracting the reults from the batch.
+It uses the OpenAI API to create an embedding for a batch of input texts.
+"""
+
 import os
 import time
 

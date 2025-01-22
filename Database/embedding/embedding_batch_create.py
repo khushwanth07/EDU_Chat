@@ -1,3 +1,9 @@
+"""
+This script creates a batch of requests to get the embeddings for the questions extracted from the emails.
+Read the questions from the extraction_batch_output.json file and create a batch request for each question.
+The batch requests are written to a JSONL file for batch processing.
+"""
+
 import json
 import os
 

@@ -1,3 +1,7 @@
+"""
+This script checks the status of the batch processing for the embedding of questions.
+"""
+
 import os
 
 from dotenv import load_dotenv
@@ -7,7 +11,7 @@ from openai import OpenAI
 def status_embedding_batch(batch_id, client=None):
     """
     Check the status of the batch processing for the embedding of questions.
-    Retrieve the batch_id from the embedding_batch_info.json file and check the status of the batch.
+    Uses the OpenAI API and the batch_id to retrieve the status of the batch processing.
 
     Parameters:
     - batch_id (str): The ID of the batch to check.

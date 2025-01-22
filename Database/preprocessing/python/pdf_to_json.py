@@ -1,3 +1,10 @@
+"""
+This code is used to convert the extracted text from PDF files to JSON format.
+It reads the pdf sections from the Database/preprocessing/pdf directory and creates a dictionary with the text,
+source, and embedding.
+The embeddings are created using the OpenAI API and stored in the dictionary.
+"""
+
 import json
 import os
 import uuid

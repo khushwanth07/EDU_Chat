@@ -1,3 +1,7 @@
+"""
+This script downloads the result from the OpenAI API and extracts the embeddings for the questions.
+"""
+
 import json
 import os
 

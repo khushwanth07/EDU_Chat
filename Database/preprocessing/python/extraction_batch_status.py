@@ -1,3 +1,8 @@
+"""
+This script checks the status of the batch processing for the extraction of Q&A pairs.
+It uses the OpenAI API and the batch_id to retrieve the status of the batch processing.
+"""
+
 import os
 
 from dotenv import load_dotenv

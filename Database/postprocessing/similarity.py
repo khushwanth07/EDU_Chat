@@ -1,3 +1,9 @@
+"""
+This script processes embedding and extraction data to calculate cosine similarity between embeddings.
+It identifies and prints pairs of questions with high similarity and visualizes the similarity matrix and histogram.
+It can also be used to remove duplicate questions from the database.
+"""
+
 import json
 import numpy as np
 import matplotlib.pyplot as plt

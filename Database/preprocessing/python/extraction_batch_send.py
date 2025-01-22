@@ -1,3 +1,9 @@
+"""
+Send a batch of requests to extract Q&A pairs from email content using the OpenAI API.
+The batch input file is read from the .temp folder and a batch is created using the input file.
+The batch_id is returned for use in checking the status of the batch and downloading the output file.
+"""
+
 import os
 
 from dotenv import load_dotenv

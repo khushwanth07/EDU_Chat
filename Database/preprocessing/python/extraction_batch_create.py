@@ -1,3 +1,9 @@
+"""
+This script creates a batch of requests to extract Q&A pairs from email content using the OpenAI API.
+The email files are read from the emails folder, and a request is created for each email.
+The batch of requests is written to a JSONL file for batch processing.
+"""
+
 import json
 import os
 import random

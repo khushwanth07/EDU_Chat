@@ -1,3 +1,9 @@
+"""
+This script provides functions to interact with a PostgreSQL database for storing questions and answers and pdf text.
+It includes functions to create the database tables, insert questions and pdfs, find the closest questions and pdfs,
+and initialize the database with extracted data.
+"""
+
 import psycopg2
 import json
 import tqdm

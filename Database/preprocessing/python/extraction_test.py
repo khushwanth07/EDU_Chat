@@ -1,3 +1,9 @@
+"""
+This script is used to test the email extraction model by providing an email file as input and getting the extracted
+Q&A pairs as output.
+It uses the OpenAI API to generate the responses.
+"""
+
 import os
 import json
 from openai import OpenAI

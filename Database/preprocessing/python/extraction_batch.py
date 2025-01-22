@@ -1,3 +1,7 @@
+"""
+This script combines batch creation, sending, status checking, downloading, and checking for errors in the result.
+"""
+
 import os
 import time
 
