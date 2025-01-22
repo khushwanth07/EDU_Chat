@@ -56,9 +56,5 @@ Follow these instructions to clone the repository, set up the project, and run t
 
 ## Final Notes
 
-- Ensure Docker is running before starting the application.
 - Double-check all paths before running the `launch.py` script.
 - If errors persist, review the logs for more detailed error messages and address them accordingly.
-
-With these steps, your application should launch successfully.
-
