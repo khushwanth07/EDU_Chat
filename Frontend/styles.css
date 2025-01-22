@@ -26,13 +26,12 @@ body {
 
 /* Navigation Bar */
 .navbar {
-    background-color: var(--tum-blue-secondary);
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    height: 5rem;
+  background-color: var(--tum-blue-secondary);
+  padding: 0.75rem 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  min-height: 60px; 
 }
 
 .nav-container {
@@ -176,18 +175,18 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(90deg, #072140 0%, #3070B3 100%);
-    padding: 3rem 0;
-    min-height: 40vh; /* Reduced initial height */
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    margin-top: 5rem;
-    transition: min-height 0.3s ease-in-out;
+  background: linear-gradient(90deg, #072140 0%, #3070B3 100%);
+  padding: 3rem 0;
+  min-height: fit-content;
+  padding-top: calc(60px + 3rem);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .hero.expanded {
-    min-height: 85vh;
+  min-height: fit-content;
+  height: auto;
 }
 
 .hero-container {
@@ -275,17 +274,19 @@ body {
 
 /* Chat Window */
 .chat-window {
-    display: none;
-    background: rgba(255, 255, 255, 0.1);
-    border: 2px solid var(--tum-white);
-    border-radius: 1rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    overflow: hidden;
-    margin-top: 1rem;
-    height: 60vh;
-    position: relative;
-    z-index: 1;
-    backdrop-filter: blur(8px);
+  display: none;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid var(--tum-white);
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  margin-top: 1rem;
+  height: 60vh;
+  position: relative;
+  z-index: 1;
+  backdrop-filter: blur(8px);
+  min-height: 300px;
+  max-height: calc(80vh - 300px);
 }
 
 .chat-window.active {
