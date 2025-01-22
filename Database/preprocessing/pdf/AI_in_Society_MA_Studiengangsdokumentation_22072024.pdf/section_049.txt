@@ -1,0 +1,9 @@
+Module Code :SOT10058
+Compulsory Module Name: Advanced Analysis of 
+Variance Procedures
+Aim & contribution to the qualification profile:
+This module delves into advanced ANOVA techniques, enabling 
+students to apply intricate variance analysis to complex datasets. By 
+mastering such procedures, students will be able to rigorously evaluate 
+experimental results, ensuring robust data interpretation and informed 
+decision-making in quantitative research scenarios.

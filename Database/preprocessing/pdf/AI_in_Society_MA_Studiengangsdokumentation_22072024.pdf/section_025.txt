@@ -1,0 +1,16 @@
+1. Foundation and Introduction: The program begins with foundational courses in AI, Data 
+Science, Introduction to Programming & Data Processing, AI in and for Society: Science, 
+Technology and Society in the Digital Age, as well as courses on Law, Governance, & 
+Regulation of AI, and an introduction to Psychology of learning and instructional design of 
+AI-based systems. These foundation and introductory courses in the M.Sc. program "AI in 
+Society" aim to equip students with a foundational understanding of AI, data science, 
+programming, and the societal implications of AI. Recognizing the diverse academic 
+backgrounds of incoming students, these compulsory courses ensure a consistent and 
+unified knowledge base across AI concepts, programming, and the societal aspects of AI. 
+This approach fosters a shared terminological foundation, enabling students from various 
+disciplines to engage effectively throughout the program. These foundational courses are 
+compulsory to guarantee that all students, regardless of their previous bachelor-level 
+academic backgrounds, attain a consistent understanding of essential subjects and foster a 
+unified terminological foundation in AI concepts, programming, regulation and politics of AI.
+The aim of each module and their contribution to the achievement of the qualification profile 
+are provided in Table 1.

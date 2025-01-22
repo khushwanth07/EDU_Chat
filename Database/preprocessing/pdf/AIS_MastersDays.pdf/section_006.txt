@@ -1,0 +1,28 @@
+Q:The further information of the  Application Procedure
+A:Application Procedure
+Step 1: Formal requirements
+• Bachelor‘s certificate + diploma / Transcript to date
+• Transcript of Records
+• Proof of English Language Proficiency
+• CV
+• Preliminary Study Documentation (VPD, see uni-assist.de) if degree from
+outside EU/EEA
+• Optional: Letter of Motivation
+For a comprehensive list, see: https://www.tum.de/en/studies/degree-programs/detail/ai-in-society
+Additionally, you need to fulfill the following requirements:
+• At least 5 ECTS worth of mathematics / statistics modules
+• At least 18 ECTS worth of a practical project
+ practical analysis of societal challenges, demonstrating the ability to
+apply a blend of technical and social science perspectives. For example:
+• Data analysis of social media trends
+• Developing educational technologies
+• Data-driven approaches in healthcare
+• …
+Step 2: Aptitude test
+o Written test
+o 90 minutes
+o 35 multiple-choice questions from the fields of:
+• Politics and social science
+• Economics and law
+• Mathematics and statistics
+• Science and engineering

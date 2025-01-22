@@ -1,0 +1,46 @@
+Q:what is the Annex 1: Examination Modules ? / Can you introduce the info of certain course ?
+A:
+Foundations of AI & Data Science (SOT86053)
+This course is delivered in the form of a lecture and exercise (VO + UE) in the first semester, with a total of 6 hours per week (SWS). It offers 9 credits and the examination is a written exam (K) lasting 90 minutes. The course is conducted in English.
+
+Law, Governance, and Regulation of Artificial Intelligence (SOT46302)
+This lecture (VO) is scheduled for the first semester, with 3 hours per week (SWS). The course is worth 6 credits, and the examination is a written exam (K) lasting 120 minutes. The course is taught in English.
+
+Introduction to Programming and Data Processing (SOT10054)
+The course is a combination of lectures and exercises (VO + UE), taking place in the first semester, with 2 hours per week (SWS). It is worth 3 credits, and the examination is an oral exercise (ÜB). The course is conducted in English.
+
+AI in and for Society: Science, Technology, and Society in the Digital Age (SOT46308)
+This lecture (VO) is offered in the first semester, with 2 hours per week (SWS). It offers 6 credits, and the examination is a written exam (K) lasting 90 minutes. The language of instruction is English.
+
+Psychology of Learning and Instructional Design of AI-based Systems (SOT10057)
+This course combines lectures and exercises (VO + UE), held in the first semester, with 4 hours per week (SWS). It is worth 6 credits, and the examination is a written exam (K) lasting 60 minutes. The course is taught in English.
+
+Introduction to Deep Learning (IN2346)
+A lecture (VO) offered in the second semester, with 4 hours per week (SWS), this course is worth 6 credits. The examination is a written exam (K) lasting 90 minutes, and the course is conducted in English.
+
+Deep Learning Demystified: Hands-on Deep Learning for Non-CS Majors (SOT86086)
+This is a practical training (PR) course, scheduled in the second semester with 2 hours per week (SWS). It offers 3 credits and the examination is an oral exercise (ÜB). The course is taught in English.
+
+Explainable AI – A Comprehensive Seminar on Transparent and Ethical AI (SOT86051)
+The course is a seminar (SE) in the second semester, with 3 hours per week (SWS). It is worth 6 credits, and the examination is a scientific paper (W), with 6 pages required. The language of instruction is English.
+
+Methods 1 (MCTS0027)
+This seminar (SE) is held in the second semester, with 3 hours per week (SWS). It is worth 5 credits, and the examination is an oral exercise (ÜB). The course is conducted in English.
+
+Academic Competencies and Practical Skills (SOT44303)
+A seminar (SE) in the second semester with 2 hours per week (SWS), this course is worth 4 credits. The examination is a scientific paper (W). The course is taught in English.
+
+AI in Diverse Societies (SOT46301)
+This seminar (SE) is held in the second semester with 2 hours per week (SWS), offering 6 credits. The examination is a written exam (K) lasting 60 minutes, and the course is in English.
+
+Natural Language Processing (IN2361)
+A lecture (VO) in the third semester, with 4 hours per week (SWS), this course is worth 6 credits. The examination is a written exam (K) lasting 120 minutes, and the course is conducted in English.
+
+Human-AI Interaction (SOT10046)
+This course, combining lectures and exercises (VO + UE), is held in the third semester, with 4 hours per week (SWS). It is worth 6 credits, and the examination is an oral exercise (ÜB). The course is taught in English.
+
+TUM Project Week
+The TUM Project Week is a project week (P/SE) offered in the third semester, with 4 hours per week (SWS). It is worth 6 credits, and the examination is a project work (PA). The course is in English.
+
+Master’s Thesis (SOT10060)
+The Master's Thesis is a required part of the program, offering 30 credits. The thesis is evaluated through a scientific paper (W), worth 27 credits, and the Master’s Colloquium is a presentation (P) worth 3 credits. The thesis is completed in English.

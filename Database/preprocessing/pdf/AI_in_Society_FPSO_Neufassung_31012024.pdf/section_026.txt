@@ -1,0 +1,3 @@
+5.1.2 The score is the sum of the calculated score from 5.1.1 a) (Grade) and the result of the test as per 5.1.1 b).
+5.1.3 Applicants who score at least 68 points have passed the qualification procedure.
+5.1.4 1. Applicants who score fewer than 40 points have failed the qualification procedure. 2. This does not apply if at least 18 points were awarded for the grade calculation under Section 5.1.1 a); in this case, eligibility for the AI in Society program must be proven by participating in the second stage of the qualification procedure.

@@ -1,0 +1,8 @@
+§ 47
+Passing and Grading of the Master’s Examination
+(1) The Master’s examination is considered passed when all examinations required under § 43(1) have been successfully completed, and a total of at least 120 credits has been achieved.
+(2)
+The module grade is calculated in accordance with § 17 of the APSO.
+The overall grade for the Master’s examination is determined as a weighted average of the grades for the modules specified in § 43(2) and the Master’s Thesis module.
+The weight of each module corresponds to its allocated credits.
+The overall assessment is expressed using the grading descriptors outlined in § 17 of the APSO.

@@ -1,0 +1,12 @@
+Module Code :IN2361
+Compulsory Module Name:Natural Language 
+Processing
+Aim & contribution to the qualification profile:
+This module introduces techniques for processing and 
+understanding human language (NLP) using AI. Students 
+will be equipped with a comprehensive set of technical 
+skills to grasp of areas at the forefront of NLP, ensuring 
+they can bridge ethical, regulatory, and practical 
+requirements in various NLP application domains (text 
+processing, language understanding, translation, 
+governance-related applications, etc.).

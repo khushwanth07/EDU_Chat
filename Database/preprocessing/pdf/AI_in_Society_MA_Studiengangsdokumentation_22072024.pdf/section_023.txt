@@ -1,0 +1,9 @@
+The significant number of mandatory courses stems from the recognition that students enter the 
+program with diverse backgrounds outside of computer science. It is essential to first equip them 
+with fundamental AI concepts, rudimentary programming skills, and computational aspects of social 
+science methodologies to effectively address the challenges posed by AI applications across various 
+societal sectors. By grounding students in these foundational topics, we ensure they possess the 
+comprehensive skill set required to quantify, navigate and innovate within the complex landscape of 
+AI integration into social science research, developments, and processes. This holistic approach not 
+only bridges any pre-existing knowledge gaps but also fosters a collaborative learning environment 
+where students from various disciplines can contribute unique perspectives.

@@ -1,0 +1,12 @@
+Deepening Knowledge and Skills:
+
+Module Code :IN2346
+Compulsory Module Name:Introduction to Deep 
+Learning
+Aim & contribution to the qualification profile:
+This module offers an introduction and in-depth 
+understanding of state-of-the-art deep learning concepts 
+and techniques. Students will possess a comprehensive 
+grasp of areas at the forefront of deep learning, enabling 
+them to convey pioneering ideas and engage with technical 
+and non-technical experts.

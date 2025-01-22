@@ -1,0 +1,15 @@
+Module Code :SOT10046
+Compulsory Module Name:Human-AI Interaction
+Aim & contribution to the qualification profile:
+This module delves into the intricacies of user experience 
+and human factors in AI systems, which are pivotal for the 
+successful integration and adoption of AI technologies in 
+daily applications (e.g., recommendation engines, search 
+algorithms, decision support systems, generative AI 
+solutions, etc). Through literature reviews and group 
+discussions, students will collaboratively design and 
+develop AI-integrated interactive systems. Hence, 
+graduates will be equipped with the expertise to critically 
+assess the performance of AI-driven interactive systems, 
+ensuring they can bridge the gap between AI technology 
+and its practical, user-centric applications.

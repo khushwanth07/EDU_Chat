@@ -1,0 +1,31 @@
+Q:what is the  Programm Structure of degree program
+A:
+(1) Formal structure 
+The prescribed duration of the program spans four semesters, encompassing a total of 120 credit 
+points. Within this framework, 78 credit points are allocated to mandatory modules, 12 to elective 
+modules, and the remaining 30 are dedicated to the final thesis. A schematic representation of the 
+program's structure can be found follow :
+Semester1:Foundations of Al & Data Science
+(SOT86053)
+(required) 9cp
+Intro. toProgram.& Data
+Processing SOT10054 (required)3cp
+Al in and for Society : Science, Technolog)and Society in the
+Digital Age(SOT46308)(reguired)6cp
+Psychology of Law, Governance and Regulation of Artificial Intelligence(SOT46302) (required) 6cp
+Psychology of Learning and structional Design of Albased systems(SOT10057)(required)6cp
+semester2:
+Introduction to Deep Leaming(IN2346) (reguired)6cp, Deep learning demystifled :Hands-on deep Learning for Non-CS Majors (S0T86086)(reguired)3 CP
+Explainable Al-- A Comprehensive Seminar on Transparent and Ethical Al(SOT86051) 6cp
+Academic Competencies and Practical Skills (SOT44303) 4cp
+Methods 1(MCTS0027) 5cp
+Al in Diverse Societies(SOT46301)6cp
+semester3:
+Natural Language Processing(IN2361)(required)6cp
+Human-Al interaction(SOT10046)(required)6cp
+Project Week (required)6cp
+Electives: Al in different domains of society 12cp
+semester4:
+Master's thesis
+(reguired)
+30 CP

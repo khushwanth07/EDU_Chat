@@ -1,0 +1,13 @@
+Q: what is the Internal Competition Analysis of degree program
+A:Internal Competition Analysis
+Distinction from the MSc programs “Computer Science” and “ Politics & Technology” 
+While the "Politics and Technology" program emphasizes the broader relationship between all forms 
+of technology and political structures, "AI in Society" narrows down to the specific challenges and 
+opportunities presented by AI. The "Computer Science" program, even with SOT electives, remains 
+fundamentally a technical degree, preparing students for roles that primarily involve software 
+development, algorithm design, etc. In contrast, "AI in Society" prepares students for roles that 
+require a nuanced understanding of AI's societal implications.
+In summary, the AI & Society graduates are equipped to address the complex challenges that arise 
+at the intersection of AI and society. Their ability to evaluate AI systems' societal impacts, navigate 
+ethical considerations, and influence policy and regulation make them valuable assets in a rapidly 
+evolving AI landscape.

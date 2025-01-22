@@ -1,0 +1,8 @@
+The Master program “AI in Society” covers a wide range of topics from the technical aspects of AI 
+and data science to the societal implications of AI. The curriculum includes foundational courses in 
+AI and data science, programming and data processing, as well as specialized courses on topics 
+such as deep learning, human-AI interaction, and natural language processing. It also includes 
+courses that focus on the societal aspects of AI, such as governance, law and regulation of AI, AI in 
+diverse societies, and elective modules in different societal application areas of AI. In this way the 
+program prepares students for roles bridging technical AI and societal implications. It provides 
+interdisciplinary knowledge and the grounding for responsible and interdisciplinary application of AI.
