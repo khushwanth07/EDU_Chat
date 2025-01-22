@@ -1,0 +1,10 @@
+Module Code :SOT86051
+Compulsory Module Name:Explainable AI -- A 
+Comprehensive Seminar on Transparent and 
+Ethical AI
+Aim & contribution to the qualification profile:
+This module delves into the concepts of AI transparency, 
+fairness, and explainability. It ensures graduates can make scientifically grounded decisions regarding AI applications, 
+always critically weighing potential repercussions and 
+societal ramifications, and hence be empowered to engage 
+with different stakeholders.

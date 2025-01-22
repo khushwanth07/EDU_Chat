@@ -1,0 +1,13 @@
+Q:What is the Current Challenges
+A:AI = black-box. Complex decision-making processes we need to understand
+Potential misuse of AI:
+Fake news, fraud schemes, …
+Automation of tasks:
+May lead to job displacement
+Overreliance on AI:
+privacy and security concerns
+Bias in AI systems:
+Unfair and discriminatory outcomes
+We need:
+• responsible and ethical use of such technologies
+• effective regulation and governance of AI

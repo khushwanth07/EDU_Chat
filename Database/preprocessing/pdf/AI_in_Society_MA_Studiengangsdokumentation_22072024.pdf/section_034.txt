@@ -1,0 +1,17 @@
+Module Code :SOT10057
+Compulsory Module Name:Psychology of learning 
+and instructional design of
+AI-based systems
+Aim & contribution to the qualification profile:
+This module delves into the psychology of learning and 
+instructional systems and focuses on the interplay between 
+psychological principles and instructional design features. 
+Students will explore foundational psychological learning 
+theories, instructional design methodologies, and 
+psychometric instruments and tools, equipping them to 
+design AI systems that are cognizant of human behavior 
+and can be evaluated for their psychological impact. This 
+knowledge ensures that AI applications are not only 
+technically sound but also psychologically aligned with 
+human users, fostering a more holistic and human-centric 
+approach to AI integration in society.

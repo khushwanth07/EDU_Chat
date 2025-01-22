@@ -1,0 +1,8 @@
+Q:How to understand that : the MSc program "AI in Society" is both research-oriented and application-oriented.
+A: 
+It is research-oriented as it involves the study of complex AI-related challenges, including 
+biases, socio-economic implications, and legal and ethical aspects. It is application-oriented 
+as it prepares graduates for roles such as AI ethicists, consultants, researchers, and policy 
+advisors, where they apply their knowledge to ensure responsible and ethical AI practices 
+in real-world settings. Thus, the program integrates theoretical knowledge and practical 
+skills to address AI's societal impact.

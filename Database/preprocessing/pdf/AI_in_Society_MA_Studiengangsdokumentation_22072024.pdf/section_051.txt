@@ -1,0 +1,13 @@
+The program uses a variety of teaching and learning methods to cater to different learning styles and 
+ensure a comprehensive understanding of the material. More specifically, traditional lectures form 
+the backbone of the curriculum, providing students with foundational knowledge in areas like AI, 
+deep learning, and natural language processing. Interactive seminars in courses such as 
+"Explainable AI -- A Comprehensive Seminar on Transparent and Ethical AI” employ seminar-style 
+teaching, fostering discussions and debates on the explainable and ethical AI. Through hands-on 
+workshops in courses like "Deep Learning Demystified: Hands-on Deep Learning for Non-CS 
+Majors" a practical, workshop-based approach is envisioned, where students can actively engage 
+with the material and gain hands-on experience. On the other hand, research projects, such as the
+Project Weeks, where students come together to address real-world problems through AI in an 
+interdisciplinary team, offers students an opportunity to undertake hands-on interdisciplinary 
+research projects, allowing them to apply theoretical knowledge and creative AI solutions to practical 
+challenges (see also: https://www.tum.de/en/studies/degree-programs/key-skill-programs/project-weeks).

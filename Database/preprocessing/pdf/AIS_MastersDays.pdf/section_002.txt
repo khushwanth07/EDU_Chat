@@ -1,0 +1,17 @@
+Q:What will you learn in this AI in Society program?
+A:Technical side
+- Data Science
+- Machine Learning
+- Natural Language Processing
+- Human-AI Interaction
+- Explainable AI
+- Programming with Python
+Social science side
+- Legal aspects
+- Policies, Regulation
+- Governance
+- Role of AI in societal contexts
+- Instructional design of AI 
+(psychology of learning)
+Bridging technical and 
+societal implications of AI

@@ -1,0 +1,17 @@
+Q: what is the basic information of the different course ?
+A:
+Table 1: Aim of the mandatory modules and their contribution to the qualification profile.
+
+Foundation and Introduction:
+
+Module Code :SOT86053
+Compulsory Module Name:Foundations of AI & Data Science
+Aim & contribution to the qualification profile:
+Introduce foundational concepts and methodologies in AI 
+and data science (e.g., data analysis techniques, neural 
+networks, basics of reinforcement learning and many more 
+foundational techniques of machine learning). Students
+with no prior knowledge on these topics will gain a 
+comprehensive understanding of AI's technical landscape, 
+ensuring they can bridge practical requirements in AI 
+applications.
