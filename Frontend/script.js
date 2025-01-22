@@ -11,6 +11,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Chat Window Management Functions
     function showChatWindow() {
+        heroSection.classList.add('expanded');
+        chatWindow.classList.add('active');
+        
+        // Ensure messages fit
+        const chatHeader = chatWindow.querySelector('.chat-header');
+        const headerHeight = chatHeader.offsetHeight;
+        chatMessages.style.maxHeight = `calc(100% - ${headerHeight}px)`;
+        
         if (!chatWindow.classList.contains('active')) {
             // Expand hero section first
             heroSection.classList.add('expanded');
@@ -47,7 +55,15 @@ document.addEventListener('DOMContentLoaded', () => {
         messageDiv.appendChild(textSpan);
 
         chatMessages.appendChild(messageDiv);
-        chatMessages.scrollTop = chatMessages.scrollHeight;
+        chatMessages.scrollTop = chatMessages.scrollHeight;;
+        
+        // Ensure proper scroll after adding message
+        requestAnimationFrame(() => {
+            chatMessages.scrollTo({
+                top: chatMessages.scrollHeight,
+                behavior: 'smooth'
+            });
+        });
     }
 
     function showTypingIndicator() {
