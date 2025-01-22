@@ -279,19 +279,27 @@ def _create_index():
     try:
         # Create a cursor object using the connection
         cursor = connection.cursor()
-        # Check that the index does not already exist
-        cursor.execute("SELECT EXISTS (SELECT FROM pg_indexes WHERE indexname = 'embedding_index');")
-        index_exists = cursor.fetchone()[0]
-        if index_exists:
-            print("Index 'embedding_index' already exists.")
+        # Check that the index does not already exist for the questions table
+        cursor.execute("SELECT EXISTS (SELECT 1 FROM pg_indexes WHERE indexname = 'embedding_index_questions');")
+        index_exists_questions = cursor.fetchone()[0]
+        if index_exists_questions:
+            print("Index 'embedding_index_questions' already exists.")
         else:
             # Create the embedding index for the questions table
-            cursor.execute("CREATE INDEX embedding_index ON questions USING ivfflat(embedding);")
+            cursor.execute("CREATE INDEX embedding_index_questions ON questions USING ivfflat(embedding);")
             connection.commit()
+            print("Index 'embedding_index_questions' created successfully.")
+
+        # Check that the index does not already exist for the pdf table
+        cursor.execute("SELECT EXISTS (SELECT 1 FROM pg_indexes WHERE indexname = 'embedding_index_pdf');")
+        index_exists_pdf = cursor.fetchone()[0]
+        if index_exists_pdf:
+            print("Index 'embedding_index_pdf' already exists.")
+        else:
             # Create the embedding index for the pdf table
-            cursor.execute("CREATE INDEX embedding_index ON pdf USING ivfflat(embedding);")
+            cursor.execute("CREATE INDEX embedding_index_pdf ON pdf USING ivfflat(embedding);")
             connection.commit()
-            print("Index created successfully.")
+            print("Index 'embedding_index_pdf' created successfully.")
     except Exception as e:
         raise e
     finally:
@@ -474,12 +482,10 @@ def initialize_database(clear=False):
     """
     if _create_questions_table():
         _insert_questions_from_json()
-        _create_index()
 
     elif clear:
         _clear_questions_table()
         _insert_questions_from_json()
-        _create_index()
 
     print("Finished initializing questions database.")
     print(f"Loaded {_get_number_of_questions()} questions.")

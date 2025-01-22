@@ -2,7 +2,7 @@ from database import find_closest_questions, find_closest_pdf, add_question
 
 if __name__ == "__main__":
     # Example of finding the closest questions to a given question
-    question = "What is the deadline for application to the program?"
+    question = "Who is the academic administrator of the program?"
 
     # Find the closest questions to the given question
     entries = find_closest_questions(question, top_n=5)
