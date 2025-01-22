@@ -34,7 +34,7 @@ body {
   position: fixed;
   width: 100%;
   z-index: 1000;
-  height: 7vh;
+  min-height: 60px; 
 }
 
 .nav-container {
@@ -167,16 +167,16 @@ body {
 .hero {
   background: linear-gradient(90deg, #072140 0%, #3070B3 100%);
   padding: 3rem 0;
-  min-height: 35vh;
-  /* Reduced initial height */
+  min-height: fit-content;
+  padding-top: calc(60px + 3rem);
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  transition: min-height 0.3s ease-in-out;
 }
 
 .hero.expanded {
-  min-height: 100vh;
+  min-height: fit-content;
+  height: auto;
 }
 
 .hero-container {
@@ -275,6 +275,8 @@ body {
   position: relative;
   z-index: 1;
   backdrop-filter: blur(8px);
+  min-height: 300px;
+  max-height: calc(80vh - 300px);
 }
 
 .chat-window.active {
