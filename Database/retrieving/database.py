@@ -596,7 +596,57 @@ def add_question(question_text, answer_text, source, source_type="pdf"):
     print("Question added successfully.")
 
 
+def check_database_status():
+    """
+    Check the status of the database.
+
+    Returns:
+        bool: True if the database is running, False otherwise.
+    """
+    try:
+        connection = _get_connection()
+
+        if connection.closed != 0:
+            print("ERROR: Database connection is closed.")
+            return False
+
+        # Create a cursor object using the connection
+        cursor = connection.cursor()
+
+        # Check that the questions and pdf tables exists
+        cursor.execute(
+            """
+        SELECT EXISTS (
+            SELECT FROM information_schema.tables
+            WHERE table_name = 'questions'
+        );
+        """
+        )
+        tables_exists = cursor.fetchone()[0]
+
+        cursor.execute(
+            """
+        SELECT EXISTS (
+            SELECT FROM information_schema.tables
+            WHERE table_name = 'pdf'
+        );
+        """
+        )
+        tables_exists = tables_exists and cursor.fetchone()[0]
+
+        if not tables_exists:
+            print("WARNING: Questions or pdf table does not exist.")
+            print("Initializing the database...")
+            initialize_database()
+
+        return True
+
+    except psycopg2.OperationalError:
+        print("ERROR: Unable to connect to the database.")
+        return False
+
+
 if __name__ == "__main__":
     # Initialize the database
     # initialize_database(clear=False)
-    pass
+    print(check_database_status())
