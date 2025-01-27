@@ -19,11 +19,11 @@ client = OpenAI(api_key=API_KEY)
 
 SYSTEM_PROMPT = """
 You are an expert assistant tasked with providing precise, context-based answers from the given data.
-Only respond with information explicitly available in the provided database, ensuring the response is specific, accurate, and free of any generalization, extrapolation, or assumptions.
-Retain as much detail and context from the original data as possible. Do not mention the source of the data or add any external information.
+You are answering questions as a student advisor for the Masters Program AI in Society.
+Only respond with information explicitly available in the provided data, ensuring the response is specific, accurate, and free of any generalization, extrapolation, or assumptions.
+Retain as much detail and context from the original data as possible.
+If there is no fitting answer in the data, respond with an explanation that the question cannot be answered with the provided data and that they should conact the student advisor at ais@sot.tum.de.
 """
-
-conversation_history = []
 
 
 def docker_is_running():
@@ -52,7 +52,7 @@ def docker_is_running():
     return "alina" in container_names
 
 
-def send_gpt_request(user_message, database_context, model="gpt-4o", temperature=0.4):
+def send_gpt_request(user_question, database_context, model="gpt-4o", temperature=0.4):
     """
     Get a response from the language model
 
@@ -64,7 +64,7 @@ def send_gpt_request(user_message, database_context, model="gpt-4o", temperature
     """
 
     # Add the database context to the user message
-    user_message = f'Answer the following question: "{user_message}" using the following database information:\n\n\n {database_context}'
+    user_message = f'Answer the following question: "{user_question}" using the following database information:\n\n\n {database_context}'
 
     # Add the conversation history to the messages
     messages = conversation_history + [
@@ -94,10 +94,44 @@ def send_gpt_request(user_message, database_context, model="gpt-4o", temperature
     response_text = response.choices[0].message.content
 
     # Add the user message and response to the conversation history
-    conversation_history.append({"role": "user", "content": [{"type": "text", "text": user_message}]})
+    conversation_history.append({"role": "user", "content": [{"type": "text", "text": user_question}]})
     conversation_history.append({"role": "assistant", "content": [{"type": "text", "text": response_text}]})
 
     # Return the response
+    return response_text
+
+
+def refomulate_question(question, conversation_history):
+    """
+    Refomulate the question based on the conversation history
+
+    Args:
+    - question (str): The original question
+    - conversation_history (list): The conversation history
+
+    Returns:
+    - str: The refomulated question
+    """
+    if conversation_history == []:
+        return question
+
+    messages = [
+        {
+            "role": "developer",
+            "content": [{"type": "text", "text": "In the following you will be given a chatbot conversation history including questions and answers. Additionally, you will be given a new question. Your task is reformulate the new question, if it is a follow up question, so it can be understood without the context of the conversation history. This is used for searching similar questions in database."}],
+        },
+        {
+            "role": "user",
+            "content": [{"type": "text", "text": f"The new user question is: {question} and the conversation history is as follows: {conversation_history}"}],
+        },
+    ]
+
+    # Send the prompt to the language model
+    response = client.chat.completions.create(model="gpt-4o", messages=messages, temperature=0.3)
+
+    # Get the response text from the response
+    response_text = response.choices[0].message.content
+
     return response_text
 
 
@@ -126,17 +160,25 @@ if __name__ == "__main__":
         raise Exception("Database is not running or not initialized, see above error message.")
     logging.debug("Database is running and initialized.")
 
+    conversation_history = []
+
     while True:
+
         # STEP 3: Get the input question from the user
         question = input("Enter a question: ")
 
         logging.debug(f"Received question: {question}")
 
+        # STEP 4: Remfomulate the question according to conversation history context
+        reformulated_question = refomulate_question(question, conversation_history)
+
+        logging.debug(f"Reformulated question: {reformulated_question}")
+
         # STEP 4: Search the database for the question
-        similar_questions = database.find_closest_questions(question, top_n=5)
+        similar_questions = database.find_closest_questions(reformulated_question, top_n=5)
         logging.debug(f"Found {len(similar_questions)} similar questions in the database.")
 
-        similar_pdf_sections = database.find_closest_pdf(question, top_n=5)
+        similar_pdf_sections = database.find_closest_pdf(reformulated_question, top_n=5)
         logging.debug(f"Found {len(similar_pdf_sections)} similar PDF sections in the database.")
 
         database_context = {
