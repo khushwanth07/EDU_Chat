@@ -551,9 +551,9 @@ def find_closest_questions(question, top_n=5):
     return entries
 
 
-def find_closest_pdf(pdf, top_n=5):
+def find_closest_pdf(question, top_n=5):
     """
-    Find the top_n closest pdf to a given pdf text.
+    Find the top_n closest pdf to a given question text.
 
     Parameters:
         pdf (str): The text of the pdf to find similar pdf for.
@@ -563,7 +563,7 @@ def find_closest_pdf(pdf, top_n=5):
         list[dict]: A list of dictionaries containing the closest pdf, each with
                     the keys 'id', 'pdf_text', 'source_type', 'source', 'distance'.
     """
-    embedding = embed_text(pdf)
+    embedding = embed_text(question)
     entries = _find_closest_pdf_embedding(embedding, top_n)
     entries = [
         {

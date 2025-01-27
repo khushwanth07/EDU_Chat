@@ -1,5 +1,5 @@
 """
-This script checks the responses from the batch extraction process, filters out the good responses, 
+This script checks the responses from the batch extraction process, filters out the good responses,
 and saves them to a JSON file. It also prints statistics about the responses.
 """
 
