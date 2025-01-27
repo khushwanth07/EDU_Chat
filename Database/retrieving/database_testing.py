@@ -21,10 +21,7 @@ SYSTEM_PROMPT = """
 You are an expert assistant tasked with providing precise, context-based answers from the given data.
 Only respond with information explicitly available in the provided database, ensuring the response is specific, accurate, and free of any generalization, extrapolation, or assumptions.
 Retain as much detail and context from the original data as possible. Do not mention the source of the data or add any external information.
-If no relevant information is found in the database, respond with "NO DATA FOUND" and request a more specific query.
 """
-
-DEBUG = True
 
 conversation_history = []
 
@@ -69,13 +66,11 @@ def send_gpt_request(user_message, database_context, model="gpt-4o", temperature
     # Add the database context to the user message
     user_message = f'Answer the following question: "{user_message}" using the following database information:\n\n\n {database_context}'
 
-    messages = [
+    # Add the conversation history to the messages
+    messages = conversation_history + [
         {"role": "developer", "content": [{"type": "text", "text": SYSTEM_PROMPT}]},
         {"role": "user", "content": [{"type": "text", "text": user_message}]},
     ]
-
-    # Add the conversation history to the messages
-    messages = conversation_history + messages
 
     # Send the prompt to the language model
     response = client.chat.completions.create(model=model, messages=messages, temperature=temperature)
@@ -85,13 +80,22 @@ def send_gpt_request(user_message, database_context, model="gpt-4o", temperature
     completion_tokens = response.usage.completion_tokens
     total_tokens = response.usage.total_tokens
 
-    logging.debug(f"Prompt tokens: {prompt_tokens}, Completion tokens: {completion_tokens}, Total tokens: {total_tokens}")
+    logging.debug(
+        f"Prompt tokens: {prompt_tokens}, Completion tokens: {completion_tokens}, Total tokens: {total_tokens}"
+    )
 
+    # Check if the total tokens used exceed the context window limit
+    if total_tokens > 128000:
+        logging.warning(
+            f"Used more than 128,000 tokens. Context windowd may be truncated. Total tokens used: {total_tokens}"
+        )
+
+    # Get the response text from the response
     response_text = response.choices[0].message.content
 
     # Add the user message and response to the conversation history
-    conversation_history.append({"role": "user", "content": user_message})
-    conversation_history.append({"role": "assistant", "content": response_text})
+    conversation_history.append({"role": "user", "content": [{"type": "text", "text": user_message}]})
+    conversation_history.append({"role": "assistant", "content": [{"type": "text", "text": response_text}]})
 
     # Return the response
     return response_text
