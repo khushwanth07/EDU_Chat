@@ -641,9 +641,9 @@ def check_database_status():
 
         return True
 
-    except psycopg2.OperationalError:
+    except psycopg2.OperationalError as e:
         print("ERROR: Unable to connect to the database.")
-        return False
+        raise e
 
 
 if __name__ == "__main__":
