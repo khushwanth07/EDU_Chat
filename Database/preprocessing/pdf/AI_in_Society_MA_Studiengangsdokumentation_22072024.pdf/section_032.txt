@@ -1,9 +1,0 @@
-Module Code :SOT10054
-Compulsory Module Name:Introduction to 
-Programming and Data 
-Processing
-Aim & contribution to the qualification profile:
-This module provides essential programming and data 
-processing skills for students with non-technical 
-backgrounds. Students will be equipped to harness and 
-implement data-driven AI applications.

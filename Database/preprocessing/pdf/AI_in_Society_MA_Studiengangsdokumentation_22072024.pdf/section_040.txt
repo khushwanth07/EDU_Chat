@@ -1,9 +1,0 @@
-Module Code :SOT46301
-Compulsory Module Name:AI in Diverse Societies
-Aim & contribution to the qualification profile:
-This module investigates the challenges and opportunities 
-of AI in diverse societal contexts (including future of work, 
-job displacement, etc.). Students will be acutely conscious 
-of the societal expectations and consequences of AI, 
-ensuring their work aligns with societal needs and 
-expectations related to AI's integration into everyday life.

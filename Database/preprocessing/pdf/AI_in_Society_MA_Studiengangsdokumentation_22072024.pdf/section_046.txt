@@ -1,8 +1,0 @@
-Module Code :SOT86052
-Compulsory Module Name:Responsible Data 
-Science for Safe and 
-Socially Aligned AI 
-Applications
-Aim & contribution to the qualification profile:
-Investigate the ethical, safe, and socially-aligned practices in data 
-science, ensuring AI applications are developed responsibly

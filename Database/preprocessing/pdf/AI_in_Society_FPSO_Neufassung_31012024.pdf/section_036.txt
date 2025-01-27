@@ -1,0 +1,65 @@
+Eligibility Procedure
+5. Execution of the Qualification Procedure
+5.1 First Stage of the Qualification Procedure
+5.1.1 1. It will be assessed based on the written application documents as required under Section 2.3 and the test as outlined in Section 5.1.1 b), whether the applicants meet the eligibility requirements for the study program as per Section 1 (First Stage of the Qualification Procedure). 2. A maximum of 96 points can be achieved, with 0 being the worst and 96 being the best possible result:
+The following assessment criteria apply:
+a) Grade
+For every tenth of a grade better than 2.6 achieved in the examination results of 140 credits, 3 points are awarded.
+The maximum score is 48.
+No negative points are awarded.
+For foreign degrees or if the grading system does not align with that of TUM, the grade converted using the Bavarian formula is used.
+If an applicant has a degree with more than 140 credits at the time of application, the assessment is based on the highest-rated modules totaling 140 credits.
+It is the responsibility of the applicants to list these modules in their application and to ensure the accuracy of the submitted data in writing.
+If this is done, the average is calculated based on the best-rated module exams totaling 140 credits.
+The average is computed as a weighted grade point average of the modules.
+The weight of each module corresponds to the credits assigned to it.
+If this information is missing, the overall average grade provided by the applicant will be used.
+Grades and corresponding points:
+Grade	Points
+1.0	48
+1.1	45
+1.2	42
+1.3	39
+1.4	36
+1.5	33
+1.6	30
+1.7	27
+1.8	24
+1.9	21
+2.0	18
+2.1	15
+2.2	12
+2.3	9
+2.4	6
+2.5	3
+≥2.6	0
+
+
+b) Test
+All applicants who meet the requirements under Section 4.2 will be invited to a test (performance assessment in written form).
+The test date will be announced at least one week in advance by the Commission.
+The time window for the test must be set before the application deadline.
+The fixed test date must be adhered to.
+The test is only held once per application phase.
+If an applicant is unable to attend the test for reasons beyond their control, they can, upon justified request, attend a rescheduled test. This rescheduled test will take place at least two weeks before the start of lectures.
+The test will be conducted in person at TUM.
+Alternatively, an online test may be held, with applicants participating at their own risk in case of technical issues unless the university is at fault.
+The test lasts 90 minutes and consists of about 35 questions.
+The test questions are in English.
+The purpose of the test is to assess whether the applicant is expected to successfully and independently complete the study program, demonstrating the necessary subject-specific knowledge that aligns with the fundamentals of a relevant bachelor's program.
+The test content is distributed across the following areas:
+Political/Social Science Fundamentals and Specializations (maximum 15 points)
+Basic Economics and Law (maximum 9 points)
+Mathematical/Statistical Fundamentals (maximum 9 points)
+Engineering/Scientific Fundamentals and Specializations (maximum 15 points)
+Subject-specific knowledge that is to be taught in the Master’s program AI in Society is not assessed in this test.
+The purpose of the test is to demonstrate the applicant's suitability for the program.
+The questions are selected by two commission members, who also decide on any exclusions after evaluating the results. At least one commission member must be a university professor in accordance with the BayHIG.
+The test consists of multiple-choice questions where only one answer is correct.
+Points are awarded for each correct answer as specified in the test.
+The maximum score for the test is 48 points.
+
+
+5.1.2 The score is the sum of the calculated score from 5.1.1 a) (Grade) and the result of the test as per 5.1.1 b).
+5.1.3 Applicants who score at least 68 points have passed the qualification procedure.
+5.1.4 1. Applicants who score fewer than 40 points have failed the qualification procedure. 2. This does not apply if at least 18 points were awarded for the grade calculation under Section 5.1.1 a); in this case, eligibility for the AI in Society program must be proven by participating in the second stage of the qualification procedure.

@@ -1,6 +1,0 @@
-Module Code :SOT10030
-Compulsory Module Name:Gaze-based HCI
-Aim & contribution to the qualification profile:
-Explore the cutting-edge interface techniques based on eye-tracking, 
-understanding the intricacies of human-computer interaction through 
-gaze behaviors.

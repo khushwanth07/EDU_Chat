@@ -1,6 +1,0 @@
-Module Code :MCTS0027
-Compulsory Module Name:Methods 1
-Aim & contribution to the qualification profile:This module equips students with state-of -the-art research 
-methods and frameworks relevant to studying AI in society
-and specifically implications of AI applications in different 
-societal contexts.
