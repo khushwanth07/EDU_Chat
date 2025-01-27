@@ -4,6 +4,7 @@ import os
 import dotenv
 import database
 import json
+import logging
 
 from openai import OpenAI
 
@@ -24,6 +25,8 @@ If no relevant information is found in the database, respond with "NO DATA FOUND
 """
 
 DEBUG = True
+
+conversation_history = []
 
 
 def docker_is_running():
@@ -52,7 +55,7 @@ def docker_is_running():
     return "alina" in container_names
 
 
-def send_gpt_request(messages, model="gpt-4o"):
+def send_gpt_request(user_message, database_context, model="gpt-4o", temperature=0.4):
     """
     Get a response from the language model
 
@@ -63,61 +66,90 @@ def send_gpt_request(messages, model="gpt-4o"):
     - str: The response from the language model
     """
 
-    # Send the prompt to the language model
-    response = client.chat.completions.create(model=model, messages=messages)
-
-    # Return the response
-    return response.choices[0].message
-
-
-def create_gpt_mesages(user_message, database_info, history=None):
-    user_message = f'Answer the following question: "{user_message}" using the following database information:\n\n\n {database_info}'
+    # Add the database context to the user message
+    user_message = f'Answer the following question: "{user_message}" using the following database information:\n\n\n {database_context}'
 
     messages = [
         {"role": "developer", "content": [{"type": "text", "text": SYSTEM_PROMPT}]},
         {"role": "user", "content": [{"type": "text", "text": user_message}]},
     ]
 
-    return messages
+    # Add the conversation history to the messages
+    messages = conversation_history + messages
+
+    # Send the prompt to the language model
+    response = client.chat.completions.create(model=model, messages=messages, temperature=temperature)
+
+    # Get the numver of tokens used
+    prompt_tokens = response.usage.prompt_tokens
+    completion_tokens = response.usage.completion_tokens
+    total_tokens = response.usage.total_tokens
+
+    logging.debug(f"Prompt tokens: {prompt_tokens}, Completion tokens: {completion_tokens}, Total tokens: {total_tokens}")
+
+    response_text = response.choices[0].message.content
+
+    # Add the user message and response to the conversation history
+    conversation_history.append({"role": "user", "content": user_message})
+    conversation_history.append({"role": "assistant", "content": response_text})
+
+    # Return the response
+    return response_text
 
 
 if __name__ == "__main__":
+    # Configure the logging
+    logging.basicConfig(filename=".temp/database_testing.log", encoding="utf-8", level=logging.DEBUG, filemode="w")
+
+    # Set logging level for httpcore, openai, urllib3, docker, and httpx to WARNING
+    logging.getLogger("httpcore").setLevel(logging.WARNING)
+    logging.getLogger("openai").setLevel(logging.WARNING)
+    logging.getLogger("urllib3").setLevel(logging.WARNING)
+    logging.getLogger("docker").setLevel(logging.WARNING)
+    logging.getLogger("httpx").setLevel(logging.WARNING)
+
     # STEP 1: Check that docker is running
+    logging.debug("Checking if the docker container 'alina' is running...")
     if not docker_is_running():
+        logging.error("Docker container 'alina' not running. Use the start_docker.bat file to start the container.")
         raise Exception("Docker container 'alina' not running. Use the start_docker.bat file to start the container.")
+    logging.debug("Docker container 'alina' is running.")
 
     # STEP 2: Check that the database is running and initialized
+    logging.debug("Checking if the database is running and initialized...")
     if not database.check_database_status():
+        logging.error("Database is not running or not initialized, see above error message.")
         raise Exception("Database is not running or not initialized, see above error message.")
+    logging.debug("Database is running and initialized.")
 
-    # STEP 3: Get the input question from the user
-    question = input("Enter a question: ")
+    while True:
+        # STEP 3: Get the input question from the user
+        question = input("Enter a question: ")
 
-    if DEBUG:
-        print(f"Answering question: \"{question}\"")
+        logging.debug(f"Received question: {question}")
 
-    # STEP 4: Search the database for the question
-    similar_questions = database.find_closest_questions(question, top_n=3)
-    similar_pdf_sections = database.find_closest_pdf(question, top_n=3)
+        # STEP 4: Search the database for the question
+        similar_questions = database.find_closest_questions(question, top_n=5)
+        logging.debug(f"Found {len(similar_questions)} similar questions in the database.")
 
-    if DEBUG:
-        print(f"Found {len(similar_questions)} similar questions in the database:")
-        for similar_question in similar_questions:
-            print(f"Question: {similar_question['question_text']}")
-            print(f"Answer: {similar_question['answer_text']}")
-            print(f"Source: {similar_question['source']}")
-            print("Distance:" + str(similar_question['distance']))
+        similar_pdf_sections = database.find_closest_pdf(question, top_n=5)
+        logging.debug(f"Found {len(similar_pdf_sections)} similar PDF sections in the database.")
 
-        print(f"Found {len(similar_pdf_sections)} similar PDF sections in the database:")
-        for similar_pdf_section in similar_pdf_sections:
-            print(f"Section: {similar_pdf_section['pdf_text']}")
-            print(f"Source: {similar_pdf_section['source']}")
-            print("Distance:" + str(similar_pdf_section['distance']))
+        database_context = {
+            "Information from emails": similar_questions,
+            "Information from PDFs": similar_pdf_sections,
+        }
 
-    database_result = similar_questions + similar_pdf_sections
+        database_context_text = json.dumps(database_context, indent=4)
+        logging.debug(f"Database context: {database_context_text}")
 
-    # STEP 5: Generate an answer using the language model
-    messages = create_gpt_mesages(question, similar_pdf_sections)
-    response = send_gpt_request(messages)
+        logging.debug(f"Using conversation history: {conversation_history}")
 
-    print(response)
+        # STEP 5: Generate an answer using the language model
+        response = send_gpt_request(question, database_context_text)
+        logging.debug(f"Received response: {response}")
+
+        print(response)
+
+
+# TODO: Add message history context
