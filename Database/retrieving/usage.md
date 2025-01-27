@@ -22,7 +22,7 @@ Before running the `initialize.py` script, ensure you have Docker (Desktop) inst
     on Windows or on Unix 
 
     ```sh
-    start_docker
+    bash start_docker.sh
     ```
 
 

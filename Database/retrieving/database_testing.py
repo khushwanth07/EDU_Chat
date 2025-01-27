@@ -1,6 +1,7 @@
 import docker
 import platform
 import os
+import docker.errors
 import dotenv
 import database
 import json
@@ -34,13 +35,16 @@ def docker_is_running():
     - bool: True if the container is running, False otherwise
     """
 
-    # Initialize the docker client according to the platform
-    if platform.system() == "Windows":
-        DOCKER_CLIENT = docker.DockerClient(base_url="npipe:////./pipe/docker_engine")
-    elif platform.system() in ["Linux", "Darwin"]:
-        DOCKER_CLIENT = docker.DockerClient(base_url="unix://var/run/docker.sock")
-    else:
-        raise Exception(f"Unsupported platform: {platform.system()}")
+    try:
+        # Initialize the docker client according to the platform
+        if platform.system() == "Windows":
+            DOCKER_CLIENT = docker.DockerClient(base_url="npipe:////./pipe/docker_engine")
+        elif platform.system() in ["Linux", "Darwin"]:
+            DOCKER_CLIENT = docker.DockerClient(base_url="unix://var/run/docker.sock")
+        else:
+            raise Exception(f"Unsupported platform: {platform.system()}")
+    except docker.errors.DockerException:
+        raise Exception("Docker is not running. Please start the docker application.")
 
     # Get the list of containers
     containers = DOCKER_CLIENT.containers.list()
