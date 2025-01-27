@@ -1,1 +1,0 @@
-check_database_status
