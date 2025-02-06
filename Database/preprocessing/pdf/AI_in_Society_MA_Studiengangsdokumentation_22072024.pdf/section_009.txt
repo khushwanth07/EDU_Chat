@@ -1,8 +1,60 @@
-Q:What is the Qualification Profile：
+the Strategic Significance of this degree programm 
+
 A:
-The following qualification profile corresponds to the specifications of the Qualifications Framework 
-for German Higher Education Qualifications (Hochschulqualifikationsrahmen - HQR) and the 
-requirements contained therein (i) Knowledge and Understanding, (ii) Use, Application and 
-Generation of Knowledge, (iii) Communication and Cooperation and (iv) Scientific Self-Image/Professionalism. The formal aspects according to the HQR (entry requirements, duration, 
-degree options) are detailed in chapters 3 and 6 as well as in the corresponding subject examination 
-and study regulations.
+1) Contribution of the study program “AI in Society” to the teaching strategy of the 
+School of Social Sciences and Technology.
+	The MSc program "AI in Society" aligns with the School of Social Sciences and Technology's 
+mission of Human-Centered Engineering. It embodies an interdisciplinary approach,merging AI technical knowledge with social science insights. This program addresses
+multiple challenges arising from AI and by which our society is confronted, reflecting the 
+school's public interest focus. By fostering AI understanding among social scientists and 
+other non-technical disciplines, it contributes to the school's intellectual diversity and 
+promotes international, interdisciplinary exploration. The program's emphasis on 
+stakeholder collaboration aligns with the school's collaborative ethos, preparing graduates 
+for roles in AI governance. Thus, the MSc program "AI in Society" enhances the school's 
+strategic orientation, integrating AI within its human-centered, interdisciplinary framework.
+
+2) Study program as part of the teaching strategy of the School of Social Sciences and
+Technology
+The MSc program "AI in Society" enriches the School of Social Sciences and Technology's 
+professional profile, "Political, Social and Educational Sciences and Technology." It 
+integrates with the school's existing degree programs, providing a unique lens on AI's 
+societal implications. More specifically, the program's socio-political focus on AI 
+complements the themes in "Political Science (B.Sc.)" and "Politics & Technology (M.Sc.)," 
+extending the discussion on AI's ethical, legal, and social issues. Its emphasis on 
+educational strategies contributes to the discourse on education's role in responsible AI use 
+and governance. The exploration of AI responsibility and ethics dovetails with the 
+"Responsibility in Science, Engineering and Technology (M.A.)," deepening the 
+conversation on ethical AI practices. Lastly, its interdisciplinary approach mirrors "Science 
+and Technology Studies (M.A.)," enriching the dialogue on AI's societal impact.
+
+
+
+3)The MSc program "AI in Society" aligns with TUM's mission as follows:
+
+Innovations for mankind, nature, and society:The program addresses AI's societal challenges, embodying TUM's 
+commitment to responsible and sustainable innovation. Beyond just 
+technical education, TUM has a broader societal mission. The "AI in 
+Society" program aligns well with TUM’s activities around human-centered engineering by producing graduates who are not only 
+technically proficient but also ethically conscious and socially 
+responsible. This holistic approach to education resonates with TUM's 
+commitment to societal betterment, ensuring that its graduates are 
+well-equipped for the challenges of the modern world.
+Highest international standards:AI is undeniably one of the most transformative technologies of our 
+era. By establishing a program that delves into its societal implications, 
+TUM is positioning itself at the forefront of future fields of study, 
+ensuring its continued relevance and leadership in higher education.
+The program adheres to international standards, fostering future fields 
+in AI research and education, and attracting global talent.
+Cosmopolitanism and tolerance :The program promotes cosmopolitanism, fostering international 
+understanding within the AI domain.
+Talents with a sense of values: The program nurtures talents, fostering professional competence, 
+cognitive flexibility, and social competence in the AI field.
+Adding value through diversity and appreciation :The program values diversity, fostering a culture of mutual respect and equal opportunity.
+Learning without borders: The program links top-level research with excellent teaching, offering 
+future-oriented academic education in AI.
+Continuing education and training  for a lifetime:The program contributes to lifelong learning, equipping students for continued success in the evolving AI field.
+Entrepreneurial thinking and acting:The program promotes entrepreneurial spirit, encouraging students to translate research into market-oriented AI innovations.
+Living intergenerational contract :The program fosters an intergenerational approach, combining the 
+enthusiasm of students, faculty creativity, and graduate impact to shape AI research and teaching.
+Dialogue with Society and the Public:The program encourages public dialogue, educating students to shape social change processes responsibly in the AI context.
+

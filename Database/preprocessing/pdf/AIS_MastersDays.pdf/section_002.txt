@@ -1,4 +1,4 @@
-Q:What will you learn in this AI in Society program?
+learn in this AI in Society program?
 A:Technical side
 - Data Science
 - Machine Learning

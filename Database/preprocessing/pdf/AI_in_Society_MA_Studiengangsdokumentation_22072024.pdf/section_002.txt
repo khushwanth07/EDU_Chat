@@ -1,13 +1,2 @@
-###Degree Program Objectives：
-
-
-Q:What is the purpose of the Degree Program
+What is the purpose of the Degree Program
 A:Purpose: (1) current starting point  (2) Addressing the above-mentioned and multifaceted challenges posed by AI (3) Aim and Contribution of the MSc program “AI in Society”(4) The intended role of graduates from the MSc program "AI & Society" (5) The MSc program "AI in Society" is both research-oriented and application-oriented.
-
-
-Q:What is the Current Starting Point:
-A:Current Starting Point: As Artificial Intelligence continues to evolve and becomes 
-increasingly integrated into every aspect of our lives, it brings forth a variety of challenges 
-and problems across technological, economic, and political domains. These challenges 
-stem from the rapid development and widespread adoption of AI technologies, as well as 
-their potential consequences on society.

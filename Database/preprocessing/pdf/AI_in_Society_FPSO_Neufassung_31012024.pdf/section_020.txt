@@ -1,26 +1,2 @@
-Q:what is the elective modules ?Can you give me the information about it ?
-A:
-Elective Modules:
-In the elective area "AI in Different Domains of Society," students must earn at least 12 credits from the following courses:
-
-Learning Analytics (SOT10053)
-This is a seminar (SE) with 3 hours per week (SWS) and offers 6 credits. The examination is a project work (PA), and the course is taught in English.
-
-Gaze-based HCI (SOT10030)
-A lecture with exercises (VO + UE), this course is offered in the third semester with 4 hours per week (SWS). It provides 6 credits, and the examination is a written exam (K) lasting 90 minutes. The language of instruction is English.
-
-Responsible Data Science for Safe and Socially Aligned AI Applications (SOT86052)
-This seminar (SE) is held in the third semester, with 3 hours per week (SWS) and offers 6 credits. The examination is a presentation (P) with a 30-minute duration. The course is conducted in English.
-
-Advanced Topic: Law and Digitization in Action (SOT860809)
-A seminar (SE) held in the third semester, this course provides 5 credits, and the examination is a learning portfolio (LP). The course is in English.
-
-Philosophy of Artificial Intelligence: Key Readings (SOT56307)
-A seminar (SE) in the third semester, offering 6 credits with an oral exam (M) lasting 30 minutes. The course is taught in English.
-
-Advanced Analysis of Variance Procedures (SOT10058)
-This seminar (SE) in the third semester offers 6 credits, and the examination is a learning portfolio (LP). The language of instruction is English.
-
-Development of Research Instruments (SOT10059)
-A seminar (SE) in the third semester with 4 hours per week (SWS), offering 6 credits. The examination is a scientific paper (W), and the course is taught in English.
-
+(2) Module examinations are generally conducted alongside the program. The type and duration of each module examination are listed in Appendix 1. Deviations from these specifications must comply with § 12(8) of the APSO. The evaluation of module examinations is governed by § 17 of the APSO.
+(3) If Appendix 1 specifies that a module examination can be written or oral, the examiner must notify students of the final examination format in an appropriate manner no later than the start of lectures.

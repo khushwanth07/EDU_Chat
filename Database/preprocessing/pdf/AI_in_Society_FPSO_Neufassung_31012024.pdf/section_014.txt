@@ -1,6 +1,4 @@
-§ 45 Academic Achievements
-In the Master’s program AI in Society, no modules conclude with academic achievements alone.
-
-§ 45a Multiple-Choice Procedure
-The implementation of multiple-choice procedures is governed by § 12a APSO.
-
+e) Project Work:
+Project work involves several phases (e.g., initiation, problem definition, role distribution, idea generation, criteria development, decision-making, execution, presentation, written evaluation) to achieve a defined goal within a specific timeframe using appropriate tools.
+It may include a presentation or technical discussion to assess communication skills in presenting scientific topics to an audience.
+Project work can also encompass design drafts, drawings, plans, models, objects, simulations, and documentation.

@@ -1,8 +1,73 @@
-2. Deepening Knowledge and Skills: The next set of courses, including Deep Learning, 
-Explainable AI, Social Science Methods for Studying AI in Society (Academic Competencies
-and Practical Skills and Methods 1), and AI in Diverse Societies, as described in Table 1 are 
-designed to deepen the students' knowledge and understanding, forming the basis for the 
-development and/or application of independent ideas. These courses also start to introduce 
-the application of knowledge, with students expected to integrate existing and new 
-knowledge in complex contexts, make scientifically sound decisions, and carry out 
-application-oriented projects.
+Elective modules and their contribution to the qualification profile.
+
+Module Code :SOT10053
+Compulsory Module Name:Learning Analytics
+Aim & contribution to the qualification profile:
+Dive deep into the methodologies and tools used to analyze and 
+interpret data about learners to optimize learning experiences and the 
+environments in which they occur.
+
+
+Module Code :SOT10030
+Compulsory Module Name:Gaze-based HCI
+Aim & contribution to the qualification profile:
+Explore the cutting-edge interface techniques based on eye-tracking, 
+understanding the intricacies of human-computer interaction through 
+gaze behaviors.
+
+
+Module Code :SOT86052
+Compulsory Module Name:Responsible Data 
+Science for Safe and 
+Socially Aligned AI 
+Applications
+Aim & contribution to the qualification profile:
+Investigate the ethical, safe, and socially-aligned practices in data 
+science, ensuring AI applications are developed responsibly
+
+
+Module Code :SOT860809
+Compulsory Module Name:  Advanced Topic: Law 
+and Digitization in 
+Action
+Aim & contribution to the qualification profile:
+Engage in a deep exploration of contemporary issues at the 
+intersection of law and digital technologies, focusing on real-world 
+applications and implications.
+
+
+Module Code :SOT56307
+Compulsory Module Name: Philosophy of Artificial 
+Intelligence: Key
+Readings
+Aim & contribution to the qualification profile:
+Delves into the intersection of phenomenology and AI, exploring 
+foundational philosophical questions about the nature of the mind and 
+AI's conceptual underpinnings. Equips students with a deep 
+understanding of AI's philosophical context and the ability to critically 
+analyze its relationship with human cognition.
+
+
+
+Module Code :SOT10058
+Compulsory Module Name: Advanced Analysis of 
+Variance Procedures
+Aim & contribution to the qualification profile:
+This module delves into advanced ANOVA techniques, enabling 
+students to apply intricate variance analysis to complex datasets. By 
+mastering such procedures, students will be able to rigorously evaluate 
+experimental results, ensuring robust data interpretation and informed 
+decision-making in quantitative research scenarios.
+
+
+Module Code :SOT10059
+Compulsory Module Name: Development of 
+Research Instruments
+Aim & contribution to the qualification profile:
+This module equips students with the expertise to design theory-based 
+questionnaires tailored for instructional measurement. They'll master 
+the evaluation of existing instruments using psychometric quality 
+criteria, conduct studies to assess these criteria, and refine 
+instruments based on findings. This ensures students can (re-)use, 
+create and critically assess research tools, enhancing the validity and 
+reliability of their research.

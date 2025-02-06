@@ -1,4 +1,4 @@
-Q:What is the Current Challenges
+the Current Challenges of AI
 A:AI = black-box. Complex decision-making processes we need to understand
 Potential misuse of AI:
 Fake news, fraud schemes, …

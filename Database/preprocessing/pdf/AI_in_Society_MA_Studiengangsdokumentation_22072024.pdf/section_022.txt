@@ -6,3 +6,16 @@ courses that focus on the societal aspects of AI, such as governance, law and re
 diverse societies, and elective modules in different societal application areas of AI. In this way the 
 program prepares students for roles bridging technical AI and societal implications. It provides 
 interdisciplinary knowledge and the grounding for responsible and interdisciplinary application of AI.
+
+The significant number of mandatory courses stems from the recognition that students enter the 
+program with diverse backgrounds outside of computer science. It is essential to first equip them 
+with fundamental AI concepts, rudimentary programming skills, and computational aspects of social 
+science methodologies to effectively address the challenges posed by AI applications across various 
+societal sectors. By grounding students in these foundational topics, we ensure they possess the 
+comprehensive skill set required to quantify, navigate and innovate within the complex landscape of 
+AI integration into social science research, developments, and processes. This holistic approach not 
+only bridges any pre-existing knowledge gaps but also fosters a collaborative learning environment 
+where students from various disciplines can contribute unique perspectives.
+
+The program culminates in a Master's thesis, allowing students to apply the knowledge and skills 
+they have acquired throughout the program to a research project.

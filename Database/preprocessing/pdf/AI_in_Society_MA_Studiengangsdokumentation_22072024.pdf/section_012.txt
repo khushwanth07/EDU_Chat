@@ -1,23 +1,28 @@
-Q:what is the  Communication and Cooperation of Qualification Profile
-A:Graduates from the MSc program "AI in Society" will be uniquely equipped with competencies in the 
-realm of "Communication and Cooperation". This training will empower them to articulate, 
-collaborate, and adequately resolve challenges and conflicts in varied, multidisciplinary settings, 
-especially at the intersection of AI and societal dynamics.
-Interdisciplinary Dialogue: Graduates will be trained to convey intricate, scientifically grounded
-solutions concerning AI's societal role. They will not only be able to engage with peers from diverse 
-academic backgrounds but will also have the competence to bridge the communication gap with 
-non-academic stakeholders, ensuring that AI concepts are accessible and meaningful to a broader 
-audience. Graduates will be adept at bridging the communication gap between AI specialists and 
-professionals from other disciplines, ensuring seamless collaboration
-Collaborative Synergy: Recognizing the importance of harmonious teamwork, graduates will be able 
-to steer group dynamics by knowing how to integrate team members into tasks with a clear vision, 
-always being attuned to the distinct nuances of an AI application and the related collaborative 
-scenario. They will be able to ensure a conducive, inclusive, and goal-driven team environment.
-Challenge and Conflict Resolution: In the multifaceted realm of AI and society, disagreements are 
-inevitable. Graduates will be adept at pinpointing potential discord in cooperative ventures, reflecting 
-on them contextually. They will know how to prioritize constructive dialogue and concept-driven,
-state-of-the-art AI solutions, ensuring that conflicts are not just resolved but also leveraged as 
-opportunities for growth and understanding.
-Public Engagement: Recognizing the importance of public discourse, graduates will be able to
-effectively communicate AI concepts and implications to the general public, fostering informed 
-societal discussions and decisions.
+he Application, Use, and Generation of Knowledge of Qualification Profile
+A:Graduates will be trained to both harness and pioneer knowledge in AI applications, undertaking 
+meticulous research, making informed and scientifically grounded decisions, and overseeing 
+intricate projects. These endeavors will consistently prioritize the ethical and responsible deployment 
+of AI. Delving deeper into the unique offerings of the MSc program "AI in Society", graduates will
+develop the following competencies:
+Utilization and Transfer
+Knowledge Integration: Graduates will be trained to merge both established and emerging 
+knowledge in intricate, multidisciplinary scenarios pertinent to AI's role in various domains of society, 
+especially when faced with sparse, complex, or critical information.
+Informed Decision Making: With a focus on the societal ramifications, graduates will learn to make 
+decisions rooted in scientific rigor regarding AI applications, always critically weighing potential 
+repercussions.
+Autonomous Learning: Recognizing the dynamic nature of AI and current limitations, graduates will
+learn to proactively seek and assimilate new knowledge and skills, ensuring they remain at the 
+forefront of the field.
+Project Execution: Graduates will spearhead application-centric projects with autonomy, channeling 
+their expertise to address tangible AI challenges across diverse sectors.
+Scientific Innovation
+Research Formulation: Graduates will be able to formulate research questions that delve into the 
+challenges of the interplay between AI and society.
+Operationalization: They will be trained to pinpoint and defend tangible operational strategies for 
+their research by transforming abstract questions into creative, feasible solutions and executable 
+blueprints.
+Method Selection: Graduates will learn to discern and advocate for fitting research methodologies, 
+weighing the pros and cons of various techniques.
+Result Interpretation: They will learn to interpret and critically dissect research outcomes, drawing 
+insightful inferences about the societal footprint of AI.

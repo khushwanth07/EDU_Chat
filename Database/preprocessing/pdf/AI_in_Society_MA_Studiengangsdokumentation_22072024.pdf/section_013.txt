@@ -1,26 +1,23 @@
-Q: what is the  Scientific self-conception/professionalism of Qualification Profile
-A:Graduates of the MSc program "AI in Society" will be uniquely equipped with competencies in the 
-realm of "Scientific Self-concept and Professionalism". This program is distinctively designed to 
-empower them to confidently, competently, and ethically engage with the societal dimensions of AI.
-Professional Self-Image: Graduates will foster a professional identity that resonates with both 
-scientific realms and professional sectors. Given the program's emphasis on the societal implications 
-of AI, they will be adept at bridging the gap between AI expertise and ethical, regulatory, and practical 
-requirements for real-world AI applications, ensuring they contribute to diverse professional settings 
-with both confidence and competence.
-Justification and Reflection of Actions: Graduates will learn to ground their professional decisions in 
-robust theoretical and methodological foundations. They will not only act but also reflect, always 
-considering alternative strategies for AI applications and their societal implications, thereby 
-perpetually enhancing their professional contributions.
-Self-Assessment and Autonomy: Graduates will possess a suitable self-awareness of their 
-capabilities. They will independently harness their creativity, critical thinking, and decision-making 
-competencies, always seeking guidance to refine and go beyond already acquired skills. Their drive 
-will be intrinsic, with a perpetual quest for learning and self-improvement, especially in understanding 
-the societal nuances of AI.
-Ethical and Responsible Decision-Making: Recognizing the profound societal impact of AI, 
-graduates will be trained to discern both immediate and long-term conditions for professional actions. 
-Their decisions will be deeply rooted in ethical and regulatory considerations, ensuring they 
-consistently maintain the pinnacle of ethical and regulatory standards in their AI-related endeavors.
-Social Responsibility: Central to the program's goals, graduates will be acutely conscious of the 
-societal expectations and consequences of AI. They will critically evaluate their professional actions, 
-ensuring their work aligns with, and even anticipates, societal needs and expectations related to AI's 
-integration into everyday life.
+the  Communication and Cooperation of Qualification Profile
+A:Graduates from the MSc program "AI in Society" will be uniquely equipped with competencies in the 
+realm of "Communication and Cooperation". This training will empower them to articulate, 
+collaborate, and adequately resolve challenges and conflicts in varied, multidisciplinary settings, 
+especially at the intersection of AI and societal dynamics.
+Interdisciplinary Dialogue: Graduates will be trained to convey intricate, scientifically grounded
+solutions concerning AI's societal role. They will not only be able to engage with peers from diverse 
+academic backgrounds but will also have the competence to bridge the communication gap with 
+non-academic stakeholders, ensuring that AI concepts are accessible and meaningful to a broader 
+audience. Graduates will be adept at bridging the communication gap between AI specialists and 
+professionals from other disciplines, ensuring seamless collaboration
+Collaborative Synergy: Recognizing the importance of harmonious teamwork, graduates will be able 
+to steer group dynamics by knowing how to integrate team members into tasks with a clear vision, 
+always being attuned to the distinct nuances of an AI application and the related collaborative 
+scenario. They will be able to ensure a conducive, inclusive, and goal-driven team environment.
+Challenge and Conflict Resolution: In the multifaceted realm of AI and society, disagreements are 
+inevitable. Graduates will be adept at pinpointing potential discord in cooperative ventures, reflecting 
+on them contextually. They will know how to prioritize constructive dialogue and concept-driven,
+state-of-the-art AI solutions, ensuring that conflicts are not just resolved but also leveraged as 
+opportunities for growth and understanding.
+Public Engagement: Recognizing the importance of public discourse, graduates will be able to
+effectively communicate AI concepts and implications to the general public, fostering informed 
+societal discussions and decisions.
