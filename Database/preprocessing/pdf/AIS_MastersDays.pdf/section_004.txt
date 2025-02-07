@@ -1,31 +1,8 @@
-Q:AI in Society vs. similar study programs
+the Application Procedure
 A:
-MSc AI in Society：
-Your profile
-Background in social 
-sciences/politics/tech.
-You want to understand AI and ist 
-societal aspects.
-Jobs
-AI consultants, researchers, 
-product managers, AI policy
-advisors. Ensure the responsible
-development of AI technologies.
-MSc Politics & Technology：
-Your profile
-Background in political sciences. 
-You are interested in political
-science, public policy, and tech.
-Jobs
-Policy analysts or advisors in e.g. 
-governmental organizations. 
-Consultants in tech policy and 
-regulations.
- MSc Computer Science：
-Your profile
-Background in computer science, 
-engineering, tech. You want to
-focus on technical aspects only.
-Jobs
-Developers of (AI) solutions, i.e. 
-programmers.
+1.meeting formal requirements
+(submitting your documents)
+2.passing written
+aptitude test
+3.Interview
+(in some cases)

@@ -1,8 +1,15 @@
-Q:How to understand that : the MSc program "AI in Society" is both research-oriented and application-oriented.
-A: 
-It is research-oriented as it involves the study of complex AI-related challenges, including 
-biases, socio-economic implications, and legal and ethical aspects. It is application-oriented 
-as it prepares graduates for roles such as AI ethicists, consultants, researchers, and policy 
-advisors, where they apply their knowledge to ensure responsible and ethical AI practices 
-in real-world settings. Thus, the program integrates theoretical knowledge and practical 
-skills to address AI's societal impact.
+the intended role of graduates from the MSc program "AI & Society" 
+A: It is to serve as AI 
+ethicists, consultants, researchers, or product managers in various fields, as well as AI 
+policy advisors in public administration. Their job is to ensure the responsible development 
+and implementation of AI technologies, analyze their potential societal impacts, and promote 
+ethical AI practices in both private and public sectors. Graduates will contribute to the 
+design, evaluation, and governance of AI systems that prioritize fairness, transparency, and 
+social good, while fostering innovation and inclusivity across diverse domains. In summary, 
+the program is an interdisciplinary approach that aims to equip students with the tools and 
+concepts they need to successfully apply AI in social contexts for the social good.
+The role of the graduates from the MSc program "AI & Society" is not to primarily work in 
+the field of AI development, as that is typically done by graduates with a pure computer 
+science back-ground. Instead, these graduates, equipped with a profound understanding of 
+AI, take on intermediary or interface functions between the technical and social science 
+aspects of AI applications.

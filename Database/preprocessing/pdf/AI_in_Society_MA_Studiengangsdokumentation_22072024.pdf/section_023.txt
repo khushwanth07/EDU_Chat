@@ -1,9 +1,42 @@
-The significant number of mandatory courses stems from the recognition that students enter the 
-program with diverse backgrounds outside of computer science. It is essential to first equip them 
-with fundamental AI concepts, rudimentary programming skills, and computational aspects of social 
-science methodologies to effectively address the challenges posed by AI applications across various 
-societal sectors. By grounding students in these foundational topics, we ensure they possess the 
-comprehensive skill set required to quantify, navigate and innovate within the complex landscape of 
-AI integration into social science research, developments, and processes. This holistic approach not 
-only bridges any pre-existing knowledge gaps but also fosters a collaborative learning environment 
-where students from various disciplines can contribute unique perspectives.
+In summary, the curriculum is structured as follows:
+
+1. Foundation and Introduction: The program begins with foundational courses in AI, Data 
+Science, Introduction to Programming & Data Processing, AI in and for Society: Science, 
+Technology and Society in the Digital Age, as well as courses on Law, Governance, & 
+Regulation of AI, and an introduction to Psychology of learning and instructional design of 
+AI-based systems. These foundation and introductory courses in the M.Sc. program "AI in 
+Society" aim to equip students with a foundational understanding of AI, data science, 
+programming, and the societal implications of AI. Recognizing the diverse academic 
+backgrounds of incoming students, these compulsory courses ensure a consistent and 
+unified knowledge base across AI concepts, programming, and the societal aspects of AI. 
+This approach fosters a shared terminological foundation, enabling students from various 
+disciplines to engage effectively throughout the program. These foundational courses are 
+compulsory to guarantee that all students, regardless of their previous bachelor-level 
+academic backgrounds, attain a consistent understanding of essential subjects and foster a 
+unified terminological foundation in AI concepts, programming, regulation and politics of AI.
+The aim of each module and their contribution to the achievement of the qualification profile 
+are provided in Table 1.
+
+2. Deepening Knowledge and Skills: The next set of courses, including Deep Learning, 
+Explainable AI, Social Science Methods for Studying AI in Society (Academic Competencies
+and Practical Skills and Methods 1), and AI in Diverse Societies, as described in Table 1 are 
+designed to deepen the students' knowledge and understanding, forming the basis for the 
+development and/or application of independent ideas. These courses also start to introduce 
+the application of knowledge, with students expected to integrate existing and new 
+knowledge in complex contexts, make scientifically sound decisions, and carry out 
+application-oriented projects.
+
+3. Specialization and Application: The final set of courses, including Natural Language 
+Processing, Human-AI Interaction, and Project week (see Table 1), allow students to 
+specialize in their areas of interest and apply their knowledge and skills to real-world 
+scenarios. These courses are designed to further enhance the students' ability to design 
+research questions, choose and justify concrete ways of operationalizing research, select 
+and justify research methods, and explain and critically interpret research results.
+
+4. Elective Modules (a preliminary selection is provided in Table 2) offer the opportunity to 
+deepen knowledge in applications of AI. The list of elective modules will grow continuously 
+with newly appointed colleagues joining the School of Social Sciences and Technology.
+
+5. Master's Thesis: The program culminates in a Master's thesis, which requires students to 
+apply all the knowledge, skills, and competencies they have acquired throughout the program 
+to a substantial piece of independent research.

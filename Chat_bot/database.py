@@ -1,7 +1,14 @@
+"""
+This script provides functions to interact with a PostgreSQL database for storing questions and answers and pdf text.
+It includes functions to create the database tables, insert questions and pdfs, find the closest questions and pdfs,
+and initialize the database with extracted data.
+"""
+
 import psycopg2
 import json
 import tqdm
 import os
+
 from openai import OpenAI
 from dotenv import load_dotenv
 
@@ -129,7 +136,9 @@ def _create_pdf_table():
                 embedding vector(1536),
                 pdf_text TEXT NOT NULL,
                 source_type VARCHAR(50),
-                source VARCHAR(255)
+                source VARCHAR(255),
+                file_id INT,
+                section_id INT
             );
             """
             cursor.execute(create_table_query)
@@ -209,7 +218,7 @@ def _insert_question(embedding, question_text, answer_text, source_type, source)
         connection.close()
 
 
-def _insert_pdf(embedding, pdf_text, source_type, source):
+def _insert_pdf(embedding, pdf_text, source_type, source, file_id, section_id):
     """
     Insert a new pdf into the pdf table.
 
@@ -226,10 +235,10 @@ def _insert_pdf(embedding, pdf_text, source_type, source):
     try:
         cursor = connection.cursor()
         insert_query = """
-        INSERT INTO pdf (embedding, pdf_text, source_type, source)
-        VALUES (%s, %s, %s, %s);
+        INSERT INTO pdf (embedding, pdf_text, source_type, source, file_id, section_id)
+        VALUES (%s, %s, %s, %s, %s, %s);
         """
-        cursor.execute(insert_query, (embedding, pdf_text, source_type, source))
+        cursor.execute(insert_query, (embedding, pdf_text, source_type, source, file_id, section_id))
         connection.commit()
     except Exception as e:
         raise e
@@ -265,7 +274,9 @@ def _insert_pdf_from_json():
         source_type = "pdf"
         source = pdf_data[key]["source"]
         embedding = pdf_data[key]["embedding"]
-        _insert_pdf(embedding, pdf, source_type, source)
+        file_id = pdf_data[key]["file_id"]
+        section_id = pdf_data[key]["section_id"]
+        _insert_pdf(embedding, pdf, source_type, source, file_id, section_id)
 
     print("PDFs inserted successfully.")
 
@@ -278,19 +289,27 @@ def _create_index():
     try:
         # Create a cursor object using the connection
         cursor = connection.cursor()
-        # Check that the index does not already exist
-        cursor.execute("SELECT EXISTS (SELECT FROM pg_indexes WHERE indexname = 'embedding_index');")
-        index_exists = cursor.fetchone()[0]
-        if index_exists:
-            print("Index 'embedding_index' already exists.")
+        # Check that the index does not already exist for the questions table
+        cursor.execute("SELECT EXISTS (SELECT 1 FROM pg_indexes WHERE indexname = 'embedding_index_questions');")
+        index_exists_questions = cursor.fetchone()[0]
+        if index_exists_questions:
+            print("Index 'embedding_index_questions' already exists.")
         else:
             # Create the embedding index for the questions table
-            cursor.execute("CREATE INDEX embedding_index ON questions USING ivfflat(embedding);")
+            cursor.execute("CREATE INDEX embedding_index_questions ON questions USING ivfflat(embedding);")
             connection.commit()
+            print("Index 'embedding_index_questions' created successfully.")
+
+        # Check that the index does not already exist for the pdf table
+        cursor.execute("SELECT EXISTS (SELECT 1 FROM pg_indexes WHERE indexname = 'embedding_index_pdf');")
+        index_exists_pdf = cursor.fetchone()[0]
+        if index_exists_pdf:
+            print("Index 'embedding_index_pdf' already exists.")
+        else:
             # Create the embedding index for the pdf table
-            cursor.execute("CREATE INDEX embedding_index ON pdf USING ivfflat(embedding);")
+            cursor.execute("CREATE INDEX embedding_index_pdf ON pdf USING ivfflat(embedding);")
             connection.commit()
-            print("Index created successfully.")
+            print("Index 'embedding_index_pdf' created successfully.")
     except Exception as e:
         raise e
     finally:
@@ -346,7 +365,7 @@ def _find_closest_pdf_embedding(embedding, top_n=5):
     try:
         cursor = connection.cursor()
         find_query = """
-        SELECT id, pdf_text, source_type, source,
+        SELECT id, pdf_text, source_type, source, file_id, section_id,
                (embedding <=> %s::vector) AS distance
         FROM pdf
         ORDER BY distance ASC
@@ -354,6 +373,32 @@ def _find_closest_pdf_embedding(embedding, top_n=5):
         """
         cursor.execute(find_query, (embedding, top_n))
         results = cursor.fetchall()
+        # Iterate over the results
+        for i, result in enumerate(results):
+            # Convert result to a list to allow modification
+            result = list(result)
+            # Get the file_id and section_id
+            file_id = result[4]
+            section_id = result[5]
+            # Query the database for the section before and after the current section
+            find_neigbours_query = """
+            SELECT pdf_text
+            FROM pdf
+            WHERE file_id = %s AND section_id = %s;
+            """
+            cursor.execute(find_neigbours_query, (file_id, section_id - 1))
+            previous_section = cursor.fetchone()
+            cursor.execute(find_neigbours_query, (file_id, section_id + 1))
+            next_section = cursor.fetchone()
+            # Add the previous and next section to the result
+            if previous_section:
+                result[1] = f"{previous_section[0]}\n{result[1]}"
+            if next_section:
+                result[1] = f"{result[1]}\n{next_section[0]}"
+            # Remove the file_id and section_id from the result
+            result = result[:4] + result[6:]
+            # Update the results list with the modified result
+            results[i] = result
         return results
     except Exception as e:
         raise e
@@ -461,86 +506,37 @@ def _test_database():
         connection.close()
 
 
-# def initialize_database(clear=False):
-#     """
-#     Initialize the database by creating the questions table and loading all questions from the JSON files.
-
-#     Parameters:
-#         clear (bool): Whether to clear the questions table if it allready exists.
-
-#     Returns:
-#         None
-#     """
-#     if _create_questions_table():
-#         _insert_questions_from_json()
-#         _create_index()
-
-#     elif clear:
-#         _clear_questions_table()
-#         _insert_questions_from_json()
-#         _create_index()
-
-#     print("Finished initializing questions database.")
-#     print(f"Loaded {_get_number_of_questions()} questions.")
-
-#     if _create_pdf_table():
-#         _insert_pdf_from_json()
-#         _create_index()
-
-#     elif clear:
-#         _clear_pdf_table()
-#         _insert_pdf_from_json()
-#         _create_index()
-
-#     print("Finished initializing pdf database.")
-#     print(f"Loaded {_get_number_of_pdf()} pdf.")
-
-
 def initialize_database(clear=False):
     """
-    Initialize the database by creating and populating the questions and PDF tables.
+    Initialize the database by creating the questions table and loading all questions from the JSON files.
 
     Parameters:
-        clear (bool): Whether to clear the tables if they already exist.
+        clear (bool): Whether to clear the questions table if it allready exists.
 
     Returns:
         None
     """
-    try:
-        # Initialize questions table
-        if clear:
-            _clear_questions_table()
-            print("Cleared questions table.")
-
-        if not _create_questions_table():
-            raise Exception("Failed to create questions table.")
-        
+    if _create_questions_table():
         _insert_questions_from_json()
-        _create_index()
-        print(f"Questions database initialized with {_get_number_of_questions()} questions.")
-    
-    except Exception as e:
-        print(f"Error initializing questions database: {e}")
-        return
 
-    try:
-        # Initialize PDF table
-        if clear:
-            _clear_pdf_table()
-            print("Cleared PDF table.")
-        
-        if not _create_pdf_table():
-            raise Exception("Failed to create PDF table.")
-        
+    elif clear:
+        _clear_questions_table()
+        _insert_questions_from_json()
+
+    print("Finished initializing questions database.")
+    print(f"Loaded {_get_number_of_questions()} questions.")
+
+    if _create_pdf_table():
         _insert_pdf_from_json()
         _create_index()
-        print(f"PDF database initialized with {_get_number_of_pdf()} PDFs.")
-    
-    except Exception as e:
-        print(f"Error initializing PDF database: {e}")
-        return
 
-    print("Database initialization completed successfully.")
+    elif clear:
+        _clear_pdf_table()
+        _insert_pdf_from_json()
+        _create_index()
+
+    print("Finished initializing pdf database.")
+    print(f"Loaded {_get_number_of_pdf()} pdf.")
 
 
 def embed_text(text):
@@ -585,9 +581,9 @@ def find_closest_questions(question, top_n=5):
     return entries
 
 
-def find_closest_pdf(pdf, top_n=5):
+def find_closest_pdf(question, top_n=5):
     """
-    Find the top_n closest pdf to a given pdf text.
+    Find the top_n closest pdf to a given question text.
 
     Parameters:
         pdf (str): The text of the pdf to find similar pdf for.
@@ -597,7 +593,7 @@ def find_closest_pdf(pdf, top_n=5):
         list[dict]: A list of dictionaries containing the closest pdf, each with
                     the keys 'id', 'pdf_text', 'source_type', 'source', 'distance'.
     """
-    embedding = embed_text(pdf)
+    embedding = embed_text(question)
     entries = _find_closest_pdf_embedding(embedding, top_n)
     entries = [
         {
@@ -630,7 +626,57 @@ def add_question(question_text, answer_text, source, source_type="pdf"):
     print("Question added successfully.")
 
 
+def check_database_status():
+    """
+    Check the status of the database.
+
+    Returns:
+        bool: True if the database is running, False otherwise.
+    """
+    try:
+        connection = _get_connection()
+
+        if connection.closed != 0:
+            print("ERROR: Database connection is closed.")
+            return False
+
+        # Create a cursor object using the connection
+        cursor = connection.cursor()
+
+        # Check that the questions and pdf tables exists
+        cursor.execute(
+            """
+        SELECT EXISTS (
+            SELECT FROM information_schema.tables
+            WHERE table_name = 'questions'
+        );
+        """
+        )
+        tables_exists = cursor.fetchone()[0]
+
+        cursor.execute(
+            """
+        SELECT EXISTS (
+            SELECT FROM information_schema.tables
+            WHERE table_name = 'pdf'
+        );
+        """
+        )
+        tables_exists = tables_exists and cursor.fetchone()[0]
+
+        if not tables_exists:
+            print("WARNING: Questions or pdf table does not exist.")
+            print("Initializing the database...")
+            initialize_database()
+
+        return True
+
+    except psycopg2.OperationalError as e:
+        print("ERROR: Unable to connect to the database.")
+        raise e
+
+
 if __name__ == "__main__":
     # Initialize the database
     # initialize_database(clear=False)
-    pass
+    print(check_database_status())

@@ -1,7 +1,73 @@
-In summary, the curriculum is structured as follows:
+the basic information of the different course ?
+A:
+Table 1: Aim of the mandatory modules and their contribution to the qualification profile.
+Foundation and Introduction:
 
-1. Foundation and Introduction
-2. Deepening Knowledge and Skills
-3. Specialization and Application
-4. Elective Modules 
-5. Master's Thesis
+Module Code :SOT86053
+Compulsory Module Name:Foundations of AI & Data Science
+Aim & contribution to the qualification profile:
+Introduce foundational concepts and methodologies in AI 
+and data science (e.g., data analysis techniques, neural 
+networks, basics of reinforcement learning and many more 
+foundational techniques of machine learning). Students
+with no prior knowledge on these topics will gain a 
+comprehensive understanding of AI's technical landscape, 
+ensuring they can bridge practical requirements in AI 
+applications.
+
+Module Code :SOT46302
+Compulsory Module Name:Law, Governance and 
+Regulation of Artificial 
+Intelligence
+Aim & contribution to the qualification profile:
+Provide insights into the legal, governance, and regulatory 
+aspects of AI. This module delves deep into the legal and 
+regulatory aspects of AI. It equips students with the 
+knowledge and skills to navigate the complex legal 
+landscape of AI, fostering informed societal discussions 
+and decisions, and ensuring the ethical and responsible 
+deployment of AI technologies.
+
+
+Module Code :SOT10054
+Compulsory Module Name:Introduction to 
+Programming and Data 
+Processing
+Aim & contribution to the qualification profile:
+This module provides essential programming and data 
+processing skills for students with non-technical 
+backgrounds. Students will be equipped to harness and 
+implement data-driven AI applications.
+
+
+Module Code :SOT46308
+Compulsory Module Name:Science, Technology and 
+Society in the Digital Age
+Aim & contribution to the qualification profile:
+This module delves into the intricate relationship between 
+AI, science, and society in our digital era. Students will be 
+equipped with an understanding of 
+of AI in societal contexts, its implications and potential. 
+the transformative role 
+This 
+course sets the stage for grasping the broader societal 
+impacts and responsibilities of AI applications.
+
+
+Module Code :SOT10057
+Compulsory Module Name:Psychology of learning 
+and instructional design of
+AI-based systems
+Aim & contribution to the qualification profile:
+This module delves into the psychology of learning and 
+instructional systems and focuses on the interplay between 
+psychological principles and instructional design features. 
+Students will explore foundational psychological learning 
+theories, instructional design methodologies, and 
+psychometric instruments and tools, equipping them to 
+design AI systems that are cognizant of human behavior 
+and can be evaluated for their psychological impact. This 
+knowledge ensures that AI applications are not only 
+technically sound but also psychologically aligned with 
+human users, fostering a more holistic and human-centric 
+approach to AI integration in society.

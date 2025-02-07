@@ -136,7 +136,9 @@ def _create_pdf_table():
                 embedding vector(1536),
                 pdf_text TEXT NOT NULL,
                 source_type VARCHAR(50),
-                source VARCHAR(255)
+                source VARCHAR(255),
+                file_id INT,
+                section_id INT
             );
             """
             cursor.execute(create_table_query)
@@ -216,7 +218,7 @@ def _insert_question(embedding, question_text, answer_text, source_type, source)
         connection.close()
 
 
-def _insert_pdf(embedding, pdf_text, source_type, source):
+def _insert_pdf(embedding, pdf_text, source_type, source, file_id, section_id):
     """
     Insert a new pdf into the pdf table.
 
@@ -233,10 +235,10 @@ def _insert_pdf(embedding, pdf_text, source_type, source):
     try:
         cursor = connection.cursor()
         insert_query = """
-        INSERT INTO pdf (embedding, pdf_text, source_type, source)
-        VALUES (%s, %s, %s, %s);
+        INSERT INTO pdf (embedding, pdf_text, source_type, source, file_id, section_id)
+        VALUES (%s, %s, %s, %s, %s, %s);
         """
-        cursor.execute(insert_query, (embedding, pdf_text, source_type, source))
+        cursor.execute(insert_query, (embedding, pdf_text, source_type, source, file_id, section_id))
         connection.commit()
     except Exception as e:
         raise e
@@ -272,7 +274,9 @@ def _insert_pdf_from_json():
         source_type = "pdf"
         source = pdf_data[key]["source"]
         embedding = pdf_data[key]["embedding"]
-        _insert_pdf(embedding, pdf, source_type, source)
+        file_id = pdf_data[key]["file_id"]
+        section_id = pdf_data[key]["section_id"]
+        _insert_pdf(embedding, pdf, source_type, source, file_id, section_id)
 
     print("PDFs inserted successfully.")
 
@@ -361,7 +365,7 @@ def _find_closest_pdf_embedding(embedding, top_n=5):
     try:
         cursor = connection.cursor()
         find_query = """
-        SELECT id, pdf_text, source_type, source,
+        SELECT id, pdf_text, source_type, source, file_id, section_id,
                (embedding <=> %s::vector) AS distance
         FROM pdf
         ORDER BY distance ASC
@@ -369,6 +373,32 @@ def _find_closest_pdf_embedding(embedding, top_n=5):
         """
         cursor.execute(find_query, (embedding, top_n))
         results = cursor.fetchall()
+        # Iterate over the results
+        for i, result in enumerate(results):
+            # Convert result to a list to allow modification
+            result = list(result)
+            # Get the file_id and section_id
+            file_id = result[4]
+            section_id = result[5]
+            # Query the database for the section before and after the current section
+            find_neigbours_query = """
+            SELECT pdf_text
+            FROM pdf
+            WHERE file_id = %s AND section_id = %s;
+            """
+            cursor.execute(find_neigbours_query, (file_id, section_id - 1))
+            previous_section = cursor.fetchone()
+            cursor.execute(find_neigbours_query, (file_id, section_id + 1))
+            next_section = cursor.fetchone()
+            # Add the previous and next section to the result
+            if previous_section:
+                result[1] = f"{previous_section[0]}\n{result[1]}"
+            if next_section:
+                result[1] = f"{result[1]}\n{next_section[0]}"
+            # Remove the file_id and section_id from the result
+            result = result[:4] + result[6:]
+            # Update the results list with the modified result
+            results[i] = result
         return results
     except Exception as e:
         raise e
@@ -596,7 +626,57 @@ def add_question(question_text, answer_text, source, source_type="pdf"):
     print("Question added successfully.")
 
 
+def check_database_status():
+    """
+    Check the status of the database.
+
+    Returns:
+        bool: True if the database is running, False otherwise.
+    """
+    try:
+        connection = _get_connection()
+
+        if connection.closed != 0:
+            print("ERROR: Database connection is closed.")
+            return False
+
+        # Create a cursor object using the connection
+        cursor = connection.cursor()
+
+        # Check that the questions and pdf tables exists
+        cursor.execute(
+            """
+        SELECT EXISTS (
+            SELECT FROM information_schema.tables
+            WHERE table_name = 'questions'
+        );
+        """
+        )
+        tables_exists = cursor.fetchone()[0]
+
+        cursor.execute(
+            """
+        SELECT EXISTS (
+            SELECT FROM information_schema.tables
+            WHERE table_name = 'pdf'
+        );
+        """
+        )
+        tables_exists = tables_exists and cursor.fetchone()[0]
+
+        if not tables_exists:
+            print("WARNING: Questions or pdf table does not exist.")
+            print("Initializing the database...")
+            initialize_database()
+
+        return True
+
+    except psycopg2.OperationalError as e:
+        print("ERROR: Unable to connect to the database.")
+        raise e
+
+
 if __name__ == "__main__":
     # Initialize the database
     # initialize_database(clear=False)
-    pass
+    print(check_database_status())

@@ -1,6 +1,0 @@
-(3) Mobility window: During the third semester, students have the opportunity for a mobility window, 
-allowing for a typical one-semester study period at another university either within Germany or 
-internationally, without any time delay in their academic progression. The respective modules
-(Human-AI Interaction, Natural Language Processing, Project week and two elective modules) can 
-be substituted with comparable courses from other universities. Periods of study will be recognized 
-unless there are substantial differences in the competences acquired.

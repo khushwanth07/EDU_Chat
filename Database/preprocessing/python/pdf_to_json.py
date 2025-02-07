@@ -24,23 +24,26 @@ client = OpenAI(api_key=API_KEY)
 
 # List all folders in the pdf directory
 pdf_folders = os.listdir("Database/preprocessing/pdf")
+pdf_folders = sorted(pdf_folders)
 
 entries = {}
 
-for folder in pdf_folders:
+for file_id, folder in enumerate(pdf_folders):
     # List all files in the folder
     pdf_files = os.listdir(f"Database/preprocessing/pdf/{folder}")
-    for file in pdf_files:
+    pdf_files = sorted(pdf_files)
+    for section_id, file in enumerate(pdf_files):
         # Open the file
         with open(f"Database/preprocessing/pdf/{folder}/{file}", "r", encoding='utf-8') as f:
-            # print(f"Reading {file} in {folder}")
             # Read the file
             text = f.read()
             # Create a dictionary
             entry = {
                 "pdf_text": text,
-                "source": f"{folder}",
+                "source": f"{folder}/{file}",
                 "embedding": None,
+                "file_id": file_id,
+                "section_id": section_id
             }
             # Append the dictionary to the entries list
             entries[str(uuid.uuid4())] = entry

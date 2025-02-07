@@ -1,16 +1,119 @@
-1. Foundation and Introduction: The program begins with foundational courses in AI, Data 
-Science, Introduction to Programming & Data Processing, AI in and for Society: Science, 
-Technology and Society in the Digital Age, as well as courses on Law, Governance, & 
-Regulation of AI, and an introduction to Psychology of learning and instructional design of 
-AI-based systems. These foundation and introductory courses in the M.Sc. program "AI in 
-Society" aim to equip students with a foundational understanding of AI, data science, 
-programming, and the societal implications of AI. Recognizing the diverse academic 
-backgrounds of incoming students, these compulsory courses ensure a consistent and 
-unified knowledge base across AI concepts, programming, and the societal aspects of AI. 
-This approach fosters a shared terminological foundation, enabling students from various 
-disciplines to engage effectively throughout the program. These foundational courses are 
-compulsory to guarantee that all students, regardless of their previous bachelor-level 
-academic backgrounds, attain a consistent understanding of essential subjects and foster a 
-unified terminological foundation in AI concepts, programming, regulation and politics of AI.
-The aim of each module and their contribution to the achievement of the qualification profile 
-are provided in Table 1.
+the basic information of the different course ?
+A:
+Table 1: Aim of the mandatory modules and their contribution to the qualification profile.
+
+Deepening Knowledge and Skills:
+
+Module Code :IN2346
+Compulsory Module Name:Introduction to Deep 
+Learning
+Aim & contribution to the qualification profile:
+This module offers an introduction and in-depth 
+understanding of state-of-the-art deep learning concepts 
+and techniques. Students will possess a comprehensive 
+grasp of areas at the forefront of deep learning, enabling 
+them to convey pioneering ideas and engage with technical 
+and non-technical experts.
+
+
+Module Code :SOT86086
+Compulsory Module Name:Deep Learning Demystified: Hands-on Deep Learning for Non-CS Majors
+Aim & contribution to the qualification profile:
+This accompanying course “Deep Learning Demystified: 
+Hands-on Deep Learning for Non-CS Majors” aims to 
+prepare students that lack Computer science backgrounds 
+from their bachelor’s degree by providing a practical and 
+intuitive understanding of deep learning. It focuses on 
+building foundational knowledge and integrating hands-on 
+experience, ensuring that these students are wellequipped to tackle the main course on Introduction to Deep 
+Learning.
+
+
+Module Code :SOT86051
+Compulsory Module Name:Explainable AI -- A 
+Comprehensive Seminar on Transparent and 
+Ethical AI
+Aim & contribution to the qualification profile:
+This module delves into the concepts of AI transparency, 
+fairness, and explainability. It ensures graduates can make scientifically grounded decisions regarding AI applications, 
+always critically weighing potential repercussions and 
+societal ramifications, and hence be empowered to engage 
+with different stakeholders.
+
+
+Module Code :MCTS0027
+Compulsory Module Name:Methods 1
+Aim & contribution to the qualification profile:This module equips students with state-of -the-art research 
+methods and frameworks relevant to studying AI in society
+and specifically implications of AI applications in different 
+societal contexts.
+
+
+
+Module Code :SOT44303
+Compulsory Module Name:Academic Competencies 
+and
+Practical Skills
+Aim & contribution to the qualification profile:
+This module equips students with essential academic and 
+hands-on skills, from design thinking to academic writing. 
+Through targeted sessions, students apply and reflect on 
+these skills, ensuring they are adept at both theoretical and 
+real-world challenges within the AI in society landscape.
+
+
+Module Code :SOT46301
+Compulsory Module Name:AI in Diverse Societies
+Aim & contribution to the qualification profile:
+This module investigates the challenges and opportunities 
+of AI in diverse societal contexts (including future of work, 
+job displacement, etc.). Students will be acutely conscious 
+of the societal expectations and consequences of AI, 
+ensuring their work aligns with societal needs and 
+expectations related to AI's integration into everyday life.
+
+
+Module Code :IN2361
+Compulsory Module Name:Natural Language 
+Processing
+Aim & contribution to the qualification profile:
+This module introduces techniques for processing and 
+understanding human language (NLP) using AI. Students 
+will be equipped with a comprehensive set of technical 
+skills to grasp of areas at the forefront of NLP, ensuring 
+they can bridge ethical, regulatory, and practical 
+requirements in various NLP application domains (text 
+processing, language understanding, translation, 
+governance-related applications, etc.).
+
+Module Code :SOT10046
+Compulsory Module Name:Human-AI Interaction
+Aim & contribution to the qualification profile:
+This module delves into the intricacies of user experience 
+and human factors in AI systems, which are pivotal for the 
+successful integration and adoption of AI technologies in 
+daily applications (e.g., recommendation engines, search 
+algorithms, decision support systems, generative AI 
+solutions, etc). Through literature reviews and group 
+discussions, students will collaboratively design and 
+develop AI-integrated interactive systems. Hence, 
+graduates will be equipped with the expertise to critically 
+assess the performance of AI-driven interactive systems, 
+ensuring they can bridge the gap between AI technology 
+and its practical, user-centric applications.
+
+
+Module Code :TUM 
+Projects
+Week
+Compulsory Module Name:Project week
+Aim & contribution to the qualification profile:
+This module offers a unique platform for students to 
+collaboratively tackle contemporary challenges like 
+sustainability, digitalization in health care, administration, 
+and governance, mobility/transportation and hence apply 
+their knowledge on various aspects of artificial intelligence
+in real-world scenarios. Graduates will not only deepen 
+their domain-specific knowledge but also enhance their 
+interdisciplinary competencies, preparing them to address 
+complex, real-world issues with a holistic perspective.

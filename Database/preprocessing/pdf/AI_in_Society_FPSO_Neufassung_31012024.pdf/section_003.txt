@@ -1,3 +1,8 @@
-§ 35 Program Start, Standard Duration, ECTS
-1.The AI in Society Master's Program at the Technical University of Munich typically begins in the winter semester.
-2.To earn the Master's degree, students must achieve 90 ECTS credits through compulsory and elective modules, spanning three semesters. Additionally, the Master's Thesis, worth 30 ECTS, must be completed within six months as per § 46. Thus, the program totals at least 120 ECTS, with a standard duration of four semesters.
+ 36 Qualification Requirements
+1.Eligibility for the Master's program in AI in Society is demonstrated through:
+	A qualified Bachelor’s degree (or equivalent) of at least six semesters from an accredited domestic or foreign institution.
+	Adequate English proficiency, demonstrated by a recognized language test such as TOEFL (minimum score: 88), IELTS (minimum score: 6.5), or Cambridge English Examinations. Alternatively, prior academic courses totaling 15 ECTS in English also suffice.
+	Passing specific undergraduate modules: Mathematics (minimum 5 ECTS) or Statistics (minimum 5 ECTS), as these skills are essential for success in the program.
+	Completion of a practical project (minimum 18 ECTS) linking engineering/natural sciences with political or social sciences, applied to analyze societal challenges, especially in technology-related contexts.
+	Passing the aptitude assessment process detailed in Appendix 2.
+2.Recognition of vocational training or equivalent achievements as fulfilling the practical project requirement is decided by the admissions committee.

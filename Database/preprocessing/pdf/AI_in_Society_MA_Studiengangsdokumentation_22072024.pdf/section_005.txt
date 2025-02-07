@@ -1,13 +1,8 @@
-Q:What is the Aim and Contribution of the MSc program “AI in Society”: 
-A:The MSc program addresses 
-the above challenges posed by the integration of AI into society by equipping the students
-with technical skills and interdisciplinary knowledge. The program focuses on mitigating 
-biases in AI, enhancing user-dependent explainability and interpretability, ensuring data 
-privacy and security. It also emphasizes the importance of equitable access to AI 
-technologies and fostering a competitive AI ecosystem. By exposing students to legal, 
-ethical, and policy aspects of AI, the program prepares them to shape regulations and 
-governance frameworks, assess potential risks, and contribute to responsible, ethical, and 
-inclusive AI applications. Especially the current developments in AI (e.g., in the realm of 
-generative AI for generating texts, speech, images, and videos) call for an interdisciplinary 
-oversight supported by social scientists who understand the workings, limitations, and 
-potential impact of such AI solutions.
+multifaceted challenges posed by AI's rapid 
+development requires a comprehensive, interdisciplinary approach involving various 
+stakeholders. For example, mitigating bias and improving explainability in AI requires a 
+blend of technical advancements and diversity among development teams. Tackling socioeconomic issues such as job displacement and the digital divide necessitates cooperative 
+efforts in reskilling, education, and improved technological access. Creating effective AI 
+governance involves legal experts, ethicists, and policymakers working together to establish 
+international norms and regulatory frameworks. In essence, a collaborative and cross-disciplinary approach is crucial to responsibly steer the development and implementation of 
+AI technologies.

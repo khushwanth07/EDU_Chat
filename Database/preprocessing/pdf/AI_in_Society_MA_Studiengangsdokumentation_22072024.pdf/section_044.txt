@@ -1,9 +1,0 @@
-Table 2: Elective modules and their contribution to the qualification profile.
-
-
-Module Code :SOT10053
-Compulsory Module Name:Learning Analytics
-Aim & contribution to the qualification profile:
-Dive deep into the methodologies and tools used to analyze and 
-interpret data about learners to optimize learning experiences and the 
-environments in which they occur.

@@ -1,52 +1,36 @@
-Q:What is the Demand Analysis of Degree programm
-A:
-Employment possibilities: Graduates from the “AI in Society” program will find themselves at a 
-pivotal juncture in the job market. As AI continues to weave itself into the fabric of our society, there's 
-an escalating demand for professionals who can seamlessly merge the intricacies of technical AI 
-with the nuances of social requirements and desired benefits. This program is meticulously designed 
-to prime graduates for a plethora of roles across diverse industries and sectors.
-In the technology sector, graduates might find roles in designing user-friendly AI interfaces and 
-human-AI interaction processes or in ensuring that AI algorithms are transparent and ethically sound. 
-In healthcare, they could be instrumental in integrating AI into diagnostic processes, patient care, 
-and medical research, ensuring that the technology respects patient rights, privacy, and delivers 
-equitable care. For instance, they might work on teams developing AI-driven diagnostic tools, 
-ensuring that these tools are not only technically robust but also ethically designed and considerate
-of diverse patient populations.
-In education, graduates could guide the development of AI-driven educational tools, ensuring they 
-cater to diverse learning needs while maintaining ethical standards. In the realm of sustainability, 
-they might work on AI solutions for environmental monitoring or sustainable resource management, 
-ensuring that these solutions are both effective and socially responsible.
-For those venturing into public administration, they could be at the forefront of crafting policies that 
-govern AI use in public services, ensuring that they are equitable and in the individual’s and public's 
-best interest. In consulting, graduates might advise businesses on the ethical implementation of AI, 
-while in research, they could delve deep into the societal implications of AI, guiding future 
-innovations.
-Specific job roles that encapsulate these responsibilities include AI ethicists, who ensure that AI 
-applications uphold moral and ethical standards; policy advisors, who guide governmental and 
-organizational AI strategies; interdisciplinary researchers, who explore the multifaceted impacts of 
-AI on society; and AI strategy consultants, who aid businesses in leveraging AI responsibly and 
-effectively
+the Target Groups of Degree programm
 
-Actual demand and relevant data: The demand for professionals who possess a blend of expertise 
-in AI and social sciences is surging. Given Germany's position as a leading global economy and its 
-rapid digital transformation, there is a growing demand for professionals who understand both the 
-technical and societal facets of AI. A fitting example of the high regional, but also global demand can 
-be seen in the strong interest (in the establishment of this program) and endorsement by the
-companies participating in the advisory board (i.e., extended QM circle) of this program: the 
-European Central Bank, Continental, Porsche, IBM, and Adobe. These companies see a distinct 
-advantage – and have formally expressed their interest through letters of intent – in hiring graduates 
-with interdisciplinary AI competence, who can bridge the gap between social and technical 
-challenges related to AI applications. Moreover, with growing concerns about AI ethics, privacy, and 
-governance both corporations and governmental bodies are increasingly aware of the imperative to 
-address the societal ramifications of AI. This has amplified the need for specialists who can 
-seamlessly navigate the social and practical intricacies of AI. Such professionals not only bring 
-conceptual and technical AI expertise but also a nuanced understanding of how AI impacts societal 
-structures in different domains and norms. This dual expertise ensures that AI implementations are 
-not just practical and technically sound but also socially responsible and beneficial for the individual 
-and the society as a whole.
-The McKinsey report underscores this trend, indicating that from 2016 to 2030, the demand for social 
-competencies will increase at double the rate of other skills, witnessing an 8 to 9 percent growth in 
-demand per decade. [https://www.mckinsey.com/featured-insights/future-of-work/skill-shift-automation-and-the-future-of-the-workforce] This trajectory implies that the goal of our program is 
-not just to produce social scientists proficient in AI concepts and principles but to cultivate 
-professionals who can leverage AI to enhance research and applications across disciplines like 
-psychology, sociology, economics, and political science, and law.
+A: 
+1)Target Audience
+(1) Educational Qualifications: The MSc program in AI in Society is designed for applicants who have 
+completed a bachelor's degree in social sciences, political sciences, economics, law, and 
+psychology, or a related field. Applicants should have a solid foundation in their respective fields.
+(2) Interests: The program is particularly attractive to applicants who have a keen interest in the 
+intersection of AI and society. This includes, but is not limited to, interests in ethical AI practices, AI 
+governance, AI's socio-economic impacts, and the role of AI in shaping future societies. The program 
+offers applicants the opportunity to delve deep into these topics, equipping them with the necessary 
+skills to navigate and contribute to the field of AI in society.
+(3) Target Audience: The MSc program in AI in Society targets an international audience. It 
+welcomes applicants from all over the world, fostering a diverse and international learning 
+environment. The program's international orientation aligns with its focus on global AI challenges 
+and its commitment to preparing graduates to work in various fields and regions.
+
+2)Prerequisites
+Eligibility for the 'AI in Society' master's program is determined by several criteria: (1) a Bachelor's 
+degree of a minimum of six semesters from a recognized domestic or international university, or an 
+equivalent qualification; (2) proficiency in the English language, evidenced by a recognized language 
+assessment like the TOEFL (with a minimum score of 88) or the IELTS (scoring at least 6.5), or the 
+'Cambridge Main Suite of English Examinations'. Alternatively, if an applicant has undertaken 
+examinations equivalent to 15 credits in English-language modules during their undergraduate 
+studies, this will also serve as proof of their English proficiency; (3) Successful completion of module 
+examinations in either mathematics or statistics (minimum of 5 credits each) from their prior degree 
+program. This foundational knowledge is crucial for thriving in the master's curriculum. (4) a practical 
+project spanning typically 18 credits, where engineering or scientific insights are blended with 
+political or social science perspectives to address societal issues, especially within technologicallydriven contexts. (5) Successful clearance of an aptitude test. To pass the aptitude test expertise in 
+the fundamentals of mathematics and statistics, engineering and natural sciences, political and 
+social sciences, and economics and law is required, also with regard to their practical application at 
+the interface of engineering and natural sciences with political and social sciences. 
+
+3)Target Numbers
+Considering the current resources, the program can initially accommodate 40 students. In the future, 
+with more resource capacities, the number of admissions can be increased to 200.

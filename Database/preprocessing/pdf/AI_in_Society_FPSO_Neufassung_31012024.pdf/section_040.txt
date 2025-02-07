@@ -1,0 +1,155 @@
+--------------------
+Annex 2: Eligibility Procedure
+
+Eligibility Procedure for the Master's Program AI in Society at the Technical University of Munich
+
+1.Purpose of the Procedure 1.1 The qualification for the Master's program AI in Society requires, in addition to the conditions outlined in § 36 (1) Nos. 1-4, proof of suitability according to § 36 (1) No. 5 in accordance with the following regulations. The particular qualifications and abilities of applicants should correspond to the professional field of Artificial Intelligence in  society. 1.2 Individual eligibility parameters are:
+	The ability to work scientifically or in a foundational and method-oriented manner.
+	Existing expertise from the first degree in social sciences, political science, business administration, educational sciences, management, law, psychology, economics, or comparable fields.
+	Knowledge of political matters and important political and societal engineering or natural science matters.
+	Special commitment at the interface of social sciences and technology (e.g., through relevant work experience, internships, study-abroad experiences, part-time jobs, political and/or social engagement, or specific expertise in mathematics, statistics, or data analysis).
+
+
+2.Procedure for Assessing Suitability 2.1 The procedure for assessing suitability is carried out annually. The regulations of the Technical University of Munich (TUM) regarding matriculation, re-registration, leave of absence, and de-registration (ImmatS) from February 6, 2023, in their applicable version, particularly § 6, apply to the procedure for determining eligibility. 2.2 Applicants must submit their applications for the eligibility procedure according to § 6 ImmatS, along with the necessary documents, by the deadline for the winter semester (May 31) via the online application process. The certificate and transcript of the bachelor's degree must be submitted to the TUM Center for Study and Teaching – Applications and Matriculation within five weeks after the start of the lectures. Failure to do so will result in the inability to enroll in the Master's program according to § 36 of these regulations. 2.3 The application must include:
+
+	A transcript of records with at least 140 credits, issued by the responsible examination authority or study office.
+	A list of the best-rated modules with 140 credits, accompanied by a declaration confirming the accuracy of the list.
+	Proof of successful participation in a practical project of at least 18 credits (with module description). If this involves vocational training or other equivalent achievements, appropriate proof must be submitted.
+	A tabular curriculum vitae.
+	Optionally, a written justification (max. 800 words) explaining why the applicant considers themselves particularly suited for the AI in Society Master's program at TUM. This can include specific career training, internships, study-abroad experiences, or additional qualifications.
+	If a justification letter is submitted, it must include a declaration confirming the independent preparation of the document.
+
+
+
+3. Commission for the Qualification Procedure, Selection Commissions
+3.1 The qualification procedure is conducted by the Commission for the Qualification Procedure and the selection commissions. 2. The Commission for the Qualification Procedure is responsible for preparing the procedure, organizing it, and ensuring a structured and standardized process for determining eligibility in accordance with these statutes. It is competent unless another responsibility is defined by these statutes or through delegation. 3. The execution of the procedure, according to Section 5, is the responsibility of the selection commissions, subject to Section 3.2, Sentence 11.
+
+3.2 The Commission for the Qualification Procedure (Commission) consists of five members. 2. These members are appointed by the Dean, in consultation with the Vice Dean for Academic and Student Affairs, from the group of eligible members of the TUM School of Social Sciences and Technology involved in the study program. 3. At least three of the commission members must be university professors according to the BayHIG (Bavarian Higher Education Act). 4. The student body has the right to appoint a student representative who participates in the commission as an advisor. 5. For each member of the Commission, a deputy is appointed. 6. The Commission elects a chairperson and a deputy chairperson from among its members. 7. The procedural provisions of the TUM Basic Regulations, in the currently applicable version, apply to the business processes. 8. The term of office for the members is one year. 9. Extensions of the term and reappointments are possible. 10. Urgent decisions that cannot be postponed may be made by the chairperson instead of the Commission for the Qualification Procedure; the chairperson must inform the Commission immediately. 11. The Study Office supports the Commission for the Qualification Procedure and the selection commissions; the Commission may assign the Study Office the task of conducting formal admission checks according to Section 4 and evaluating points based on predefined criteria that leave no room for judgment, especially converting grades, determining the total points, and assembling the selection commissions from the members appointed by the Commission and assigning them to applicants.
+
+3.3The selection commissions consist of two members from the group of eligible members of the TUM School of Social Sciences and Technology, in accordance with Article 85, Paragraph 1, Sentence 1 of the BayHIG and the Higher Education Examiner Regulation in the study program. 2. At least one member must be a university professor in accordance with the BayHIG. 3. Serving as a member of the Commission for the Qualification Procedure can be done alongside serving as a member of the selection commission. 4. The members are appointed for one year by the Commission for the Qualification Procedure; Section 3.2, Sentence 9 applies accordingly. 5. Different selection commissions may be appointed for each criterion and level.
+
+
+4. Admission to the Qualification Procedure
+4.1 The execution of the qualification procedure requires that the documents mentioned in Section 2.2 be submitted correctly, on time, and in full.
+4.2 
+1.Those who meet the requirements under Section 4.1 will be examined in the qualification procedure according to Section 5.
+2. Otherwise, a rejection notice with reasons and information about legal remedies will be issued.
+
+
+
+
+5. Execution of the Qualification Procedure
+5.1 First Stage of the Qualification Procedure
+5.1.1 1. It will be assessed based on the written application documents as required under Section 2.3 and the test as outlined in Section 5.1.1 b), whether the applicants meet the eligibility requirements for the study program as per Section 1 (First Stage of the Qualification Procedure). 2. A maximum of 96 points can be achieved, with 0 being the worst and 96 being the best possible result:
+The following assessment criteria apply:
+a) Grade
+For every tenth of a grade better than 2.6 achieved in the examination results of 140 credits, 3 points are awarded.
+The maximum score is 48.
+No negative points are awarded.
+For foreign degrees or if the grading system does not align with that of TUM, the grade converted using the Bavarian formula is used.
+If an applicant has a degree with more than 140 credits at the time of application, the assessment is based on the highest-rated modules totaling 140 credits.
+It is the responsibility of the applicants to list these modules in their application and to ensure the accuracy of the submitted data in writing.
+If this is done, the average is calculated based on the best-rated module exams totaling 140 credits.
+The average is computed as a weighted grade point average of the modules.
+The weight of each module corresponds to the credits assigned to it.
+If this information is missing, the overall average grade provided by the applicant will be used.
+Grades and corresponding points:
+Grade	Points
+1.0	48
+1.1	45
+1.2	42
+1.3	39
+1.4	36
+1.5	33
+1.6	30
+1.7	27
+1.8	24
+1.9	21
+2.0	18
+2.1	15
+2.2	12
+2.3	9
+2.4	6
+2.5	3
+≥2.6	0
+
+
+b) Test
+All applicants who meet the requirements under Section 4.2 will be invited to a test (performance assessment in written form).
+The test date will be announced at least one week in advance by the Commission.
+The time window for the test must be set before the application deadline.
+The fixed test date must be adhered to.
+The test is only held once per application phase.
+If an applicant is unable to attend the test for reasons beyond their control, they can, upon justified request, attend a rescheduled test. This rescheduled test will take place at least two weeks before the start of lectures.
+The test will be conducted in person at TUM.
+Alternatively, an online test may be held, with applicants participating at their own risk in case of technical issues unless the university is at fault.
+The test lasts 90 minutes and consists of about 35 questions.
+The test questions are in English.
+The purpose of the test is to assess whether the applicant is expected to successfully and independently complete the study program, demonstrating the necessary subject-specific knowledge that aligns with the fundamentals of a relevant bachelor's program.
+The test content is distributed across the following areas:
+Political/Social Science Fundamentals and Specializations (maximum 15 points)
+Basic Economics and Law (maximum 9 points)
+Mathematical/Statistical Fundamentals (maximum 9 points)
+Engineering/Scientific Fundamentals and Specializations (maximum 15 points)
+Subject-specific knowledge that is to be taught in the Master’s program AI in Society is not assessed in this test.
+The purpose of the test is to demonstrate the applicant's suitability for the program.
+The questions are selected by two commission members, who also decide on any exclusions after evaluating the results. At least one commission member must be a university professor in accordance with the BayHIG.
+The test consists of multiple-choice questions where only one answer is correct.
+Points are awarded for each correct answer as specified in the test.
+The maximum score for the test is 48 points.
+
+
+5.1.2 The score is the sum of the calculated score from 5.1.1 a) (Grade) and the result of the test as per 5.1.1 b).
+5.1.3 Applicants who score at least 68 points have passed the qualification procedure.
+5.1.4 1. Applicants who score fewer than 40 points have failed the qualification procedure. 2. This does not apply if at least 18 points were awarded for the grade calculation under Section 5.1.1 a); in this case, eligibility for the AI in Society program must be proven by participating in the second stage of the qualification procedure.
+
+5.2 Second Stage of the Qualification Procedure
+5.2.1 
+1. The remaining applicants will be invited to an eligibility interview.
+2. In the second stage, the qualifications acquired during the first degree and the outcome of the eligibility interview are assessed, with the qualifications acquired in the first degree being at least equally weighted.
+3. The date for the interview will be announced at least one week in advance.
+4. The time window for the interview must be set before the application deadline.
+5. The fixed interview date must be adhered to.
+6. Applicants who are unable to attend the interview for reasons beyond their control can, upon justified request, attend a rescheduled interview up to two weeks before the start of lectures.
+7. A video conference for the interview is possible upon a justified request approved by the Commission.
+8. If there are technical issues with the video or audio, the interview can continue once the issue is resolved or a rescheduled interview can be set.
+9. In case of repeated disruptions, the interview may be rescheduled to an in-person meeting.
+10. Sections 8 and 9 do not apply if it is proven that the applicant caused the disruption. In this case, the interview will be assessed.
+5.2.2 
+1. The eligibility interview will be conducted individually with each applicant. 2. The interview lasts a minimum of 20 and a maximum of 30 minutes and is conducted in English.
+3. The content of the interview covers the following areas:
+Special motivation for the AI in Society master’s program, as outlined in the motivation letter and evidenced by the CV regarding the field of Artificial Intelligence in Society, including key competencies like communication skills.
+Basic and applied knowledge of mathematics and statistics.
+Knowledge of politically and socially relevant engineering or scientific matters and current topics at the intersection of AI and society.
+Understanding of the interdisciplinary focus of the AI in Society program and potential future career fields.
+The submitted application materials (per Section 2.3) may also be discussed.
+Subject-specific knowledge that will be taught in the Master’s program AI in Society will not be considered.
+5.2.3 
+1. Each selection commission member independently evaluates each of the four focus areas, with equal weighting for all areas. 2. The evaluation is done on a scale from 0 to 48 points, where 0 is the worst and 48 is the best possible result. 3. The score is the arithmetic mean of the individual evaluations. 4. Non-zero decimal places are rounded up.
+5.2.4 
+1. The total score for the second stage is the sum of the points from Section 5.2.3 and half of the score from Section 5.1.2. 2. Applicants who score 48 or more points have passed the qualification procedure.
+3. Applicants with a total score of fewer than 48 points have failed the qualification procedure.
+
+5.3 Determination and Announcement of the Result
+The result of the qualification procedure is determined based on the points achieved and announced through an official notice.
+Rejection notices must include reasons and legal remedy instructions.
+5.4 The determined eligibility applies to all subsequent applications for this program.
+
+
+6. Documentation
+The procedure of the qualification process must be documented, including the names of the individuals involved in the decision, the evaluation of both the first and second stages, and the overall result.
+A protocol must be created for the test, which should include the external details of the event (date, location, start and end of the test, names of the selection committee members present, names of the applicants, and any special occurrences).
+The same applies to the qualification interview, with an additional summary of the key topics discussed.
+
+
+7. Repetition
+Applicants who do not pass the qualification process may reapply once more.
+
+
+
+Issued based on the decision of the Academic Senate of the Technical University of Munich on November 30, 2023, and approved by the President of the Technical University of Munich on January 31, 2024.
+Munich, January 31, 2024
+Technical University of Munich
+Signed,
+Thomas F. Hofmann, President
+This statute was officially published on January 31, 2024, on the website "https://www.tum.de/satzungen". Additionally, it can be reviewed during office hours at the TUM Center for Study and Teaching - Law, Arcisstraße 21, 80333 Munich, Room 0561. Therefore, the date of publication is January 31, 2024.

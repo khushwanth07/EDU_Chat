@@ -1,23 +1,2 @@
-b) Test
-All applicants who meet the requirements under Section 4.2 will be invited to a test (performance assessment in written form).
-The test date will be announced at least one week in advance by the Commission.
-The time window for the test must be set before the application deadline.
-The fixed test date must be adhered to.
-The test is only held once per application phase.
-If an applicant is unable to attend the test for reasons beyond their control, they can, upon justified request, attend a rescheduled test. This rescheduled test will take place at least two weeks before the start of lectures.
-The test will be conducted in person at TUM.
-Alternatively, an online test may be held, with applicants participating at their own risk in case of technical issues unless the university is at fault.
-The test lasts 90 minutes and consists of about 35 questions.
-The test questions are in English.
-The purpose of the test is to assess whether the applicant is expected to successfully and independently complete the study program, demonstrating the necessary subject-specific knowledge that aligns with the fundamentals of a relevant bachelor's program.
-The test content is distributed across the following areas:
-Political/Social Science Fundamentals and Specializations (maximum 15 points)
-Basic Economics and Law (maximum 9 points)
-Mathematical/Statistical Fundamentals (maximum 9 points)
-Engineering/Scientific Fundamentals and Specializations (maximum 15 points)
-Subject-specific knowledge that is to be taught in the Master’s program AI in Society is not assessed in this test.
-The purpose of the test is to demonstrate the applicant's suitability for the program.
-The questions are selected by two commission members, who also decide on any exclusions after evaluating the results. At least one commission member must be a university professor in accordance with the BayHIG.
-The test consists of multiple-choice questions where only one answer is correct.
-Points are awarded for each correct answer as specified in the test.
-The maximum score for the test is 48 points.
+45a Multiple-Choice Procedure
+The implementation of multiple-choice procedures is governed by § 12a APSO.

@@ -1,3 +1,13 @@
-5.1.2 The score is the sum of the calculated score from 5.1.1 a) (Grade) and the result of the test as per 5.1.1 b).
-5.1.3 Applicants who score at least 68 points have passed the qualification procedure.
-5.1.4 1. Applicants who score fewer than 40 points have failed the qualification procedure. 2. This does not apply if at least 18 points were awarded for the grade calculation under Section 5.1.1 a); in this case, eligibility for the AI in Society program must be proven by participating in the second stage of the qualification procedure.
+46
+Master’s Thesis
+(1) According to § 18 of the APSO, students must complete a thesis as part of the Master’s examination within the Master’s Thesis module.
+(2)
+The completion of the Master’s Thesis module is generally intended to represent the final examination.
+Students may, upon request, be admitted to the Master’s Thesis module early if the objective of the thesis, as outlined in § 18(2) of the APSO, can be achieved considering their academic progress to date.
+(3)
+The time between the assignment and submission of the thesis must not exceed six months.
+The thesis is considered not submitted and failed if it is not delivered on time without valid reasons recognized under § 10(7) of the APSO.
+The Master’s Thesis module is awarded 30 credits.
+The thesis must be written in English.
+(4)
+The Master’s Thesis module consists of a scientific paper and a Master’s colloquium in accordance with

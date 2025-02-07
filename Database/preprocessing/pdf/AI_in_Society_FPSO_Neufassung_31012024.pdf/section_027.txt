@@ -1,26 +1,5 @@
-5.2 Second Stage of the Qualification Procedure
-5.2.1 
-1. The remaining applicants will be invited to an eligibility interview.
-2. In the second stage, the qualifications acquired during the first degree and the outcome of the eligibility interview are assessed, with the qualifications acquired in the first degree being at least equally weighted.
-3. The date for the interview will be announced at least one week in advance.
-4. The time window for the interview must be set before the application deadline.
-5. The fixed interview date must be adhered to.
-6. Applicants who are unable to attend the interview for reasons beyond their control can, upon justified request, attend a rescheduled interview up to two weeks before the start of lectures.
-7. A video conference for the interview is possible upon a justified request approved by the Commission.
-8. If there are technical issues with the video or audio, the interview can continue once the issue is resolved or a rescheduled interview can be set.
-9. In case of repeated disruptions, the interview may be rescheduled to an in-person meeting.
-10. Sections 8 and 9 do not apply if it is proven that the applicant caused the disruption. In this case, the interview will be assessed.
-5.2.2 
-1. The eligibility interview will be conducted individually with each applicant. 2. The interview lasts a minimum of 20 and a maximum of 30 minutes and is conducted in English.
-3. The content of the interview covers the following areas:
-Special motivation for the AI in Society master’s program, as outlined in the motivation letter and evidenced by the CV regarding the field of Artificial Intelligence in Society, including key competencies like communication skills.
-Basic and applied knowledge of mathematics and statistics.
-Knowledge of politically and socially relevant engineering or scientific matters and current topics at the intersection of AI and society.
-Understanding of the interdisciplinary focus of the AI in Society program and potential future career fields.
-The submitted application materials (per Section 2.3) may also be discussed.
-Subject-specific knowledge that will be taught in the Master’s program AI in Society will not be considered.
-5.2.3 
-1. Each selection commission member independently evaluates each of the four focus areas, with equal weighting for all areas. 2. The evaluation is done on a scale from 0 to 48 points, where 0 is the worst and 48 is the best possible result. 3. The score is the arithmetic mean of the individual evaluations. 4. Non-zero decimal places are rounded up.
-5.2.4 
-1. The total score for the second stage is the sum of the points from Section 5.2.3 and half of the score from Section 5.1.2. 2. Applicants who score 48 or more points have passed the qualification procedure.
-3. Applicants with a total score of fewer than 48 points have failed the qualification procedure.
+46a.
+The scientific paper contributes 27 credits, and the Master’s colloquium contributes 3 credits to the overall assessment.
+(5)
+If the Master’s Thesis module is graded below "sufficient" (4.0), it may be repeated once with a new topic.
+The new thesis topic must be registered no later than six weeks after notification of the result.

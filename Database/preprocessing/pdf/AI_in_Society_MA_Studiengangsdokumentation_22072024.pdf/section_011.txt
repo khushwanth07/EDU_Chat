@@ -1,28 +1,26 @@
-Q:What is the Application, Use, and Generation of Knowledge of Qualification Profile
-A:Graduates will be trained to both harness and pioneer knowledge in AI applications, undertaking 
-meticulous research, making informed and scientifically grounded decisions, and overseeing 
-intricate projects. These endeavors will consistently prioritize the ethical and responsible deployment 
-of AI. Delving deeper into the unique offerings of the MSc program "AI in Society", graduates will
-develop the following competencies:
-Utilization and Transfer
-Knowledge Integration: Graduates will be trained to merge both established and emerging 
-knowledge in intricate, multidisciplinary scenarios pertinent to AI's role in various domains of society, 
-especially when faced with sparse, complex, or critical information.
-Informed Decision Making: With a focus on the societal ramifications, graduates will learn to make 
-decisions rooted in scientific rigor regarding AI applications, always critically weighing potential 
-repercussions.
-Autonomous Learning: Recognizing the dynamic nature of AI and current limitations, graduates will
-learn to proactively seek and assimilate new knowledge and skills, ensuring they remain at the 
-forefront of the field.
-Project Execution: Graduates will spearhead application-centric projects with autonomy, channeling 
-their expertise to address tangible AI challenges across diverse sectors.
-Scientific Innovation
-Research Formulation: Graduates will be able to formulate research questions that delve into the 
-challenges of the interplay between AI and society.
-Operationalization: They will be trained to pinpoint and defend tangible operational strategies for 
-their research by transforming abstract questions into creative, feasible solutions and executable 
-blueprints.
-Method Selection: Graduates will learn to discern and advocate for fitting research methodologies, 
-weighing the pros and cons of various techniques.
-Result Interpretation: They will learn to interpret and critically dissect research outcomes, drawing 
-insightful inferences about the societal footprint of AI.
+the Knowledge and Understanding of Qualification Profile:
+A:Graduates will possess an enriched comprehension of AI. This means they will not only be 
+acquainted with the general terminologies, governance, and principles of AI but also with technical 
+concepts like neural networks, machine learning algorithms, and deep learning. They will understand 
+the boundaries of AI, such as its limitations in understanding human emotions or the challenges in 
+ensuring unbiased algorithms, fairness, and transparency. They will also be well-versed in its 
+applications, ranging from healthcare diagnostics to autonomous vehicles, and the societal 
+implications these applications bring, like job displacement or privacy concerns.
+In addition, graduates will have a comprehensive, and critical grasp of areas at the forefront of AI. 
+For instance, they will be knowledgeable about areas like generative AI, natural language 
+processing, or reinforcement learning. Equipped with this knowledge, they will be trained to convey 
+and discuss pioneering ideas with technical and non-technical experts, be it for practical applications,
+for research or public discourse. This also encompasses an understanding of the ethical dilemmas 
+AI poses, such as surveillance concerns or decision-making biases, the legal frameworks 
+surrounding AI use, and the broader social implications. They will be familiar with strategies to 
+address AI-related challenges, like implementing fairness checks or ensuring transparency and 
+privacy in AI decision-making processes. In this way, they will be able to bridge ethical, regulatory
+and practical requirements in various AI application domains. 
+Furthermore, graduates will be adept at understanding the quality-related challenges of AI 
+applications, taking into account both scientific and methodological factors. For example, they will 
+be familiar with different evaluation strategies for assessing the appropriateness of a machine 
+learning model for a given dataset or the potential pitfalls. They will possess the skills to tackle both 
+practical and theoretical issues using these considerations. This will also involve a deep 
+understanding of the principles of responsible AI for ensuring data privacy and security, and methods 
+to gauge the societal repercussions of AI, like engagement with relevant stakeholders and 
+conducting impact assessments or community consultations.
