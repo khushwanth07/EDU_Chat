@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI & Society Course Assistant - TUM</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="http://kit.fontwaesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="https://www.tum.de" class="page__header-logo">
+                <svg width="80" height="42" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73 38">
+                    <path d="M28 0v31h8V0h37v38h-7V7h-8v31h-7V7h-8v31H21V7h-7v31H7V7H0V0h28z" fill="currentColor" />
+                </svg>
+
+                <div class="page__header-text">
+                    Technische <br>
+                    Universität <br>
+                    München
+                </div>
+
+            </a>
+            <div class="nav-links">
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="https://www.tum.de/en/studies/degree-programs/detail/ai-in-society">About the
+                            course</a>
+                        <a href="https://www.sot.tum.de/sot/studium/ai-in-society/studies/">Curriculum</a>
+                        <a href="https://www.sot.tum.de/sot/studium/ai-in-society/">Course Homepage</a>
+                        <a
+                            href="https://www.tum.de/fileadmin/w00bfo/www/Studium/Studienangebot/Lesbare_Fassung/Master/AI_in_Society_MA_Studiengangsdokumentation_22072024.pdf">
+                            Documentation</a>
+                        <a href="#" onclick="togglePrivacyPolicy()">Privacy Policy</a>
+                        <a href="#" onclick="toggleContactinfo()">Contact Info</a>
+                    </div>
+
+                    <div id="privacyContainer" class="privacy-box">
+                        <textarea id="privacyPolicy" readonly>
+Privacy policy
+Data protection is an important concern for the Technical University of Munich. We want you to know when we store which data and how we use it. Personal data is collected on this central web server of the University (www.tum.de) only to the extent technically necessary. Data processing is subject to the applicable data protection regulations, in particular the General Data Protection Regulation (GDPR), the Bavarian Data Protection Act (BayDSG) and the Digital Services Act (DDG).
+                            
+In the following, we inform you about the type, scope and purpose of the collection and use of personal data. This information can be accessed at any time from our website.
+                            
+Technical implementation
+The web servers of the Technical University of Munich are operated by the Leibniz Supercomputing Centre (LRZ) operated.
+                            
+Leibniz Supercomputing Centre (LRZ)
+Boltzmannstraße 1
+85748 Garching b. Munich
+                            
+Logging
+When you access this or other websites, you transmit data to our web server via your Internet browser. The following data is temporarily recorded in a log file during an ongoing connection for communication between your internet browser and our web server:
+                            
+IP address of the requesting computer
+Date and time of access
+Name, URL, and amount of data transferred of the retrieved file
+Access status (requested file transferred, not found, etc.)
+Identification data of the browser and operating system used (if transmitted by the requesting web browser
+Website from which the access was made (if transmitted by the requesting web browser)
+The processing of the data in this log file is carried out as follows:
+                            
+The log entries are continuously evaluated automatically in order to detect attacks on the web servers and to be able to react accordingly.                            
+In individual cases, i.e. in the case of reported faults, errors and security incidents, a manual analysis is carried out.
+Log entries that are older than seven days are anonymized by shortening the IP address.
+The anonymized logs are used to create access statistics. The software used for this is operated locally by the LRZ.
+The IP addresses contained in the log entries are not merged with other databases by the LRZ, so that it is not possible for the LRZ to draw conclusions about individual persons.
+                            
+Active Components
+Active components such as JavaScript, Java applets or Active X controls are used in this website. This function can be switched off by you by setting your internet browser.
+                            
+Google Maps
+This website uses the "Google Maps and Route Planner" function of Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States ("Google") to display and calculate geographical information and access routes. Google Maps can transmit data about your use of this website to Google, collect it and use it by Google. You can prevent such data transfer by deactivating "Javascript" in your browser. In this case, however, no maps can be displayed. By using this website and not deactivating "Javascript", you agree that you agree to the processing of your data by Google for the above purpose. For more information about how Google Maps and the route planner use your data, as well as Google's privacy policy, please visit: https://www.google.com/intl/de_de/help/terms_maps/
+                            
+BayernAtlas
+This website also uses the BayernAtlas to display aerial photos and building views. This service is provided by the State Office for Digitization, Broadband and Surveying, Alexandrastraße 4, 80538 Munich, postal address: P.O. Box 22 14 28, 80504 Munich. By using this website, you agree to its terms of use and to the collection and processing of the data as well as the data entered by it. The Terms and the Privacy policy can be found on the website of the Geoportal Bayern.
+                            
+Cookies
+In order to expand the range of functions of our website and to make it more convenient for you to use, we sometimes use so-called "cookies". With the help of these cookies, data can be stored on your computer when you visit our website. However, you can deactivate the storage of cookies or set your browser so that cookies are only stored for the duration of the respective connection to the Internet. However, this could limit the range of functions of our offer.
+                            
+Online forms
+Personal data that you may send to us via contact forms, registration forms and similar websites on our web servers will only be accepted with your consent and serve exclusively the purpose stated in the forms. Please note the relevant information on the forms.
+                            
+In all forms, only the personal data that is absolutely necessary is collected. Usually, the personal data is stored in a database of the Leibnitz Computer Center and is accessible to the responsible TUM employees. If the purpose of the data collection is to make the data accessible to other members of TUM, the principle of data economy is observed. Your data will not be passed on to third parties, unless this is explicitly stated in the form.
+                            
+Your personal data will be deleted after the purpose has been fulfilled, unless you have given your consent to further contact.
+                            
+You can revoke your consent at any time for the future. To do so, please contact it-support@tum.de. Your data will then be deleted immediately.
+                            
+Electronic mail (e-mail)
+Information that you send to us unencrypted by electronic mail (e-mail) may be read by third parties in transit. As a rule, we cannot verify your identity and do not know who is behind an e-mail address. Legally compliant communication by simple e-mail is therefore not guaranteed. Like many e-mail providers, we use filters against unsolicited advertising ("SPAM filters"), which in rare cases also incorrectly classify normal e-mails as unwanted advertising and delete them. E-mails that contain harmful programs ("viruses") will be automatically deleted by us in any case.
+                            
+Use of Facebook Social Plugins
+Our website uses social plugins ("plugins") of the social network facebook.com, which is operated by Facebook Inc., 1601 S. California Ave, Palo Alto, CA 94304, USA ("Facebook"). The plugins are marked with a Facebook logo or the addition "Facebook Social Plugin".
+                            
+When you call up a website on our website that contains such a plugin, your browser establishes a direct connection with Facebook's servers. The content of the plugin is transmitted by Facebook directly to your browser and integrated into the website by it.
+                            
+By integrating the plugins, Facebook receives the information that you have accessed the corresponding page of our website. If you are logged in to Facebook, Facebook can assign the visit to your Facebook account, even if you have not confirmed the "Like" button. When you interact with the plugins, for example by clicking the "Like" button or making a comment, the corresponding information is transmitted directly from your browser to Facebook and stored there.
+                            
+Even if you don't have a Facebook account, Facebook can collect data about you, such as your IP address. For the purpose and scope of the data collection and the further processing and use of the data by Facebook, as well as your rights in this regard and setting options to protect your privacy, please refer to the Privacy Policy from Facebook.
+                            
+If you do not want Facebook to collect data about you via our website, you must log out of Facebook before visiting our website. In addition, you can also install appropriate blockers for your browser through add-ons.
+                            
+Use of Twitter
+On our homepage you will find functions of the provider Twitter. These are offered by Twitter Inc., 795 Folsom St., Suite 600, San Francisco, CA 94107, USA. By using Twitter and the "Re-Tweet" function, the websites you visit are linked to your Twitter account and made known to other users. In the process, data is also transmitted to Twitter.
+                            
+We would like to point out that we, as the provider of the pages, have no knowledge of the content of the transmitted data or its use by Twitter. Further information on this can be found in Twitter's privacy policy at https://twitter.com/privacy.
+                            
+Use of YouTube plugins (videos)
+Our website contains plugins from www.youtube.com which is operated by Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States ("Google").
+                            
+If you call up pages of our website provided with such a plug-in, a connection to the YouTube servers will be established and the plug-in will be displayed on the website by means of a message to your browser. This transmits to the YouTube server which of our websites you have visited. If you are logged in as a member of Youtube, YouTube assigns this information to your personal user accounts of these platforms. When using these plugins, such as clicking/starting a video or sending a comment, this information is assigned to your YouTube user account, which you can only prevent by logging out before using the plugin. Further information on the collection and use of data by the platform or plugins can be found in Youtube's privacy policy under the following link: https://policies.google.com/privacy?hl=de.
+                            
+We use embedded YouTube videos in advanced privacy mode. This means that YouTube does not store cookies for a user who views a web page with an embedded YouTube video player, but does not click on the video to start playback.
+                            
+Use of Vimeo plugins (videos)
+Plugins from the video portal Vimeo of Vimeo, LLC, 555 West 18th Street, New York, New York 10011, USA are integrated into our website. Every time you visit a page that offers one or more Vimeo video clips, a direct connection is established between your browser and a Vimeo server in the USA. Information about your visit and your IP address will be stored there. Through interactions with the Vimeo plugins (e.g. clicking the start button), this information is also transmitted to Vimeo and stored there.
+                            
+If you have a Vimeo account and do not want Vimeo to collect data about you through this website and link it to your member data stored by Vimeo, you must log out of Vimeo before visiting this website.
+                            
+The privacy policy for Vimeo with more information on the collection and use of your data by Vimeo can be found at https://vimeo.com/privacy.
+                            
+Issuu
+This website uses the web service of Issuu, Inc., 131 Lytton Ave, Palo Alto, CA 94301, USA. Issuu uses so-called "cookies", text files that are stored on your computer and enable an analysis of your use of the website. The information generated by the cookie about your use of this website is usually transmitted to an Issuu server in the USA and stored there. We have no knowledge of the content of the transmitted data or its use by Issuu. Users under the age of 13 are not recommended to use Issuu. For details on the use of cookies, please refer to the Issuu Privacy Policy.
+                            
+Two clicks for more data protection
+Only by clicking on a social network button does it become active and your browser establishes a direct connection with the respective servers. The first click on the button therefore means that you give your consent to the transmission of data to the relevant provider.
+                            
+By activating the button, the user receives the information that you have accessed the corresponding page of our website. If you are logged in to the respective social network, the visit can be assigned to your account from that moment on, even if you do not confirm the button a second time. If you interact with the plugins, for example by making a comment by pressing the button again, the corresponding information will be transmitted from your browser directly to the provider and stored there.
+                            
+Changes to the Privacy Policy
+We reserve the right to adjust our data protection regulations from time to time so that they always comply with current legal requirements or to implement changes to our services in the data protection declaration. We encourage you to review this Privacy Policy regularly to stay informed about the privacy of the personal information we collect. By continuing to use the Service, you agree to be bound by this Privacy Policy and to update it.
+                            
+Official Data Protection Officer
+You can reach the official data protection officer of the Technical University of Munich by e-mail beauftragter(at)datenschutz.tum.de or via www.datenschutz.tum.de
+                            
+Information and correction
+You have the right to obtain information about the personal data upon written request and free of charge. that are stored about you. In addition, you have the right to rectify inaccurate data, Blocking and deletion.
+                        </textarea>
+                        <button onclick="closePrivacyPolicy()">Close</button>
+                    </div>
+
+                    <script>
+                        function togglePrivacyPolicy() {
+                            var policyBox = document.getElementById("privacyContainer");
+                            if (policyBox.style.display === "none" || policyBox.style.display === "") {
+                                policyBox.style.display = "block"; 
+                            } else {
+                                policyBox.style.display = "none"; 
+                            }
+                        }
+                    
+                        function closePrivacyPolicy() {
+                            document.getElementById("privacyContainer").style.display = "none";
+                        }
+                    </script>
+
+
+
+
+
+
+<div id="ContactContainer" class="Contact-box">
+    <textarea id="Contactinfo" readonly>
+Imprint
+
+Editor
+Technical University of Munich
+Arcisstraße 21
+80333 Munich
+Phone: +4989289-01
+poststelle@tum.de
+        
+Legal form and representation
+The Technical University of Munich is a corporation under public law and a state institution (Article 4 (1) BayHIG). It is legally represented by its president, Prof. Dr. Thomas F. Hofmann.
+        
+Competent supervisory authority
+Bavarian State Ministry of Science and the Arts
+        
+Identification number
+DE811193231 (in accordance with § 27a of the Value Added Tax Act)
+        
+Responsible for content
+Ahmed,Hangze Wu,Zhongrui Nie,Jiayi Zhou
+Chat-bot Frontend group
+Arcisstraße 21
+80333 Munich
+E-Mail: zhongruinie@gmail.com
+        
+Websites identified by name reflect the views and findings of the persons mentioned.
+        
+Technical implementation
+This website is compatible with the Web Content Management System TYPO3 and is a service of the Central Information Technology (ZIT) of the TUM.
+        
+Technical The contact person for this TYPO3 offer is the TYPO3 team of the ZIT – reachable at typo3@tum.de. The respective owners of the website are responsible for the installation and administration of the content.
+        
+Terms
+Texts, images, graphics and the design of this website may be subject to copyright. The following are not protected by copyright according to § 5 of the Copyright Act (UrhG):
+        
+Laws, ordinances, official decrees and announcements as well as decisions and officially drafted guidelines on decisions and
+other official works that have been published in the official interest for general information, with the restriction that the provisions on prohibition of modification and reference to sources in § 62.1 to 62.3 and § 63.1 and 63.2 of the Copyright Act are to be applied mutatis mutandis.
+As a private individual, you may use copyrighted material for private and other personal use within the framework of § 53 UrhG. Any reproduction or use of copyrighted material from these pages or parts thereof in other electronic or printed publications and their publication is only permitted with our consent. This consent is given on request by those responsible for the content. The reprinting and evaluation of press releases and speeches is generally permitted, provided the source is acknowledged.
+        
+Furthermore, texts, images, graphics and other files may be subject to the copyright of third parties in whole or in part. The persons responsible for the content will also provide you with more detailed information about the existence of possible rights of third parties.
+        
+Disclaimer
+We have compiled and checked all information provided on this website to the best of our knowledge and belief. However, we cannot guarantee that the information provided is up-to-date, correct, complete and available at all times. A contractual relationship with the users of the website is not established.
+        
+We are not liable for any damage caused by the use of this website. This exclusion of liability does not apply insofar as the provisions of § 839 BGB (liability in the event of breach of official duty) are relevant. We assume no liability for any damage caused by malware or the installation or use of software when accessing or downloading data.
+        
+Left
+A distinction must be made between cross-references ("links") to the websites of other providers and our own content. Through these links, we only enable access to the use of third-party content in accordance with § 7 of the Digital Services Act. When linking to these websites for the first time, we checked these third-party contents to see whether they would trigger possible civil or criminal liability. However, we cannot constantly check this third-party content for changes and therefore cannot take any responsibility for it. The respective provider of the site is solely liable for illegal, incorrect or incomplete content and in particular for damage resulting from the use or non-use of third-party information.
+
+    </textarea>
+    <button onclick="closeContactinfo()">Close</button>
+</div>
+
+<script>
+    function toggleContactinfo() {
+        var contactBox = document.getElementById("ContactContainer");
+        if (contactBox.style.display === "none" || contactBox.style.display === "") {
+            contactBox.style.display = "block"; 
+        } else {
+            policyBox.style.display = "none"; 
+        }
+    }
+
+    function closeContactinfo() {
+        document.getElementById("ContactContainer").style.display = "none";
+    }
+</script>
+
+
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Integrated Chat -->
+    <section class="hero">
+        <div class="hero-container">
+            <h1>Nia</h1>
+            <p class="hero-text">
+                Navigating Information with AI - Your intelligent companion for navigating the AI & Society
+                course at TUM. Ask questions about admissions, curriculum, career prospects, and more. Get instant,
+                accurate responses tailored to your needs.</p>
+            <div class="chat-interface">
+                <!-- Chat Window -->
+                <div class="chat-window">
+                    <div class="chat-header">
+                        <button class="clear-chat">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                        <button class="download-chat">
+                            <i class="fas fa-download"></i>
+                        </button>
+                    </div>
+                    <div class="chat-container">
+                        <div class="chat-messages"></div>
+                    </div>
+                </div>
+
+                <!-- Search Container -->
+                <div class="search-container">
+                    <div class="search-wrapper">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="text" class="search-input" placeholder="What's on your mind?">
+                        <button class="voice-input">
+                            <i class="fas fa-microphone"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="section-container">
+            <h2>Frequently Asked Questions</h2>
+    
+            <!-- Section 1: Admission Information -->
+            <h3 class="faq-subtitle">1.Admission Information</h3>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>What are the Required Documents for Admission?</h3>
+                </div>
+                <div class="faq-item">
+                    <h3>When is the Application Period?</h3>
+                </div>
+                <div class="faq-item">
+                    <h3>What is the Program Objective?</h3>
+                </div>
+                <div class="faq-item">
+                    <h3>What are the Tuition Fees for students from abroad?</h3>
+                </div>
+            </div>
+    
+            <!-- Section 2: Program Details -->
+            <h3 class="faq-subtitle">2.Program Details</h3>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How is the Admission Process?</h3>
+                </div>
+                <div class="faq-item">
+                    <h3>Who can I contact for more information?</h3>
+                </div>
+                <div class="faq-item">
+                    <h3>How long is the Program?</h3>
+                </div>
+                <div class="faq-item">
+                    <h3>What is the expected job for after graduation?</h3>
+                </div>
+            </div>
+    
+            <!-- Section 3: Additional Information -->
+            <h3 class="faq-subtitle">3.Additional Information</h3>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Are there any scholarships available?</h3>
+                </div>
+                <div class="faq-item">
+                    <h3>What is the course structure?</h3>
+                </div>
+                <div class="faq-item">
+                    <h3>What are the internship opportunities?</h3>
+                </div>
+                <div class="faq-item">
+                    <h3>How can I apply for housing?</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page__footer">
+        <div class="page__footer-primary">
+            <div class="footer_top">
+                <div class="flex">
+                    <div class="flex__md-4">
+                        <div class="flex Footer_text">
+                            <div>
+                                <a href="https://www.tum.de/" target="_blank">
+                                    <img src="	https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Backend/tum-logo.svg"
+                                        width="50" height="30" alt="">
+                                </a>
+                            </div>
+                            <div class="Footer_text">
+                                <p>
+                                    Technical University of Munich<br>
+                                    Arcisstraße 21<br>
+                                    80333 München
+                                </p>
+                                <p>
+                                    Phone: <a href="tel:+498928901">+49 (0)89-289-01</a><br>
+                                    Fax: <a href="tel:+4928922000">+49 (0)89-289-22000</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex__md-4">
+
+                        <h2 class="h6">
+                            Let's shape the future together.
+                        </h2>
+                        <ul class="page__footer-links">
+
+                            <li>
+                                <a href="https://www.fundraising.tum.de/en/fundraising/startpage/" target="_blank"
+                                    rel="noreferrer">
+                                    Support us
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <div class="Footer_text flex__md-4">
+                        <h2 class="h6">Study Coordinator</h2>
+                        <ul class="page__footer-news">
+                            <li>
+                                Enkeleda Thaqi
+                            </li>
+                            <li>
+                                Email: <a href="mailto:ais@sot.tum.de">ais@sot.tum.de</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_links">
+                        <div class="flex page__footer-quicklinks">
+                            <div class="Footer_text">
+                                <p><b>Schools:<b></p>
+                            </div>
+                            <div>
+                                <ul>
+
+                                    <li>
+                                        <a href="https://www.cit.tum.de/en/" target="_blank" rel="noreferrer">
+                                            Computation, Information and Technology
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://www.ed.tum.de/en/" target="_blank" rel="noreferrer">
+                                            Engineering and Design
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://www.nat.tum.de/en/nat" target="_blank" rel="noreferrer">
+                                            Natural Sciences
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://www.ls.tum.de/en/" target="_blank" rel="noreferrer">
+                                            Life Sciences
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://www.med.tum.de/en" target="_blank" rel="noreferrer">
+                                            Medicine and Health
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://www.mgt.tum.de/" target="_blank" rel="noreferrer">
+                                            Management
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://www.sot.tum.de/en/" target="_blank" rel="noreferrer">
+                                            Social Sciences and Technology
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="flex page__footer-quicklinks">
+                            <div class="Footer_text flex__lg-1">
+                                <p><b>Quicklinks:<b></p>
+                            </div>
+                            <div class="flex__auto">
+                                <ul>
+
+                                    <li>
+                                        <a href="https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/login?$ctx=lang=en"
+                                            target="_blank" rel="noreferrer">
+                                            Persons (TUMonline)
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/en/about-tum/contact-directions/logins">
+                                            IT Services
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://www.tum.de/aktuelles/veranstaltungen/terminuebersicht"
+                                            target="_blank">
+                                            Calendar
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://portal.mytum.de/navigation_view?set_language=en"
+                                            target="_blank" rel="noreferrer">
+                                            MyTUM
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://nav.tum.de/" target="_blank" rel="noreferrer">
+                                            Rooms
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://www.ub.tum.de/en" target="_blank" rel="noreferrer">
+                                            University Library
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://shop.tum.de/en/" target="_blank" rel="noreferrer">
+                                            TUMshop
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page__footer-tertiary">
+            <div class="footer_bottum">
+                <div class="quick_social flex">
+                    <div class="page__footer-quicklinks">
+                        <ul>
+                            <li>
+                                <a href="/en/about-tum/careers-and-jobs/careers-at-tum">
+                                    Jobs
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/en/about-tum/contact-directions/feedback">
+                                    Feedback
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/en/press-and-media">
+                                    Press and Media
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/en/spezialseiten/accessibility">
+                                    Accessibility
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/en/privacy-policy">
+                                    Privacy Policy
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/en/about-tum/contact-directions/legal-notice">
+                                    Legal Notice
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/en/about-tum/emergency">
+                                    Emergency
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="page__footer-social-media">
+                        <ul>
+
+                            <li>
+                                <a href="https://www.instagram.com/tu.muenchen" target="_blank" class="hide-icon"
+                                    rel="noreferrer">
+                                    <img src="https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/soc-instagram.svg"
+                                        alt="" height="20" width="20">
+                                    <span class="visually-hidden"></span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.linkedin.com/school/166283/" target="_blank" class="hide-icon"
+                                    rel="noreferrer">
+                                    <img src="https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/soc-linkedin.svg"
+                                        alt="" height="20" width="20">
+                                    <span class="visually-hidden"></span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.facebook.com/TU.Muenchen" target="_blank" class="hide-icon"
+                                    rel="noreferrer">
+                                    <img src="https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/soc-facebook.svg"
+                                        alt="" height="20" width="20">
+                                    <span class="visually-hidden"></span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://twitter.com/TU_Muenchen" target="_blank" class="hide-icon"
+                                    rel="noreferrer">
+                                    <img src="https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/soc-twitter.svg"
+                                        alt="" height="20" width="20">
+                                    <span class="visually-hidden"></span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.youtube.com/TUMuenchen1" target="_blank" class="hide-icon"
+                                    rel="noreferrer">
+                                    <img src="https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/soc-facebook.svg"
+                                        alt="" height="20" width="20">
+                                    <span class="visually-hidden"></span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.threads.net/@tu.muenchen" target="_blank" class="hide-icon"
+                                    rel="noreferrer">
+                                    <img src="https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/soc-youtube.svg"
+                                        alt="" height="20" width="20">
+                                    <span class="visually-hidden"></span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/news.rss" class="hide-icon">
+                                    <img src="https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/soc-threads.svg"
+                                        alt="" height="20" width="20">
+                                    <span class="visually-hidden"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="Footer_text partners-container">
+                    <img src="https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/partners-of-excellence.svg"
+                        alt="" height="60" width="32">
+                    <a href="https://www.tum-universitaetsstiftung.de" target="_blank" class="hide-icon"
+                        rel="noreferrer">
+                        <h2>TUM Partners of Excellence</h2>
+                        <p>Airbus · Altana · Audi · Bayerischer<span class="nbsp">&nbsp;</span>Bauindustrieverband · BMW
+                            · Bosch · Busch Vacuum&nbsp;· Clariant · Dräxlmaier · Evonik Industries · Google ·
+                            Herrenknecht · HUAWEI · Infineon · Linde · MAN · Nestlé · Rohde<span
+                                class="nbsp">&nbsp;</span>&amp;<span class="nbsp">&nbsp;</span>Schwarz · RWE · SAP · SGL
+                            Carbon · Siemens · TRUMPF · TÜV-Süd · Vereinigung der Bayerischen Wirtschaft · Volkswagen ·
+                            Wacker Chemie</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
