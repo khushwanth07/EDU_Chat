@@ -9,6 +9,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const faqItems = document.querySelectorAll('.faq-item');
     const heroSection = document.querySelector('.hero');
 
+    // Add welcome message when page loads
+    function addWelcomeMessage() {
+        const welcomeMessage = "Hello! I'm Nia, your AI assistant for the AI & Society course at TUM. How can I help you today? You can ask me about admissions, curriculum, or click on any FAQ below.";
+        setTimeout(() => {
+            addMessage(welcomeMessage, false);
+            showChatWindow();
+        }, 500);
+    }
+
     // Chat Window Management Functions
     function showChatWindow() {
         heroSection.classList.add('expanded');
@@ -31,7 +40,8 @@ document.addEventListener('DOMContentLoaded', () => {
             // Smooth scroll to chat window on mobile
             if (window.innerWidth <= 768) {
                 setTimeout(() => {
-                    chatWindow.scrollIntoView({ behavior: 'smooth' });
+                    const chatSectionTop = document.getElementById('chat-section').offsetTop;
+                    window.scrollTo({ top: chatSectionTop, behavior: 'smooth' });
                 }, 100);
             }
         }
@@ -51,11 +61,16 @@ document.addEventListener('DOMContentLoaded', () => {
         messageDiv.classList.add(isUser ? 'user-message' : 'bot-message');
         
         const textSpan = document.createElement('span');
-        textSpan.textContent = message;
+        // Use textContent for security, but handle line breaks
+        const formattedMessage = message.replace(/\n/g, '<br>');
+        textSpan.innerHTML = formattedMessage;
         messageDiv.appendChild(textSpan);
 
+        // Add role attributes for accessibility
+        messageDiv.setAttribute('role', 'listitem');
+        messageDiv.setAttribute('aria-label', `${isUser ? 'You' : 'Assistant'}: ${message}`);
+
         chatMessages.appendChild(messageDiv);
-        chatMessages.scrollTop = chatMessages.scrollHeight;;
         
         // Ensure proper scroll after adding message
         requestAnimationFrame(() => {
@@ -69,6 +84,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function showTypingIndicator() {
         const indicator = document.createElement('div');
         indicator.classList.add('typing-indicator');
+        indicator.setAttribute('aria-label', 'Assistant is typing');
+        indicator.setAttribute('role', 'status');
         
         for (let i = 0; i < 3; i++) {
             const dot = document.createElement('div');
@@ -94,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Display typing indicator
         const typingIndicator = showTypingIndicator();
 
-        // Fetch response from backend
+        // Fetch response from backend with error handling
         fetch('http://127.0.0.1:5000/query', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -102,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
             .then((response) => {
                 if (!response.ok) {
-                    throw new Error('Network response was not ok');
+                    throw new Error(`Network response error: ${response.status}`);
                 }
                 return response.json();
             })
@@ -113,7 +130,12 @@ document.addEventListener('DOMContentLoaded', () => {
             .catch((error) => {
                 typingIndicator.remove();
                 console.error('Error fetching response:', error);
-                addMessage('Sorry, something went wrong. Please try again.', false);
+                
+                // Simple user-friendly error message without retry option
+                addMessage(`I'm having trouble connecting to our knowledge base. This could be due to a temporary network issue. Please try again in a moment or refresh the page.`, false);
+                
+                // Ensure scroll is at the bottom
+                chatMessages.scrollTop = chatMessages.scrollHeight;
             });
     }
 
@@ -124,15 +146,26 @@ document.addEventListener('DOMContentLoaded', () => {
             searchInput.value = '';
         }
     });
+    
+    // Also handle clicks on the search bar to show the chat window
+    searchInput.addEventListener('focus', () => {
+        if (!chatWindow.classList.contains('active')) {
+            showChatWindow();
+        }
+    });
 
-    // Clear chat functionality
+    // Clear chat functionality with confirmation
     clearChatBtn.addEventListener('click', () => {
+        if (chatMessages.children.length === 0) {
+            return; // Nothing to clear
+        }
+        
         if (confirm('Are you sure you want to clear the chat history?')) {
             chatMessages.innerHTML = '';
             collapseChatWindow();
-            // Optional: Add a system message
+            // Add a system message
             setTimeout(() => {
-                addMessage('Chat history has been cleared. How can I help you?', false);
+                addWelcomeMessage();
             }, 300);
         }
     });
@@ -171,9 +204,18 @@ document.addEventListener('DOMContentLoaded', () => {
             const question = item.querySelector('h3').textContent;
             handleInput(question);
         });
+        
+        // Add keyboard support for accessibility
+        item.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                const question = item.querySelector('h3').textContent;
+                handleInput(question);
+            }
+        });
     });
 
-    // Voice Input Setup
+    // Voice Input Setup with better feedback
     if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
         const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
         const recognition = new SpeechRecognition();
@@ -189,20 +231,34 @@ document.addEventListener('DOMContentLoaded', () => {
                 recognition.start();
                 voiceInput.querySelector('i').classList.remove('fa-microphone');
                 voiceInput.querySelector('i').classList.add('fa-microphone-slash');
+                voiceInput.setAttribute('aria-label', 'Listening... Click to stop');
+                
+                // Add visual feedback
+                searchInput.placeholder = "Listening...";
+                voiceInput.classList.add('listening');
             } else {
                 recognition.stop();
                 voiceInput.querySelector('i').classList.remove('fa-microphone-slash');
                 voiceInput.querySelector('i').classList.add('fa-microphone');
+                voiceInput.setAttribute('aria-label', 'Use voice input');
+                
+                // Reset feedback
+                searchInput.placeholder = "Hello! I'm Nia, your AI assistant for the AI & Society course at TUM. How can I help you today?";
+                voiceInput.classList.remove('listening');
             }
             isListening = !isListening;
         });
 
         recognition.onresult = (event) => {
             const transcript = event.results[0][0].transcript;
+            searchInput.value = transcript;
             handleInput(transcript);
             
             voiceInput.querySelector('i').classList.remove('fa-microphone-slash');
             voiceInput.querySelector('i').classList.add('fa-microphone');
+            voiceInput.setAttribute('aria-label', 'Use voice input');
+            searchInput.placeholder = "What's on your mind?";
+            voiceInput.classList.remove('listening');
             isListening = false;
         };
 
@@ -210,10 +266,24 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error('Speech recognition error:', event.error);
             voiceInput.querySelector('i').classList.remove('fa-microphone-slash');
             voiceInput.querySelector('i').classList.add('fa-microphone');
+            voiceInput.setAttribute('aria-label', 'Use voice input');
+            searchInput.placeholder = "What's on your mind?";
+            voiceInput.classList.remove('listening');
             isListening = false;
+            
+            // Show error feedback to user
+            if (event.error === 'no-speech') {
+                addMessage("I couldn't hear anything. Please try speaking again or type your question.", false);
+            } else if (event.error === 'not-allowed' || event.error === 'permission-denied') {
+                addMessage("Microphone access was denied. Please check your browser permissions.", false);
+            } else {
+                addMessage("Voice recognition had an error. You can type your question instead.", false);
+            }
         };
     } else {
         voiceInput.style.display = 'none';
+        // Expand the input field when voice input is not available
+        searchInput.style.width = '100%';
     }
 
     // Add keyboard shortcut to collapse chat (Escape key)
@@ -222,4 +292,34 @@ document.addEventListener('DOMContentLoaded', () => {
             collapseChatWindow();
         }
     });
+
+    // Privacy Policy and Contact Info modal fixes
+    window.togglePrivacyPolicy = function() {
+        const policyBox = document.getElementById("privacyContainer");
+        if (policyBox.style.display === "none" || policyBox.style.display === "") {
+            policyBox.style.display = "block"; 
+        } else {
+            policyBox.style.display = "none"; 
+        }
+    };
+    
+    window.closePrivacyPolicy = function() {
+        document.getElementById("privacyContainer").style.display = "none";
+    };
+    
+    window.toggleContactInfo = function() {
+        const contactBox = document.getElementById("contactContainer");
+        if (contactBox.style.display === "none" || contactBox.style.display === "") {
+            contactBox.style.display = "block"; 
+        } else {
+            contactBox.style.display = "none"; 
+        }
+    };
+    
+    window.closeContactInfo = function() {
+        document.getElementById("contactContainer").style.display = "none";
+    };
+
+    // Welcome message will be shown only after user interaction
+    // Chat will not auto-open until user interacts with it
 });
