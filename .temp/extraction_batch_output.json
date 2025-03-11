@@ -23,18 +23,10 @@
         "source": "email_001.txt",
         "request_id": "068b66f8a9437666ecb20946624b6195"
     },
-    "40e67dc0-29b7-4006-92ca-9b5e06c171ff": {
-        "created": 1737387192,
-        "question": "What should be done if an applicant was unable to complete only one class due to external circumstances at a previous university?",
-        "answer": "The applicant could propose to the admissions board for an oral interview or suggest meeting a higher standard in the assessment process to fully demonstrate both their knowledge and dedication to the program.",
-        "source_type": "email",
-        "source": "email_001.txt",
-        "request_id": "068b66f8a9437666ecb20946624b6195"
-    },
     "9a9a76ff-e394-4ff4-af3e-ce0343e1b9a8": {
         "created": 1737387192,
         "question": "What information is needed from the applicant to do a check of the similarity between previous degree and AI in society program at TUM?",
-        "answer": "The program heads at TUM would need to know more details about the applicant's previous degree, such as the university and the modules that are part of the curriculum. This information could also be sent via the website of the degree if it lists all relevant information.",
+        "answer": "The program heads at TUM would need to know more details about the applicant's previous degree, such as the university and the modules that are part of the curriculum.",
         "source_type": "email",
         "source": "email_001.txt",
         "request_id": "068b66f8a9437666ecb20946624b6195"
@@ -43,14 +35,6 @@
         "created": 1737387211,
         "question": "Would my situation, i.e. failing a subject and therefore failing my degree, exempt me from doing the same/similar degree anywhere else in Germany?",
         "answer": "In Germany, if you have failed a subject and you therefore failed your degree, you are exempted from doing the same/similar degree anywhere else in Germany. If your previous degree and ours (MSc. AI in Society) are considered to be similar enough by our program heads, you would unfortunately be declined by TUM. Alternatively, if the two degrees are not considered similar, you can apply with no problems.",
-        "source_type": "email",
-        "source": "email_002.txt",
-        "request_id": "adc074c08c8a43979fa8d365a7fb735d"
-    },
-    "278877d5-bdaa-42dc-a5fb-34029ff1eb47": {
-        "created": 1737387211,
-        "question": "I failed a single class due to external circumstances. Is it possible to consider an exemption in this case? Could an interview with the admissions board be arranged, or could I meet a higher standard in the assessment process?",
-        "answer": "In this situation, whether or not you can apply is a formal issue determined by the university and cannot be decided by an interview with the admission committee.",
         "source_type": "email",
         "source": "email_002.txt",
         "request_id": "adc074c08c8a43979fa8d365a7fb735d"
@@ -74,7 +58,7 @@
     "d058ab9e-a6bc-493e-8cb3-253b41fa228b": {
         "created": 1737387225,
         "question": "Is it necessary to submit an English proficiency certificate such as TOEFL or IELTS, or would my completed English and German courses be sufficient for this requirement?",
-        "answer": "It is not necessary to submit English certificates, if instead you can prove your knowledge to us by \u201cEnglish as language of instruction\u201d during your Bachelor\u2019s studies, or if your thesis was written in English.",
+        "answer": "It is not necessary to submit English certificates if instead, you can prove your knowledge to us by \u201cEnglish as language of instruction\u201d during your Bachelor\u2019s studies, or if your thesis was written in English.",
         "source_type": "email",
         "source": "email_003.txt",
         "request_id": "988284e0322589e3eb390fec1a233666"
@@ -82,7 +66,7 @@
     "22e3e88d-d5f9-45f6-a843-dfc05377f447": {
         "created": 1737387225,
         "question": "Are there any other specific admission criteria I should be aware of or additional steps I might need to take?",
-        "answer": "All of the relevant admission criteria and procedures can be found on the program's website.",
+        "answer": "All of the relevant admission criteria and procedures can be found on the program's website https://www.sot.tum.de/sot/studium/ai-in-society/application/.",
         "source_type": "email",
         "source": "email_003.txt",
         "request_id": "988284e0322589e3eb390fec1a233666"
@@ -90,7 +74,7 @@
     "ec1b84ea-d40a-4bd1-9dd3-ef11911c2fd1": {
         "created": 1737387225,
         "question": "Who can help me with my application to a scholarship program?",
-        "answer": "You are advised to reach out to the scholarship office from the official website.",
+        "answer": "You are advised to reach out to the scholarship office from the official website: https://www.tum.de/en/studies/fees-and-financial-aid/scholarships/tum-scholarships.",
         "source_type": "email",
         "source": "email_003.txt",
         "request_id": "988284e0322589e3eb390fec1a233666"
@@ -106,7 +90,7 @@
     "fbc25244-b472-4829-aff6-bf10972e0904": {
         "created": 1737387239,
         "question": "What is important for an applicant for the Master\u2019s program?",
-        "answer": "What is important is that you fulfill the application requirements.",
+        "answer": "To meet the application requirements specified on this website: https://www.sot.tum.de/sot/studium/ai-in-society/application/",
         "source_type": "email",
         "source": "email_004.txt",
         "request_id": "cd076cd21a4b823ef5394307f47ce674"
@@ -114,7 +98,7 @@
     "d988540a-649a-47f9-9d52-f8f95eb99707": {
         "created": 1737387239,
         "question": "What are the requirements for the practical project component in the Master\u2019s program?",
-        "answer": "Your work experience would be very relevant for fulfilling the practical project component.",
+        "answer": " During your previous studies, you should have successfully completed a practical project, usually comprising at least 18 credits. This project should have integrated engineering or scientific knowledge with insights from political, economics, or social sciences. The aim of the project should have been the practical analysis of societal challenges, demonstrating the ability to apply a blend of technical and social science perspectives. For instance, suitable projects may have focused on areas such as: 1. analyzing social media trends through data analytics  2. developing or assessing educational technologies 3. exploring the ethical dimensions of AI or data usage 4. innovating within the smart cities framework 5. implementing data-driven approaches in healthcare",
         "source_type": "email",
         "source": "email_004.txt",
         "request_id": "cd076cd21a4b823ef5394307f47ce674"
@@ -122,7 +106,7 @@
     "43ab2906-280c-4b75-ad2e-15f27f3446db": {
         "created": 1737387239,
         "question": "Where can one find the application requirements for the Master\u2019s program?",
-        "answer": "The application requirements can be found on the program website.",
+        "answer": "The application requirements can be found on the program website: https://www.sot.tum.de/sot/studium/ai-in-society/application/.",
         "source_type": "email",
         "source": "email_004.txt",
         "request_id": "cd076cd21a4b823ef5394307f47ce674"
@@ -130,7 +114,7 @@
     "98bf2068-8cd9-424a-a37f-d239242ae3a0": {
         "created": 1737387248,
         "question": "What is the format of the aptitude test for the M.Sc (AI in Society) program?",
-        "answer": "The format of the aptitude test is a closed-book exam.",
+        "answer": "This is a written test spanning 90 minutes, consisting of 35 multiple-choice questions. The test aims to assess your knowledge in the fields of (1) politics and social science(2) economics and law(3) mathematics and statistics(4) science and engineering ",
         "source_type": "email",
         "source": "email_005.txt",
         "request_id": "5039bb49df6267e753cdeef720787866"
@@ -138,7 +122,7 @@
     "011579c5-b901-494c-8739-d1bfa9c97ce0": {
         "created": 1737387248,
         "question": "Can additional aids be used during the aptitude test for the M.Sc (AI in Society) program?",
-        "answer": "No, additional aids are not allowed during the exam.",
+        "answer": "No, additional aids are not allowed during the aptitude test.",
         "source_type": "email",
         "source": "email_005.txt",
         "request_id": "5039bb49df6267e753cdeef720787866"
@@ -146,7 +130,7 @@
     "fd884048-6fc6-4d66-8a53-4f316c3719a9": {
         "created": 1737387253,
         "question": "What is the accurate application period for the master 'AI in Society' at TUM?",
-        "answer": "The correct application period is 01-01 until 31-05.",
+        "answer": "The correct application period is January 1st until May 31st.",
         "source_type": "email",
         "source": "email_006.txt",
         "request_id": "e4295408ddfd75fa86e505062b127c5f"
@@ -167,34 +151,10 @@
         "source": "email_006.txt",
         "request_id": "e4295408ddfd75fa86e505062b127c5f"
     },
-    "501f306c-1fec-4021-b9cc-2dbf452ad29f": {
-        "created": 1737387260,
-        "question": "What are the requirements to enrol in the AI in Society program at TUM?",
-        "answer": "The TUM website provides all relevant information regarding the application requirements for the AI in Society study program.",
-        "source_type": "email",
-        "source": "email_007.txt",
-        "request_id": "0ad56101bb268770853aae0100e015c5"
-    },
-    "fdcab05b-646b-4081-89f5-f97e473abf19": {
-        "created": 1737387260,
-        "question": "What is the aptitude test for the AI in Society program at TUM?",
-        "answer": "The TUM website provides all relevant information regarding the aptitude test for the AI in Society study program.",
-        "source_type": "email",
-        "source": "email_007.txt",
-        "request_id": "0ad56101bb268770853aae0100e015c5"
-    },
-    "c8e1c9bb-ec63-475b-b023-ee8031cbbab2": {
-        "created": 1737387260,
-        "question": "Where can I find information about certain modules in the AI in Society program at TUM?",
-        "answer": "The TUM website provides all relevant information regarding the AI in Society study program's module.",
-        "source_type": "email",
-        "source": "email_007.txt",
-        "request_id": "0ad56101bb268770853aae0100e015c5"
-    },
     "bf22268e-1f90-4c78-b12f-ff9d4a9b10ef": {
         "created": 1737387267,
         "question": "I have completed my Bachelor's in Mechanical Engineering, but I am interested in the Master's program in 'AI in Society'. The prerequisites mention other degrees. Am I eligible to apply with my degree?",
-        "answer": "There are no rigid prerequisites when it comes to the specific field of your Bachelor's degree. In other words, you can apply with any Bachelor's degree. In the end, what matters is whether you fulfil the further admission requirements such as a practical project, entrance exam, etc.",
+        "answer": "There are no rigid prerequisites for the specific field of your Bachelor's degree. In other words, you can apply with any Bachelor's degree. In the end, what matters is whether you fulfill the further admission requirements such as a practical project, entrance exam, etc.",
         "source_type": "email",
         "source": "email_008.txt",
         "request_id": "ac98209b24d690c6c30be2ecc96d9f2b"
@@ -202,26 +162,10 @@
     "92cfed97-851d-4876-8ea9-79bd70748f02": {
         "created": 1737387272,
         "question": "I have already completed a Master's degree. May I list the credits I earned during my master's study?",
-        "answer": "No, please only list credits from your Bachelor\u2019s degree. We cannot actually take a Master\u2019s degree as basis for another Master\u2019s degree application. It will always be the Bachelor\u2019s degree that is relevant.",
+        "answer": "No, please only list credits from your Bachelor\u2019s degree. We cannot take a Master\u2019s degree as the basis for another Master\u2019s degree application. It will always be the Bachelor\u2019s degree that is relevant.",
         "source_type": "email",
         "source": "email_009.txt",
         "request_id": "27bda6d73675cef4e9fc0099c10e9b6b"
-    },
-    "dbd16595-618d-4472-b60f-996fec69fbcb": {
-        "created": 1737387277,
-        "question": "Which courses were applied for credit recognition in the AI in Society program?",
-        "answer": "The courses \u201cFoundations of AI and [REDACTED]\u201d, \u201cIntroduction to Programming and [REDACTED]\u201d, \u201cLaw, Governance and Regulation of AI\u201d, and \u201cPsychology of Learning and [REDACTED] of AI-based Systems\u201d were applied for credit recognition.",
-        "source_type": "email",
-        "source": "email_010.txt",
-        "request_id": "a22de6b24e8d355e194b2c119fb153f1"
-    },
-    "884a89ed-f8b3-44e1-96d3-6818925f0b49": {
-        "created": 1737387296,
-        "question": "Based on my academic and language qualifications, am I eligible to apply for the Master of Science \u201cAI in Society\u201d at your university?",
-        "answer": "You can look up the minimum scores here: https://www.tum.de/en/studies/application/application-info-portal/admission-requirements/language-certificates For example, for IELTS, the minimum passing score is 6.5. Your alternative English test is not mentioned as an accepted test. However, English skills are also recognized if either a) English was the language of instruction at your home university, or b) your thesis is written in English. For more info, see the university website.",
-        "source_type": "email",
-        "source": "email_014.txt",
-        "request_id": "b8cf582186c5e1f3b3816e48cdcb6341"
     },
     "38861596-b864-41bb-9341-d14929e00fa7": {
         "created": 1737387296,
@@ -242,7 +186,7 @@
     "ad9845d3-5775-4c18-bd50-246505c0c69d": {
         "created": 1737387296,
         "question": "Could you share information about the tuition fees or any other costs associated with the program?",
-        "answer": "The tuition fees per semester for students outside of the EU currently amount to 4000 euros. More information about this can be found here: https://www.tum.de/en/studies/fees/tuition",
+        "answer": " The costs include a student fee of €85 and semester tuition fees of €4,000 for students from outside the EU. For more details, please refer to the following link: https://www.tum.de/en/studies/fees/tuition",
         "source_type": "email",
         "source": "email_014.txt",
         "request_id": "b8cf582186c5e1f3b3816e48cdcb6341"
@@ -250,7 +194,7 @@
     "d8275d0b-b71d-4488-8a2a-094f19ae29c4": {
         "created": 1737387309,
         "question": "Would being exmatriculated due to academic misconduct from a previous masters degree at a german university affect the application to the AI in Society program at TUM?",
-        "answer": "The first step is to check whether your previous degree and the MSc. AI in Society are similar ('fachverwandt'). This check needs to be done by our program heads. If the two degrees are not similar enough, you are aligible to apply with no issue. If the two degrees are highly similar, you, unfortunately, would be declined by TUM. More details about your previous degree, i.e. the university, the modules included in the curriculum, are needed for this comparison.",
+        "answer": "The first step is to check whether your previous degree and the MSc. AI in Society are similar ('fachverwandt'). This check needs to be done by our program heads. If the two degrees are not similar enough, you are eligible to apply with no issue. If the two degrees are highly similar, you, unfortunately, would be declined by TUM. More details about your previous degree, i.e. the university, the modules included in the curriculum, are needed for this comparison.",
         "source_type": "email",
         "source": "email_015.txt",
         "request_id": "ebf6fefb8b0c87cb102df65b07395d57"
@@ -258,15 +202,7 @@
     "3e21f80f-9ae3-42bc-954f-f5fc91743893": {
         "created": 1737387316,
         "question": "Could you please let me know when the applications for the next admission period for the MSc. AI in Society program at TUM will open and what the deadline is?",
-        "answer": "The next admissions period will range from January 1st to May 31st, 2025.",
-        "source_type": "email",
-        "source": "email_016.txt",
-        "request_id": "7e5d78e4cc7de1779d216e1da084c221"
-    },
-    "5c938121-ea64-417b-b814-5300e41e05e9": {
-        "created": 1737387316,
-        "question": "Could you provide more details on when and how the admission test for the MSc. AI in Society program at TUM will be conducted, and what it will consist of?",
-        "answer": "The date for the next admissions test has not been set yet. However, last year it was at the end of June, with two more dates following in July and September. The contents of the test can be found on the program's website. Previous tests will not be handed out for practice.",
+        "answer": "The next admissions period will range from January 1st to May 31st.",
         "source_type": "email",
         "source": "email_016.txt",
         "request_id": "7e5d78e4cc7de1779d216e1da084c221"
@@ -279,18 +215,10 @@
         "source": "email_016.txt",
         "request_id": "7e5d78e4cc7de1779d216e1da084c221"
     },
-    "030f1b30-2f1e-4292-86f3-c762a9b0d1a6": {
-        "created": 1737387326,
-        "question": "Should I take another English exam to obtain a more recent English certificate for my application to the MSc. AI in Society program at TUM?",
-        "answer": "A more recent English certificate would be better. However, there are other options to prove your English knowledge detailed on the program's application website, which you might qualify for.",
-        "source_type": "email",
-        "source": "email_017.txt",
-        "request_id": "9765064222d8b1641eb874b69c3d1cc8"
-    },
     "ada299a8-973a-4304-9d3b-b8379c973d8f": {
         "created": 1737387326,
         "question": "I have 114 ECTS credits completed up until now, will it be enough to be over the required 140 in February for the MSc. AI in Society program at TUM?",
-        "answer": "If, at the point of your application, your transcript of records shows at least 140 passed ECTS, this is enough. Applications are open until May 31st.",
+        "answer": "If you have completed at least 140 ECTS credits by the time of your application, this will meet the requirement. Please note that 114 ECTS credits will not be sufficient. Applications are open until May 31st, so you must have 140 ECTS by that date to be eligible for the MSc. AI in Society program at TUM.",
         "source_type": "email",
         "source": "email_017.txt",
         "request_id": "9765064222d8b1641eb874b69c3d1cc8"
@@ -298,7 +226,7 @@
     "84ce7f0c-c864-4258-8211-10a421c7c396": {
         "created": 1737387339,
         "question": "Is the focus of my bachelor's thesis project, aimed at automating the retrieval of information from various sources by evaluating data structuring methods specific to certain cases, appropriate for the MSc. AI in Society program's expectations?",
-        "answer": "The project you described seems to align with the program's expectations. However, the final decision regarding its suitability will be made by the relevant decision-making bodies, hence a 100% assurance cannot be provided.",
+        "answer": " The project you described appears to align with the program's expectations. However, to ensure it meets the specific criteria outlined on the website, a full description of the practical project is required. The final decision on its suitability will be made by the relevant decision-making bodies, so we cannot provide a 100% guarantee at this stage. The website is: https: //www.sot.tum.de/sot/studium/ai-in-society/application/ ",
         "source_type": "email",
         "source": "email_018.txt",
         "request_id": "f67968f082860eb47acac515700a1126"
@@ -306,7 +234,7 @@
     "5423db90-a605-44cb-840b-89a91d41ee5c": {
         "created": 1737387339,
         "question": "Could you provide more insight into the assessment of political and social sciences in the MSc. AI in Society program's aptitude test at TUM?",
-        "answer": "Detailed information about the contents of the test will not be disclosed beyond what can be found on the TUM's program website. However, you can be assured that extremely specific topics like business law won't be covered.",
+        "answer": "Detailed information about the contents of the test will not be disclosed beyond what can be found on the TUM's program website https://www.sot.tum.de/sot/studium/ai-in-society/application/ . However, you can be assured that extremely specific topics like business law won't be covered.",
         "source_type": "email",
         "source": "email_018.txt",
         "request_id": "f67968f082860eb47acac515700a1126"
@@ -314,7 +242,7 @@
     "fbdc0e17-8f68-4101-9e41-2783cfab22ab": {
         "created": 1737387339,
         "question": "What is the structure and focus of the assessment and aptitude test procedure for the MSc. AI in Society program at TUM?",
-        "answer": "All specifics about the test are not disclosed. What is known is that the test will be multiple choice and that the subjects will be of a general nature. Detailed guidance on the structure and focus of the assessment aren't provided.",
+        "answer": "Specifics about the test are not disclosed. What is known is that the test will be multiple choice and that the subjects will be of a general nature. Detailed guidance on the structure and focus of the assessment aren't provided.",
         "source_type": "email",
         "source": "email_018.txt",
         "request_id": "f67968f082860eb47acac515700a1126"
@@ -322,7 +250,7 @@
     "bb761a6c-5f8e-4275-9412-2a3323d2efe1": {
         "created": 1737387354,
         "question": "Would the Bachelor thesis be counted as a practical project for the application to the MSc. AI in Society program?",
-        "answer": "Yes, Bachelor\u2019s theses are also counted as practical projects, as long as the contents are suitable. However, the thesis must meet the 18 ECTS requirement (if the thesis is the only project you\u2019re submitting), and it needs to be finished at the time of application. If it does not show up on your transcript, it cannot be counted!",
+        "answer": "Yes, Bachelor\u2019s theses are also counted as practical projects, as long as the contents are suitable. However, the thesis must meet the 18 ECTS requirement (if the thesis is the only project you\u2019re submitting), and it also needs to be finished at the time of application. If it does not show up on your transcript, it cannot be counted!",
         "source_type": "email",
         "source": "email_019.txt",
         "request_id": "5adbdb5ea5f5fdf8bbaaaa3550daa0fb"
@@ -330,47 +258,23 @@
     "2459ffaa-f656-451f-8ffa-cd129066da4d": {
         "created": 1737387354,
         "question": "Is it necessary to submit an English proficiency certificate such as TOEFL or IELTS, for the application to the MSc. AI in Society program?",
-        "answer": "It is not necessary to submit English certificates, if instead you can prove your knowledge through English as the language of instruction during your Bachelor\u2019s studies, or if your thesis was written in English.",
+        "answer": "It is not necessary to submit English certificates. Your knowledge of the English language is also proven in the following cases: 1) You have completed at least 15 ECTS credits worth of English taught modules *. 2) Your bachelors thesis was written in English * .In this case, the bachelors thesis module should also span at least 15 ECTS credits.",
         "source_type": "email",
         "source": "email_019.txt",
         "request_id": "5adbdb5ea5f5fdf8bbaaaa3550daa0fb"
-    },
-    "1bb94d9a-6c37-47c6-b833-a13b1c3ecc75": {
-        "created": 1737387354,
-        "question": "Are there any other specific admission criteria or additional steps for the application to the MSc. AI in Society program?",
-        "answer": "All of the relevant admission criteria and procedures can be found on the website:",
-        "source_type": "email",
-        "source": "email_019.txt",
-        "request_id": "5adbdb5ea5f5fdf8bbaaaa3550daa0fb"
-    },
-    "1e300826-0d46-4655-9b30-eda60dfda46a": {
-        "created": 1737387364,
-        "question": "Is it possible to receive a waiver on the 140 ECTS credit requirement for the MSc. AI in Society program at TUM given that the degree curriculum and academic courses are closely aligned with the focus areas of the program?",
-        "answer": "There can be no exception regarding the 140 ECTS credits \u2013 this is a hard requirement. By the time of your application at TUM, you need to earn at least 2 more credits such that they are officially visible on your transcript of records.",
-        "source_type": "email",
-        "source": "email_020.txt",
-        "request_id": "e275e2566ed674e87483cb4e19fe1aee"
     },
     "30f19ee1-e81a-4327-9895-1d6b2e4f5030": {
         "created": 1737387364,
         "question": "Can you expand on what qualifies as practical experience for the AI in Society program at TUM?",
-        "answer": "Courses with heavy coursework can count as practical experience depending on their contents. Activities outside the university such as work experience are also recognized, given that applicants can provide proof, for example, in form of a work certificate stating the duration of the work period and the nature of the tasks completed.",
+        "answer": "Courses with heavy coursework can count as practical experience depending on their contents. Activities outside the university, such as work experience, are also recognized, given that applicants can provide proof, for example, in the form of a work certificate stating the duration of the work period and the nature of the tasks completed.",
         "source_type": "email",
         "source": "email_020.txt",
         "request_id": "e275e2566ed674e87483cb4e19fe1aee"
     },
-    "eae545b4-45d6-4146-8e8d-3cd28793ab48": {
-        "created": 1737387372,
-        "question": "Does the scholarship applicant need to be nominated by a professor?",
-        "answer": "Yes, students applying for the scholarship need to be nominated by a professor.",
-        "source_type": "email",
-        "source": "email_021.txt",
-        "request_id": "6ddfdd57ae1568c785b2deed5ed977a1"
-    },
     "a78a571c-98bc-40df-bee3-0c0ac276142b": {
         "created": 1737387382,
         "question": "Can I apply at the beginning of the application period next year even if some of my completed 140 ECTS modules are only graded as 'passed' or 'not passed'?",
-        "answer": "No, it is not an issue for the application. It is only important that you have completed at least 140 ECTS. In the calculation of the average grade, only the actually graded modules are taken into account, and weighted accordingly.",
+        "answer": "It is not an issue for the application. It is only important that you have completed at least 140 ECTS. In the calculation of the average grade, only the actually graded modules are taken into account, and weighted accordingly.",
         "source_type": "email",
         "source": "email_023.txt",
         "request_id": "bd4a2048953a36bd87478432af8e9f04"
@@ -378,7 +282,7 @@
     "0d1b761f-e84e-4abb-9769-b3766f12637d": {
         "created": 1737387391,
         "question": "What degree students are eligible to apply for the AI in Society course at TUM?",
-        "answer": "There is no restriction regarding Bachelor\u2019s degree programs \u2013 all students from all background are welcomed. It is only important that you fulfil the requirements listed on the website.",
+        "answer": "There is no restriction regarding Bachelor\u2019s degree programs \u2013. All students from all backgrounds are welcome. It is only important that you fulfill the requirements listed on the website: https://www.sot.tum.de/sot/studium/ai-in-society/application/.",
         "source_type": "email",
         "source": "email_025.txt",
         "request_id": "ab40296cf140b849f93e8fc356046324"
@@ -386,7 +290,7 @@
     "efa84635-5828-49b2-ab8b-0779fe967aa1": {
         "created": 1737387413,
         "question": "Is it necessary to have a single project module making up 18 ECTS for applying to the Master\u2019s program \u201cAI in Society\u201d at TUM?",
-        "answer": "It does not need to be one single 18 ECTS module, multiple project modules can also be summed up to make 18 ECTS.",
+        "answer": "It does not need to be one single 18 ECTS module; multiple projects can also be summed up to 18 ECTS.",
         "source_type": "email",
         "source": "email_030.txt",
         "request_id": "e815db041428d7dbac708190f4b62399"
@@ -410,7 +314,7 @@
     "c5de8d07-ef92-4b9a-bf05-5450cb69caeb": {
         "created": 1737387413,
         "question": "For the Master\u2019s program \u201cAI in Society\u201d at TUM, can projects done during studies be submitted even if they do not formally correspond to ECTS?",
-        "answer": "Yes, you should list all the projects you have done during your studies. It is only important that TUM can see those modules as passed modules on your grade transcript.",
+        "answer": " Yes, you should list all the projects you have completed during your studies. It is important that TUM can see these modules as passed on your grade transcript. Additionally, the amount of hours spent on each project will be considered, as it helps to assess whether the project is equivalent to 18 ECTS.",
         "source_type": "email",
         "source": "email_030.txt",
         "request_id": "e815db041428d7dbac708190f4b62399"
@@ -418,7 +322,7 @@
     "f4a29ffc-cd8f-43d3-b459-5ded844fb3cd": {
         "created": 1737387413,
         "question": "What kind of proof is expected for work experience when it is submitted for the Master\u2019s program \u201cAI in Society\u201d at TUM?",
-        "answer": "If you choose to submit work experience as proof for practical project, TUM will need to see a work certificate from your employer.",
+        "answer": "If you choose to submit work experience as proof for the practical project, TUM will need to see a work certificate from your employer and the amount of work, as it helps to assess whether the project is equivalent to 18 ECTS.",
         "source_type": "email",
         "source": "email_030.txt",
         "request_id": "e815db041428d7dbac708190f4b62399"
@@ -434,7 +338,7 @@
     "91f394bd-fc73-4742-9e6d-377a8cdd50db": {
         "created": 1737387427,
         "question": "What is the process for submitting courses for credit recognition for the AI in Society program?",
-        "answer": "You should attach the relevant files for the courses completed, preferably with a PDF syllabus of each. If the course content was covered in more than one of your previous courses, you should apply for the recognition of all of them.",
+        "answer": "You should attach the relevant files for the courses completed, preferably with a PDF syllabus of each. If the course content was covered in more than one of your previous courses, you should apply for the recognition of all of them. Download the form for recognition from this website https://www.sot.tum.de/sot/studium/ai-in-society/downloads/ and submit it to the study coordinator.",
         "source_type": "email",
         "source": "email_031.txt",
         "request_id": "4f46f2b43d984c49be4e60e55519f488"
@@ -458,31 +362,15 @@
     "c5050c82-5651-430d-a6d6-3d65053c2601": {
         "created": 1737387650,
         "question": "Can a thesis be counted as a project module towards the 18 credit points requirement for the AI in Society program at TUM?",
-        "answer": "A thesis can be counted as a project module towards the 18 credit points requirement only if it will be completed at the point of your application, meaning the 15 ECTS should be officially part of your transcript at that point.",
+        "answer": "A thesis can be counted as a project module towards the 18 credit points requirement only if it will be completed at the point of your application, meaning the 18 ECTS should be officially part of your transcript at that point.",
         "source_type": "email",
         "source": "email_036.txt",
         "request_id": "dc753b00b561a370d9487e1711b981ab"
     },
-    "b90ef1db-1780-43e5-8558-e8f7335f9d3e": {
-        "created": 1737387711,
-        "question": "Will a bachelor's degree with 180 ECTS from EPITA in France be sufficient for applying to the Master\u2019s program?",
-        "answer": "Technically, the degree will be sufficient for applying. However, EPITA is not found as an accredited institution in the given databases. Therefore, it's recommended to get a Confirmation of accreditation from the Ministry of Education along with the application.",
-        "source_type": "email",
-        "source": "email_042.txt",
-        "request_id": "61f2c11727c518975bafb42b8a36106d"
-    },
-    "2a73c231-86d2-4325-b6d8-7dc762ab81ab": {
-        "created": 1737387718,
-        "question": "What platform does TUM use for online exams?",
-        "answer": "TUM uses moodle for online exams.",
-        "source_type": "email",
-        "source": "email_044.txt",
-        "request_id": "1b1ba7133d379e4931006943fd53a660"
-    },
     "53e03348-c14c-4f41-a3e1-8cd5f2ea63e6": {
         "created": 1737387742,
         "question": "Can I apply for the MSc. AI in Society for a summer semester?",
-        "answer": "You can only apply for the MSc. AI in Society for a winter semester; the studies don\u2019t start in a summer semester.",
+        "answer": "You can only apply for the MSc. AI in Society for a winter semester which starts in October; the studies don\u2019t start in a summer semester.",
         "source_type": "email",
         "source": "email_048.txt",
         "request_id": "3a99050d05c29dbf4e605296f44f89df"
@@ -490,7 +378,7 @@
     "d9ae61af-44f5-4a18-8ac2-477d7740b719": {
         "created": 1737387742,
         "question": "When do applications open for the next winter semester?",
-        "answer": "The applications for the next winter semester (starting in October 2025) will open in January/February 2025.",
+        "answer": "The applications for the next winter semester (starting in October) will open January 1st .",
         "source_type": "email",
         "source": "email_048.txt",
         "request_id": "3a99050d05c29dbf4e605296f44f89df"
@@ -498,23 +386,7 @@
     "faffce97-7790-41eb-9b72-ec718e62dbcf": {
         "created": 1737387208,
         "question": "Can I have my Bachelor's courses recognized?",
-        "answer": "If the courses from your bachelor's program were counted towards your degree, they cannot be recognized again. However, additional courses that were not included in your degree, but were completed during the bachelor program, could potentially be recognized if they were not used in the evaluation during the master's application process.",
-        "source_type": "email",
-        "source": "email_051.txt",
-        "request_id": "14137593851ec85f14af953f56c31429"
-    },
-    "f5eb1993-ce54-493d-b8d4-92084193a393": {
-        "created": 1737387208,
-        "question": "Is there a maximum number of courses/ECTS that can be recognized?",
-        "answer": "There is no maximum limit, however, if the sum of the recognized ECTS is higher than 21, the student must be upgraded.",
-        "source_type": "email",
-        "source": "email_051.txt",
-        "request_id": "14137593851ec85f14af953f56c31429"
-    },
-    "b288bb9b-a1bc-4236-8d97-bb4878c543dc": {
-        "created": 1737387208,
-        "question": "As my previous Dutch university uses a different grading system, I am not sure about the grade conversion. If during the meeting with the departmental student academic advisor (is that you?) it turns out that the conversion is very disadvantageous for me, can I still withdraw my application?",
-        "answer": "Yes, you can withdraw a recognition application if the grade conversion is unfavorable. However, you cannot submit a recognition application for a module for which you have already attempted the examination. Previous achievements can only be submitted for recognition once in total.",
+        "answer": "If the courses from your bachelor's program were counted towards your degree, they cannot be recognized again. However, additional courses that were not included in your degree, but were completed during the bachelor program could potentially be recognized if they were not used in the evaluation during the master's application process.",
         "source_type": "email",
         "source": "email_051.txt",
         "request_id": "14137593851ec85f14af953f56c31429"
@@ -546,7 +418,7 @@
     "3ad869ae-98ad-42ab-bd59-8acee03ffdf8": {
         "created": 1737387224,
         "question": "What is a project week at TUM?",
-        "answer": "The project week at TUM usually takes place during a week in January. There, students work together in a team with a few supervisors on a practical project, which is described in the respective module description.",
+        "answer": " he project week at TUM usually takes place during January. During this time, students work together in teams with a few supervisors on a practical project, which is described in the respective module description. Additionally, there are project weeks held outside the dedicated January week, where students can engage in similar practical projects as part of their curriculum.",
         "source_type": "email",
         "source": "email_054.txt",
         "request_id": "0943cd7072e3a8ddf2f79f3904a36366"
@@ -554,7 +426,7 @@
     "cd8d860f-9b80-40d6-8ede-5d013132a1a5": {
         "created": 1737387224,
         "question": "Is participation in a project week mandatory for the 'AI in Society' curriculum?",
-        "answer": "Yes, the participation in a project week is mandatory for the 'AI in Society' curriculum, so you need to complete one in order to graduate.",
+        "answer": "Yes, the participation in a project week is mandatory for the 'AI in Society' curriculum, so you need to complete one or two project week(s) worth 6 ECTS in order to graduate.",
         "source_type": "email",
         "source": "email_054.txt",
         "request_id": "0943cd7072e3a8ddf2f79f3904a36366"
@@ -569,32 +441,32 @@
     },
     "c20c4253-0349-4d14-a7f6-116fd31b3701": {
         "created": 1737387235,
-        "question": "What are the admission requirements for the AI Program at TUM for a psychology graduate?",
-        "answer": "The AI program at TUM welcomes students from all kinds of backgrounds, including psychology. A technical understanding, such as statistics knowledge, is important but an engineering background isn't necessarily required. The requirements listed in the aptitude test refer to a high school graduate level and do not necessitate knowledge that could only be acquired by studying an engineering Bachelor's.",
+        "question": "How is the AI in Society program structured?",
+        "answer": "The curriculum is structured as follows: (1) Semester 1: Foundational courses introducing AI concepts and their societal impacts. (2) Semester 2: Advanced topics in AI ethics, policy, and interdisciplinary applications. (3) Semester 3: Elective modules allowing specialization in areas of interest. (4) Semester 4: Master 's thesis focusing on a specific AI in society challenge.",
         "source_type": "email",
-        "source": "email_055.txt",
+        "source": "email_555.txt",
         "request_id": "72b942785f0c528735d49989ac2049c5"
     },
     "33f1d7b6-1fd8-44b6-a2b4-404260be241d": {
         "created": 1737387235,
-        "question": "Is the AI program at TUM suitable for someone with a psychology background who is interested in social innovation within AI-driven applications?",
-        "answer": "Yes, the AI program at TUM could be a good fit for someone with a psychology background, especially those with a technical understanding such as knowledge in statistics.",
+        "question": "Can you list the courses in the study plan for the M.Sc. AI in Society",
+        "answer": "Semester 1 (30 Credits) 1. Foundations of AI & Data Science(lecture, 9 Credits) 2. Introduction to Programming & Data Processing(exercise, 3 Credits) 3. AI in and for Society: Science, Technology and Society in the Digital Age(lecture, 6 Credits) 4. Law, Governance and Regulation of Artificial Intelligence(lecture, 6 Credits) 5. Psychology of Learning and Instructional Design of AI - based Systems(lecture, 6 Credits) Semester 2(30 Credits) 6. Introduction to Deep Learning(lecture, 6 Credits) 7. Deep Learning Demystified: Hands - on Deep Learning(exercise, 3 Credits) 8. Explainable AI— A Comprehensive Seminar on Transparent and Ethical AI(seminar, 6 Credits) 9. Academic Competencies and Practical Skills(seminar, 4 Credits) 10. Methods 1(exercise, 5 Credits) 11. AI in Diverse Societies(lecture, 6 Credits) Semester 3(30 Credits) 12. Natural Language Processing(lecture, 6 Credits) 13. Human - AI Interaction(exercise, 6 Credits) 14. Project Week(project, 6 Credits) 15. Electives: AI in Different Domains of Society(12 Credits) Semester 4(30 Credits) 16. Master 's Thesis (30 Credits) ",
         "source_type": "email",
-        "source": "email_055.txt",
+        "source": "email_555.txt",
         "request_id": "72b942785f0c528735d49989ac2049c5"
     },
     "7f5dca99-d8d5-490e-bc49-aa83aa981d57": {
         "created": 1737387254,
         "question": "What constitutes sufficient practical project experience for the Masters program 'AI in Society', specifically regarding the use of 'technical tools' or 'similar'?",
-        "answer": "Practical project submitted should involve a practical aspect such as investigating or working on a societal problem with technical tools like programming, statistical analysis, etc. The selection committee is responsible for determining the suitability of the project. However, from the email, it seems the suggested BA thesis might be seen as somewhat insufficient regarding the technical aspect.",
+        "answer": "Practical project submitted should involve a practical aspect such as investigating or working on a societal problem with technical tools like programming, statistical analysis, etc. The selection committee is responsible for determining the suitability of the project.",
         "source_type": "email",
         "source": "email_058.txt",
         "request_id": "0ec1c76834bfc95c9ecdd7ff5305fea7"
     },
     "714e21da-1c12-4400-93f1-79240bec6ef5": {
         "created": 1737387254,
-        "question": "Does it matter when during the application period (between February and May 31st) the application for the program 'AI in Society' is submitted? Will everyone receive admission results at the same time?",
-        "answer": "Technically, it does not matter when during this period the application is sent. However, due to a large number of applications, the aptitude test had to be split up into multiple dates in the given year. It's advised to submit your application rather sooner than later.",
+        "question": "Does it matter when during the application period (between January 1st and May 31st) the application for the program 'AI in Society' is submitted? Will everyone receive admission results at the same time?",
+        "answer": "No, it does not matter when during this period the application is sent. All applications will be evaluated independently.",
         "source_type": "email",
         "source": "email_058.txt",
         "request_id": "0ec1c76834bfc95c9ecdd7ff5305fea7"
@@ -602,71 +474,23 @@
     "54e0b1d1-0662-478c-8d4a-bf7fb61495c6": {
         "created": 1737387254,
         "question": "What is recommended as preparation for the study program 'AI in Society'?",
-        "answer": "Brushing up on mathematical knowledge, especially statistics, linear algebra, and calculus is highly recommended as they help in studying machine learning and data science, which is taught from the first semester onwards.",
+        "answer": "Brushing up on mathematical knowledge, especially statistics, linear algebra, and calculus, is highly recommended as they help in studying machine learning and data science, which is taught from the first semester onwards.",
         "source_type": "email",
         "source": "email_058.txt",
         "request_id": "0ec1c76834bfc95c9ecdd7ff5305fea7"
     },
     "93b84b69-8801-49e8-a9ed-97aeae4f0917": {
         "created": 1737387254,
-        "question": "Can an application to 'AI in Society' Masters program include multiple practical experiences?",
+        "question": "Can an application to 'AI in Society' Master's program include multiple practical experiences?",
         "answer": "Yes, it's suggested to submit all of the practical experience you have \u2013 you don\u2019t have to choose only one of them.",
         "source_type": "email",
         "source": "email_058.txt",
         "request_id": "0ec1c76834bfc95c9ecdd7ff5305fea7"
     },
-    "8cf735af-4bb1-43f0-9911-9c13a0ff0324": {
-        "created": 1737387280,
-        "question": "What additional documents are needed for the student's application for recognition of credits?",
-        "answer": "Module descriptions from the student's courses are needed for the application for recognition of credits.",
-        "source_type": "email",
-        "source": "email_060.txt",
-        "request_id": "e993d11d4941f375b018fde4a5662ad0"
-    },
-    "85d178b8-d04d-4f4c-a47d-3870aec61710": {
-        "created": 1737387280,
-        "question": "How are the hours studied per week calculated for the subjects being recognized for credits?",
-        "answer": "The student calculated them as approximately 8 hours per week. However, the exact hours are being confirmed with the university where the courses were taken.",
-        "source_type": "email",
-        "source": "email_060.txt",
-        "request_id": "e993d11d4941f375b018fde4a5662ad0"
-    },
-    "cc776d47-7155-40b4-8ecc-7733addcc67c": {
-        "created": 1737387313,
-        "question": "How can I apply for recognition of previously completed courses for the AI in Society program at TUM?",
-        "answer": "To apply for recognition of credits, you need to fill out the form provided on the SOT TUM website and collect the documents listed on TUM's main site. These should then be sent to the designated email address. If you have modules you need to recognize as soon as possible (i.e. modules from the first semester curriculum), your documents must be sent by October 25th.",
-        "source_type": "email",
-        "source": "email_067.txt",
-        "request_id": "acbad9c9bc84ad1307056603d6803d02"
-    },
-    "3f066682-6d00-4a6a-b9a4-06e9774e162e": {
-        "created": 1737387343,
-        "question": "Can I credits from my Bachelor's course be recognized?",
-        "answer": "If you have previously completed a module which is very similar to the contents of one of the AI in Society modules, you might want to apply for recognition of this course.",
-        "source_type": "email",
-        "source": "email_070.txt",
-        "request_id": "37d8277ea640f8e667f29ab4fe51a937"
-    },
     "e29ab036-c520-4a20-bb5a-857f981f682b": {
         "created": 1737387354,
         "question": "Can I still defer my study admission after already accepting the study place and becoming matriculated?",
-        "answer": "Yes, you can defer your study admission by writing to the matriculation office and stating that you would like to reject the study place again ('R\u00fccktritt vom Studienplatz'). The deadline for this is November 15th and you do not need to provide a reason. Your admission will still remain valid for an indefinite period, so you can choose to resume your studies in one or two years.",
-        "source_type": "email",
-        "source": "email_071.txt",
-        "request_id": "28c006c46b876b2895a6d8a9657514e4"
-    },
-    "7e5e2472-f6ec-4291-ae70-fbd0dbb463d0": {
-        "created": 1737387354,
-        "question": "Do I need to provide a reason when I choose to defer my study admission?",
-        "answer": "No, you will not need to provide a reason when you choose to defer your study admission.",
-        "source_type": "email",
-        "source": "email_071.txt",
-        "request_id": "28c006c46b876b2895a6d8a9657514e4"
-    },
-    "450722f8-a1bd-4b5b-bba1-27836c67c1f1": {
-        "created": 1737387354,
-        "question": "Will my admission still be valid if I choose to defer my study admission?",
-        "answer": "Yes, your admission will still remain valid for an indefinite period if you choose to defer your study admission.",
+        "answer": "Yes, you can defer your study admission by writing to the matriculation office and stating that you would like to reject the study place ('R\u00fccktritt vom Studienplatz'). The deadline is November 15th; you do not need to provide a reason. Your admission will still remain valid for an indefinite period, so you can choose to resume your studies in one or two years.",
         "source_type": "email",
         "source": "email_071.txt",
         "request_id": "28c006c46b876b2895a6d8a9657514e4"
@@ -690,15 +514,7 @@
     "a8f16bbe-6608-48b5-aa6e-1425c24837b6": {
         "created": 1737387393,
         "question": "Can I take a course from my other Masters\u2019 degree and let it count for a module in AI in Society?",
-        "answer": "Yes, you can. The module needs to be checked by the professor of the respective module in AI in Society according to its contents.",
-        "source_type": "email",
-        "source": "email_076.txt",
-        "request_id": "a84298d946b1b0313ec849f98b7bc1ea"
-    },
-    "b1d7bec6-ad91-496e-930a-fcaa7b72bcba": {
-        "created": 1737387393,
-        "question": "What is the process for potentially recognizing a module from a different study program for the AI in Society program?",
-        "answer": "You should take the modules from the other study program, write the exam, then reach out about course recognition. If you want to know beforehand whether the course will be recognized or not, you can write to the professor of the module in AI in Society and ask them.",
+        "answer": "Yes, you can. The module needs to be checked by the professor of the respective module in AI in Society according to its contents. Please submit the form for recognition, which is provided on this website: https://www.sot.tum.de/sot/studium/ai-in-society/downloads/ ",
         "source_type": "email",
         "source": "email_076.txt",
         "request_id": "a84298d946b1b0313ec849f98b7bc1ea"
@@ -706,7 +522,7 @@
     "d3ff50cb-3b7e-4208-9050-6eaaf89c1ba1": {
         "created": 1737387412,
         "question": "What is the process of enrollment at TUM?",
-        "answer": "To enroll at TUM, a signed application for enrollment form, together with the other required hardcopy documents listed in the student's TUMonline account should be sent. A notarized copies and the signed application for enrollment form is also required via postal delivery. There is also a process to send a digital health insurance notification before enrollment. All steps towards enrollment (postal delivery and processing) take time.",
+        "answer": "To enroll at TUM, a signed application for enrollment form, together with the other required hardcopy documents listed in the student's TUMonline account should be sent. A notarized copy and the signed application for enrollment form are also required via postal delivery. There is also a process to send a digital health insurance notification before enrollment. All steps towards enrollment (postal delivery and processing) take time.",
         "source_type": "email",
         "source": "email_078.txt",
         "request_id": "18207f86959d7ae202ba4a00a59e76fe"
@@ -719,26 +535,10 @@
         "source": "email_078.txt",
         "request_id": "18207f86959d7ae202ba4a00a59e76fe"
     },
-    "8ae6f1ba-dcf3-4dec-adcd-bf68831673de": {
-        "created": 1737387412,
-        "question": "What is the deadline for the payment of semester fees at TUM?",
-        "answer": "You have time until the 15.11.2024 to pay the semester fees.",
-        "source_type": "email",
-        "source": "email_078.txt",
-        "request_id": "18207f86959d7ae202ba4a00a59e76fe"
-    },
     "7ff2d9fd-5818-4809-ab5b-3ca104ae5a6f": {
         "created": 1737387429,
         "question": "Can I attend courses while my matriculation is pending and I am not officially enrolled?",
-        "answer": "While you are not matriculated, you can of course still attend your courses as normal. Please just make sure to connect with your classmates, so they can help you obtain the lecture materials while you do not have access to them online (due to not being enrolled officially).",
-        "source_type": "email",
-        "source": "email_079.txt",
-        "request_id": "d485c59b27208c86efd6e2174a17b985"
-    },
-    "58a437db-a58b-4200-88c4-cb86069f98ed": {
-        "created": 1737387429,
-        "question": "What is the deadline for paying semester fees for international students at TUM?",
-        "answer": "The payment deadline for the tuition fees for first-time enrollment for the summer semester is March 15, for the winter semester September 15. You have time until the 15.11.2024 to pay the semester fees.",
+        "answer": "While you are not matriculated, you can still attend your courses as normal. Please make sure to connect with your classmates so they can help you obtain the lecture materials while you do not have access to them online (due to not being enrolled officially).",
         "source_type": "email",
         "source": "email_079.txt",
         "request_id": "d485c59b27208c86efd6e2174a17b985"
@@ -746,7 +546,7 @@
     "40c935c6-23ee-47d4-86de-543d7ebbb9e2": {
         "created": 1737387429,
         "question": "What steps need to be taken to officially enrol at TUM?",
-        "answer": "To enroll at TUM, please send in a signed application for enrollment form, together with the other required hardcopy documents listed in your TUMonline account. You will need to officially accept our offer of admission in TUMonline, transfer the semester fee by the deadline, and submit any missing documents, including the signed enrollment application, to the Admissions and Enrollment Office within the designated timeframe. Your documents must be stamped received by TUM by the deadline.",
+        "answer": "To enroll at TUM, please send in a signed application for enrollment form and the other required hardcopy documents listed in your TUMonline account. You must officially accept our offer of admission in TUMonline, transfer the semester fee by the deadline, and submit any missing documents, including the signed enrollment application, to the Admissions and Enrollment Office within the designated timeframe. Your documents must be stamped and received by TUM by the deadline.",
         "source_type": "email",
         "source": "email_079.txt",
         "request_id": "d485c59b27208c86efd6e2174a17b985"
@@ -767,26 +567,10 @@
         "source": "email_080.txt",
         "request_id": "9ad08100b88f82132c8beba3699b26a5"
     },
-    "e08831fa-8e2d-467a-aa72-bb64343726c5": {
-        "created": 1737387445,
-        "question": "What are the steps towards enrollment at TUM?",
-        "answer": "To enroll at TUM, students must send in a signed application for enrollment form, together with the other required hardcopy documents listed in their TUMonline account as well as provide a digital health insurance notification. If they are unable to enroll in time for the semester they are admitted for, they need to apply again in the next open application period.",
-        "source_type": "email",
-        "source": "email_080.txt",
-        "request_id": "9ad08100b88f82132c8beba3699b26a5"
-    },
     "14952fb5-12af-4813-b260-4335d2c017ea": {
         "created": 1737387509,
         "question": "Is attendance mandatory in the courses provided in the AI in Society program?",
-        "answer": "There is no mandatory attendance in the Foundations of AI & [REDACTED] course. It is assumed to be the same for other courses, but it's recommended to check with the respective lecturers for a definite answer.",
-        "source_type": "email",
-        "source": "email_092.txt",
-        "request_id": "1dcc52794bcec9ed1e71725cf9edd5b2"
-    },
-    "89f877ce-0f06-4b34-9c22-8c8379e68f60": {
-        "created": 1737387509,
-        "question": "From when and where can I enroll for courses in the program?",
-        "answer": "You can enroll in the courses on the TUMonline platform, starting from October 1st, as soon as you're matriculated.",
+        "answer": "There is no mandatory attendance in many courses but it is recommended to check with the respective lecturers for a definite answer.",
         "source_type": "email",
         "source": "email_092.txt",
         "request_id": "1dcc52794bcec9ed1e71725cf9edd5b2"
@@ -802,7 +586,7 @@
     "1e5ba4ac-3f1f-4f1f-8632-9cfbf9339e26": {
         "created": 1737387509,
         "question": "Where can I get more specific information and conditions for a semester abroad?",
-        "answer": "You can find the information on the International Center's page at: https://www.international.tum.de/global/auslandsaufenthalte/. It's the central contact point for such inquiries. In case of specific questions, you can contact the office staff.",
+        "answer": "You can find the information on the International Center's page at: https://www.international.tum.de/global/auslandsaufenthalte/ . It's the central contact point for such inquiries. In case of specific questions, you can contact the office staff.",
         "source_type": "email",
         "source": "email_092.txt",
         "request_id": "1dcc52794bcec9ed1e71725cf9edd5b2"
@@ -810,7 +594,7 @@
     "c665b0f7-c89c-41dc-b2f0-64fad35fbb44": {
         "created": 1737387509,
         "question": "When will the detailed schedules of the courses be available as none are currently visible on TUMonline?",
-        "answer": "The schedules are still under planning and will be available on the website before the start of the semester.",
+        "answer": "The schedules will be available on the website roughly two weeks before the start of the semester.",
         "source_type": "email",
         "source": "email_092.txt",
         "request_id": "1dcc52794bcec9ed1e71725cf9edd5b2"
@@ -826,7 +610,7 @@
     "b823d762-f036-42e5-9da3-607986800d4f": {
         "created": 1737387534,
         "question": "What kind of courses can I expect in the AI in Society program's curriculum?",
-        "answer": "All relevant information about the curriculum and courses of the AI in Society program can be found under the 'Studies' section on the program's website: https://www.sot.tum.de/sot/studium/ai-in-society/",
+        "answer": "All relevant information about the curriculum and courses of the AI in Society program can be found under the 'Studies' section on the program's website: https://www.sot.tum.de/sot/studium/ai-in-society/ The curriculum is structured as follows: Semester 1(30 Credits) 1. Foundations of AI & Data Science(lecture, 9 Credits) 2. Introduction to Programming & Data Processing(exercise, 3 Credits) 3. AI in and for Society: Science, Technology and Society in the Digital Age(lecture, 6 Credits) 4. Law, Governance and Regulation of Artificial Intelligence(lecture, 6 Credits) 5. Psychology of Learning and Instructional Design of AI - based Systems(lecture, 6 Credits) Semester 2(30 Credits) 6. Introduction to Deep Learning(lecture, 6 Credits) 7. Deep Learning Demystified: Hands - on Deep Learning(exercise, 3 Credits) 8. Explainable AI— A Comprehensive Seminar on Transparent and Ethical AI(seminar, 6 Credits) 9. Academic Competencies and Practical Skills(seminar, 4 Credits) 10. Methods 1(exercise, 5 Credits) 11. AI in Diverse Societies(lecture, 6 Credits) Semester 3(30 Credits) 12. Natural Language Processing(lecture, 6 Credits) 13. Human - AI Interaction(exercise, 6 Credits) 14. Project Week(project, 6 Credits) 15. Electives: AI in Different Domains of Society(12 Credits) Semester 4(30 Credits) 16. Master 's Thesis (30 Credits)",
         "source_type": "email",
         "source": "email_095.txt",
         "request_id": "80bb705d4549ada41e23c4ac963c3178"
@@ -842,31 +626,23 @@
     "9db8e990-6746-4575-a0ec-7a7209819a26": {
         "created": 1737387557,
         "question": "Why didn't a particular student receive the invitation email for an event?",
-        "answer": "The student might have not received the invitation email as they had not accepted their place of study at that time.",
+        "answer": "The student might not have received the invitation email as they had not accepted their place of study at that time.",
         "source_type": "email",
         "source": "email_099.txt",
         "request_id": "44fb068d366640e6a9941b453fc4ec04"
     },
     "b2fee8dd-cd19-40cb-9c9d-9143338cf05a": {
         "created": 1737387218,
-        "question": "If my matriculation is still pending, would it be possible for me to participate in the university event and potentially AIS courses without official enrollment?",
-        "answer": "Yes, you can still participate in the event despite your matriculation being pending.",
+        "question": "If my matriculation is still pending, would it be possible for me to participate in the university events and potentially AIS courses without official enrollment?",
+        "answer": "Yes, you can still participate in the events despite your matriculation being pending.",
         "source_type": "email",
         "source": "email_102.txt",
         "request_id": "0eabcc25d71e4db4b5f04b10a3f5eb79"
     },
     "905148d0-19c7-4fa9-bd7b-c5673cf297c5": {
         "created": 1737387226,
-        "question": "Do I need to have a Bachelor\u2019s in a STEM subject in order to apply for the Master of Science in AI in Society at TUM with a non-ICT undergraduate degree?",
-        "answer": "No, you do not need to have a Bachelor\u2019s in a STEM subject in order to apply \u2013 all backgrounds are welcome. Application requirements can be found on the program's website.",
-        "source_type": "email",
-        "source": "email_105.txt",
-        "request_id": "cc0343556fd4bfa9143b31031b92e507"
-    },
-    "3436b95f-16a0-40f8-8de6-f07ffc97f55b": {
-        "created": 1737387226,
-        "question": "What are the prerequisites and any additional requirements for applicants with a non-ICT undergraduate degree for the Master of Science in AI in Society at TUM?",
-        "answer": "The website https://www.sot.tum.de/sot/studium/ai-in-society/application/ contains all the required information regarding prerequisites and additional requirements for applicants with a non-ICT undergraduate degree.",
+        "question": "Do I need to have a Bachelor\u2019s in a STEM subject in order to apply for the Master of Science in AI in Society at TUM?",
+        "answer": "No, you do not need to have a Bachelor\u2019s in a STEM subject in order to apply \u2013 all backgrounds are welcome. Application requirements can be found on the program's website: https://www.sot.tum.de/sot/studium/ai-in-society/application/ .",
         "source_type": "email",
         "source": "email_105.txt",
         "request_id": "cc0343556fd4bfa9143b31031b92e507"
@@ -879,18 +655,10 @@
         "source": "email_111.txt",
         "request_id": "76df0e2eca3ae98570373551edd70ef4"
     },
-    "c01572b6-dfa3-467b-962c-3e8aab3da28b": {
-        "created": 1737387284,
-        "question": "What documents are required for enrollment to the AI in Society program?",
-        "answer": "For the documents you need to send, please look here under 'documents required for enrollment': https://www.tum.de/en/studies/degree-programs/detail/ai-in-society",
-        "source_type": "email",
-        "source": "email_112.txt",
-        "request_id": "d71d1f416e905f9138c4915a3258aabb"
-    },
     "e3aa65e9-97d3-4a58-a890-44d64087b0aa": {
         "created": 1737387284,
         "question": "How can a student secure a study place for the following academic year if they had to decline the current offer?",
-        "answer": "If a student had to decline the current offer but intends to reapply in the following academic year, a letter can be issued stating that a) a study place in the Masters AI in Society program at TUM was offered, b) that the offer was declined by the student for now but they plan to start their studies in the following winter semester, and c) that they are hereby offered a study place in the respective academic year. However, the student will need to apply again during the next application period and upload all documents to us again. Admission will be issued right away as the system can identify that a study place had been offered to the student in the previous year. The student does not need to go through the selection process again.",
+        "answer": "The student will need to apply again during the next application period and upload all documents to us again. Admission will be issued immediately as the system can identify that a study place had been offered to the student in the previous year. The student does not need to go through the selection process again.",
         "source_type": "email",
         "source": "email_112.txt",
         "request_id": "d71d1f416e905f9138c4915a3258aabb"
@@ -921,8 +689,8 @@
     },
     "1c1def23-8eae-4784-9e77-d31e2bea507e": {
         "created": 1737387365,
-        "question": "Do you accept the French equivalent of bachelors degree (3 years) in electronics, electric energy and automation, for the Ai program at TUM?",
-        "answer": "Yes, TUM does not filter by specific bachelor\u2019s backgrounds, as long as you fulfil the requirements presented on their website. The bachelor's degree should span at least 6 semesters and fulfil at least 140 ECTS credits.",
+        "question": "Do you accept the French equivalent of bachelors degree (3 years) in electronics, electric energy and automation, for the AI in Society program at TUM?",
+        "answer": "Yes, TUM does not filter by specific bachelor\u2019s backgrounds, as long as you fulfill the requirements presented on the AiS website.",
         "source_type": "email",
         "source": "email_123.txt",
         "request_id": "c752abde92d1027f779da9bf6ff0185d"
@@ -945,8 +713,8 @@
     },
     "a811a833-b1e5-474b-a1f8-8e7a2e045213": {
         "created": 1737387390,
-        "question": "What is the List of best credits and where can I find it during the application?",
-        "answer": "The list of best credits is a form you will find as soon as you start the application. It will be available inside the portal. You don\u2019t need to download it externally anywhere.",
+        "question": "How does the admission process for the AI in Society program look like?",
+        "answer": "The admission process is based on a two-part evaluation system. In Part 1, applicants submit their documents, which must be complete and meet the requirements.Their grades from the best 140 credits are assessed, with a maximum of 48 points awarded. In Part 2, applicants take a written aptitude test, where they can earn up to 48 additional points. These two scores are summed up to determine the total score, which then dictates the admission outcome: •Direct Admission: Applicants scoring 68 points or more are immediately admitted.•Rejection: Applicants scoring under 40 points in total and less than 18 points from Part 1 are directly rejected.•Interview Round: If an applicant scores 48 points or more, but does not reach the 68 - point threshold, they are invited for an interview.•Rejection After Interview: If the total score is under 48 points, the applicant is rejected. This structured evaluation ensures a fair selection process by considering both academic performance and aptitude test results while providing a second chance through the interview for borderline cases.",
         "source_type": "email",
         "source": "email_126.txt",
         "request_id": "78b754dee11b2fd1b702bb9fe4192dd6"
@@ -969,7 +737,7 @@
     },
     "3144316e-cc20-4456-9b28-f69d61079594": {
         "created": 1737387413,
-        "question": "Shall I bring written information such as CV?",
+        "question": "Shall I bring written information such as CV to the interview?",
         "answer": "There is no need to prepare any documents for the interview.",
         "source_type": "email",
         "source": "email_129.txt",
@@ -991,34 +759,10 @@
         "source": "email_132.txt",
         "request_id": "46f8e1bd737a533ac6bb004176d48108"
     },
-    "07d98628-9fd3-4b33-bd82-4b1c15072806": {
-        "created": 1737387486,
-        "question": "What is the next stage of the aptitude assessment for the M.Sc. AI in Society at TUM?",
-        "answer": "The next stage of the aptitude assessment is an interview.",
-        "source_type": "email",
-        "source": "email_134.txt",
-        "request_id": "f8ad4c75cd2e13b511156a8783d16d89"
-    },
-    "600eb08f-ea7a-4a90-a4c2-bdb08cab164d": {
-        "created": 1737387486,
-        "question": "What will be discussed during the aptitude interview for M.Sc. AI in Society at TUM?",
-        "answer": "During the aptitude interview, two members of the selection committee will discuss your motivation for choosing this degree program, your willingness to engage in interdisciplinary learning and work, your professional interests, any previous specializations, and your professional background to assess how well these align with the goals of the program and your career aspirations. The focus will be on understanding your motivation, not testing your knowledge on specific subjects.",
-        "source_type": "email",
-        "source": "email_134.txt",
-        "request_id": "f8ad4c75cd2e13b511156a8783d16d89"
-    },
     "b052d6f0-3886-4182-ac72-1daef91e5337": {
         "created": 1737387516,
         "question": "What happens if the points scored in the test and from degree grades do not pass the thresholds?",
-        "answer": "Unfortunately, your candidacy has led to a rejection.",
-        "source_type": "email",
-        "source": "email_137.txt",
-        "request_id": "a7fef456e34710e2b656655c4534f6ab"
-    },
-    "e66d1d36-8eb1-4624-ac36-f96a20973fd5": {
-        "created": 1737387516,
-        "question": "When will the applicant receive a formal admission decision?",
-        "answer": "The results are calculated and entered in the system at a specific time, and then intimated to the applicant via email.",
+        "answer": " If the points scored from the degree grades (Part 1) and the written aptitude test (Part 2) do not meet the required thresholds, the outcome depends on the total score: 1. Immediate Rejection: o If the total score is below 40 points and the applicant has scored less than 18 points from Part 1, they are immediately rejected. 2. Interview Opportunity: o If the total score is between 40 and 67 points but is still at least 48 points or more, the applicant is invited for an interview. - The interview serves as an additional evaluation step to determine if the applicant can still qualify for admission. 3. Rejection After Interview: o If the applicant’ s total score is below 48 points, even if they qualify for an interview based on their score distribution,they are rejected without further evaluation. In summary, failing to pass the minimum thresholds can lead to either an immediate rejection or an invitation to an interview, depending on the exact score distribution.",
         "source_type": "email",
         "source": "email_137.txt",
         "request_id": "a7fef456e34710e2b656655c4534f6ab"
@@ -1026,23 +770,15 @@
     "0d339422-e02c-4a1b-a61e-4b9ebad6dea3": {
         "created": 1737387528,
         "question": "Could TUM provide an official document confirming the duration and tuition fee of the 'AI in Society' program?",
-        "answer": "A signed statement about the duration of the study program can be provided by the registrar's office. However, for the statement about tuition fees, the student should refer to TUM\u2019s fees and scholarships office.",
+        "answer": "A signed statement about the duration of the study program can be provided by the registration office. However, for the statement about tuition fees, the student should refer to TUM\u2019s fees and scholarships office.",
         "source_type": "email",
         "source": "email_139.txt",
         "request_id": "52474dd0e966df250c6daef84051a3c6"
     },
-    "71e8921e-85ba-4464-9c50-b441d67d4852": {
-        "created": 1737387568,
-        "question": "I would like to request the syllabus for the MSc AI in Society program, including details on the learning plan, competency standards, core competencies, main topics/materials, learning activities, competency achievement indicators for assessment, time allocation, and learning resources.",
-        "answer": "The relevant part of our study program documentation has been sent to you. Please find the relevant information in the document.",
-        "source_type": "email",
-        "source": "email_143.txt",
-        "request_id": "ccbc8693da30d9aff50098d5d15eb3de"
-    },
     "02efd86a-58eb-4670-aaa9-e30448e22fe2": {
         "created": 1737387587,
         "question": "Who is responsible for issuing a confirmation of the standard period of study for a student?",
-        "answer": "The officials at TUM are capable of issuing such a confirmation.",
+        "answer": "The registration office at TUM is able to issue such a confirmation.",
         "source_type": "email",
         "source": "email_144.txt",
         "request_id": "5d88ce86e483f47790e0f61a39da1f02"
@@ -1058,15 +794,7 @@
     "63b60743-2cb6-4be2-baa0-bc37104e6a40": {
         "created": 1737387587,
         "question": "Who should a student contact concerning the tuition fee?",
-        "answer": "For information concerning the tuition fee, the student should reach out to TUM Beitragsmanagement.",
-        "source_type": "email",
-        "source": "email_144.txt",
-        "request_id": "5d88ce86e483f47790e0f61a39da1f02"
-    },
-    "6fa81961-2820-418f-bade-da6860635292": {
-        "created": 1737387587,
-        "question": "How much is the tuition fee per semester for the AI in Society program at TUM?",
-        "answer": "The tuition fee for each semester of the AI in Society program at TUM is \u20ac4,085.",
+        "answer": "For information concerning the tuition fee, the student should refer to https://www.tum.de/en/studies/fees/tuition ",
         "source_type": "email",
         "source": "email_144.txt",
         "request_id": "5d88ce86e483f47790e0f61a39da1f02"
@@ -1074,7 +802,7 @@
     "557d4961-7a75-4e73-85d9-23cdea9646f4": {
         "created": 1737387594,
         "question": "What is the format of the AI in Society aptitude test?",
-        "answer": "The test consists of 35 multiple-choice questions to be completed in 90 minutes and will be held over TUM's internal moodle platform. The topics covered include Politics, Economics and Law, Statistics and Mathematics, and Engineering.",
+        "answer": "The test consists of 35 multiple-choice questions to be completed in 90 minutes and will be held over TUM's internal Moodle platform. The topics covered include Politics, Economics and Law, Statistics and Mathematics, and Engineering.",
         "source_type": "email",
         "source": "email_145.txt",
         "request_id": "ec38046f69adfbe798fe61c2e46ad848"
@@ -1082,7 +810,7 @@
     "7216ae1c-1393-4981-a994-8a08426a9bfe": {
         "created": 1737387594,
         "question": "What are the two variants of taking the AI in Society aptitude test?",
-        "answer": "You can choose between an on-campus and an off-campus (online) variant. The off-campus variant will require you to pay a fee of 25$ for the proctoring software, Proctorio and a working webcam and microphone. The on-campus variant will not require any fee, but will require you to bring your laptop. If unable to bring a laptop, let them know in advance to arrange one for you.",
+        "answer": "You can choose between an on-campus and an off-campus (online) variant. The off-campus variant will require you to pay a fee of 25$ for the Proctorio software, and a working webcam and microphone. The on-campus variant will not require any fee, but will require you to bring your laptop. If unable to bring a laptop, let us know in advance to arrange one for you.",
         "source_type": "email",
         "source": "email_145.txt",
         "request_id": "ec38046f69adfbe798fe61c2e46ad848"
@@ -1091,14 +819,6 @@
         "created": 1737387605,
         "question": "Can I apply for the AI in Society program at TUM with an expired passport?",
         "answer": "Yes, under certain circumstances that prohibit renewal, you are allowed to apply with an expired passport, and it can be updated later.",
-        "source_type": "email",
-        "source": "email_146.txt",
-        "request_id": "ddc20b455f4b4979f07e33bfeaa0df10"
-    },
-    "f3c09c96-6fd4-4720-bff1-8814c0e88806": {
-        "created": 1737387605,
-        "question": "What materials are permitted during the AI in Society aptitude test?",
-        "answer": "During the aptitude test, you will be allowed to use a calculator, as well as a piece of paper and pen.",
         "source_type": "email",
         "source": "email_146.txt",
         "request_id": "ddc20b455f4b4979f07e33bfeaa0df10"
@@ -1122,7 +842,7 @@
     "a2ff1aa4-2686-4771-8b05-b54699e9c8ff": {
         "created": 1737387219,
         "question": "Could you please confirm on which campus all my subjects will be held?",
-        "answer": "The majority of the subjects will be held in the city center. Specifically, you will have your lectures in Richard-Wagner-Str.1, Marsstr. 20-22, and Arcisstr. 21.",
+        "answer": "The majority of the subjects will be held in the city center. Specifically, you will have your lectures in Richard-Wagner-Str.1, Marsstr. 20-22, and Arcisstr. 21. A few courses will also be held on the campus in Garching",
         "source_type": "email",
         "source": "email_151.txt",
         "request_id": "19dc999bdfcc6fc15a6efdcc1ea0554f"
@@ -1130,7 +850,7 @@
     "3b765c56-4437-43ee-8819-4204908932e5": {
         "created": 1737387219,
         "question": "Could you provide details on the evaluation system for each subject? Will there be a combination of assignments, projects, and a final exam? What percentage of the final grade will be based on the final exam?",
-        "answer": "The lecture type modules usually end with a final exam making up the entire grade. Some lectures also have an accompanying exercise with assignments, which can give bonus points to the final exam. In the seminar type modules, the examination can consist of a presentation, a small group project, or similar. This depends on the final decision of the lecturer.",
+        "answer": "The lecture-type modules usually end with a final exam making up the entire grade. Some lectures also have an accompanying exercise with assignments, which can give bonus points to the final exam. In the seminar-type modules, the examination can consist of a presentation, a small group project, or similar. This depends on the final decision of the lecturer.",
         "source_type": "email",
         "source": "email_151.txt",
         "request_id": "19dc999bdfcc6fc15a6efdcc1ea0554f"
@@ -1138,7 +858,7 @@
     "fce6bf1e-4018-49c4-bd65-de0b33b9cbb5": {
         "created": 1737387219,
         "question": "Does the master\u2019s program include internships to gain practical work experience in Germany? When would these internships typically take place?",
-        "answer": "The program does not include internships in a fixed manner, i.e. they are not explicitly integrated into the study program and are not mandatory. However, you can complete an internship during your studies, which is highly recommended. Many students also work part-time in companies as so called 'Werkstudent'.",
+        "answer": "The program does not include internships in a fixed manner, i.e., they are not explicitly integrated into the study program and are not mandatory. However, you can complete an internship during your studies, which is highly recommended. Many students also work part-time in companies as so called 'Werkstudent'.",
         "source_type": "email",
         "source": "email_151.txt",
         "request_id": "19dc999bdfcc6fc15a6efdcc1ea0554f"
@@ -1146,7 +866,7 @@
     "305b16fe-fe16-4dec-b389-fdd180cff214": {
         "created": 1737387219,
         "question": "Will it be possible to attend classes online during a specific period without negatively affecting my performance?",
-        "answer": "Yes, this will not be a problem. You will be able to follow the content online, as the lectures will be streamed in parallel.",
+        "answer": "Yes, this will not be a problem. You will be able to follow the content online, as some lectures will be streamed in parallel. However, please confirm this with the respective lecturer.",
         "source_type": "email",
         "source": "email_151.txt",
         "request_id": "19dc999bdfcc6fc15a6efdcc1ea0554f"
@@ -1159,26 +879,18 @@
         "source": "email_151.txt",
         "request_id": "19dc999bdfcc6fc15a6efdcc1ea0554f"
     },
-    "1eeb9e99-fb19-4084-b529-cb42917363c0": {
-        "created": 1737387238,
-        "question": "Where will the main classes for the AI in Society program be held?",
-        "answer": "The main classes will be held in different campuses in the city center, specifically at Marsstr. 20-22, Richard-Wagner-Str. 1, and Arcisstr. 21.",
-        "source_type": "email",
-        "source": "email_152.txt",
-        "request_id": "186ad9e71c7957cf8863dab9b6700b3e"
-    },
     "0206339f-1a7d-4749-b0df-5fa4e06beb43": {
         "created": 1737387302,
         "question": "Will all the lectures for the AI in Society course be held at the Garching campus?",
-        "answer": "No, most of the lectures are held in the city center. There is a module each in the second and third semesters that usually takes place in Garching, but this is the exception.",
+        "answer": "No, most of the lectures are held in the city center. There is a module each in the second and third semesters that usually takes place in Garching, but these are the exception.",
         "source_type": "email",
         "source": "email_160.txt",
         "request_id": "0893304b53bdefe498e5b554b4271209"
     },
     "ac976372-09b5-4612-b15a-e00d1e5874c2": {
         "created": 1737387330,
-        "question": "Can I attend my course online if I do not receive my visa by October 30th?",
-        "answer": "Yes, it will be no problem if you attend the courses online until end of October.",
+        "question": "Can I attend my course online if I do not receive my visa by October 30th or while I am not in Munich yet?",
+        "answer": "Yes, it will be no problem if you attend the courses online, as most courses are offered in a hybrid-mode. However, please confirm with the respective lecturer.",
         "source_type": "email",
         "source": "email_164.txt",
         "request_id": "f477084a588f9374bb47113d1d13b23d"
@@ -1187,14 +899,6 @@
         "created": 1737387330,
         "question": "Is it possible to defer my start date to the next summer semester?",
         "answer": "You cannot officially start in a summer semester. You could only defer it to next winter semester.",
-        "source_type": "email",
-        "source": "email_164.txt",
-        "request_id": "f477084a588f9374bb47113d1d13b23d"
-    },
-    "caac5667-4751-4ac7-8d5c-dd719468f4b9": {
-        "created": 1737387330,
-        "question": "Can I participate in courses online while I am not yet in Munich?",
-        "answer": "Yes, you can participate in the courses online. They will all be streamed in parallel for people who could not make it here physically in time.",
         "source_type": "email",
         "source": "email_164.txt",
         "request_id": "f477084a588f9374bb47113d1d13b23d"
@@ -1223,14 +927,6 @@
         "source": "email_166.txt",
         "request_id": "3a6ae46e0e567b0a1df863621c33236d"
     },
-    "b99fd596-9fa6-4879-932d-11335b5477a7": {
-        "created": 1737387362,
-        "question": "Can the AI in Society program provide a letter verifying English language proficiency for a visa procedure?",
-        "answer": "They most probably mean that you need to get it from the department you actually received your degree from. We cannot issue you a verification of English language proficiency, as you have not studied with us.",
-        "source_type": "email",
-        "source": "email_168.txt",
-        "request_id": "feb992c5ef5d3102d2437ee334f963f2"
-    },
     "0d893b77-14a3-4e11-baf6-58f2797e64b9": {
         "created": 1737387362,
         "question": "Is English proficiency verified during the admission process for the AI in Society program?",
@@ -1239,61 +935,13 @@
         "source": "email_168.txt",
         "request_id": "feb992c5ef5d3102d2437ee334f963f2"
     },
-    "02f6544f-f137-4f8d-a297-276043d324f3": {
-        "created": 1737387362,
-        "question": "Can a document verifying English proficiency be issued on TUM letterhead?",
-        "answer": "No, the department cannot issue a document verifying English proficiency on TUM letterhead.",
-        "source_type": "email",
-        "source": "email_168.txt",
-        "request_id": "feb992c5ef5d3102d2437ee334f963f2"
-    },
     "7ca351c2-c2b3-4696-9d51-e408ba7f56ca": {
         "created": 1737387362,
         "question": "What is the english proficiency requirement for the Master's program?",
-        "answer": "The proficiency requirement for the Master's program is 6.5 bands (B2 CEFR).",
+        "answer": "You must provide an English proficiency certificate as specified on this website: https://www.tum.de/en/studies/application/application-info-portal/admission-requirements/language-certificates  Alternatively, your English proficiency can be demonstrated if: 1. You have completed at least 15 ECTS credits in English - taught modules.* 2. Your bachelor 's thesis was written in English* and the thesis module itself accounts for at least 15 ECTS credits. * Please check the official TUM website for the latest requirements and accepted proofs of proficiency.",
         "source_type": "email",
         "source": "email_168.txt",
         "request_id": "feb992c5ef5d3102d2437ee334f963f2"
-    },
-    "ffd8ce08-9afb-46d7-83c0-742a9281f89e": {
-        "created": 1737387362,
-        "question": "What should the verification letter for English proficiency include?",
-        "answer": "The verification letter should include confirmation that the applicant has enough English skills to enroll for the master program.",
-        "source_type": "email",
-        "source": "email_168.txt",
-        "request_id": "feb992c5ef5d3102d2437ee334f963f2"
-    },
-    "5ea54184-b8d5-4334-93c2-cb35358b1558": {
-        "created": 1737387372,
-        "question": "Can the M.Sc AI in Society department issue a verification of English language proficiency?",
-        "answer": "No, they can't issue a verification since the student has not studied with them.",
-        "source_type": "email",
-        "source": "email_169.txt",
-        "request_id": "b286aa4ca66d078dd4b863166739adcf"
-    },
-    "7f45e5ec-cfeb-4e11-9b16-cab9fe8aa041": {
-        "created": 1737387372,
-        "question": "Where should the letter verifying English language proficiency come from?",
-        "answer": "The letter should come from the department the student actually received their degree from.",
-        "source_type": "email",
-        "source": "email_169.txt",
-        "request_id": "b286aa4ca66d078dd4b863166739adcf"
-    },
-    "ede73ad4-c830-4206-ada2-b46a3f4da70d": {
-        "created": 1737387385,
-        "question": "Is the Masters program 'AI in Society' also taught in the Summer semester 2025, or does it always start only in the Winter semester?",
-        "answer": "The Masters program 'AI in Society' is generally only available at the start of the Winter semester. The next possible start would then be in October 2025.",
-        "source_type": "email",
-        "source": "email_171.txt",
-        "request_id": "2ae7e7cb0f0e26befaedfe49a23caa57"
-    },
-    "f27be3a1-79ff-4165-9a42-73b6cf7c4eea": {
-        "created": 1737387389,
-        "question": "Could you please confirm whether the classes for the first semester will be conducted online or in person?",
-        "answer": "The classes of the first semester will be conducted both in-person and stream in parallel online.",
-        "source_type": "email",
-        "source": "email_172.txt",
-        "request_id": "aed1ea211780081806bfd1a7cdb19aab"
     },
     "16273946-2c0a-49bc-a215-9a9e6145d142": {
         "created": 1737387415,
@@ -1314,7 +962,7 @@
     "b98b3fa8-170b-4875-b953-155f564cd04c": {
         "created": 1737387436,
         "question": "Could you please advise if it would be possible to defer my start date to the next summer semester?",
-        "answer": "Unfortunately, you cannot officially start in a summer semester. You could only defer it to next winter semester (if you have not yet accepted the offer online). However, you can participate in the courses online for the time being.",
+        "answer": "Unfortunately, you cannot officially start in a summer semester. You could only defer it to next winter semester (if you have not yet accepted the offer online).",
         "source_type": "email",
         "source": "email_179.txt",
         "request_id": "f0f391feebb8defdad0bc3362e9dc533"
@@ -1322,7 +970,7 @@
     "201fe80b-b738-4827-b97e-6eb47aa29748": {
         "created": 1737387442,
         "question": "Where can Ukrainian students who have fled Ukraine due to the war apply for a waiver for the 'AI in Society' Master's Program?",
-        "answer": "Please reach out to the contact given at the bottom of the page at this link: https://www.tum.de/en/studies/fees-and-financial-aid/scholarships/tum-scholarships/scholarship/urgent-fonds-students-ukraine-war, as they manage this.",
+        "answer": "Please reach out to the contact given at the bottom of the page at this link: https://www.tum.de/en/studies/fees-and-financial-aid/scholarships/tum-scholarships/scholarship/urgent-fonds-students-ukraine-war , as they manage this.",
         "source_type": "email",
         "source": "email_181.txt",
         "request_id": "5d3082970d44d891268984edc9b46e0e"
@@ -1330,7 +978,7 @@
     "871b3dc1-1939-43d7-b199-cee3c0e5e4cc": {
         "created": 1737387336,
         "question": "Can I reject my current offer at TUM and apply again the next year with a guaranteed seat?",
-        "answer": "Yes, you can reject the offer now and instead accept the study place next year. TUM will still have it in the system that you had passed all requirements and will be admitted.",
+        "answer": "Yes, you can reject the offer now and instead accept the study place next year. TUM will still have it in the system that you had passed all requirements and will be admitted. However, you need to upload all required documents in a new application process which will then be bypassed due to the previous offer.",
         "source_type": "email",
         "source": "email_245.txt",
         "request_id": "e86d246bddb93f7cc31adc2e8b67553f"
@@ -1338,18 +986,10 @@
     "4958ac60-2240-4a9c-a5cb-5180e4e37d64": {
         "created": 1737387339,
         "question": "Can I submit digital versions of my transcripts and degrees for enrollment at TUM?",
-        "answer": "For all questions regarding the enrollment process, please refer to TUM\u2019s student information service desk: https://www.tum.de/en/studies/support-and-advice/support-during-studies/student-information",
+        "answer": "For all questions regarding the enrollment process, please refer to TUM\u2019s student information service desk: https://www.tum.de/en/studies/support-and-advice/support-during-studies/student-information ",
         "source_type": "email",
         "source": "email_246.txt",
         "request_id": "c59e0d38d7cee755a4ba481d7b1430c1"
-    },
-    "37368866-e9f3-4232-87dc-9159ca2e92dc": {
-        "created": 1737387349,
-        "question": "How can applicants select a timeslot for the aptitude interview for the M.Sc. AI in Society at TUM?",
-        "answer": "Applicants can select a timeslot by accessing the provided link, entering their email address and full name, and then choosing the timeslot that works best for them. Only one timeslot should be selected, observed by 'first come, first serve' principle. The chosen timeslot can be considered confirmed and there will be no additional confirmation email.",
-        "source_type": "email",
-        "source": "email_248.txt",
-        "request_id": "de0f4da57c332997ee9d5692a7360d22"
     },
     "7cad0890-8b21-4626-886a-020d2537cef2": {
         "created": 1737387349,
@@ -1378,7 +1018,7 @@
     "8214ddc6-85be-4b94-9a66-07d87a86cf0b": {
         "created": 1737387377,
         "question": "Can you tell me whether I can still apply for any scholarship program to finance my studies?",
-        "answer": "For questions regarding scholarships, please contact TUM\u2019s scholarship office directly: https://www.tum.de/en/studies/fees-and-financial-aid/scholarships",
+        "answer": "For questions regarding scholarships, please contact TUM\u2019s scholarship office directly: https://www.tum.de/en/studies/fees-and-financial-aid/scholarships ",
         "source_type": "email",
         "source": "email_250.txt",
         "request_id": "897e3f18a9e87388ab9d413b9c1d822a"
@@ -1386,7 +1026,7 @@
     "45ae91df-34e7-4a60-a81c-0e9e1a9ad9a2": {
         "created": 1737387235,
         "question": "What is the score that decides between admission, interview, and rejection for the MSc. AI in Society program at TUM?",
-        "answer": "The score that decides between admission, interview, and rejection is the one that is entered in the system. It is comprised of the scores you receive from your previous grades and the score you got in the aptitude test.",
+        "answer": " For the M.Sc. AI in Society program at TUM, the admission process is based on a scoring system that evaluates applicants through two parts: academic performance (grades from degree program) and a written aptitude test. The total score determines whether an applicant is admitted, invited for an interview, or rejected. Score Thresholds for Admission Decisions: 1. Direct Admission: o Applicants with a total score of 68 points or more are admitted directly to the program. 2. Interview Requirement: o Applicants who score 48 points or more but less than 68 points are invited for an interview. o The interview serves as an additional assessment to determine the applicant 's suitability for the program. 3. Rejection: o Immediate Rejection: If the applicant 's total score is below 40 points and they have less than 18 points from Part 1 (academic grades), they are automatically rejected. o Rejection After Interview: If the total score is below 48 points, the applicant is rejected without an interview.",
         "source_type": "email",
         "source": "email_251.txt",
         "request_id": "87815a8d5d12ac4e003d932994b282d9"
@@ -1407,18 +1047,10 @@
         "source": "email_251.txt",
         "request_id": "87815a8d5d12ac4e003d932994b282d9"
     },
-    "548a2026-80b9-40be-8eb7-fb86589ceec0": {
-        "created": 1737387244,
-        "question": "Where in TUM will the courses take place, or are they held at multiple locations?",
-        "answer": "Courses are somewhat distributed over the city center. Most will take place in the following buildings: Richard-Wagner-Str. 1, Marsstr. 20-22, Arcisstr. 21 (possibly).",
-        "source_type": "email",
-        "source": "email_252.txt",
-        "request_id": "3d09a5f83bcd790a63571a34b2acffc8"
-    },
     "970b0ee1-6cd8-448e-80bb-d9a5ae855469": {
         "created": 1737387250,
         "question": "Does the AI in Society program at TUM have any data on actual graduate outcomes such as hiring firms, average/median starting salary, and the countries graduates are hired in?",
-        "answer": "Since the coming semester is the very first semester the program is being offered, there is no data on graduate outcomes yet.",
+        "answer": " Since the program was first offered in October 2025, there is no available data on graduate outcomes yet.",
         "source_type": "email",
         "source": "email_253.txt",
         "request_id": "a0219bfd35447cd949a3667487d6c32a"
@@ -1434,15 +1066,7 @@
     "772b04c8-201c-4446-9a9a-4b4c43b7999b": {
         "created": 1737387254,
         "question": "What are the nearest libraries that the TUM offers for their students and the program 'AI in Society'?",
-        "answer": "The University library has different topic branches. More information can be accessed at https://www.ub.tum.de/en/accessibility.",
-        "source_type": "email",
-        "source": "email_254.txt",
-        "request_id": "52d16a35949ca3869e1d7f4a5d51f80e"
-    },
-    "e092259c-f426-40d7-9fc7-b688d12432fc": {
-        "created": 1737387254,
-        "question": "Where are the AI in Society lectures taking place? Is the campus for the master program located at Richard-Wagner-Str. 1, 80333 M\u00fcnchen?",
-        "answer": "The lectures are planned to take place in the city center, either at Richard-Wagner-Str. 1, Marsstr. 20-22, or Arcisstr. 21. Some courses may be offered in Garching, but the majority will happen in the city center.",
+        "answer": "The University library has different topic branches. More information can be accessed at https://www.ub.tum.de/en/accessibility .",
         "source_type": "email",
         "source": "email_254.txt",
         "request_id": "52d16a35949ca3869e1d7f4a5d51f80e"
@@ -1458,7 +1082,7 @@
     "4b03d73e-3463-45c2-a3d6-1026ee509cca": {
         "created": 1737387268,
         "question": "What are the requirements if I choose the on-campus variant of the aptitude test?",
-        "answer": "The on-campus variant will not require any fee, as you will be monitored by staff in person. It will take place in Marsstr. 20-22, 80335 Munich, room 605, 6th floor. You will need to bring your laptop to take the test.",
+        "answer": "The on-campus variant will not require any fee, as you will be monitored by staff in person. It will take place in Marsstr. 20-22, 80335 Munich. You will need to bring your laptop to take the test.",
         "source_type": "email",
         "source": "email_255.txt",
         "request_id": "dc6259fb58590a5377f91d5905f99be0"
@@ -1471,34 +1095,10 @@
         "source": "email_255.txt",
         "request_id": "dc6259fb58590a5377f91d5905f99be0"
     },
-    "d50fa0ae-0cca-49d9-ab5f-70c70c648171": {
-        "created": 1737387268,
-        "question": "What are the consideration for candidates who can't make the foreign currency transaction for the proctoring software?",
-        "answer": "The candidate is invited to a third test date and asked to seek a way to bypass the payment problem. If the problem persists, the candidate should reach out to the coordinator for another solution.",
-        "source_type": "email",
-        "source": "email_255.txt",
-        "request_id": "dc6259fb58590a5377f91d5905f99be0"
-    },
-    "eb8a116e-38b5-4a5b-9e10-3c645ad7cdee": {
-        "created": 1737387286,
-        "question": "Why have I not received a link to the AI in Society program aptitude test?",
-        "answer": "Your application has been marked as insufficient regarding one of your documents, which is why you have not been invited.",
-        "source_type": "email",
-        "source": "email_256.txt",
-        "request_id": "673e327cad9b875aec75537afba051b0"
-    },
     "2fc66f16-356f-4410-93d2-3ef62914ac1a": {
         "created": 1737387286,
         "question": "Can I still participate in the aptitude test for the AI in Society program after my application was initially marked as insufficient?",
-        "answer": "Yes, you can still participate. You are being invited to the third test date that is currently being planned.",
-        "source_type": "email",
-        "source": "email_256.txt",
-        "request_id": "673e327cad9b875aec75537afba051b0"
-    },
-    "7ee24caf-5e11-4c88-b54f-ccb41afe56af": {
-        "created": 1737387286,
-        "question": "Can I apply with an expired passport because of some circumstances that prohibited me from renewing it?",
-        "answer": "Yes, you were allowed to apply with an expired passport as per ticket [TUM#2024043010010666] and the admission committee informed you that your application is all good.",
+        "answer": "You might have the opportunity to take a later test.",
         "source_type": "email",
         "source": "email_256.txt",
         "request_id": "673e327cad9b875aec75537afba051b0"
@@ -1530,7 +1130,7 @@
     "4221bc18-c268-4ca6-941d-d004f24389eb": {
         "created": 1737387296,
         "question": "What do I need to take the on-campus aptitude test?",
-        "answer": "You will need to bring your laptop to take the test. It won't be written on paper. If you can't bring a laptop, the staff needs to be informed in advance to provide one for you.",
+        "answer": "You must bring your laptop to take the test. It won't be written on paper. If you can't bring a laptop, the staff needs to be informed in advance to provide one for you.",
         "source_type": "email",
         "source": "email_258.txt",
         "request_id": "6c28ee0ece775a918abb8c9b250aaded"
@@ -1546,18 +1146,10 @@
     "652125bd-d22c-4539-a828-4d3e8fd66765": {
         "created": 1737387307,
         "question": "If there are some technical issues during the test, is there a contact person or an email which I can use for help?",
-        "answer": "If there are any technical problems, there is a zoom call hotline as well as a phone number given on the moodle exam page.",
+        "answer": "If there are any technical problems, there is a Zoom call hotline as well as a phone number given on the Moodle exam page.",
         "source_type": "email",
         "source": "email_259.txt",
         "request_id": "a4a31481fab23df01afa5420143a5f8d"
-    },
-    "9766d506-a4d3-4f2d-96a1-863e43ac04ba": {
-        "created": 1737387313,
-        "question": "What are the options for taking the aptitude test for the AI in Society programme?",
-        "answer": "There are two options. The first is the on-campus variant which will not require any fee, as you will be monitored by staff in person. The second option is the off-campus (online) variant which will require you to pay a fee of $25 for the proctoring software Proctorio.",
-        "source_type": "email",
-        "source": "email_260.txt",
-        "request_id": "0dfecd4e0664f02bebd96ce59d05af47"
     },
     "25d6ea11-1e59-4945-b889-18262536b371": {
         "created": 1737387313,
@@ -1570,47 +1162,15 @@
     "1ec6745d-85af-4e11-9b86-73239820f65e": {
         "created": 1737387313,
         "question": "What do I need if I choose to take the on-campus test?",
-        "answer": "For the on-campus test, you will need to bring your laptop. If this is not possible, you should let the test administrators know in advance and they will provide you with a laptop. The test will not be written on paper.",
+        "answer": "For the on-campus test, you must bring your laptop. If this is not possible, you should inform the test administrators in advance, and they will provide you with a laptop. The test will not be written on paper.",
         "source_type": "email",
         "source": "email_260.txt",
         "request_id": "0dfecd4e0664f02bebd96ce59d05af47"
     },
-    "72bc0278-98d0-41ef-b3b1-1bbbe69ec273": {
-        "created": 1737387325,
-        "question": "Can I be added to participate in the moodle exam that is scheduled for tomorrow?",
-        "answer": "Efforts will be made to add you to the moodle exam for the scheduled test. If there are any issues, you will be invited to a third test.",
-        "source_type": "email",
-        "source": "email_261.txt",
-        "request_id": "8fc84a83166a18a05c72c9610b533f74"
-    },
-    "73da6a71-d35b-49a9-9581-d60f1fd15ac6": {
-        "created": 1737387383,
-        "question": "What should someone do if they have not received their formal offer for the AI in Society master's program, despite being told that they have secured an offer?",
-        "answer": "The individual should reach out to the relevant contact person to clarify this issue.",
-        "source_type": "email",
-        "source": "email_271.txt",
-        "request_id": "a4fb983ad5bff2629d23049bb6880637"
-    },
-    "016db1da-4ca0-4cf2-8a6e-c9aca509b141": {
-        "created": 1737387383,
-        "question": "Why might someone receive an invitation for an aptitude test after being informed during an interview of their acceptance to the AI in Society master's program?",
-        "answer": "It could be an accidental oversight as it happened in this case.",
-        "source_type": "email",
-        "source": "email_271.txt",
-        "request_id": "a4fb983ad5bff2629d23049bb6880637"
-    },
-    "ceb60fa2-de40-4a3e-9f1f-ba797c602fd6": {
-        "created": 1737387405,
-        "question": "What is the format of the aptitude test for the AI in Society program?",
-        "answer": "The test will be conducted in English language and span 90 minutes. It involves answering multiple-choice questions where only one out of multiple responses is correct, covering topics such as Politics, Economics and Law, Statistics and Mathematics, and Engineering. During the test, use of a calculator is allowed.",
-        "source_type": "email",
-        "source": "email_275.txt",
-        "request_id": "950d5c396d71555d51532a2b1719a0a9"
-    },
     "fc34786a-23a2-48c9-8f4c-4d8b71b64739": {
         "created": 1737387487,
         "question": "Can I get information about potential financial assistance options available through TUM or the AIS master program for international students facing financial hardship?",
-        "answer": "For these questions, you should refer to TUM\u2019s scholarship office (https://www.tum.de/en/studies/fees-and-financial-aid/scholarships). They should have a good idea of all funding possibilities.",
+        "answer": "For these questions, you should refer to TUM\u2019s scholarship office (https://www.tum.de/en/studies/fees-and-financial-aid/scholarships).",
         "source_type": "email",
         "source": "email_284.txt",
         "request_id": "b30042765d3813b879df9a6c7a8a1a04"
@@ -1618,7 +1178,7 @@
     "00b00204-f245-4396-ae97-8db007746beb": {
         "created": 1737387495,
         "question": "As an international student, is it possible that the semester fees could be mentioned in the acceptance letter?",
-        "answer": "For this question, you are referred to the center of fees and scholarships at https://www.tum.de/en/studies/fees. They should be able to assist you with this matter.",
+        "answer": "For this question, you are referred to the center of fees and scholarships at https://www.tum.de/en/studies/fees .",
         "source_type": "email",
         "source": "email_285.txt",
         "request_id": "c4986033a07a8f2d55bef36ac1eea626"
@@ -1650,7 +1210,7 @@
     "40ed9c3b-b14d-45ce-a2c9-72e2b2be07c9": {
         "created": 1737387522,
         "question": "Could you confirm that I am enrolling as a German national and thus will not be charged for tuition?",
-        "answer": "You will not be charged a tuition fee due to your dual citizenship. However, for an official confirmation, you should refer to the center of fees and scholarships.",
+        "answer": "You will not be charged a tuition fee due to your dual citizenship. However, for an official confirmation, you should refer to the center of fees and scholarships https://www.tum.de/en/studies/fees/tuition .",
         "source_type": "email",
         "source": "email_300.txt",
         "request_id": "a068123744657634cdfc2d38dfba9ce8"
@@ -1681,8 +1241,8 @@
     },
     "8bdf9de8-2f0c-43a1-8f05-bba0af938e61": {
         "created": 1737387398,
-        "question": "Can application documents for the AI in Society programme be sent over email?",
-        "answer": "No, documents cannot be sent over email. They must be uploaded to the application portal in due time.",
+        "question": "Can application documents for the AI in Society program be sent over email?",
+        "answer": "No, documents cannot be emailed. They must be uploaded to the application portal in due time.",
         "source_type": "email",
         "source": "email_347.txt",
         "request_id": "53bce26af8c8f198678573bc450a210c"
@@ -1697,32 +1257,24 @@
     },
     "c9b089fc-9b5e-46ea-b1c2-f2d1611d4009": {
         "created": 1737387405,
-        "question": "Can documents be sent via email for the M.Sc. AI in Society application at TUM?",
-        "answer": "Documents for the application cannot be accepted via email, they needed to be uploaded in time to the application portal.",
+        "question": "Can documents be emailed for the M.Sc. AI in Society application at TUM?",
+        "answer": "Documents for the application cannot be accepted via email; they needed to be uploaded in time to the application portal.",
         "source_type": "email",
         "source": "email_348.txt",
         "request_id": "f76570d20f8698b6925441028987f4e7"
     },
     "85cf284b-95ef-4262-8463-012b86bd2b0d": {
         "created": 1737387405,
-        "question": "What happens if an applicant did not hear back from TUM for the AI in Society program before the first test date?",
-        "answer": "An applicant who did not receive feedback nor was declined, can expect further feedback in the upcoming weeks. If the documents suffice, they will be invited to the second test.",
+        "question": "What happens if an applicant does not hear back from TUM for the AI in Society program before the first test date?",
+        "answer": "An applicant who did not receive feedback nor was declined can expect further feedback in the upcoming weeks. If the documents suffice, they will be invited to the second test.",
         "source_type": "email",
         "source": "email_348.txt",
         "request_id": "f76570d20f8698b6925441028987f4e7"
     },
-    "647d2427-2963-4cec-a59a-ead7c78101e1": {
-        "created": 1737387305,
-        "question": "Is the interview scheduling time for the AI in Society program based on CEST or my own timezone?",
-        "answer": "The interview scheduling time is automatically converted to your own timezone.",
-        "source_type": "email",
-        "source": "email_356.txt",
-        "request_id": "2b9f3d63558f09c6362aefe597f0d731"
-    },
     "86dd9a78-cc25-4a2e-91d8-7b69b2b1c4e6": {
         "created": 1737387305,
         "question": "How can I choose a timeslot for the second interview for the AI in Society program?",
-        "answer": "You can select a timeslot by using the provided link. You will need to enter your email address and full name, and then choose one timeslot that suits you best. The timeslots are distributed on a 'first come, first serve' basis. After selecting, you need to submit your answer.",
+        "answer": "You can select a timeslot using the provided link. You must enter your email address and full name and then choose one timeslot that suits you best. The timeslots are distributed on a 'first come, first serve' basis. After selecting, you need to submit your answer.",
         "source_type": "email",
         "source": "email_356.txt",
         "request_id": "2b9f3d63558f09c6362aefe597f0d731"
@@ -1730,7 +1282,7 @@
     "f59fe098-aebe-4e76-bf7a-f6f5d13b54bf": {
         "created": 1737387305,
         "question": "Can I change my selection of the interview timeslot after I have made the choice?",
-        "answer": "Yes, you can change your selection of the interview timeslot later on your own. However, you should notify the committee if you had to make a change, especially if it was made last minute.",
+        "answer": "Yes, you can change your selection of the interview timeslot later. However, you should notify the committee if you have to make a change, especially if it was made last minute.",
         "source_type": "email",
         "source": "email_356.txt",
         "request_id": "2b9f3d63558f09c6362aefe597f0d731"
@@ -1738,7 +1290,7 @@
     "a7ca4eed-df1c-49e0-b3c1-67d881729fe3": {
         "created": 1737387305,
         "question": "Will I receive a confirmation email after selecting the interview timeslot for the AI in Society program at TUM?",
-        "answer": "No, you will not receive a confirmation email after selecting the timeslot. As soon as you have selected a time slot, you can consider it as confirmed. However, you will receive your personal Zoom link at least 12 hours in advance to your interview.",
+        "answer": "No, you will not receive a confirmation email after selecting the timeslot. You can consider it as confirmed as soon as you have selected a time slot. However, you will receive your personal Zoom link at least 12 hours in advance of your interview.",
         "source_type": "email",
         "source": "email_356.txt",
         "request_id": "2b9f3d63558f09c6362aefe597f0d731"
@@ -1746,7 +1298,7 @@
     "10d6e5c5-a876-437a-894a-2cab97bbbbe5": {
         "created": 1737387357,
         "question": "Can the selected timeslot be changed later?",
-        "answer": "You will be able to change your selection yourself, but you should let the interviewer know in case you had to change your slot, especially last minute.",
+        "answer": "You will be able to change your selection yourself, but you should let the interviewer know in case you have to change your slot, especially at the last minute.",
         "source_type": "email",
         "source": "email_378.txt",
         "request_id": "30d64dc5bb28fa8a24b7ce0bac8401d6"
@@ -1754,7 +1306,7 @@
     "0284cbf1-7209-44d3-9ddd-779b5fccadff": {
         "created": 1737387357,
         "question": "Will there be an email confirming the selected timeslot for the interview?",
-        "answer": "As soon as you have selected a time slot, you can think of it as confirmed \u2013 there will be no additional email confirming your timeslot. You will receive your personal Zoom link at least 12 hours in advance to your interview.",
+        "answer": "As soon as you have selected a time slot, you can consider it confirmed. There will be no additional email confirming your timeslot. You will receive your personal Zoom link at least 12 hours in advance to your interview.",
         "source_type": "email",
         "source": "email_378.txt",
         "request_id": "30d64dc5bb28fa8a24b7ce0bac8401d6"
@@ -1762,7 +1314,7 @@
     "638f50e1-6689-4cfe-a0b2-05d7c2a1d02a": {
         "created": 1737387368,
         "question": "What is the next step in the application process for the M.Sc. AI in Society at TUM after the initial aptitude test?",
-        "answer": "The next step in the application process is an interview with two members of the selection committee.",
+        "answer": " After the initial aptitude test, the next step in the application process for the M.Sc. AI in Society at TUM depends on the total score obtained from both the submitted academic documents (Part 1) and the written aptitude test (Part 2). Possible Next Steps Based on the Score: 1. Direct Admission(68 points or more) o If the applicant scores 68 points or higher, they are admitted directly to the program without any further steps. 2. Invitation to Interview(48 to 67 points) o If the total score is between 48 and 67 points, the applicant is invited for an interview. o The interview serves as an additional evaluation step to assess their qualifications, motivation, and suitability for the program. 3. Rejection(Below 48 points) o If the total score is below 48 points, the applicant is rejected. o Additionally, ssif the score is below 40 points and the applicant has fewer than 18 points from Part 1(academic grades), they are automatically rejected without an interview. Interview Process(If Applicable): •If an interview is required, applicants will be notified and scheduled for a discussion with faculty members.•The interview typically assesses: o Understanding of AI - related topics. o Motivation for joining the program. o Potential for success in the interdisciplinary curriculum. Final Decision After the Interview: •If the applicant performs well in the interview, they may still be admitted.•If they do not meet the expectations, they may be rejected at this stage.",
         "source_type": "email",
         "source": "email_379.txt",
         "request_id": "5cdacbff5a3df8ea0be7159877615fd0"

@@ -1,120 +1,37 @@
-import docker
-import platform
-import os
-import docker.errors
-import dotenv
-import database
-import json
-import logging
-import webbrowser
-from openai import OpenAI
 from flask import Flask, request, jsonify, render_template, session
+from database import find_closest_questions, find_closest_pdf
+import openai
+import os
+import webbrowser
 from flask_cors import CORS
-
-
-# Load the environment variables
-dotenv.load_dotenv()
+import logging
+import uuid
+import json
 
 # Initialize Flask app
 app = Flask(__name__, static_folder="static")
 app.secret_key = os.getenv("SECRET_KEY", "default_secret")  # Secret key for session handling
 CORS(app)
 
-# Get the API key from the environment variables
+# Configure logging for debugging
+logging.basicConfig(level=logging.INFO)
+
+# Set OpenAI API key
 API_KEY = os.getenv("API_KEY")
+client = openai.OpenAI(api_key=API_KEY)
 
-# Create an OpenAI client with the API key
-client = OpenAI(api_key=API_KEY)
-
+# Dictionary to store chat history per session (Limited to 5 messages per session)
 conversation_history = []
 
 SYSTEM_PROMPT = """
-You are an expert assistant tasked with providing precise, context-based answers from the given data.
+You are an expert assistant tasked with providing precise, context-based answers from the given data. Use a professional tone and ensure the response is concise, accurate, and aligned with the user's intent.
 You are answering questions as a student advisor for the Masters Program AI in Society.
 Only respond with information explicitly available in the provided data, ensuring the response is specific, accurate, and free of any generalization, extrapolation, or assumptions.
+Match the query to the most relevant knowledge source and prioritize clarity in the response.
 Retain as much detail and context from the original data as possible.
-If there is no fitting answer in the data, respond with an explanation that the question cannot be answered with the provided data and that they should try to reformulate the question.
+Generate prompts which are only related to the question prompt and try to keep the answers very simple to the database and do not over enhance it. Never mention the context the data is extracted from and if there is no data found in both the datasets then ask for a better prompt.    
 Only if there has not been any progress in the conversation in a while and the student question is relevant to the program, ask them to contact the study advisor at ais@sot.tum.de.
 """
-
-
-def docker_is_running():
-    """
-    Check that the docker container named 'alina' is running
-
-    Returns:
-    - bool: True if the container is running, False otherwise
-    """
-
-    try:
-        # Initialize the docker client according to the platform
-        if platform.system() == "Windows":
-            DOCKER_CLIENT = docker.DockerClient(base_url="npipe:////./pipe/docker_engine")
-        elif platform.system() in ["Linux", "Darwin"]:
-            DOCKER_CLIENT = docker.DockerClient(base_url="unix://var/run/docker.sock")
-        else:
-            raise Exception(f"Unsupported platform: {platform.system()}")
-    except docker.errors.DockerException:
-        raise Exception("Docker is not running. Please start the docker application.")
-
-    # Get the list of containers
-    containers = DOCKER_CLIENT.containers.list()
-
-    # Get the names of the containers
-    container_names = [container.name for container in containers]
-
-    # Check if the container 'alina' is in the list of containers
-    return "alina" in container_names
-
-
-
-def send_gpt_request(user_question, database_context, model="gpt-4o", temperature=0.4):
-    """
-    Get a response from the language model
-
-    Args:
-    - prompt (str): The prompt to send to the language model
-
-    Returns:
-    - str: The response from the language model
-    """
-
-    # Add the database context to the user message
-    user_message = f'Answer the following question: "{user_question}" using the following database information:\n\n\n {database_context}'
-
-    # Add the conversation history to the messages
-    messages = conversation_history + [
-        {"role": "developer", "content": [{"type": "text", "text": SYSTEM_PROMPT}]},
-        {"role": "user", "content": [{"type": "text", "text": user_message}]},
-    ]
-
-    # Send the prompt to the language model
-    response = client.chat.completions.create(model=model, messages=messages, temperature=temperature)
-
-    # Get the numver of tokens used
-    prompt_tokens = response.usage.prompt_tokens
-    completion_tokens = response.usage.completion_tokens
-    total_tokens = response.usage.total_tokens
-
-    logging.debug(
-        f"Prompt tokens: {prompt_tokens}, Completion tokens: {completion_tokens}, Total tokens: {total_tokens}"
-    )
-
-    # Check if the total tokens used exceed the context window limit
-    if total_tokens > 128000:
-        logging.warning(
-            f"Used more than 128,000 tokens. Context windowd may be truncated. Total tokens used: {total_tokens}"
-        )
-
-    # Get the response text from the response
-    response_text = response.choices[0].message.content
-
-    # Add the user message and response to the conversation history
-    conversation_history.append({"role": "user", "content": [{"type": "text", "text": user_question}]})
-    conversation_history.append({"role": "assistant", "content": [{"type": "text", "text": response_text}]})
-
-    # Return the response
-    return response_text
 
 
 def refomulate_question(question, conversation_history):
@@ -143,57 +60,95 @@ def refomulate_question(question, conversation_history):
     ]
 
     # Send the prompt to the language model
-    response = client.chat.completions.create(model="gpt-4o", messages=messages, temperature=0.3)
+    response = client.chat.completions.create(model="gpt-4o", messages=messages, temperature=0.4)
 
     # Get the response text from the response
     response_text = response.choices[0].message.content
 
     return response_text
 
+def generate_profound_answer(question, email_context, pdf_context):
+    """
+    Generate an answer using OpenAI API with conversational memory.
+    """
+    # Retrieve conversation history (last 5 exchanges)
+    history = conversation_history[-5:]
+
+    # Build message history for OpenAI
+    messages = [{"role": "system", "content": SYSTEM_PROMPT}]
+
+    # Add user question FIRST to ensure the model focuses on it
+    user_message = f'Answer the following question: "{question}" using the following database information:\n\n\n {email_context}\n\n{pdf_context}'
+    messages.append({"role": "user", "content": user_message})
+
+    for exchange in history:
+        if "question" in exchange and "response" in exchange:
+            messages.append({"role": "user", "content": exchange["question"]})
+            messages.append({"role": "assistant", "content": exchange["response"]})
+
+        print(history)
+
+    # Call OpenAI API
+    try:
+        response = client.chat.completions.create(model="gpt-4o", messages=messages, temperature=0.4)
+        answer = response.choices[0].message.content.strip()
+
+        # Get the numver of tokens used
+        prompt_tokens = response.usage.prompt_tokens
+        completion_tokens = response.usage.completion_tokens
+        total_tokens = response.usage.total_tokens
+
+        print(f"\n\n\nPrompt tokens: {prompt_tokens}, Completion tokens: {completion_tokens}, Total tokens: {total_tokens}\n\n")
+
+        # Store latest interaction in chat history
+        # conversation_history.setdefault(session_id, []).append({"question": question, "response": answer})
+        # print(f"Chat_history:\n{conversation_history}")
+
+        conversation_history.append({"question": question, "response": answer})
+    
+        return answer
+    except Exception as e:
+        logging.error(f"OpenAI API error: {e}")
+        return "An error occurred while processing your request."
+        
+
 @app.route("/")
 def index():
     """ Serve the chatbot HTML file. """
     return render_template("Index.html")
 
-
 @app.route("/query", methods=["POST"])
 def handle_query():
-    global conversation_history
+    """
+    Handle user queries, retrieve relevant context, and generate a response.
+    """
+    global conversation_history  # Ensure we modify the global history
     request_data = request.json
     question = request_data.get("query", "").strip()
+    # session_id = request_data.get("session_id", str(uuid.uuid4()))  # Get or create session ID
 
     if not question:
         return jsonify({"error": "Question is required"}), 400
+    
 
-    # STEP 4: Remfomulate the question according to conversation history context
+    # Reformulate question if necessary
     reformulated_question = refomulate_question(question, conversation_history)
 
-    # logging.debug(f"Reformulated question: {reformulated_question}")
+    # Retrieve context from emails & PDFs
+    closest_questions = find_closest_questions(reformulated_question, top_n=5)
+    email_context = " ".join([q["answer_text"] for q in closest_questions]) if closest_questions else ""
 
-    # STEP 4: Search the database for the question
-    similar_questions = database.find_closest_questions(reformulated_question, top_n=5)
-    # logging.debug(f"Found {len(similar_questions)} similar questions in the database.")
+    closest_pdfs = find_closest_pdf(reformulated_question, top_n=5)
+    pdf_context = " ".join([p["pdf_text"] for p in closest_pdfs]) if closest_pdfs else ""
 
-    similar_pdf_sections = database.find_closest_pdf(reformulated_question, top_n=5)
-    # logging.debug(f"Found {len(similar_pdf_sections)} similar PDF sections in the database.")
+    # If no relevant context is found, return default response
+    if not email_context and not pdf_context:
+        return jsonify({"response": "No relevant information found."})
 
-    database_context = {
-        "Information from emails": similar_questions,
-        "Information from PDFs": similar_pdf_sections,
-    }
+    # Generate response using OpenAI with conversation memory
+    response_text = generate_profound_answer(question, email_context, pdf_context)
 
-    database_context_text = json.dumps(database_context, indent=4)
-    # logging.debug(f"Database context: {database_context_text}")
-
-    # logging.debug(f"Using conversation history: {conversation_history}")
-
-    # STEP 5: Generate an answer using the language model
-    response = send_gpt_request(question, database_context_text)
-    # logging.debug(f"Received response: {response}")
-
-    return jsonify({"response": response})
-    # print(response)
-
+    return jsonify({"response": response_text})
 
 def open_browser():
     """ Open the Flask application in the default web browser. """

@@ -22,7 +22,7 @@ def is_docker_running():
 # Check if the Docker container exists and start it
 def start_docker_container():
     container_name = "alina"  # Update with your container name
-    docker_bat_path = "path to docker batch file "  # Update this path
+    docker_bat_path = r"C:\Users\khushwanth\Desktop\testing\EDU_Chat\Chat_bot\docker_setup\start_docker.bat"  # Update this path
 
     print("Checking if the Docker container exists...")
     try:
@@ -64,7 +64,7 @@ def start_docker_container():
 
 # Run the database initialization script
 def initialize_database():
-    database_init_folder = "path to initialize.py directory"  # Update this path
+    database_init_folder = r"C:\Users\khushwanth\Desktop\testing\EDU_Chat\Chat_bot"  # Update this path
     init_script = "initialize.py"
 
     print("Initializing the database...")
@@ -79,8 +79,8 @@ def initialize_database():
 # Launch the chatbot
 def launch_chatbot():
     global chatbot_process
-    chatbot_folder = (r"path to bot.py directory")  # Update this path
-    chatbot_script = "bot.py"
+    chatbot_folder = (r"C:\Users\khushwanth\Desktop\testing\EDU_Chat\Chat_bot")  # Update this path
+    chatbot_script = "bot_final.py"
 
     print("Launching chatbot...")
     try:
@@ -94,7 +94,7 @@ def launch_chatbot():
 
 # Open the chatbot interface in the browser
 def open_browser():
-    html_file_path = (r"path to Index.html file")  # Update this path
+    html_file_path = (r"C:\Users\khushwanth\Desktop\testing\EDU_Chat\Chat_bot\static\Index.html")  # Update this path
     print("Opening the chatbot interface in the browser...")
     try:
         full_path = os.path.abspath(html_file_path)
