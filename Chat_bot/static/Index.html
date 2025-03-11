@@ -4,18 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI & Society Course Assistant for Technical University of Munich">
     <title>AI & Society Course Assistant - TUM</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <script src="http://kit.fontwaesome.com/a076d05399.js"></script>
+    <!-- Removed problematic script and using only CDN -->
 </head>
 
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Main Navigation">
         <div class="nav-container">
-            <a href="https://www.tum.de" class="page__header-logo">
-                <svg width="80" height="42" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73 38">
+            <a href="https://www.tum.de" class="page__header-logo" aria-label="Technical University of Munich Homepage">
+                <svg width="80" height="42" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73 38" aria-hidden="true">
                     <path d="M28 0v31h8V0h37v38h-7V7h-8v31h-7V7h-8v31H21V7h-7v31H7V7H0V0h28z" fill="currentColor" />
                 </svg>
 
@@ -24,27 +25,25 @@
                     Universität <br>
                     München
                 </div>
-
             </a>
             <div class="nav-links">
                 <div class="dropdown">
-                    <button class="dropbtn">
+                    <button class="dropbtn" aria-haspopup="true" aria-expanded="false" aria-label="Menu">
                         <i class="fas fa-bars"></i>
                     </button>
-                    <div class="dropdown-content">
-                        <a href="https://www.tum.de/en/studies/degree-programs/detail/ai-in-society">About the
+                    <div class="dropdown-content" role="menu">
+                        <a href="https://www.tum.de/en/studies/degree-programs/detail/ai-in-society" role="menuitem">About the
                             course</a>
-                        <a href="https://www.sot.tum.de/sot/studium/ai-in-society/studies/">Curriculum</a>
-                        <a href="https://www.sot.tum.de/sot/studium/ai-in-society/">Course Homepage</a>
-                        <a
-                            href="https://www.tum.de/fileadmin/w00bfo/www/Studium/Studienangebot/Lesbare_Fassung/Master/AI_in_Society_MA_Studiengangsdokumentation_22072024.pdf">
+                        <a href="https://www.sot.tum.de/sot/studium/ai-in-society/studies/" role="menuitem">Curriculum</a>
+                        <a href="https://www.sot.tum.de/sot/studium/ai-in-society/" role="menuitem">Course Homepage</a>
+                        <a href="https://www.tum.de/fileadmin/w00bfo/www/Studium/Studienangebot/Lesbare_Fassung/Master/AI_in_Society_MA_Studiengangsdokumentation_22072024.pdf" role="menuitem">
                             Documentation</a>
-                        <a href="#" onclick="togglePrivacyPolicy()">Privacy Policy</a>
-                        <a href="#" onclick="toggleContactinfo()">Contact Info</a>
+                        <a href="#" onclick="togglePrivacyPolicy()" role="menuitem">Privacy Policy</a>
+                        <a href="#" onclick="toggleContactInfo()" role="menuitem">Contact Info</a>
                     </div>
 
                     <div id="privacyContainer" class="privacy-box">
-                        <textarea id="privacyPolicy" readonly>
+                        <textarea id="privacyPolicy" readonly aria-label="Privacy Policy">
 Privacy policy
 Data protection is an important concern for the Technical University of Munich. We want you to know when we store which data and how we use it. Personal data is collected on this central web server of the University (www.tum.de) only to the extent technically necessary. Data processing is subject to the applicable data protection regulations, in particular the General Data Protection Regulation (GDPR), the Bavarian Data Protection Act (BayDSG) and the Digital Services Act (DDG).
                             
@@ -145,31 +144,11 @@ You can reach the official data protection officer of the Technical University o
 Information and correction
 You have the right to obtain information about the personal data upon written request and free of charge. that are stored about you. In addition, you have the right to rectify inaccurate data, Blocking and deletion.
                         </textarea>
-                        <button onclick="closePrivacyPolicy()">Close</button>
+                        <button onclick="closePrivacyPolicy()" aria-label="Close privacy policy">Close</button>
                     </div>
 
-                    <script>
-                        function togglePrivacyPolicy() {
-                            var policyBox = document.getElementById("privacyContainer");
-                            if (policyBox.style.display === "none" || policyBox.style.display === "") {
-                                policyBox.style.display = "block"; 
-                            } else {
-                                policyBox.style.display = "none"; 
-                            }
-                        }
-                    
-                        function closePrivacyPolicy() {
-                            document.getElementById("privacyContainer").style.display = "none";
-                        }
-                    </script>
-
-
-
-
-
-
-<div id="ContactContainer" class="Contact-box">
-    <textarea id="Contactinfo" readonly>
+                    <div id="contactContainer" class="Contact-box">
+                        <textarea id="contactInfo" readonly aria-label="Contact Information">
 Imprint
 
 Editor
@@ -218,64 +197,49 @@ We are not liable for any damage caused by the use of this website. This exclusi
         
 Left
 A distinction must be made between cross-references ("links") to the websites of other providers and our own content. Through these links, we only enable access to the use of third-party content in accordance with § 7 of the Digital Services Act. When linking to these websites for the first time, we checked these third-party contents to see whether they would trigger possible civil or criminal liability. However, we cannot constantly check this third-party content for changes and therefore cannot take any responsibility for it. The respective provider of the site is solely liable for illegal, incorrect or incomplete content and in particular for damage resulting from the use or non-use of third-party information.
-
-    </textarea>
-    <button onclick="closeContactinfo()">Close</button>
-</div>
-
-<script>
-    function toggleContactinfo() {
-        var contactBox = document.getElementById("ContactContainer");
-        if (contactBox.style.display === "none" || contactBox.style.display === "") {
-            contactBox.style.display = "block"; 
-        } else {
-            policyBox.style.display = "none"; 
-        }
-    }
-
-    function closeContactinfo() {
-        document.getElementById("ContactContainer").style.display = "none";
-    }
-</script>
-
-
+                        </textarea>
+                        <button onclick="closeContactInfo()" aria-label="Close contact information">Close</button>
+                    </div>
                 </div>
-
             </div>
         </div>
     </nav>
 
     <!-- Hero Section with Integrated Chat -->
-    <section class="hero">
+    <section class="hero" id="chat-section">
         <div class="hero-container">
             <h1>Nia</h1>
             <p class="hero-text">
                 Navigating Information with AI - Your intelligent companion for navigating the AI & Society
                 course at TUM. Ask questions about admissions, curriculum, career prospects, and more. Get instant,
-                accurate responses tailored to your needs.</p>
+                accurate responses tailored to your needs.
+            </p>
             <div class="chat-interface">
                 <!-- Chat Window -->
                 <div class="chat-window">
                     <div class="chat-header">
-                        <button class="clear-chat">
-                            <i class="fas fa-trash"></i>
+                        <button class="clear-chat" aria-label="Clear chat history">
+                            <i class="fas fa-trash" aria-hidden="true"></i>
                         </button>
-                        <button class="download-chat">
-                            <i class="fas fa-download"></i>
+                        <button class="download-chat" aria-label="Download chat history">
+                            <i class="fas fa-download" aria-hidden="true"></i>
                         </button>
                     </div>
                     <div class="chat-container">
-                        <div class="chat-messages"></div>
+                        <div class="chat-messages" aria-live="polite">
+                            <!-- Initial welcome message will be added by JS -->
+                        </div>
                     </div>
                 </div>
 
                 <!-- Search Container -->
                 <div class="search-container">
                     <div class="search-wrapper">
-                        <i class="fas fa-search search-icon"></i>
-                        <input type="text" class="search-input" placeholder="What's on your mind?">
-                        <button class="voice-input">
-                            <i class="fas fa-microphone"></i>
+                        <i class="fas fa-search search-icon" aria-hidden="true"></i>
+                        <label for="userInput" class="visually-hidden">Ask a question</label>
+                        <input type="text" id="userInput" class="search-input" placeholder="Hello! I'm Nia, your AI assistant for the AI & Society course at TUM. How can I help you today?" aria-label="Ask a question about AI & Society course">
+                        <button class="voice-input" aria-label="Use voice input">
+                            <i class="fas fa-microphone" aria-hidden="true"></i>
                         </button>
                     </div>
                 </div>
@@ -289,52 +253,52 @@ A distinction must be made between cross-references ("links") to the websites of
             <h2>Frequently Asked Questions</h2>
     
             <!-- Section 1: Admission Information -->
-            <h3 class="faq-subtitle">1.Admission Information</h3>
+            <h3 class="faq-subtitle">1. Admission Information</h3>
             <div class="faq-grid">
-                <div class="faq-item">
+                <div class="faq-item" tabindex="0" role="button" aria-label="Click to ask about required documents for admission">
                     <h3>What are the Required Documents for Admission?</h3>
                 </div>
-                <div class="faq-item">
+                <div class="faq-item" tabindex="0" role="button" aria-label="Click to ask about application period">
                     <h3>When is the Application Period?</h3>
                 </div>
-                <div class="faq-item">
+                <div class="faq-item" tabindex="0" role="button" aria-label="Click to ask about program objective">
                     <h3>What is the Program Objective?</h3>
                 </div>
-                <div class="faq-item">
+                <div class="faq-item" tabindex="0" role="button" aria-label="Click to ask about tuition fees for international students">
                     <h3>What are the Tuition Fees for students from abroad?</h3>
                 </div>
             </div>
     
             <!-- Section 2: Program Details -->
-            <h3 class="faq-subtitle">2.Program Details</h3>
+            <h3 class="faq-subtitle">2. Program Details</h3>
             <div class="faq-grid">
-                <div class="faq-item">
+                <div class="faq-item" tabindex="0" role="button" aria-label="Click to ask about admission process">
                     <h3>How is the Admission Process?</h3>
                 </div>
-                <div class="faq-item">
+                <div class="faq-item" tabindex="0" role="button" aria-label="Click to ask about contact for more information">
                     <h3>Who can I contact for more information?</h3>
                 </div>
-                <div class="faq-item">
+                <div class="faq-item" tabindex="0" role="button" aria-label="Click to ask about program duration">
                     <h3>How long is the Program?</h3>
                 </div>
-                <div class="faq-item">
+                <div class="faq-item" tabindex="0" role="button" aria-label="Click to ask about career prospects after graduation">
                     <h3>What is the expected job for after graduation?</h3>
                 </div>
             </div>
     
             <!-- Section 3: Additional Information -->
-            <h3 class="faq-subtitle">3.Additional Information</h3>
+            <h3 class="faq-subtitle">3. Additional Information</h3>
             <div class="faq-grid">
-                <div class="faq-item">
+                <div class="faq-item" tabindex="0" role="button" aria-label="Click to ask about scholarships">
                     <h3>Are there any scholarships available?</h3>
                 </div>
-                <div class="faq-item">
+                <div class="faq-item" tabindex="0" role="button" aria-label="Click to ask about course structure">
                     <h3>What is the course structure?</h3>
                 </div>
-                <div class="faq-item">
+                <div class="faq-item" tabindex="0" role="button" aria-label="Click to ask about internship opportunities">
                     <h3>What are the internship opportunities?</h3>
                 </div>
-                <div class="faq-item">
+                <div class="faq-item" tabindex="0" role="button" aria-label="Click to ask about housing options">
                     <h3>How can I apply for housing?</h3>
                 </div>
             </div>
@@ -349,9 +313,9 @@ A distinction must be made between cross-references ("links") to the websites of
                     <div class="flex__md-4">
                         <div class="flex Footer_text">
                             <div>
-                                <a href="https://www.tum.de/" target="_blank">
-                                    <img src="	https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Backend/tum-logo.svg"
-                                        width="50" height="30" alt="">
+                                <a href="https://www.tum.de/" target="_blank" aria-label="Technical University of Munich Homepage">
+                                    <img src="https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Backend/tum-logo.svg"
+                                        width="50" height="30" alt="TUM Logo">
                                 </a>
                             </div>
                             <div class="Footer_text">
@@ -368,21 +332,17 @@ A distinction must be made between cross-references ("links") to the websites of
                         </div>
                     </div>
                     <div class="flex__md-4">
-
                         <h2 class="h6">
                             Let's shape the future together.
                         </h2>
                         <ul class="page__footer-links">
-
                             <li>
                                 <a href="https://www.fundraising.tum.de/en/fundraising/startpage/" target="_blank"
                                     rel="noreferrer">
                                     Support us
                                 </a>
                             </li>
-
                         </ul>
-
                     </div>
                     <div class="Footer_text flex__md-4">
                         <h2 class="h6">Study Coordinator</h2>
@@ -398,109 +358,92 @@ A distinction must be made between cross-references ("links") to the websites of
                     <div class="footer_links">
                         <div class="flex page__footer-quicklinks">
                             <div class="Footer_text">
-                                <p><b>Schools:<b></p>
+                                <p><b>Schools:</b></p>
                             </div>
                             <div>
                                 <ul>
-
                                     <li>
                                         <a href="https://www.cit.tum.de/en/" target="_blank" rel="noreferrer">
                                             Computation, Information and Technology
                                         </a>
                                     </li>
-
                                     <li>
                                         <a href="https://www.ed.tum.de/en/" target="_blank" rel="noreferrer">
                                             Engineering and Design
                                         </a>
                                     </li>
-
                                     <li>
                                         <a href="https://www.nat.tum.de/en/nat" target="_blank" rel="noreferrer">
                                             Natural Sciences
                                         </a>
                                     </li>
-
                                     <li>
                                         <a href="https://www.ls.tum.de/en/" target="_blank" rel="noreferrer">
                                             Life Sciences
                                         </a>
                                     </li>
-
                                     <li>
                                         <a href="https://www.med.tum.de/en" target="_blank" rel="noreferrer">
                                             Medicine and Health
                                         </a>
                                     </li>
-
                                     <li>
                                         <a href="https://www.mgt.tum.de/" target="_blank" rel="noreferrer">
                                             Management
                                         </a>
                                     </li>
-
                                     <li>
                                         <a href="https://www.sot.tum.de/en/" target="_blank" rel="noreferrer">
                                             Social Sciences and Technology
                                         </a>
                                     </li>
-
                                 </ul>
                             </div>
-
                         </div>
                         <div class="flex page__footer-quicklinks">
                             <div class="Footer_text flex__lg-1">
-                                <p><b>Quicklinks:<b></p>
+                                <p><b>Quicklinks:</b></p>
                             </div>
                             <div class="flex__auto">
                                 <ul>
-
                                     <li>
                                         <a href="https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/login?$ctx=lang=en"
                                             target="_blank" rel="noreferrer">
                                             Persons (TUMonline)
                                         </a>
                                     </li>
-
                                     <li>
                                         <a href="/en/about-tum/contact-directions/logins">
                                             IT Services
                                         </a>
                                     </li>
-
                                     <li>
                                         <a href="https://www.tum.de/aktuelles/veranstaltungen/terminuebersicht"
                                             target="_blank">
                                             Calendar
                                         </a>
                                     </li>
-
                                     <li>
                                         <a href="https://portal.mytum.de/navigation_view?set_language=en"
                                             target="_blank" rel="noreferrer">
                                             MyTUM
                                         </a>
                                     </li>
-
                                     <li>
                                         <a href="https://nav.tum.de/" target="_blank" rel="noreferrer">
                                             Rooms
                                         </a>
                                     </li>
-
                                     <li>
                                         <a href="https://www.ub.tum.de/en" target="_blank" rel="noreferrer">
                                             University Library
                                         </a>
                                     </li>
-
                                     <li>
                                         <a href="https://shop.tum.de/en/" target="_blank" rel="noreferrer">
                                             TUMshop
                                         </a>
                                     </li>
-
                                 </ul>
                             </div>
                         </div>
@@ -518,37 +461,31 @@ A distinction must be made between cross-references ("links") to the websites of
                                     Jobs
                                 </a>
                             </li>
-
                             <li>
                                 <a href="/en/about-tum/contact-directions/feedback">
                                     Feedback
                                 </a>
                             </li>
-
                             <li>
                                 <a href="/en/press-and-media">
                                     Press and Media
                                 </a>
                             </li>
-
                             <li>
                                 <a href="/en/spezialseiten/accessibility">
                                     Accessibility
                                 </a>
                             </li>
-
                             <li>
                                 <a href="/en/privacy-policy">
                                     Privacy Policy
                                 </a>
                             </li>
-
                             <li>
                                 <a href="/en/about-tum/contact-directions/legal-notice">
                                     Legal Notice
                                 </a>
                             </li>
-
                             <li>
                                 <a href="/en/about-tum/emergency">
                                     Emergency
@@ -558,66 +495,59 @@ A distinction must be made between cross-references ("links") to the websites of
                     </div>
                     <div class="page__footer-social-media">
                         <ul>
-
                             <li>
                                 <a href="https://www.instagram.com/tu.muenchen" target="_blank" class="hide-icon"
-                                    rel="noreferrer">
+                                    rel="noreferrer" aria-label="TUM Instagram">
                                     <img src="https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/soc-instagram.svg"
-                                        alt="" height="20" width="20">
-                                    <span class="visually-hidden"></span>
+                                        alt="Instagram icon" height="20" width="20">
+                                    <span class="visually-hidden">Instagram</span>
                                 </a>
                             </li>
-
                             <li>
                                 <a href="https://www.linkedin.com/school/166283/" target="_blank" class="hide-icon"
-                                    rel="noreferrer">
+                                    rel="noreferrer" aria-label="TUM LinkedIn">
                                     <img src="https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/soc-linkedin.svg"
-                                        alt="" height="20" width="20">
-                                    <span class="visually-hidden"></span>
+                                        alt="LinkedIn icon" height="20" width="20">
+                                    <span class="visually-hidden">LinkedIn</span>
                                 </a>
                             </li>
-
                             <li>
                                 <a href="https://www.facebook.com/TU.Muenchen" target="_blank" class="hide-icon"
-                                    rel="noreferrer">
+                                    rel="noreferrer" aria-label="TUM Facebook">
                                     <img src="https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/soc-facebook.svg"
-                                        alt="" height="20" width="20">
-                                    <span class="visually-hidden"></span>
+                                        alt="Facebook icon" height="20" width="20">
+                                    <span class="visually-hidden">Facebook</span>
                                 </a>
                             </li>
-
                             <li>
                                 <a href="https://twitter.com/TU_Muenchen" target="_blank" class="hide-icon"
-                                    rel="noreferrer">
+                                    rel="noreferrer" aria-label="TUM Twitter">
                                     <img src="https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/soc-twitter.svg"
-                                        alt="" height="20" width="20">
-                                    <span class="visually-hidden"></span>
+                                        alt="Twitter icon" height="20" width="20">
+                                    <span class="visually-hidden">Twitter</span>
                                 </a>
                             </li>
-
                             <li>
                                 <a href="https://www.youtube.com/TUMuenchen1" target="_blank" class="hide-icon"
-                                    rel="noreferrer">
-                                    <img src="https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/soc-facebook.svg"
-                                        alt="" height="20" width="20">
-                                    <span class="visually-hidden"></span>
+                                    rel="noreferrer" aria-label="TUM YouTube">
+                                    <img src="https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/soc-youtube.svg"
+                                        alt="YouTube icon" height="20" width="20">
+                                    <span class="visually-hidden">YouTube</span>
                                 </a>
                             </li>
-
                             <li>
                                 <a href="https://www.threads.net/@tu.muenchen" target="_blank" class="hide-icon"
-                                    rel="noreferrer">
-                                    <img src="https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/soc-youtube.svg"
-                                        alt="" height="20" width="20">
-                                    <span class="visually-hidden"></span>
+                                    rel="noreferrer" aria-label="TUM Threads">
+                                    <img src="https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/soc-threads.svg"
+                                        alt="Threads icon" height="20" width="20">
+                                    <span class="visually-hidden">Threads</span>
                                 </a>
                             </li>
-
                             <li>
-                                <a href="/news.rss" class="hide-icon">
-                                    <img src="https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/soc-threads.svg"
-                                        alt="" height="20" width="20">
-                                    <span class="visually-hidden"></span>
+                                <a href="/news.rss" class="hide-icon" aria-label="TUM RSS Feed">
+                                    <img src="https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/soc-rss.svg"
+                                        alt="RSS icon" height="20" width="20">
+                                    <span class="visually-hidden">RSS</span>
                                 </a>
                             </li>
                         </ul>
@@ -625,7 +555,7 @@ A distinction must be made between cross-references ("links") to the websites of
                 </div>
                 <div class="Footer_text partners-container">
                     <img src="https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/partners-of-excellence.svg"
-                        alt="" height="60" width="32">
+                        alt="Partners of Excellence logo" height="60" width="32">
                     <a href="https://www.tum-universitaetsstiftung.de" target="_blank" class="hide-icon"
                         rel="noreferrer">
                         <h2>TUM Partners of Excellence</h2>
