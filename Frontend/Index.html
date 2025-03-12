@@ -8,10 +8,32 @@
     <title>AI & Society Course Assistant - TUM</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <!-- Removed problematic script and using only CDN -->
 </head>
 
 <body>
+    <!-- Popup cookies -->
+    <div id="privacy-consent-popup" class="privacy-consent-popup">
+        <div class="privacy-consent-content">
+            <h2>Privacy Policy Consent</h2>
+            <p>Welcome to the AI & Society Course Assistant for Technical University of Munich. Before you continue, please note that this website uses cookies and collects certain data as outlined in our Privacy Policy.</p>
+            <p>By clicking "Accept", you consent to our privacy practices as described in our <a href="javascript:void(0);" onclick="event.stopPropagation(); togglePrivacyPolicy(); return false;" class="policy-link">Privacy Policy</a>.</p>
+            <div class="privacy-consent-buttons">
+                <button id="accept-privacy" class="accept-button">Accept</button>
+                <button id="decline-privacy" class="decline-button">Decline</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Ensure the privacy container is at the end of the body to be layered correctly -->
+    <script>
+        // Move privacy container to end of body when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            const privacyContainer = document.getElementById('privacyContainer');
+            if (privacyContainer) {
+                document.body.appendChild(privacyContainer);
+            }
+        });
+    </script>
     <!-- Navigation Bar -->
     <nav class="navbar" aria-label="Main Navigation">
         <div class="nav-container">
