@@ -37,18 +37,21 @@ for file_id, folder in enumerate(pdf_folders):
         with open(f"Database/preprocessing/pdf/{folder}/{file}", "r", encoding='utf-8') as f:
             # Read the file
             text = f.read()
+            # Extract the first line as reference
+            first_line = text.split('\n', 1)[0]
             # Create a dictionary
             entry = {
                 "pdf_text": text,
                 "source": f"{folder}/{file}",
                 "embedding": None,
                 "file_id": file_id,
-                "section_id": section_id
+                "section_id": section_id,
+                "reference": first_line  # Add the first line as reference
             }
             # Append the dictionary to the entries list
             entries[str(uuid.uuid4())] = entry
 
-
+# Create embeddings for each entry
 for key, entry in tqdm.tqdm(entries.items(), desc="Creating embeddings", total=len(entries)):
     # Create an embedding for the text
     response = client.embeddings.create(
@@ -58,6 +61,7 @@ for key, entry in tqdm.tqdm(entries.items(), desc="Creating embeddings", total=l
     # Set the embedding in the dictionary
     entries[key]["embedding"] = response.data[0].embedding
 
-
+# Save the entries to a JSON file
 with open(".temp/pdf.json", "w") as f:
     json.dump(entries, f, indent=4)
+    
