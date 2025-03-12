@@ -1,3 +1,5 @@
+https://www.tum.de/fileadmin/w00bfo/www/Studium/Studienangebot/Lesbare_Fassung/Master/AI_in_Society_MA_Studiengangsdokumentation_22072024.pdf , Pg No: 17, Section: 6
+
 The Master program “AI in Society” covers a wide range of topics from the technical aspects of AI 
 and data science to the societal implications of AI. The curriculum includes foundational courses in 
 AI and data science, programming and data processing, as well as specialized courses on topics 

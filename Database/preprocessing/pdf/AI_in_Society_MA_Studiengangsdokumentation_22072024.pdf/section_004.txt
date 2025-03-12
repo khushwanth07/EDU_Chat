@@ -1,3 +1,5 @@
+https://www.tum.de/fileadmin/w00bfo/www/Studium/Studienangebot/Lesbare_Fassung/Master/AI_in_Society_MA_Studiengangsdokumentation_22072024.pdf , Pg No: 04
+
 What are the challenges associated with the increasing adoption of AI-based solutions in society:
 A:1)User-related 2)Socio-economic  3)Socio & geo-political:Regulation and governance
 1)User-related:Bias and fairness: AI algorithms can inadvertently perpetuate existing biases in 

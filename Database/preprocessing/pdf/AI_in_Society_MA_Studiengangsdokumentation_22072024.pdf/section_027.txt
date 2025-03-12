@@ -1,4 +1,6 @@
-he program uses a variety of teaching and learning methods to cater to different learning styles and 
+https://www.tum.de/fileadmin/w00bfo/www/Studium/Studienangebot/Lesbare_Fassung/Master/AI_in_Society_MA_Studiengangsdokumentation_22072024.pdf , Pg No: 21, Section: 6
+
+the program uses a variety of teaching and learning methods to cater to different learning styles and 
 ensure a comprehensive understanding of the material. More specifically, traditional lectures form 
 the backbone of the curriculum, providing students with foundational knowledge in areas like AI, 
 deep learning, and natural language processing. Interactive seminars in courses such as 
