@@ -8,10 +8,32 @@
     <title>AI & Society Course Assistant - TUM</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <!-- Removed problematic script and using only CDN -->
 </head>
 
 <body>
+    <!-- Popup cookies -->
+    <div id="privacy-consent-popup" class="privacy-consent-popup">
+        <div class="privacy-consent-content">
+            <h2>Privacy Policy Consent</h2>
+            <p>Welcome to the AI & Society Course Assistant for Technical University of Munich. Before you continue, please note that this website uses cookies and collects certain data as outlined in our Privacy Policy.</p>
+            <p>By clicking "Accept", you consent to our privacy practices as described in our <a href="javascript:void(0);" onclick="event.stopPropagation(); togglePrivacyPolicy(); return false;" class="policy-link">Privacy Policy</a>.</p>
+            <div class="privacy-consent-buttons">
+                <button id="accept-privacy" class="accept-button">Accept</button>
+                <button id="decline-privacy" class="decline-button">Decline</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Ensure the privacy container is at the end of the body to be layered correctly -->
+    <script>
+        // Move privacy container to end of body when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            const privacyContainer = document.getElementById('privacyContainer');
+            if (privacyContainer) {
+                document.body.appendChild(privacyContainer);
+            }
+        });
+    </script>
     <!-- Navigation Bar -->
     <nav class="navbar" aria-label="Main Navigation">
         <div class="nav-container">
@@ -44,88 +66,69 @@
 
                     <div id="privacyContainer" class="privacy-box">
                         <textarea id="privacyPolicy" readonly aria-label="Privacy Policy">
-Privacy policy
-Data protection is an important concern for the Technical University of Munich. We want you to know when we store which data and how we use it. Personal data is collected on this central web server of the University (www.tum.de) only to the extent technically necessary. Data processing is subject to the applicable data protection regulations, in particular the General Data Protection Regulation (GDPR), the Bavarian Data Protection Act (BayDSG) and the Digital Services Act (DDG).
+Privacy Policy
+Data protection is an important concern for the Technical University of Munich. We want you to know when we store which data and how we use it. We process personal data that is collected when you visit our websites, in compliance with the applicable data protection regulations, in particular the Bavarian Data Protection Act (BayDSG) and the Telemedia Act (TMG).
+In the following, we provide information on the type, scope and purpose of the collection and use of personal data.
+General information
+Name and contact details of the controller
+Technical University of Munich
+Postal address: Arcisstraße 21, 80333 Munich
+Phone: +49-(0)89-289-01
+E-mail: poststelle(at)tum.de
                             
-In the following, we inform you about the type, scope and purpose of the collection and use of personal data. This information can be accessed at any time from our website.
+Contact details of the data protection officer(s)
+The Data Protection Officer of the Technical University of Munich
+Postal address: Arcisstraße 21, 80333 Munich
+Phone: 089/289-17052
+E-mail: beauftragter(at)datenschutz.tum.de
                             
+Purposes and legal bases for the processing of personal data
+Personal data collected and processed in connection with the use of PEER serves the correct functioning of the site.
+The following data is collected and stored:
+1.Grade
+2.Type of school
+3.State
+4.When using the image upload function, the handwriting is captured and converted into text. After conversion, only the plain text will be saved and the uploaded image will be deleted.
+                            
+Use of Mathpix's OCR API
+Automatic handwriting recognition is carried out with the third-party provider "Mathpix, Inc." (https://mathpix.com). The uploaded images are shared with Mathpix and converted to text by Mathpix. The images are not saved by Mathpix.
+                            
+Use of OpenAI's API
+The feedback is created with the third-party provider "OpenAI OpCo, LLC" (https://openai.com). The following information is shared with OpenAI:
+1.Essay text
+2.Title / Theme
+3.Grade
+4.Type of attachment
+According to OpenAI's "API Data Usage Policies", the data is not used to train or improve their models. The data is stored for a maximum of 30 days for the purpose of abuse monitoring and then deleted.
+                            
+Learn more
+For more information on the processing of your data and your rights, you can contact us using the contact details above.
+                            
+Information about the website
 Technical implementation
-The web servers of the Technical University of Munich are operated by the Leibniz Supercomputing Centre (LRZ) operated.
-                            
+The website is hosted on a server of the Leibniz Supercomputing Centre (LRZ).
 Leibniz Supercomputing Centre (LRZ)
 Boltzmannstraße 1
 85748 Garching b. Munich
-                            
+You can prevent the installation of cookies by setting your browser accordingly. However, we would like to point out that in this case you may not be able to use all the functions of this website to their full extent.
 Logging
 When you access this or other websites, you transmit data to our web server via your Internet browser. The following data is temporarily recorded in a log file during an ongoing connection for communication between your internet browser and our web server:
+1.IP address of the requesting computer
+2.Date and time of access
+3.Name, URL, and amount of data transferred of the retrieved file
+4.Access status (requested file transferred, not found, etc.)
+5.Identification data of the browser and operating system used (if transmitted by the requesting web browser)
+6.Website from which the access was made (if transmitted by the requesting web browser)
                             
-IP address of the requesting computer
-Date and time of access
-Name, URL, and amount of data transferred of the retrieved file
-Access status (requested file transferred, not found, etc.)
-Identification data of the browser and operating system used (if transmitted by the requesting web browser
-Website from which the access was made (if transmitted by the requesting web browser)
 The processing of the data in this log file is carried out as follows:
-                            
-The log entries are continuously evaluated automatically in order to detect attacks on the web servers and to be able to react accordingly.                            
-In individual cases, i.e. in the case of reported faults, errors and security incidents, a manual analysis is carried out.
-Log entries that are older than seven days are anonymized by shortening the IP address.
-The anonymized logs are used to create access statistics. The software used for this is operated locally by the LRZ.
+1.The log entries are continuously evaluated automatically in order to detect attacks on the web servers and to be able to react accordingly.
+2.In individual cases, i.e. in the case of reported faults, errors and security incidents, a manual analysis is carried out.
+3.Log entries that are older than seven days are anonymized by shortening the IP address.
+4.The anonymized logs are used to create access statistics. The software used for this is operated locally by the LRZ.
 The IP addresses contained in the log entries are not merged with other databases by the LRZ, so that it is not possible for the LRZ to draw conclusions about individual persons.
                             
-Active Components
-Active components such as JavaScript, Java applets or Active X controls are used in this website. This function can be switched off by you by setting your internet browser.
-                            
-Google Maps
-This website uses the "Google Maps and Route Planner" function of Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States ("Google") to display and calculate geographical information and access routes. Google Maps can transmit data about your use of this website to Google, collect it and use it by Google. You can prevent such data transfer by deactivating "Javascript" in your browser. In this case, however, no maps can be displayed. By using this website and not deactivating "Javascript", you agree that you agree to the processing of your data by Google for the above purpose. For more information about how Google Maps and the route planner use your data, as well as Google's privacy policy, please visit: https://www.google.com/intl/de_de/help/terms_maps/
-                            
-BayernAtlas
-This website also uses the BayernAtlas to display aerial photos and building views. This service is provided by the State Office for Digitization, Broadband and Surveying, Alexandrastraße 4, 80538 Munich, postal address: P.O. Box 22 14 28, 80504 Munich. By using this website, you agree to its terms of use and to the collection and processing of the data as well as the data entered by it. The Terms and the Privacy policy can be found on the website of the Geoportal Bayern.
-                            
-Cookies
-In order to expand the range of functions of our website and to make it more convenient for you to use, we sometimes use so-called "cookies". With the help of these cookies, data can be stored on your computer when you visit our website. However, you can deactivate the storage of cookies or set your browser so that cookies are only stored for the duration of the respective connection to the Internet. However, this could limit the range of functions of our offer.
-                            
-Online forms
-Personal data that you may send to us via contact forms, registration forms and similar websites on our web servers will only be accepted with your consent and serve exclusively the purpose stated in the forms. Please note the relevant information on the forms.
-                            
-In all forms, only the personal data that is absolutely necessary is collected. Usually, the personal data is stored in a database of the Leibnitz Computer Center and is accessible to the responsible TUM employees. If the purpose of the data collection is to make the data accessible to other members of TUM, the principle of data economy is observed. Your data will not be passed on to third parties, unless this is explicitly stated in the form.
-                            
-Your personal data will be deleted after the purpose has been fulfilled, unless you have given your consent to further contact.
-                            
-You can revoke your consent at any time for the future. To do so, please contact it-support@tum.de. Your data will then be deleted immediately.
-                            
-Electronic mail (e-mail)
-Information that you send to us unencrypted by electronic mail (e-mail) may be read by third parties in transit. As a rule, we cannot verify your identity and do not know who is behind an e-mail address. Legally compliant communication by simple e-mail is therefore not guaranteed. Like many e-mail providers, we use filters against unsolicited advertising ("SPAM filters"), which in rare cases also incorrectly classify normal e-mails as unwanted advertising and delete them. E-mails that contain harmful programs ("viruses") will be automatically deleted by us in any case.
-                            
-Use of Facebook Social Plugins
-Our website uses social plugins ("plugins") of the social network facebook.com, which is operated by Facebook Inc., 1601 S. California Ave, Palo Alto, CA 94304, USA ("Facebook"). The plugins are marked with a Facebook logo or the addition "Facebook Social Plugin".
-                            
-When you call up a website on our website that contains such a plugin, your browser establishes a direct connection with Facebook's servers. The content of the plugin is transmitted by Facebook directly to your browser and integrated into the website by it.
-                            
-By integrating the plugins, Facebook receives the information that you have accessed the corresponding page of our website. If you are logged in to Facebook, Facebook can assign the visit to your Facebook account, even if you have not confirmed the "Like" button. When you interact with the plugins, for example by clicking the "Like" button or making a comment, the corresponding information is transmitted directly from your browser to Facebook and stored there.
-                            
-Even if you don't have a Facebook account, Facebook can collect data about you, such as your IP address. For the purpose and scope of the data collection and the further processing and use of the data by Facebook, as well as your rights in this regard and setting options to protect your privacy, please refer to the Privacy Policy from Facebook.
-                            
-If you do not want Facebook to collect data about you via our website, you must log out of Facebook before visiting our website. In addition, you can also install appropriate blockers for your browser through add-ons.
-                            
-Use of Twitter
-On our homepage you will find functions of the provider Twitter. These are offered by Twitter Inc., 795 Folsom St., Suite 600, San Francisco, CA 94107, USA. By using Twitter and the "Re-Tweet" function, the websites you visit are linked to your Twitter account and made known to other users. In the process, data is also transmitted to Twitter.
-                            
-We would like to point out that we, as the provider of the pages, have no knowledge of the content of the transmitted data or its use by Twitter. Further information on this can be found in Twitter's privacy policy at https://twitter.com/privacy.
-                            
-Use of YouTube plugins (videos)
-Our website contains plugins from www.youtube.com which is operated by Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States ("Google").
-                            
-If you call up pages of our website provided with such a plug-in, a connection to the YouTube servers will be established and the plug-in will be displayed on the website by means of a message to your browser. This transmits to the YouTube server which of our websites you have visited. If you are logged in as a member of Youtube, YouTube assigns this information to your personal user accounts of these platforms. When using these plugins, such as clicking/starting a video or sending a comment, this information is assigned to your YouTube user account, which you can only prevent by logging out before using the plugin. Further information on the collection and use of data by the platform or plugins can be found in Youtube's privacy policy under the following link: https://policies.google.com/privacy?hl=de.
-                            
-We use embedded YouTube videos in advanced privacy mode. This means that YouTube does not store cookies for a user who views a web page with an embedded YouTube video player, but does not click on the video to start playback.
-                            
-Use of Vimeo plugins (videos)
-Plugins from the video portal Vimeo of Vimeo, LLC, 555 West 18th Street, New York, New York 10011, USA are integrated into our website. Every time you visit a page that offers one or more Vimeo video clips, a direct connection is established between your browser and a Vimeo server in the USA. Information about your visit and your IP address will be stored there. Through interactions with the Vimeo plugins (e.g. clicking the start button), this information is also transmitted to Vimeo and stored there.
-                            
-If you have a Vimeo account and do not want Vimeo to collect data about you through this website and link it to your member data stored by Vimeo, you must log out of Vimeo before visiting this website.
-                            
-The privacy policy for Vimeo with more information on the collection and use of your data by Vimeo can be found at https://vimeo.com/privacy.
+Information and correction
+You have the right to receive information about the personal data that is stored about you upon written request and free of charge. In addition, you have the right to have inaccurate data corrected. You can reach the official data protection officer of the Technical University of Munich by e-mail at beauftragter(at)datenschutz.tum.de or via www.datenschutz.tum.de.
                             
 Issuu
 This website uses the web service of Issuu, Inc., 131 Lytton Ave, Palo Alto, CA 94301, USA. Issuu uses so-called "cookies", text files that are stored on your computer and enable an analysis of your use of the website. The information generated by the cookie about your use of this website is usually transmitted to an Issuu server in the USA and stored there. We have no knowledge of the content of the transmitted data or its use by Issuu. Users under the age of 13 are not recommended to use Issuu. For details on the use of cookies, please refer to the Issuu Privacy Policy.

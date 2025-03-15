@@ -1,3 +1,39 @@
+window.togglePrivacyPolicy = function() {
+    const policyBox = document.getElementById("privacyContainer");
+    const consentPopup = document.getElementById("privacy-consent-popup");
+    
+    // Always ensure proper z-index when opening
+    if (policyBox.style.display === "none" || policyBox.style.display === "") {
+        // Force the policy box to have the maximum z-index
+        policyBox.style.display = "block";
+        policyBox.style.zIndex = "10000";
+        
+        // Dim the consent popup if it's visible
+        if (consentPopup && getComputedStyle(consentPopup).display !== "none") {
+            consentPopup.classList.add('privacy-consent-dimmed');
+        }
+    } else {
+        policyBox.style.display = "none";
+        
+        // Remove dimming when closing
+        if (consentPopup) {
+            consentPopup.classList.remove('privacy-consent-dimmed');
+        }
+    }
+};
+
+window.closePrivacyPolicy = function() {
+    const policyBox = document.getElementById("privacyContainer");
+    const consentPopup = document.getElementById("privacy-consent-popup");
+    
+    policyBox.style.display = "none";
+    
+    // Remove dimming when closing
+    if (consentPopup) {
+        consentPopup.classList.remove('privacy-consent-dimmed');
+    }
+};
+
 document.addEventListener('DOMContentLoaded', () => {
     // DOM Elements
     const searchInput = document.querySelector('.search-input');
@@ -8,6 +44,38 @@ document.addEventListener('DOMContentLoaded', () => {
     const downloadChatBtn = document.querySelector('.download-chat');
     const faqItems = document.querySelectorAll('.faq-item');
     const heroSection = document.querySelector('.hero');
+    const privacyConsentPopup = document.getElementById('privacy-consent-popup');
+    const acceptButton = document.getElementById('accept-privacy');
+    const declineButton = document.getElementById('decline-privacy');
+
+    // Check if user has already consented
+    const hasConsented = localStorage.getItem('privacyConsent');
+
+    if (!hasConsented) {
+        // Show the popup if user hasn't consented yet
+        privacyConsentPopup.style.display = 'flex';
+        // Prevent scrolling of the body when popup is visible
+        document.body.style.overflow = 'hidden';
+    } else {
+        // If already consented, hide the popup
+        privacyConsentPopup.style.display = 'none';
+    }
+    
+    // Accept button event listener
+    acceptButton.addEventListener('click', () => {
+        // Store consent in localStorage
+        localStorage.setItem('privacyConsent', 'true');
+        // Hide the popup
+        privacyConsentPopup.style.display = 'none';
+        // Re-enable scrolling
+        document.body.style.overflow = 'auto';
+    });
+    
+    // Decline button event listener
+    declineButton.addEventListener('click', () => {
+        // Show a message that they need to accept to use the site
+        alert('You must accept the Privacy Policy to use this website. If you decline, you may not be able to use all features of the site.');
+    });
 
     // Add welcome message when page loads
     function addWelcomeMessage() {

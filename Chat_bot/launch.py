@@ -80,7 +80,7 @@ def initialize_database():
 def launch_chatbot():
     global chatbot_process
     chatbot_folder = (r"C:\Users\khushwanth\Desktop\testing\EDU_Chat\Chat_bot")  # Update this path
-    chatbot_script = "bot_final.py"
+    chatbot_script = "bot.py"
 
     print("Launching chatbot...")
     try:

@@ -48,6 +48,86 @@ body {
 }
 
 /* TUM-styled modal styles */
+
+.privacy-consent-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9000;
+  backdrop-filter: blur(5px);
+}
+
+.privacy-consent-dimmed {
+  opacity: 0.7;
+  transition: opacity var(--transition-fast);
+}
+
+.privacy-consent-content {
+  background: linear-gradient(135deg, var(--tum-blue-secondary) 0%, var(--tum-light-blue) 100%);
+  color: var(--tum-white);
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+
+.privacy-consent-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.privacy-consent-content p {
+  margin-bottom: 1.2rem;
+  line-height: 1.6;
+}
+
+.privacy-consent-content a {
+  color: var(--tum-white);
+  text-decoration: underline;
+  font-weight: bold;
+  transition: opacity var(--transition-fast);
+  position: relative;
+  z-index: 3100;
+}
+
+.privacy-consent-content a:hover {
+  opacity: 0.8;
+}
+
+.privacy-consent-content a:focus {
+  outline: var(--focus-outline);
+  outline-offset: 2px;
+}
+
+.privacy-consent-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.privacy-consent-buttons button {
+  padding: 0.75rem 2rem;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  border: none;
+  font-size: 1rem;
+}
+#privacyContainer {
+    isolation: isolate; /* Creates a new stacking context */
+}
 .privacy-box,
 .Contact-box {
   position: fixed;
@@ -59,8 +139,8 @@ body {
   border-radius: 10px;
   border: 2px solid var(--tum-white);
   box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.5);
-  z-index: 1000;
-  display: none; 
+  z-index: 10000; 
+  display: none;
   text-align: center;
   max-width: 90vw;
   max-height: 90vh;
@@ -68,6 +148,70 @@ body {
   backdrop-filter: blur(8px);
 }
 
+#privacyContainer {
+  isolation: isolate; /* Creates a new stacking context */
+}
+
+.privacy-box::after,
+.Contact-box::after {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    border: 3px solid rgba(255, 255, 255, 0.4);
+    border-radius: 13px;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.accept-button {
+  background-color: var(--tum-white);
+  color: var(--tum-blue-secondary);
+}
+
+.accept-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.decline-button {
+  background-color: transparent;
+  color: var(--tum-white);
+  border: 2px solid var(--tum-white) !important;
+}
+
+.decline-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-3px);
+}
+
+.privacy-consent-buttons button:focus {
+  outline: var(--focus-outline);
+  outline-offset: 2px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .privacy-consent-content {
+      padding: 1.5rem;
+  }
+  
+  .privacy-consent-content h2 {
+      font-size: 1.5rem;
+  }
+  
+  .privacy-consent-buttons {
+      flex-direction: column;
+  }
+  
+  .privacy-consent-buttons button {
+      width: 100%;
+  }
+}
+
+/* Privacy Box and Contact Box */
 .privacy-box::before,
 .Contact-box::before {
   content: '';
@@ -553,8 +697,6 @@ textarea {
   border-radius: 1rem 1rem 0 1rem;
   align-self: flex-end;
 }
-
-/* Removed retry message styling since we no longer need it */
 
 /* Typing Indicator */
 .typing-indicator {
