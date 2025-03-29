@@ -34,6 +34,25 @@ window.closePrivacyPolicy = function() {
     }
 };
 
+
+  // Team Page
+  function toggleTeamPage() {
+    const teamContainer = document.getElementById("teamContainer");
+
+   
+    if (teamContainer.style.display === "none" || teamContainer.style.display === "") {
+        teamContainer.style.display = "block";
+    } else {
+        teamContainer.style.display = "none"; // 否则，隐藏它
+    }
+}
+
+// close Team Page 
+function closeTeamPage() {
+    document.getElementById("teamContainer").style.display = "none";
+}
+
+
 document.addEventListener('DOMContentLoaded', () => {
     // DOM Elements
     const searchInput = document.querySelector('.search-input');
@@ -166,6 +185,18 @@ document.addEventListener('DOMContentLoaded', () => {
         return indicator;
     }
 
+
+
+        // Convert links in text into clickable hyperlinks
+        function makeLinksClickable(text) {
+            const urlPattern = /(https?:\/\/[^\s]+)/g;
+            return text.replace(urlPattern, (url) => {
+                return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`;
+            });
+        }
+        
+
+
     // Function to handle user input
     function handleInput(inputText) {
         if (!inputText.trim()) return;
@@ -193,6 +224,7 @@ document.addEventListener('DOMContentLoaded', () => {
             })
             .then((data) => {
                 typingIndicator.remove();
+                const formattedResponse = makeLinksClickable(data.response);
                 addMessage(data.response, false);
             })
             .catch((error) => {
